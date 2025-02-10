@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/content/ContentFacadeImpl.java]": {
+    "00. dependencies between elements defined in file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/content/ContentFacadeImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentPageByName$lambda$0",
+            "to_name": "getContentPageByName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContents$lambda$0",
+            "to_name": "getContents",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContents$lambda$0",
+            "to_name": "convertContentToReadableContentEntity",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentBox$lambda$2",
+            "to_name": "contentDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentBox$lambda$1",
+            "to_name": "getContentBox",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentBox$lambda$0",
+            "to_name": "getContentBox",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "convertContentToReadableContentPage$lambda$0",
+            "to_name": "contentDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "convertContentToReadableContentBox$lambda$0",
+            "to_name": "contentDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentBoxes$lambda$0",
+            "to_name": "convertContentToReadableContentBox",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentBoxes$lambda$0",
+            "to_name": "getContentBoxes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentPage$lambda$1",
+            "to_name": "getContentPage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentPage$lambda$0",
+            "to_name": "getContentPage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentPages$lambda$0",
+            "to_name": "convertContentToReadableContentBox",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentPages$lambda$0",
+            "to_name": "getContentPages",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getContentFolder$lambda$1",
+            "to_name": "convertToContentImage",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 68
+      }
+    ]
+  }
+}

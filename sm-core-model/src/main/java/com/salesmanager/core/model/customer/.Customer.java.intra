@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/customer/Customer.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/customer/Customer.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCredentialsResetRequest",
+            "to_name": "credentialsResetRequest",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCredentialsResetRequest",
+            "to_name": "credentialsResetRequest",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProvider",
+            "to_name": "provider",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProvider",
+            "to_name": "provider",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGender",
+            "to_name": "gender",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGender",
+            "to_name": "gender",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributes",
+            "to_name": "attributes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultLanguage",
+            "to_name": "defaultLanguage",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDefaultLanguage",
+            "to_name": "defaultLanguage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGroups",
+            "to_name": "groups",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGroups",
+            "to_name": "groups",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setBilling",
+            "to_name": "billing",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDelivery",
+            "to_name": "delivery",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 48
+      }
+    ]
+  }
+}

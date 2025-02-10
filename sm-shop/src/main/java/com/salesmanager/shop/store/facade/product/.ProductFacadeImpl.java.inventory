@@ -1,0 +1,109 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/product/ProductFacadeImpl.java]": {
+    "00. file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/product/ProductFacadeImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 7,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getProduct",
+                "signature": "getProduct(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "getProductBySeUrl",
+                "signature": "getProductBySeUrl(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct"
+              },
+              {
+                "name": "relatedItems",
+                "signature": "relatedItems(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ReadablePro"
+              },
+              {
+                "name": "getProductByCode",
+                "signature": "getProductByCode(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct"
+              },
+              {
+                "name": "getProductListsByCriterias",
+                "signature": "getProductListsByCriterias(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.catalog.product.ProductCriteria) return com.salesmanager.shop.model.catalog.product.ReadableP"
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 6,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "imageUtils",
+                "signature": ""
+              },
+              {
+                "name": "productRelationshipService",
+                "signature": ""
+              },
+              {
+                "name": "pricingService",
+                "signature": ""
+              },
+              {
+                "name": "productService",
+                "signature": ""
+              },
+              {
+                "name": "productAttributeService",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductFacadeImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "ArrayList\u003cReadableProduct\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductFacadeImpl",
+                "signature": "ProductFacadeImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductFacadeImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

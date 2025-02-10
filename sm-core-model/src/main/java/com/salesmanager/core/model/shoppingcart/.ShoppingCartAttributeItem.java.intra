@@ -1,0 +1,103 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartAttributeItem.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartAttributeItem.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttribute",
+            "to_name": "productAttribute",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeId",
+            "to_name": "productAttributeId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeId",
+            "to_name": "productAttributeId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAuditSection",
+            "to_name": "auditSection",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShoppingCartItem",
+            "to_name": "shoppingCartItem",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShoppingCartItem",
+            "to_name": "shoppingCartItem",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttribute",
+            "to_name": "productAttribute",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem",
+            "to_name": "shoppingCartItem",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem",
+            "to_name": "productAttribute",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem",
+            "to_name": "productAttributeId",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 15
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/order/filehistory/FileHistory.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/order/filehistory/FileHistory.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDownloadCount",
+            "to_name": "downloadCount",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDownloadCount",
+            "to_name": "downloadCount",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAccountedDate",
+            "to_name": "accountedDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAccountedDate",
+            "to_name": "accountedDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDateDeleted",
+            "to_name": "dateDeleted",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDateDeleted",
+            "to_name": "dateDeleted",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDateAdded",
+            "to_name": "dateAdded",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDateAdded",
+            "to_name": "dateAdded",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setFilesize",
+            "to_name": "filesize",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFilesize",
+            "to_name": "filesize",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setFileId",
+            "to_name": "fileId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFileId",
+            "to_name": "fileId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStore",
+            "to_name": "store",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStore",
+            "to_name": "store",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 16
+      }
+    ]
+  }
+}

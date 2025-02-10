@@ -1,0 +1,124 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/availability/ProductAvailability.java]": {
+    "00. file [sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/availability/ProductAvailability.java] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "setPrices",
+                "to_name": "ProductPrice",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "defaultPrice",
+                "to_name": "isDefaultPrice",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "defaultPrice",
+                "to_name": "ProductPrice",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getPrices",
+                "to_name": "ProductPrice",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Class",
+                "from_name": "prices",
+                "to_name": "ProductPrice",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 7,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/price/ProductPrice.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "setProductDateAvailable",
+                "to_name": "clone",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getProductDateAvailable",
+                "to_name": "clone",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductAvailability",
+                "to_name": "CloneUtils",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/utils/CloneUtils.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Field",
+                "from_name": "region",
+                "to_name": "ALL_REGIONS",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductAvailability",
+                "to_name": "SchemaConstant",
+                "calling_type": "READ"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/constants/SchemaConstant.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Constructor",
+                "from_name": "auditSection",
+                "to_name": "AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductAvailability",
+                "to_name": "AuditSection",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/common/audit/AuditSection.java"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 4
+      }
+    ]
+  }
+}

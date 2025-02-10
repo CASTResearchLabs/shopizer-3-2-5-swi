@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/shipping/ShippingOption.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/shipping/ShippingOption.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setNote",
+            "to_name": "note",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescription",
+            "to_name": "description",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShippingModuleCode",
+            "to_name": "shippingModuleCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionName",
+            "to_name": "optionName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionName",
+            "to_name": "optionName",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionCode",
+            "to_name": "optionCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getOptionPrice",
+            "to_name": "getOptionPriceText",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionPrice",
+            "to_name": "optionPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionPrice",
+            "to_name": "optionPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShippingQuoteOptionId",
+            "to_name": "shippingQuoteOptionId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getNote",
+            "to_name": "note",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setEstimatedNumberOfDays",
+            "to_name": "estimatedNumberOfDays",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionShippingDate",
+            "to_name": "optionShippingDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionShippingDate",
+            "to_name": "optionShippingDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionDeliveryDate",
+            "to_name": "optionDeliveryDate",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 26
+      }
+    ]
+  }
+}

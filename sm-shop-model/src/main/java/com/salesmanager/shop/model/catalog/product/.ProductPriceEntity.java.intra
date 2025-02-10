@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/ProductPriceEntity.java]": {
+    "00. dependencies between elements defined in file [sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/ProductPriceEntity.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPrice",
+            "to_name": "price",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCode",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDiscountedPrice",
+            "to_name": "discountedPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultPrice",
+            "to_name": "defaultPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDiscountEndDate",
+            "to_name": "discountEndDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDiscountStartDate",
+            "to_name": "discountStartDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDiscounted",
+            "to_name": "discounted",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPrice",
+            "to_name": "price",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCode",
+            "to_name": "code",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCode",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDiscountedPrice",
+            "to_name": "discountedPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDefaultPrice",
+            "to_name": "defaultPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDiscountEndDate",
+            "to_name": "discountEndDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDiscountStartDate",
+            "to_name": "discountStartDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDiscounted",
+            "to_name": "discounted",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 15
+      }
+    ]
+  }
+}

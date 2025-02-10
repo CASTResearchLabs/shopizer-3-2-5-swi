@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/modules/order/total/OrderTotalInputParameters.java]": {
+    "00. dependencies between elements defined in file [sm-core/src/main/java/com/salesmanager/core/business/modules/order/total/OrderTotalInputParameters.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDate",
+            "to_name": "date",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPromoCode",
+            "to_name": "promoCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPromoCode",
+            "to_name": "promoCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingMethod",
+            "to_name": "shippingMethod",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShippingMethod",
+            "to_name": "shippingMethod",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductId",
+            "to_name": "productId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductId",
+            "to_name": "productId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setItemCategoryCode",
+            "to_name": "itemCategoryCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getItemCategoryCode",
+            "to_name": "itemCategoryCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setItemManufacturerCode",
+            "to_name": "itemManufacturerCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getItemManufacturerCode",
+            "to_name": "itemManufacturerCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTotalCode",
+            "to_name": "totalCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTotalCode",
+            "to_name": "totalCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDiscount",
+            "to_name": "discount",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDiscount",
+            "to_name": "discount",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 16
+      }
+    ]
+  }
+}

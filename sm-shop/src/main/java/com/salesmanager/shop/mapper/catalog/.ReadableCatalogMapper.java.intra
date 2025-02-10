@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/ReadableCatalogMapper.java]": {
+    "00. dependencies between elements defined in file [sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/ReadableCatalogMapper.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "toReadableCategory$lambda$0",
+            "to_name": "toReadableCategory",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "processCategory$lambda$1",
+            "to_name": "toReadableCategory",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "processCategory$lambda$1",
+            "to_name": "processCategory",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "processCategory$lambda$0",
+            "to_name": "processCategory",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "processCategory$lambda$0",
+            "to_name": "processCategory",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "merge$lambda$1",
+            "to_name": "processCategory",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "merge$lambda$1",
+            "to_name": "merge",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "merge$lambda$0",
+            "to_name": "merge",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "toReadableCategory",
+            "to_name": "toReadableCategory$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "processCategory",
+            "to_name": "processCategory$lambda$1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "processCategory",
+            "to_name": "processCategory$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "processCategory",
+            "to_name": "toReadableCategory",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "merge",
+            "to_name": "merge$lambda$1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "merge",
+            "to_name": "merge$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "merge",
+            "to_name": "processCategory",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [sm-shop-model/src/main/java/com/salesmanager/shop/model/system/OptinEntity.java]": {
+    "00. dependencies between elements defined in file [sm-shop-model/src/main/java/com/salesmanager/shop/model/system/OptinEntity.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStore",
+            "to_name": "store",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getEndDate",
+            "to_name": "endDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStartDate",
+            "to_name": "startDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStore",
+            "to_name": "store",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setEndDate",
+            "to_name": "endDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStartDate",
+            "to_name": "startDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCode",
+            "to_name": "code",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptinType",
+            "to_name": "optinType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptinType",
+            "to_name": "optinType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescription",
+            "to_name": "description",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescription",
+            "to_name": "description",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCode",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 12
+      }
+    ]
+  }
+}

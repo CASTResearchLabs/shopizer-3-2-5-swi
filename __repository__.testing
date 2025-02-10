@@ -1,0 +1,2574 @@
+{
+  "main facts about application [s325s]": {
+    "00. application [s325s] basic stats": {
+      "application_analysis_name": "Onboarding-202502071202",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 4,
+      "nb_elements": 18488,
+      "technology_list": [
+        "aws s3",
+        "azure sdk for java",
+        "gcp storage",
+        "hibernate",
+        "java",
+        "java server pages",
+        "jpa",
+        "spring web services"
+      ],
+      "application_analysis_date": "2025-02-07T12:02:00",
+      "nb_links": 69702,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 1,
+          "nb_links": 1
+        },
+        "calling_applications": {
+          "nb_applications": 4,
+          "nb_links": 4
+        }
+      }
+    },
+    "01. application [s325s] graphs representing semantic aggregations": [
+      {
+        "nb_graphs": 35,
+        "samples_list_comment": "",
+        "graph_nature": "Package",
+        "samples": [
+          {
+            "name": "javax.validation:validation-api",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.stripe:stripe-java",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.paypal.sdk:merchantsdk",
+            "starting_element_type": ""
+          },
+          {
+            "name": "commons-validator:commons-validator",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.owasp.antisamy:antisamy",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.apache.commons:commons-lang3",
+            "starting_element_type": ""
+          },
+          {
+            "name": "commons-collections:commons-collections",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.braintreepayments.gateway:braintree-java",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.apache.commons:commons-collections4",
+            "starting_element_type": ""
+          },
+          {
+            "name": "javax.mail:javax.mail-api",
+            "starting_element_type": ""
+          },
+          {
+            "name": "io.jsonwebtoken:jjwt",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.passay:passay",
+            "starting_element_type": ""
+          },
+          {
+            "name": "mysql:mysql-connector-java",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.google.maps:google-maps-services",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.apache.httpcomponents:httpclient",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.infinispan:infinispan-core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.fasterxml.jackson.core:jackson-core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.infinispan:infinispan-tree",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.springframework:spring-context-support",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.amazonaws:aws-java-sdk-s3",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.google.guava:guava",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.fasterxml.jackson.core:jackson-databind",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.googlecode.json-simple:json-simple",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.json:json",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.springframework:spring-core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.freemarker:freemarker",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.springframework:spring-webmvc",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.h2database:h2",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.maxmind.geoip2:geoip2",
+            "starting_element_type": ""
+          },
+          {
+            "name": "net.sf.ehcache:ehcache",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.amazonaws:aws-java-sdk-ses",
+            "starting_element_type": ""
+          },
+          {
+            "name": "commons-io:commons-io",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.google.cloud:google-cloud-storage",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.drools:drools-decisiontables",
+            "starting_element_type": ""
+          },
+          {
+            "name": "javax.mail:mail",
+            "starting_element_type": ""
+          }
+        ]
+      },
+      {
+        "nb_graphs": 331,
+        "samples_list_comment": "Transaction list is truncated to first 50 items",
+        "graph_nature": "Transaction",
+        "samples": [
+          {
+            "name": "api/v1/cart/{}/checkout/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/POST/api/v1/cart/{}/checkout/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 2022
+          },
+          {
+            "name": "api/v1/auth/cart/{}/checkout/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/POST/api/v1/auth/cart/{}/checkout/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 2006
+          },
+          {
+            "name": "api/v1/auth/orders/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/auth/orders/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 1245
+          },
+          {
+            "name": "api/v1/private/orders/customers/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/private/orders/customers/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 1243
+          },
+          {
+            "name": "api/v1/private/orders/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/private/orders/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 1240
+          },
+          {
+            "name": "api/v1/auth/orders/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/auth/orders/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 1236
+          },
+          {
+            "name": "api/v1/cart/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/PUT/api/v1/cart/{}/",
+            "starting_element_type": "Spring MVC Put Operation",
+            "size": 599
+          },
+          {
+            "name": "api/v1/cart/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 587
+          },
+          {
+            "name": "api/v1/cart/{}/multi/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/{}/multi/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 584
+          },
+          {
+            "name": "api/v1/auth/customer/cart/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/auth/customer/cart/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 562
+          },
+          {
+            "name": "api/v1/private/customer/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/POST/api/v1/private/customer/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 561
+          },
+          {
+            "name": "api/v1/auth/customer/{}/cart/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/auth/customer/{}/cart/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 554
+          },
+          {
+            "name": "api/v1/cart/{}/product/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/DELETE/api/v1/cart/{}/product/{}/",
+            "starting_element_type": "Spring MVC Delete Operation",
+            "size": 538
+          },
+          {
+            "name": "api/v1/cart/{}/promo/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/{}/promo/{}/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 524
+          },
+          {
+            "name": "api/v1/cart/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/cart/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 519
+          },
+          {
+            "name": "api/v1/private/orders/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/private/orders/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 508
+          },
+          {
+            "name": "api/v1/private/orders/payment/capturable/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/GET/api/v1/private/orders/payment/capturable/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 469
+          },
+          {
+            "name": "api/v1/auth/customer/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/auth/customer/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 410
+          },
+          {
+            "name": "api/v1/auth/customer/address/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/auth/customer/address/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 358
+          },
+          {
+            "name": "api/v1/private/stores/names/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/names/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 323
+          },
+          {
+            "name": "api/v1/private/stores/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 322
+          },
+          {
+            "name": "api/v1/private/merchant/{}/children/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/children/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 303
+          },
+          {
+            "name": "api/v1/private/merchant/{}/stores/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/stores/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 299
+          },
+          {
+            "name": "api/v1/private/customers/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/private/customers/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 297
+          },
+          {
+            "name": "api/v1/private/marketplace/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/marketplace/MarketPlaceApi.java/api/v1/PORT/GET/api/v1/private/marketplace/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 286
+          },
+          {
+            "name": "api/v1/auth/customer/profile/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/auth/customer/profile/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 281
+          },
+          {
+            "name": "api/v1/private/customer/profile/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/private/customer/profile/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 281
+          },
+          {
+            "name": "api/v1/store/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 278
+          },
+          {
+            "name": "api/v1/private/store/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 277
+          },
+          {
+            "name": "api/v1/private/customer/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/private/customer/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 275
+          },
+          {
+            "name": "api/v1/auth/cart/{}/shipping/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java/api/v1/PORT/GET/api/v1/auth/cart/{}/shipping/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 247
+          },
+          {
+            "name": "api/v1/cart/{}/shipping/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java/api/v1/PORT/POST/api/v1/cart/{}/shipping/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 246
+          },
+          {
+            "name": "api/v1/private/customer/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/PUT/api/v1/private/customer/{}/",
+            "starting_element_type": "Spring MVC Put Operation",
+            "size": 240
+          },
+          {
+            "name": "services/public/{}/contact/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v0/store/StoreContactRESTController.java/services/PORT/POST/services/public/{}/contact/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 172
+          },
+          {
+            "name": "api/v1/auth/cart/{}/total/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/auth/cart/{}/total/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 163
+          },
+          {
+            "name": "api/v1/customer/register/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/AuthenticateCustomerApi.java/api/v1/PORT/POST/api/v1/customer/register/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 155
+          },
+          {
+            "name": "api/v1/auth/cart/{}/payment/init/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/POST/api/v1/auth/cart/{}/payment/init/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 150
+          },
+          {
+            "name": "api/v1/cart/{}/total/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/cart/{}/total/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 150
+          },
+          {
+            "name": "api/v1/contact/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/system/ContactApi.java/api/v1/PORT/POST/api/v1/contact/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 147
+          },
+          {
+            "name": "api/v1/private/orders/{}/customer/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/ANY/api/v1/private/orders/{}/customer/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 146
+          },
+          {
+            "name": "api/v1/private/customer/{}/address/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/private/customer/{}/address/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 141
+          },
+          {
+            "name": "api/v1/private/store/{}/marketing/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/marketing/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 140
+          },
+          {
+            "name": "api/v1/cart/{}/payment/init/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/POST/api/v1/cart/{}/payment/init/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 129
+          },
+          {
+            "name": "api/v1/private/orders/{}/payment/transactions/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/GET/api/v1/private/orders/{}/payment/transactions/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 129
+          },
+          {
+            "name": "api/v1/product/{}/images/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductImageApi.java/api/v1/PORT/GET/api/v1/product/{}/images/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 120
+          },
+          {
+            "name": "api/v1/private/customers/{}/reviews/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/POST/api/v1/private/customers/{}/reviews/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 118
+          },
+          {
+            "name": "api/v1/customers/{}/reviews/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/GET/api/v1/customers/{}/reviews/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 117
+          },
+          {
+            "name": "api/v1/country/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java/api/v1/PORT/GET/api/v1/country/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 110
+          },
+          {
+            "name": "api/v1/private/orders/{}/status/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/PUT/api/v1/private/orders/{}/status/",
+            "starting_element_type": "Spring MVC Put Operation",
+            "size": 96
+          },
+          {
+            "name": "api/v1/private/orders/{}/history/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderStatusHistoryApi.java/api/v1/PORT/GET/api/v1/private/orders/{}/history/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 96
+          }
+        ]
+      },
+      {
+        "nb_graphs": 59,
+        "samples_list_comment": "DataGraph list is truncated to first 50 items",
+        "graph_nature": "DataGraph",
+        "samples": [
+          {
+            "name": "MERCHANT_STORE",
+            "full_name": "DEFAULT.MERCHANT_STORE",
+            "starting_element_type": "Missing Table",
+            "size": 430
+          },
+          {
+            "name": "PRODUCT",
+            "full_name": "DEFAULT.PRODUCT",
+            "starting_element_type": "Missing Table",
+            "size": 121
+          },
+          {
+            "name": "PRODUCT_OPTION",
+            "full_name": "DEFAULT.PRODUCT_OPTION",
+            "starting_element_type": "Missing Table",
+            "size": 71
+          },
+          {
+            "name": "PRODUCT_OPTION_VALUE",
+            "full_name": "DEFAULT.PRODUCT_OPTION_VALUE",
+            "starting_element_type": "Missing Table",
+            "size": 71
+          },
+          {
+            "name": "CATEGORY",
+            "full_name": "DEFAULT.CATEGORY",
+            "starting_element_type": "Missing Table",
+            "size": 62
+          },
+          {
+            "name": "COUNTRY",
+            "full_name": "DEFAULT.COUNTRY",
+            "starting_element_type": "Missing Table",
+            "size": 62
+          },
+          {
+            "name": "LANGUAGE",
+            "full_name": "DEFAULT.LANGUAGE",
+            "starting_element_type": "Missing Table",
+            "size": 56
+          },
+          {
+            "name": "MERCHANT_CONFIGURATION",
+            "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+            "starting_element_type": "Missing Table",
+            "size": 55
+          },
+          {
+            "name": "ZONE",
+            "full_name": "DEFAULT.ZONE",
+            "starting_element_type": "Missing Table",
+            "size": 55
+          },
+          {
+            "name": "Unknown",
+            "full_name": "_sm-core_cc886874_.Unknown",
+            "starting_element_type": "Java AWS Unknown S3 Bucket",
+            "size": 53
+          },
+          {
+            "name": "CUSTOMER_OPTION",
+            "full_name": "DEFAULT.CUSTOMER_OPTION",
+            "starting_element_type": "Missing Table",
+            "size": 51
+          },
+          {
+            "name": "CUSTOMER_OPTION_VALUE",
+            "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+            "starting_element_type": "Missing Table",
+            "size": 51
+          },
+          {
+            "name": "CUSTOMER",
+            "full_name": "DEFAULT.CUSTOMER",
+            "starting_element_type": "Missing Table",
+            "size": 47
+          },
+          {
+            "name": "MANUFACTURER",
+            "full_name": "DEFAULT.MANUFACTURER",
+            "starting_element_type": "Missing Table",
+            "size": 41
+          },
+          {
+            "name": "TAX_CLASS",
+            "full_name": "DEFAULT.TAX_CLASS",
+            "starting_element_type": "Missing Table",
+            "size": 38
+          },
+          {
+            "name": "shopizer",
+            "full_name": "_sm-core_cc886874_.shopizer",
+            "starting_element_type": "Java GCP Cloud Storage Bucket",
+            "size": 34
+          },
+          {
+            "name": "PRODUCT_VARIANT",
+            "full_name": "DEFAULT.PRODUCT_VARIANT",
+            "starting_element_type": "Missing Table",
+            "size": 34
+          },
+          {
+            "name": "shopizer",
+            "full_name": "_sm-core_cc886874_.shopizer",
+            "starting_element_type": "Java AWS S3 Bucket",
+            "size": 30
+          },
+          {
+            "name": "CONTENT",
+            "full_name": "DEFAULT.CONTENT",
+            "starting_element_type": "Missing Table",
+            "size": 30
+          },
+          {
+            "name": "CURRENCY",
+            "full_name": "DEFAULT.CURRENCY",
+            "starting_element_type": "Missing Table",
+            "size": 26
+          },
+          {
+            "name": "PRODUCT_AVAILABILITY",
+            "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+            "starting_element_type": "Missing Table",
+            "size": 23
+          },
+          {
+            "name": "PRODUCT_ATTRIBUTE",
+            "full_name": "DEFAULT.PRODUCT_ATTRIBUTE",
+            "starting_element_type": "Missing Table",
+            "size": 22
+          },
+          {
+            "name": "TAX_RATE",
+            "full_name": "DEFAULT.TAX_RATE",
+            "starting_element_type": "Missing Table",
+            "size": 22
+          },
+          {
+            "name": "USERS",
+            "full_name": "DEFAULT.USERS",
+            "starting_element_type": "Missing Table",
+            "size": 22
+          },
+          {
+            "name": "MODULE_CONFIGURATION",
+            "full_name": "DEFAULT.MODULE_CONFIGURATION",
+            "starting_element_type": "Missing Table",
+            "size": 21
+          },
+          {
+            "name": "ORDERS",
+            "full_name": "DEFAULT.ORDERS",
+            "starting_element_type": "Missing Table",
+            "size": 21
+          },
+          {
+            "name": "shopizer-content",
+            "full_name": "_sm-core_cc886874_.shopizer-content",
+            "starting_element_type": "Java AWS S3 Bucket",
+            "size": 20
+          },
+          {
+            "name": "Unknown",
+            "full_name": "_sm-core_cc886874_.Unknown",
+            "starting_element_type": "Java GCP Unknown Cloud Storage Bucket",
+            "size": 17
+          },
+          {
+            "name": "PRODUCT_VARIANT_GROUP",
+            "full_name": "DEFAULT.PRODUCT_VARIANT_GROUP",
+            "starting_element_type": "Missing Table",
+            "size": 16
+          },
+          {
+            "name": "CUSTOMER_ATTRIBUTE",
+            "full_name": "DEFAULT.CUSTOMER_ATTRIBUTE",
+            "starting_element_type": "Missing Table",
+            "size": 14
+          },
+          {
+            "name": "PRODUCT_REVIEW",
+            "full_name": "DEFAULT.PRODUCT_REVIEW",
+            "starting_element_type": "Missing Table",
+            "size": 14
+          },
+          {
+            "name": "PRODUCT_TYPE",
+            "full_name": "DEFAULT.PRODUCT_TYPE",
+            "starting_element_type": "Missing Table",
+            "size": 14
+          },
+          {
+            "name": "SM_GROUP",
+            "full_name": "DEFAULT.SM_GROUP",
+            "starting_element_type": "Missing Table",
+            "size": 13
+          },
+          {
+            "name": "CATALOG",
+            "full_name": "DEFAULT.CATALOG",
+            "starting_element_type": "Missing Table",
+            "size": 12
+          },
+          {
+            "name": "CUSTOMER_OPTION_SET",
+            "full_name": "DEFAULT.CUSTOMER_OPTION_SET",
+            "starting_element_type": "Missing Table",
+            "size": 12
+          },
+          {
+            "name": "PRODUCT_VARIATION",
+            "full_name": "DEFAULT.PRODUCT_VARIATION",
+            "starting_element_type": "Missing Table",
+            "size": 12
+          },
+          {
+            "name": "SM_TRANSACTION",
+            "full_name": "DEFAULT.SM_TRANSACTION",
+            "starting_element_type": "Missing Table",
+            "size": 12
+          },
+          {
+            "name": "PERMISSION",
+            "full_name": "DEFAULT.PERMISSION",
+            "starting_element_type": "Missing Table",
+            "size": 11
+          },
+          {
+            "name": "PRODUCT_RELATIONSHIP",
+            "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+            "starting_element_type": "Missing Table",
+            "size": 11
+          },
+          {
+            "name": "OPTIN",
+            "full_name": "DEFAULT.OPTIN",
+            "starting_element_type": "Missing Table",
+            "size": 10
+          },
+          {
+            "name": "PRODUCT_OPTION_SET",
+            "full_name": "DEFAULT.PRODUCT_OPTION_SET",
+            "starting_element_type": "Missing Table",
+            "size": 10
+          },
+          {
+            "name": "SHOPPING_CART",
+            "full_name": "DEFAULT.SHOPPING_CART",
+            "starting_element_type": "Missing Table",
+            "size": 10
+          },
+          {
+            "name": "CUSTOMER_REVIEW",
+            "full_name": "DEFAULT.CUSTOMER_REVIEW",
+            "starting_element_type": "Missing Table",
+            "size": 9
+          },
+          {
+            "name": "PRODUCT_PRICE",
+            "full_name": "DEFAULT.PRODUCT_PRICE",
+            "starting_element_type": "Missing Table",
+            "size": 9
+          },
+          {
+            "name": "PRODUCT_VAR_IMAGE",
+            "full_name": "DEFAULT.PRODUCT_VAR_IMAGE",
+            "starting_element_type": "Missing Table",
+            "size": 9
+          },
+          {
+            "name": "PRODUCT_IMAGE",
+            "full_name": "DEFAULT.PRODUCT_IMAGE",
+            "starting_element_type": "Missing Table",
+            "size": 8
+          },
+          {
+            "name": "ORDER_TOTAL",
+            "full_name": "DEFAULT.ORDER_TOTAL",
+            "starting_element_type": "Missing Table",
+            "size": 7
+          },
+          {
+            "name": "CATEGORY_DESCRIPTION",
+            "full_name": "DEFAULT.CATEGORY_DESCRIPTION",
+            "starting_element_type": "Missing Table",
+            "size": 6
+          },
+          {
+            "name": "SHOPPING_CART_ITEM",
+            "full_name": "DEFAULT.SHOPPING_CART_ITEM",
+            "starting_element_type": "Missing Table",
+            "size": 6
+          },
+          {
+            "name": "CUSTOMER_OPTIN",
+            "full_name": "DEFAULT.CUSTOMER_OPTIN",
+            "starting_element_type": "Missing Table",
+            "size": 5
+          }
+        ]
+      }
+    ],
+    "02. findings about application [s325s] main elements": [
+      {
+        "element_findings": [
+          {
+            "nb_findings": 12,
+            "category_findings": [
+              {
+                "finding": "CVE-2021-2471"
+              },
+              {
+                "finding": "CVE-2021-3449"
+              },
+              {
+                "finding": "CVE-2021-3450"
+              },
+              {
+                "finding": "CVE-2021-3711"
+              },
+              {
+                "finding": "CVE-2021-3712"
+              },
+              {
+                "finding": "CVE-2021-44531"
+              },
+              {
+                "finding": "CVE-2021-44532"
+              },
+              {
+                "finding": "CVE-2021-44533"
+              },
+              {
+                "finding": "CVE-2022-21363"
+              },
+              {
+                "finding": "CVE-2022-21824"
+              },
+              {
+                "finding": "CVE-2023-21971"
+              },
+              {
+                "finding": "CVE-2023-22102"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 12,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "Driver",
+                "full_name": "com.mysql.cj.jdbc.Driver"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 6,
+            "category_findings": [
+              {
+                "finding": "CVE-2019-10158"
+              },
+              {
+                "finding": "CVE-2020-25711"
+              },
+              {
+                "finding": "CVE-2023-3628"
+              },
+              {
+                "finding": "CVE-2023-3629"
+              },
+              {
+                "finding": "CVE-2023-5236"
+              },
+              {
+                "finding": "CVE-2023-5384"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 6,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Generic Java Method",
+            "elements_with_findings": [
+              {
+                "name": "createTreeCache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.tree.TreeCacheFactory.createTreeCache"
+              },
+              {
+                "name": "getCache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.manager.CacheContainer.getCache"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 22,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "build",
+                "full_name": "org.infinispan.configuration.cache.AbstractConfigurationChildBuilder.build"
+              },
+              {
+                "name": "invocationBatching",
+                "full_name": "org.infinispan.configuration.cache.AbstractConfigurationChildBuilder.invocationBatching"
+              },
+              {
+                "name": "addSingleFileStore",
+                "full_name": "org.infinispan.configuration.cache.PersistenceConfigurationBuilder.addSingleFileStore"
+              },
+              {
+                "name": "passivation",
+                "full_name": "org.infinispan.configuration.cache.PersistenceConfigurationBuilder.passivation"
+              },
+              {
+                "name": "segmented",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder.segmented"
+              },
+              {
+                "name": "shared",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder.shared"
+              },
+              {
+                "name": "async",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder.async"
+              },
+              {
+                "name": "persistence",
+                "full_name": "org.infinispan.configuration.cache.ConfigurationBuilder.persistence"
+              },
+              {
+                "name": "getRoot",
+                "full_name": "org.infinispan.tree.TreeCache.getRoot"
+              },
+              {
+                "name": "location",
+                "full_name": "org.infinispan.configuration.cache.SingleFileStoreConfigurationBuilder.location"
+              },
+              {
+                "name": "enable",
+                "full_name": "org.infinispan.configuration.cache.InvocationBatchingConfigurationBuilder.enable"
+              },
+              {
+                "name": "preload",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationChildBuilder.preload"
+              },
+              {
+                "name": "enable",
+                "full_name": "org.infinispan.configuration.cache.AsyncStoreConfigurationBuilder.enable"
+              },
+              {
+                "name": "defineConfiguration",
+                "full_name": "org.infinispan.manager.EmbeddedCacheManager.defineConfiguration"
+              },
+              {
+                "name": "fromString",
+                "full_name": "org.infinispan.tree.Fqn.fromString"
+              },
+              {
+                "name": "remove",
+                "full_name": "org.infinispan.tree.Node.remove"
+              },
+              {
+                "name": "get",
+                "full_name": "org.infinispan.tree.Node.get"
+              },
+              {
+                "name": "put",
+                "full_name": "org.infinispan.tree.Node.put"
+              },
+              {
+                "name": "getChild",
+                "full_name": "org.infinispan.tree.Node.getChild"
+              },
+              {
+                "name": "addChild",
+                "full_name": "org.infinispan.tree.Node.addChild"
+              },
+              {
+                "name": "getKeys",
+                "full_name": "org.infinispan.tree.Node.getKeys"
+              },
+              {
+                "name": "getChildren",
+                "full_name": "org.infinispan.tree.Node.getChildren"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Generic Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "Cache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.Cache"
+              },
+              {
+                "name": "TreeCache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.tree.TreeCache"
+              },
+              {
+                "name": "Node\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.tree.Node"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Generic Java Class",
+            "elements_with_findings": [
+              {
+                "name": "AbstractStoreConfigurationChildBuilder\u003cS extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationChildBuilder"
+              },
+              {
+                "name": "AsyncStoreConfigurationBuilder\u003cS extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.configuration.cache.AsyncStoreConfigurationBuilder"
+              },
+              {
+                "name": "AbstractStoreConfigurationBuilder\u003cT extends org.infinispan.configuration.cache.StoreConfiguration,S extends org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder\u003cT,S \u003e\u003e",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "DefaultCacheManager",
+                "full_name": "org.infinispan.manager.DefaultCacheManager.DefaultCacheManager"
+              },
+              {
+                "name": "TreeCacheFactory",
+                "full_name": "org.infinispan.tree.TreeCacheFactory.TreeCacheFactory"
+              },
+              {
+                "name": "ConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.ConfigurationBuilder.ConfigurationBuilder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "CacheContainer",
+                "full_name": "org.infinispan.manager.CacheContainer"
+              },
+              {
+                "name": "EmbeddedCacheManager",
+                "full_name": "org.infinispan.manager.EmbeddedCacheManager"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 9,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "DefaultCacheManager",
+                "full_name": "org.infinispan.manager.DefaultCacheManager"
+              },
+              {
+                "name": "InvocationBatchingConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.InvocationBatchingConfigurationBuilder"
+              },
+              {
+                "name": "SingleFileStoreConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.SingleFileStoreConfigurationBuilder"
+              },
+              {
+                "name": "AbstractConfigurationChildBuilder",
+                "full_name": "org.infinispan.configuration.cache.AbstractConfigurationChildBuilder"
+              },
+              {
+                "name": "PersistenceConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.PersistenceConfigurationBuilder"
+              },
+              {
+                "name": "TreeCacheFactory",
+                "full_name": "org.infinispan.tree.TreeCacheFactory"
+              },
+              {
+                "name": "ConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.ConfigurationBuilder"
+              },
+              {
+                "name": "Configuration",
+                "full_name": "org.infinispan.configuration.cache.Configuration"
+              },
+              {
+                "name": "Fqn",
+                "full_name": "org.infinispan.tree.Fqn"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "CVE-2022-45688"
+              },
+              {
+                "finding": "CVE-2022-45689"
+              },
+              {
+                "finding": "CVE-2022-45690"
+              },
+              {
+                "finding": "CVE-2023-5072"
+              },
+              {
+                "finding": "GHSA-rm7j-f5g5-27vv"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 4,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "toJSONString",
+                "full_name": "org.json.simple.JSONObject.toJSONString"
+              },
+              {
+                "name": "toJSONString",
+                "full_name": "org.json.simple.JSONAware.toJSONString"
+              },
+              {
+                "name": "parse",
+                "full_name": "org.json.simple.JSONValue.parse"
+              },
+              {
+                "name": "escape",
+                "full_name": "org.json.simple.JSONObject.escape"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "JSONObject",
+                "full_name": "org.json.simple.JSONObject.JSONObject"
+              },
+              {
+                "name": "JSONArray",
+                "full_name": "org.json.simple.JSONArray.JSONArray"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "JSONAware",
+                "full_name": "org.json.simple.JSONAware"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "JSONObject",
+                "full_name": "org.json.simple.JSONObject"
+              },
+              {
+                "name": "JSONValue",
+                "full_name": "org.json.simple.JSONValue"
+              },
+              {
+                "name": "JSONArray",
+                "full_name": "org.json.simple.JSONArray"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "CVE-2018-1000643"
+              },
+              {
+                "finding": "CVE-2023-43643"
+              },
+              {
+                "finding": "CVE-2023-49093"
+              },
+              {
+                "finding": "CVE-2024-23635"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getInstance",
+                "full_name": "org.owasp.validator.html.Policy.getInstance"
+              },
+              {
+                "name": "getCleanHTML",
+                "full_name": "org.owasp.validator.html.CleanResults.getCleanHTML"
+              },
+              {
+                "name": "scan",
+                "full_name": "org.owasp.validator.html.AntiSamy.scan"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "AntiSamy",
+                "full_name": "org.owasp.validator.html.AntiSamy.AntiSamy"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "CleanResults",
+                "full_name": "org.owasp.validator.html.CleanResults"
+              },
+              {
+                "name": "AntiSamy",
+                "full_name": "org.owasp.validator.html.AntiSamy"
+              },
+              {
+                "name": "Policy",
+                "full_name": "org.owasp.validator.html.Policy"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 2,
+            "category_findings": [
+              {
+                "finding": "CVE-2020-8908"
+              },
+              {
+                "finding": "CVE-2023-2976"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 2,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Generic Java Method",
+            "elements_with_findings": [
+              {
+                "name": "or\u003cT extends java.lang.Object\u003e",
+                "full_name": "com.google.common.base.Predicates.or"
+              },
+              {
+                "name": "builder\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "com.google.common.collect.ImmutableMap.builder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "build",
+                "full_name": "com.google.common.collect.ImmutableMap.Builder.build"
+              },
+              {
+                "name": "put",
+                "full_name": "com.google.common.collect.ImmutableMap.Builder.put"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Generic Java Class",
+            "elements_with_findings": [
+              {
+                "name": "Builder\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "com.google.common.collect.ImmutableMap.Builder"
+              },
+              {
+                "name": "ImmutableMap\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "com.google.common.collect.ImmutableMap"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "Predicates",
+                "full_name": "com.google.common.base.Predicates"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 2,
+            "category_findings": [
+              {
+                "finding": "CVE-2022-42003"
+              },
+              {
+                "finding": "CVE-2023-35116"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 2,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Generic Java Method",
+            "elements_with_findings": [
+              {
+                "name": "readValue\u003cT extends java.lang.Object\u003e",
+                "full_name": "com.fasterxml.jackson.databind.ObjectMapper.readValue"
+              },
+              {
+                "name": "readValue\u003cT extends java.lang.Object\u003e",
+                "full_name": "com.fasterxml.jackson.databind.ObjectMapper.readValue"
+              },
+              {
+                "name": "readValue\u003cT extends java.lang.Object\u003e",
+                "full_name": "com.fasterxml.jackson.databind.ObjectMapper.readValue"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "writeValueAsString",
+                "full_name": "com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "ObjectMapper",
+                "full_name": "com.fasterxml.jackson.databind.ObjectMapper.ObjectMapper"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "ObjectMapper",
+                "full_name": "com.fasterxml.jackson.databind.ObjectMapper"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CVE-2022-31159"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 16,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "standard",
+                "full_name": "com.amazonaws.services.s3.AmazonS3ClientBuilder.standard"
+              },
+              {
+                "name": "createBucket",
+                "full_name": "com.amazonaws.services.s3.AmazonS3.createBucket"
+              },
+              {
+                "name": "listBuckets",
+                "full_name": "com.amazonaws.services.s3.AmazonS3.listBuckets"
+              },
+              {
+                "name": "doesBucketExistV2",
+                "full_name": "com.amazonaws.services.s3.AmazonS3.doesBucketExistV2"
+              },
+              {
+                "name": "listObjectsV2",
+                "full_name": "com.amazonaws.services.s3.AmazonS3.listObjectsV2"
+              },
+              {
+                "name": "getObject",
+                "full_name": "com.amazonaws.services.s3.AmazonS3.getObject"
+              },
+              {
+                "name": "putObject",
+                "full_name": "com.amazonaws.services.s3.AmazonS3.putObject"
+              },
+              {
+                "name": "deleteObject",
+                "full_name": "com.amazonaws.services.s3.AmazonS3.deleteObject"
+              },
+              {
+                "name": "getKey",
+                "full_name": "com.amazonaws.services.s3.model.S3ObjectSummary.getKey"
+              },
+              {
+                "name": "getObjectContent",
+                "full_name": "com.amazonaws.services.s3.model.S3Object.getObjectContent"
+              },
+              {
+                "name": "setCannedAcl",
+                "full_name": "com.amazonaws.services.s3.model.AbstractPutObjectRequest.setCannedAcl"
+              },
+              {
+                "name": "setContentType",
+                "full_name": "com.amazonaws.services.s3.model.ObjectMetadata.setContentType"
+              },
+              {
+                "name": "getObjectSummaries",
+                "full_name": "com.amazonaws.services.s3.model.ListObjectsV2Result.getObjectSummaries"
+              },
+              {
+                "name": "withPrefix",
+                "full_name": "com.amazonaws.services.s3.model.ListObjectsV2Request.withPrefix"
+              },
+              {
+                "name": "withBucketName",
+                "full_name": "com.amazonaws.services.s3.model.ListObjectsV2Request.withBucketName"
+              },
+              {
+                "name": "getName",
+                "full_name": "com.amazonaws.services.s3.model.Bucket.getName"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Enum Item",
+            "elements_with_findings": [
+              {
+                "name": "PublicRead",
+                "full_name": "com.amazonaws.services.s3.model.CannedAccessControlList.PublicRead"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 10,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "S3Object",
+                "full_name": "com.amazonaws.services.s3.model.S3Object"
+              },
+              {
+                "name": "PutObjectRequest",
+                "full_name": "com.amazonaws.services.s3.model.PutObjectRequest"
+              },
+              {
+                "name": "ObjectMetadata",
+                "full_name": "com.amazonaws.services.s3.model.ObjectMetadata"
+              },
+              {
+                "name": "AbstractPutObjectRequest",
+                "full_name": "com.amazonaws.services.s3.model.AbstractPutObjectRequest"
+              },
+              {
+                "name": "ListObjectsV2Result",
+                "full_name": "com.amazonaws.services.s3.model.ListObjectsV2Result"
+              },
+              {
+                "name": "ListObjectsV2Request",
+                "full_name": "com.amazonaws.services.s3.model.ListObjectsV2Request"
+              },
+              {
+                "name": "AmazonS3Exception",
+                "full_name": "com.amazonaws.services.s3.model.AmazonS3Exception"
+              },
+              {
+                "name": "AmazonS3ClientBuilder",
+                "full_name": "com.amazonaws.services.s3.AmazonS3ClientBuilder"
+              },
+              {
+                "name": "S3ObjectSummary",
+                "full_name": "com.amazonaws.services.s3.model.S3ObjectSummary"
+              },
+              {
+                "name": "Bucket",
+                "full_name": "com.amazonaws.services.s3.model.Bucket"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "PutObjectRequest",
+                "full_name": "com.amazonaws.services.s3.model.PutObjectRequest.PutObjectRequest"
+              },
+              {
+                "name": "ObjectMetadata",
+                "full_name": "com.amazonaws.services.s3.model.ObjectMetadata.ObjectMetadata"
+              },
+              {
+                "name": "ListObjectsV2Request",
+                "full_name": "com.amazonaws.services.s3.model.ListObjectsV2Request.ListObjectsV2Request"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "AmazonS3",
+                "full_name": "com.amazonaws.services.s3.AmazonS3"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Enum",
+            "elements_with_findings": [
+              {
+                "name": "CannedAccessControlList",
+                "full_name": "com.amazonaws.services.s3.model.CannedAccessControlList"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CVE-2024-38828"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 13,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getLocaleResolver",
+                "full_name": "org.springframework.web.servlet.support.RequestContextUtils.getLocaleResolver"
+              },
+              {
+                "name": "addObject",
+                "full_name": "org.springframework.web.servlet.ModelAndView.addObject"
+              },
+              {
+                "name": "addPathPatterns",
+                "full_name": "org.springframework.web.servlet.config.annotation.InterceptorRegistration.addPathPatterns"
+              },
+              {
+                "name": "setViewName",
+                "full_name": "org.springframework.web.servlet.config.annotation.ViewControllerRegistration.setViewName"
+              },
+              {
+                "name": "setLocale",
+                "full_name": "org.springframework.web.servlet.LocaleResolver.setLocale"
+              },
+              {
+                "name": "setDefaultLocale",
+                "full_name": "org.springframework.web.servlet.i18n.AbstractLocaleResolver.setDefaultLocale"
+              },
+              {
+                "name": "preHandle",
+                "full_name": "org.springframework.web.servlet.handler.HandlerInterceptorAdapter.preHandle"
+              },
+              {
+                "name": "configureMessageConverters",
+                "full_name": "org.springframework.web.servlet.config.annotation.WebMvcConfigurer.configureMessageConverters"
+              },
+              {
+                "name": "addArgumentResolvers",
+                "full_name": "org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addArgumentResolvers"
+              },
+              {
+                "name": "addViewControllers",
+                "full_name": "org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addViewControllers"
+              },
+              {
+                "name": "addInterceptors",
+                "full_name": "org.springframework.web.servlet.config.annotation.WebMvcConfigurer.addInterceptors"
+              },
+              {
+                "name": "addViewController",
+                "full_name": "org.springframework.web.servlet.config.annotation.ViewControllerRegistry.addViewController"
+              },
+              {
+                "name": "addInterceptor",
+                "full_name": "org.springframework.web.servlet.config.annotation.InterceptorRegistry.addInterceptor"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "ModelAndView",
+                "full_name": "org.springframework.web.servlet.ModelAndView.ModelAndView"
+              },
+              {
+                "name": "SessionLocaleResolver",
+                "full_name": "org.springframework.web.servlet.i18n.SessionLocaleResolver.SessionLocaleResolver"
+              },
+              {
+                "name": "LocaleChangeInterceptor",
+                "full_name": "org.springframework.web.servlet.i18n.LocaleChangeInterceptor.LocaleChangeInterceptor"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 9,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "LocaleChangeInterceptor",
+                "full_name": "org.springframework.web.servlet.i18n.LocaleChangeInterceptor"
+              },
+              {
+                "name": "InterceptorRegistry",
+                "full_name": "org.springframework.web.servlet.config.annotation.InterceptorRegistry"
+              },
+              {
+                "name": "ViewControllerRegistry",
+                "full_name": "org.springframework.web.servlet.config.annotation.ViewControllerRegistry"
+              },
+              {
+                "name": "RequestContextUtils",
+                "full_name": "org.springframework.web.servlet.support.RequestContextUtils"
+              },
+              {
+                "name": "InterceptorRegistration",
+                "full_name": "org.springframework.web.servlet.config.annotation.InterceptorRegistration"
+              },
+              {
+                "name": "ViewControllerRegistration",
+                "full_name": "org.springframework.web.servlet.config.annotation.ViewControllerRegistration"
+              },
+              {
+                "name": "ModelAndView",
+                "full_name": "org.springframework.web.servlet.ModelAndView"
+              },
+              {
+                "name": "AbstractLocaleResolver",
+                "full_name": "org.springframework.web.servlet.i18n.AbstractLocaleResolver"
+              },
+              {
+                "name": "SessionLocaleResolver",
+                "full_name": "org.springframework.web.servlet.i18n.SessionLocaleResolver"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "WebMvcConfigurer",
+                "full_name": "org.springframework.web.servlet.config.annotation.WebMvcConfigurer"
+              },
+              {
+                "name": "LocaleResolver",
+                "full_name": "org.springframework.web.servlet.LocaleResolver"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Class MVC",
+            "elements_with_findings": [
+              {
+                "name": "HandlerInterceptorAdapter",
+                "full_name": "org.springframework.web.servlet.handler.HandlerInterceptorAdapter"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CVE-2024-47554"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 4,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getExtension",
+                "full_name": "org.apache.commons.io.FilenameUtils.getExtension"
+              },
+              {
+                "name": "getBaseName",
+                "full_name": "org.apache.commons.io.FilenameUtils.getBaseName"
+              },
+              {
+                "name": "toByteArray",
+                "full_name": "org.apache.commons.io.IOUtils.toByteArray"
+              },
+              {
+                "name": "copy",
+                "full_name": "org.apache.commons.io.IOUtils.copy"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "IOUtils",
+                "full_name": "org.apache.commons.io.IOUtils"
+              },
+              {
+                "name": "FilenameUtils",
+                "full_name": "org.apache.commons.io.FilenameUtils"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CloudReady - Detect deprecated language or framework versions"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Execution Environment"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "",
+            "elements_with_findings": [
+              {
+                "name": "pom.xml",
+                "full_name": "[sm-core-model/pom.xml]"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "CVE-2012-5787"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 51,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "setRefundType",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionRequestType.setRefundType"
+              },
+              {
+                "name": "setTransactionID",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionRequestType.setTransactionID"
+              },
+              {
+                "name": "setRefundTransactionRequest",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionReq.setRefundTransactionRequest"
+              },
+              {
+                "name": "getExpressCheckoutDetails",
+                "full_name": "urn.ebay.api.PayPalAPI.PayPalAPIInterfaceServiceService.getExpressCheckoutDetails"
+              },
+              {
+                "name": "setPaymentAction",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setPaymentAction"
+              },
+              {
+                "name": "setPaymentDetailsItem",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setPaymentDetailsItem"
+              },
+              {
+                "name": "setExpressCheckout",
+                "full_name": "urn.ebay.api.PayPalAPI.PayPalAPIInterfaceServiceService.setExpressCheckout"
+              },
+              {
+                "name": "setButtonSource",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setButtonSource"
+              },
+              {
+                "name": "doExpressCheckoutPayment",
+                "full_name": "urn.ebay.api.PayPalAPI.PayPalAPIInterfaceServiceService.doExpressCheckoutPayment"
+              },
+              {
+                "name": "setTaxTotal",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setTaxTotal"
+              },
+              {
+                "name": "setHandlingTotal",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setHandlingTotal"
+              },
+              {
+                "name": "refundTransaction",
+                "full_name": "urn.ebay.api.PayPalAPI.PayPalAPIInterfaceServiceService.refundTransaction"
+              },
+              {
+                "name": "setShippingTotal",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setShippingTotal"
+              },
+              {
+                "name": "setItemTotal",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setItemTotal"
+              },
+              {
+                "name": "getGetExpressCheckoutDetailsResponseDetails",
+                "full_name": "urn.ebay.api.PayPalAPI.GetExpressCheckoutDetailsResponseType.getGetExpressCheckoutDetailsResponseDetails"
+              },
+              {
+                "name": "setOrderTotal",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.setOrderTotal"
+              },
+              {
+                "name": "setGetExpressCheckoutDetailsRequest",
+                "full_name": "urn.ebay.api.PayPalAPI.GetExpressCheckoutDetailsReq.setGetExpressCheckoutDetailsRequest"
+              },
+              {
+                "name": "getDoExpressCheckoutPaymentResponseDetails",
+                "full_name": "urn.ebay.api.PayPalAPI.DoExpressCheckoutPaymentResponseType.getDoExpressCheckoutPaymentResponseDetails"
+              },
+              {
+                "name": "setDoExpressCheckoutPaymentRequest",
+                "full_name": "urn.ebay.api.PayPalAPI.DoExpressCheckoutPaymentReq.setDoExpressCheckoutPaymentRequest"
+              },
+              {
+                "name": "getDoCaptureResponseDetails",
+                "full_name": "urn.ebay.api.PayPalAPI.DoCaptureResponseType.getDoCaptureResponseDetails"
+              },
+              {
+                "name": "setDoCaptureRequest",
+                "full_name": "urn.ebay.api.PayPalAPI.DoCaptureReq.setDoCaptureRequest"
+              },
+              {
+                "name": "getCorrelationID",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AbstractResponseType.getCorrelationID"
+              },
+              {
+                "name": "setValue",
+                "full_name": "urn.ebay.apis.CoreComponentTypes.BasicAmountType.setValue"
+              },
+              {
+                "name": "getAuthorizationID",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoCaptureResponseDetailsType.getAuthorizationID"
+              },
+              {
+                "name": "getPaymentInfo",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoExpressCheckoutPaymentResponseDetailsType.getPaymentInfo"
+              },
+              {
+                "name": "getPayerID",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PayerInfoType.getPayerID"
+              },
+              {
+                "name": "getPayerInfo",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.GetExpressCheckoutDetailsResponseDetailsType.getPayerInfo"
+              },
+              {
+                "name": "getToken",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.GetExpressCheckoutDetailsResponseDetailsType.getToken"
+              },
+              {
+                "name": "getErrorCode",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.ErrorType.getErrorCode"
+              },
+              {
+                "name": "getShortMessage",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.ErrorType.getShortMessage"
+              },
+              {
+                "name": "getValue",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AckCodeType.getValue"
+              },
+              {
+                "name": "getErrors",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AbstractResponseType.getErrors"
+              },
+              {
+                "name": "setCurrencyID",
+                "full_name": "urn.ebay.apis.CoreComponentTypes.BasicAmountType.setCurrencyID"
+              },
+              {
+                "name": "doCapture",
+                "full_name": "urn.ebay.api.PayPalAPI.PayPalAPIInterfaceServiceService.doCapture"
+              },
+              {
+                "name": "setAmount",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsItemType.setAmount"
+              },
+              {
+                "name": "getAck",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AbstractResponseType.getAck"
+              },
+              {
+                "name": "setQuantity",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsItemType.setQuantity"
+              },
+              {
+                "name": "setVersion",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AbstractRequestType.setVersion"
+              },
+              {
+                "name": "fromValue",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.CurrencyCodeType.fromValue"
+              },
+              {
+                "name": "setName",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsItemType.setName"
+              },
+              {
+                "name": "setPaymentDetails",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.SetExpressCheckoutRequestDetailsType.setPaymentDetails"
+              },
+              {
+                "name": "setCancelURL",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.SetExpressCheckoutRequestDetailsType.setCancelURL"
+              },
+              {
+                "name": "setPaymentDetails",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoExpressCheckoutPaymentRequestDetailsType.setPaymentDetails"
+              },
+              {
+                "name": "setPayerID",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoExpressCheckoutPaymentRequestDetailsType.setPayerID"
+              },
+              {
+                "name": "setReturnURL",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.SetExpressCheckoutRequestDetailsType.setReturnURL"
+              },
+              {
+                "name": "setToken",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoExpressCheckoutPaymentRequestDetailsType.setToken"
+              },
+              {
+                "name": "getTransactionID",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentInfoType.getTransactionID"
+              },
+              {
+                "name": "getToken",
+                "full_name": "urn.ebay.api.PayPalAPI.SetExpressCheckoutResponseType.getToken"
+              },
+              {
+                "name": "setSetExpressCheckoutRequest",
+                "full_name": "urn.ebay.api.PayPalAPI.SetExpressCheckoutReq.setSetExpressCheckoutRequest"
+              },
+              {
+                "name": "getRefundTransactionID",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionResponseType.getRefundTransactionID"
+              }
+            ],
+            "elements_with_findings_list_comment": "element list is truncated to first 50 items"
+          },
+          {
+            "nb_elements": 5,
+            "element_type": "Java Enum",
+            "elements_with_findings": [
+              {
+                "name": "AckCodeType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AckCodeType"
+              },
+              {
+                "name": "CurrencyCodeType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.CurrencyCodeType"
+              },
+              {
+                "name": "PaymentActionCodeType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentActionCodeType"
+              },
+              {
+                "name": "RefundType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.RefundType"
+              },
+              {
+                "name": "CompleteCodeType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.CompleteCodeType"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 29,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "DoCaptureResponseDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoCaptureResponseDetailsType"
+              },
+              {
+                "name": "DoExpressCheckoutPaymentResponseDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoExpressCheckoutPaymentResponseDetailsType"
+              },
+              {
+                "name": "PayerInfoType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PayerInfoType"
+              },
+              {
+                "name": "GetExpressCheckoutDetailsResponseDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.GetExpressCheckoutDetailsResponseDetailsType"
+              },
+              {
+                "name": "ErrorType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.ErrorType"
+              },
+              {
+                "name": "AbstractResponseType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AbstractResponseType"
+              },
+              {
+                "name": "AbstractRequestType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.AbstractRequestType"
+              },
+              {
+                "name": "GetExpressCheckoutDetailsResponseType",
+                "full_name": "urn.ebay.api.PayPalAPI.GetExpressCheckoutDetailsResponseType"
+              },
+              {
+                "name": "SetExpressCheckoutRequestDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.SetExpressCheckoutRequestDetailsType"
+              },
+              {
+                "name": "DoExpressCheckoutPaymentRequestDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoExpressCheckoutPaymentRequestDetailsType"
+              },
+              {
+                "name": "GetExpressCheckoutDetailsRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.GetExpressCheckoutDetailsRequestType"
+              },
+              {
+                "name": "GetExpressCheckoutDetailsReq",
+                "full_name": "urn.ebay.api.PayPalAPI.GetExpressCheckoutDetailsReq"
+              },
+              {
+                "name": "DoExpressCheckoutPaymentResponseType",
+                "full_name": "urn.ebay.api.PayPalAPI.DoExpressCheckoutPaymentResponseType"
+              },
+              {
+                "name": "BasicAmountType",
+                "full_name": "urn.ebay.apis.CoreComponentTypes.BasicAmountType"
+              },
+              {
+                "name": "DoExpressCheckoutPaymentRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.DoExpressCheckoutPaymentRequestType"
+              },
+              {
+                "name": "DoExpressCheckoutPaymentReq",
+                "full_name": "urn.ebay.api.PayPalAPI.DoExpressCheckoutPaymentReq"
+              },
+              {
+                "name": "DoCaptureResponseType",
+                "full_name": "urn.ebay.api.PayPalAPI.DoCaptureResponseType"
+              },
+              {
+                "name": "SetExpressCheckoutResponseType",
+                "full_name": "urn.ebay.api.PayPalAPI.SetExpressCheckoutResponseType"
+              },
+              {
+                "name": "SetExpressCheckoutRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.SetExpressCheckoutRequestType"
+              },
+              {
+                "name": "SetExpressCheckoutReq",
+                "full_name": "urn.ebay.api.PayPalAPI.SetExpressCheckoutReq"
+              },
+              {
+                "name": "RefundTransactionResponseType",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionResponseType"
+              },
+              {
+                "name": "RefundTransactionRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionRequestType"
+              },
+              {
+                "name": "DoCaptureRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.DoCaptureRequestType"
+              },
+              {
+                "name": "RefundTransactionReq",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionReq"
+              },
+              {
+                "name": "DoCaptureReq",
+                "full_name": "urn.ebay.api.PayPalAPI.DoCaptureReq"
+              },
+              {
+                "name": "PayPalAPIInterfaceServiceService",
+                "full_name": "urn.ebay.api.PayPalAPI.PayPalAPIInterfaceServiceService"
+              },
+              {
+                "name": "PaymentInfoType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentInfoType"
+              },
+              {
+                "name": "PaymentDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType"
+              },
+              {
+                "name": "PaymentDetailsItemType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsItemType"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 5,
+            "element_type": "Java Enum Item",
+            "elements_with_findings": [
+              {
+                "name": "SALE",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentActionCodeType.SALE"
+              },
+              {
+                "name": "AUTHORIZATION",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentActionCodeType.AUTHORIZATION"
+              },
+              {
+                "name": "PARTIAL",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.RefundType.PARTIAL"
+              },
+              {
+                "name": "FULL",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.RefundType.FULL"
+              },
+              {
+                "name": "NOTCOMPLETE",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.CompleteCodeType.NOTCOMPLETE"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 16,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "DoExpressCheckoutPaymentReq",
+                "full_name": "urn.ebay.api.PayPalAPI.DoExpressCheckoutPaymentReq.DoExpressCheckoutPaymentReq"
+              },
+              {
+                "name": "RefundTransactionRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionRequestType.RefundTransactionRequestType"
+              },
+              {
+                "name": "RefundTransactionReq",
+                "full_name": "urn.ebay.api.PayPalAPI.RefundTransactionReq.RefundTransactionReq"
+              },
+              {
+                "name": "PayPalAPIInterfaceServiceService",
+                "full_name": "urn.ebay.api.PayPalAPI.PayPalAPIInterfaceServiceService.PayPalAPIInterfaceServiceService"
+              },
+              {
+                "name": "GetExpressCheckoutDetailsRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.GetExpressCheckoutDetailsRequestType.GetExpressCheckoutDetailsRequestType"
+              },
+              {
+                "name": "GetExpressCheckoutDetailsReq",
+                "full_name": "urn.ebay.api.PayPalAPI.GetExpressCheckoutDetailsReq.GetExpressCheckoutDetailsReq"
+              },
+              {
+                "name": "DoExpressCheckoutPaymentRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.DoExpressCheckoutPaymentRequestType.DoExpressCheckoutPaymentRequestType"
+              },
+              {
+                "name": "SetExpressCheckoutRequestDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.SetExpressCheckoutRequestDetailsType.SetExpressCheckoutRequestDetailsType"
+              },
+              {
+                "name": "PaymentDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsType.PaymentDetailsType"
+              },
+              {
+                "name": "PaymentDetailsItemType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.PaymentDetailsItemType.PaymentDetailsItemType"
+              },
+              {
+                "name": "DoExpressCheckoutPaymentRequestDetailsType",
+                "full_name": "urn.ebay.apis.eBLBaseComponents.DoExpressCheckoutPaymentRequestDetailsType.DoExpressCheckoutPaymentRequestDetailsType"
+              },
+              {
+                "name": "BasicAmountType",
+                "full_name": "urn.ebay.apis.CoreComponentTypes.BasicAmountType.BasicAmountType"
+              },
+              {
+                "name": "SetExpressCheckoutRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.SetExpressCheckoutRequestType.SetExpressCheckoutRequestType"
+              },
+              {
+                "name": "SetExpressCheckoutReq",
+                "full_name": "urn.ebay.api.PayPalAPI.SetExpressCheckoutReq.SetExpressCheckoutReq"
+              },
+              {
+                "name": "DoCaptureRequestType",
+                "full_name": "urn.ebay.api.PayPalAPI.DoCaptureRequestType.DoCaptureRequestType"
+              },
+              {
+                "name": "DoCaptureReq",
+                "full_name": "urn.ebay.api.PayPalAPI.DoCaptureReq.DoCaptureReq"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid reflected cross-site scripting (non persistent)"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "refreshAndGetAuthenticationToken",
+                "full_name": "com.salesmanager.shop.store.api.v1.user.AuthenticateUserApi.refreshAndGetAuthenticationToken"
+              },
+              {
+                "name": "refreshToken",
+                "full_name": "com.salesmanager.shop.store.api.v1.customer.AuthenticateCustomerApi.refreshToken"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 29,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "calculateVariant",
+                "full_name": "com.salesmanager.shop.store.api.v2.product.ProductVariationApi.calculateVariant"
+              },
+              {
+                "name": "getByfriendlyUrl",
+                "full_name": "com.salesmanager.shop.store.api.v2.product.ProductApiV2.getByfriendlyUrl"
+              },
+              {
+                "name": "delete",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductReviewApi.delete"
+              },
+              {
+                "name": "update",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductReviewApi.update"
+              },
+              {
+                "name": "getAll",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductReviewApi.getAll"
+              },
+              {
+                "name": "create",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductReviewApi.create"
+              },
+              {
+                "name": "getAll",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductRelationshipApi.getAll"
+              },
+              {
+                "name": "delete",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductManufacturerApi.delete"
+              },
+              {
+                "name": "get",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductManufacturerApi.get"
+              },
+              {
+                "name": "create",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductManufacturerApi.create"
+              },
+              {
+                "name": "removeProductFromGroup",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductGroupApi.removeProductFromGroup"
+              },
+              {
+                "name": "addProductToGroup",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductGroupApi.addProductToGroup"
+              },
+              {
+                "name": "getProductItemsByGroup",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductGroupApi.getProductItemsByGroup"
+              },
+              {
+                "name": "getByfriendlyUrl",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductApi.getByfriendlyUrl"
+              },
+              {
+                "name": "init",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderPaymentApi.init"
+              },
+              {
+                "name": "contact",
+                "full_name": "com.salesmanager.shop.store.api.v0.store.StoreContactRESTController.contact"
+              },
+              {
+                "name": "store",
+                "full_name": "com.salesmanager.shop.store.api.v0.store.StoreContactRESTController.store"
+              },
+              {
+                "name": "getByCode",
+                "full_name": "com.salesmanager.shop.store.api.v1.shoppingCart.ShoppingCartApi.getByCode"
+              },
+              {
+                "name": "calculateTotal",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderTotalApi.calculateTotal"
+              },
+              {
+                "name": "payment",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderTotalApi.payment"
+              },
+              {
+                "name": "list",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderStatusHistoryApi.list"
+              },
+              {
+                "name": "shipping",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderShippingApi.shipping"
+              },
+              {
+                "name": "shipping",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderShippingApi.shipping"
+              },
+              {
+                "name": "listCapturableOrders",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderPaymentApi.listCapturableOrders"
+              },
+              {
+                "name": "listTransactions",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderPaymentApi.listTransactions"
+              },
+              {
+                "name": "getOrder",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderApi.getOrder"
+              },
+              {
+                "name": "get",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderApi.get"
+              },
+              {
+                "name": "list",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderApi.list"
+              },
+              {
+                "name": "list",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderApi.list"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid empty catch blocks for methods with high fan-in"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getMessage",
+                "full_name": "com.salesmanager.shop.utils.LabelUtils.getMessage"
+              },
+              {
+                "name": "getCartModel",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.getCartModel"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      }
+    ]
+  }
+}

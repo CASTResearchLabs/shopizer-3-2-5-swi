@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/review/ProductReviewRepository.java]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/review/ProductReviewRepository.java]": [
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 6,
+        "entities_to_test": [
+          {
+            "name": "CUSTOMER",
+            "full_name": "DEFAULT.CUSTOMER"
+          },
+          {
+            "name": "CUSTOMER_OPTION",
+            "full_name": "DEFAULT.CUSTOMER_OPTION"
+          },
+          {
+            "name": "CUSTOMER_OPTION_VALUE",
+            "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE"
+          },
+          {
+            "name": "MERCHANT_STORE",
+            "full_name": "DEFAULT.MERCHANT_STORE"
+          },
+          {
+            "name": "PRODUCT",
+            "full_name": "DEFAULT.PRODUCT"
+          }
+        ],
+        "type_of_entity_to_test": "data entity"
+      }
+    ]
+  }
+}

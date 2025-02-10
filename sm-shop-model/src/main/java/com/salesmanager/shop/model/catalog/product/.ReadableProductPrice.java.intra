@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/ReadableProductPrice.java]": {
+    "00. dependencies between elements defined in file [sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/ReadableProductPrice.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDefaultPrice",
+            "to_name": "defaultPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescription",
+            "to_name": "description",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDiscounted",
+            "to_name": "discounted",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFinalPrice",
+            "to_name": "finalPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOriginalPrice",
+            "to_name": "originalPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultPrice",
+            "to_name": "defaultPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescription",
+            "to_name": "description",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDiscounted",
+            "to_name": "discounted",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setFinalPrice",
+            "to_name": "finalPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOriginalPrice",
+            "to_name": "originalPrice",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

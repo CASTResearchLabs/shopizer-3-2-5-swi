@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/availability/ProductAvailability.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/availability/ProductAvailability.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductVariant",
+            "to_name": "productVariant",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSku",
+            "to_name": "sku",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSku",
+            "to_name": "sku",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAvailable",
+            "to_name": "available",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAvailable",
+            "to_name": "available",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOwner",
+            "to_name": "owner",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOwner",
+            "to_name": "owner",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPrices",
+            "to_name": "prices",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProduct",
+            "to_name": "product",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductQuantityOrderMax",
+            "to_name": "productQuantityOrderMax",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductQuantityOrderMax",
+            "to_name": "productQuantityOrderMax",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductQuantityOrderMin",
+            "to_name": "productQuantityOrderMin",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductQuantityOrderMin",
+            "to_name": "productQuantityOrderMin",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 40
+      }
+    ]
+  }
+}

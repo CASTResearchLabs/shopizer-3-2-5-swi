@@ -1,0 +1,185 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/store/controller/order/facade/OrderFacadeImpl.java]": {
+    "00. file [sm-shop/src/main/java/com/salesmanager/shop/store/controller/order/facade/OrderFacadeImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 40,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "nextTransaction",
+                "signature": "nextTransaction(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.payments.TransactionType"
+              },
+              {
+                "name": "updateOrderStatus",
+                "signature": "updateOrderStatus(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.order.orderstatus.OrderStatus,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "listTransactions",
+                "signature": "listTransactions(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.shop.model.order.transaction.ReadableTransaction\u003e"
+              },
+              {
+                "name": "convertDelivery",
+                "signature": "convertDelivery(com.salesmanager.shop.model.customer.address.Address) return com.salesmanager.core.model.common.Delivery"
+              },
+              {
+                "name": "convertBilling",
+                "signature": "convertBilling(com.salesmanager.shop.model.customer.address.Address) return com.salesmanager.core.model.common.Billing"
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 23,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "imageUtils",
+                "signature": ""
+              },
+              {
+                "name": "productPriceUtils",
+                "signature": ""
+              },
+              {
+                "name": "messages",
+                "signature": ""
+              },
+              {
+                "name": "emailTemplatesUtils",
+                "signature": ""
+              },
+              {
+                "name": "transactionService",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 6,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "HashSet\u003cOrderAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cReadableTransaction\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cReadableOrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cReadableOrder\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cOrderTotal\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "HashSet\u003cOrderTotal\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cReadableTransaction\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cReadableOrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cReadableOrder\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cReadableOrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Comparator\u003cOrderTotal\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "getReadableOrderHistory$lambda$0",
+                "signature": "getReadableOrderHistory$lambda$0(com.salesmanager.core.model.order.orderstatus.OrderStatusHistory) return R"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Method",
+            "elements": [
+              {
+                "name": "sort\u003cOrderTotal\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "OrderFacadeImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "OrderFacadeImpl",
+                "signature": "OrderFacadeImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "OrderFacadeImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

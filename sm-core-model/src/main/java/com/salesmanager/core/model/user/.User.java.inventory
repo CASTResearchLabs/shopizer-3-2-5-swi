@@ -1,0 +1,124 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java]": {
+    "00. file [sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 40,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getQuestion2",
+                "signature": "getQuestion2() return java.lang.String"
+              },
+              {
+                "name": "getLoginTime",
+                "signature": "getLoginTime() return java.util.Date"
+              },
+              {
+                "name": "setLoginTime",
+                "signature": "setLoginTime(java.util.Date) return void"
+              },
+              {
+                "name": "getLastAccess",
+                "signature": "getLastAccess() return java.util.Date"
+              },
+              {
+                "name": "setLastAccess",
+                "signature": "setLastAccess(java.util.Date) return void"
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 21,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "credentialsResetRequest",
+                "signature": ""
+              },
+              {
+                "name": "loginTime",
+                "signature": ""
+              },
+              {
+                "name": "lastAccess",
+                "signature": ""
+              },
+              {
+                "name": "auditSection",
+                "signature": ""
+              },
+              {
+                "name": "answer3",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "User",
+                "signature": "User()"
+              },
+              {
+                "name": "User",
+                "signature": "User(java.lang.String,java.lang.String,java.lang.String)"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "User.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "User",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "User",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

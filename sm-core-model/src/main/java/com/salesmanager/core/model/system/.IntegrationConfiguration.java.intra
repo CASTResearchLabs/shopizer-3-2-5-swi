@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/system/IntegrationConfiguration.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/system/IntegrationConfiguration.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultSelected",
+            "to_name": "defaultSelected",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDefaultSelected",
+            "to_name": "defaultSelected",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setIntegrationOptions",
+            "to_name": "integrationOptions",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getIntegrationOptions",
+            "to_name": "integrationOptions",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setIntegrationKeys",
+            "to_name": "integrationKeys",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getIntegrationKeys",
+            "to_name": "integrationKeys",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setActive",
+            "to_name": "active",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isActive",
+            "to_name": "active",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setModuleCode",
+            "to_name": "moduleCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getModuleCode",
+            "to_name": "moduleCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getEnvironment",
+            "to_name": "environment",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setEnvironment",
+            "to_name": "environment",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString",
+            "to_name": "getIntegrationOptions",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString",
+            "to_name": "getIntegrationKeys",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString",
+            "to_name": "getJsonInfo",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 20
+      }
+    ]
+  }
+}

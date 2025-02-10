@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingServiceImpl.java]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingServiceImpl.java]": [
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 5,
+        "entities_to_test": [
+          {
+            "name": "COUNTRY",
+            "full_name": "DEFAULT.COUNTRY"
+          },
+          {
+            "name": "MERCHANT_CONFIGURATION",
+            "full_name": "DEFAULT.MERCHANT_CONFIGURATION"
+          },
+          {
+            "name": "MERCHANT_STORE",
+            "full_name": "DEFAULT.MERCHANT_STORE"
+          },
+          {
+            "name": "MODULE_CONFIGURATION",
+            "full_name": "DEFAULT.MODULE_CONFIGURATION"
+          },
+          {
+            "name": "SHIPING_ORIGIN",
+            "full_name": "DEFAULT.SHIPING_ORIGIN"
+          }
+        ],
+        "type_of_entity_to_test": "data entity"
+      }
+    ]
+  }
+}

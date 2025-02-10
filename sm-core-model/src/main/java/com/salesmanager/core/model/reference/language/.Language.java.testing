@@ -1,0 +1,44 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/reference/language/Language.java]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/reference/language/Language.java]": [
+      {
+        "entities_to_test_list_comment": "entities_to_test list is truncated to first 15 items",
+        "nb_entities_to_test": 281,
+        "entities_to_test": [
+          {
+            "name": "api/v2/private/product/variation/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductVariationApi.java/api/v2/PORT/PUT/api/v2/private/product/variation/{}/"
+          },
+          {
+            "name": "api/v2/private/product/productVariantGroup/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductVariantGroupApi.java/api/v2/PORT/PUT/api/v2/private/product/productVariantGroup/{}/"
+          },
+          {
+            "name": "api/v2/private/product/{}/variant/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductVariantApi.java/api/v2/PORT/PUT/api/v2/private/product/{}/variant/{}/"
+          },
+          {
+            "name": "api/v2/private/product/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/PUT/api/v2/private/product/{}/"
+          },
+          {
+            "name": "api/v1/private/tax/rate/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/tax/TaxRatesApi.java/api/v1/PORT/PUT/api/v1/private/tax/rate/{}/"
+          }
+        ],
+        "type_of_entity_to_test": "user transaction / API endpoint"
+      },
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 1,
+        "entities_to_test": [
+          {
+            "name": "LANGUAGE",
+            "full_name": "DEFAULT.LANGUAGE"
+          }
+        ],
+        "type_of_entity_to_test": "data entity"
+      }
+    ]
+  }
+}

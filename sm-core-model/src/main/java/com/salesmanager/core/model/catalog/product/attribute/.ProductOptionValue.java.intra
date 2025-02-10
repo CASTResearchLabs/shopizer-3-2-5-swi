@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOptionValue.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOptionValue.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCode",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductOptionDisplayOnly",
+            "to_name": "productOptionDisplayOnly",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getDescriptionsSettoList",
+            "to_name": "getDescriptions",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescriptionsSettoList",
+            "to_name": "descriptionsList",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescriptionsSettoList",
+            "to_name": "descriptionsList",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "getDescriptionsSettoList",
+            "to_name": "ArrayList\u003cProductOptionValueDescription\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductOptionValueImage",
+            "to_name": "productOptionValueImage",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductOptionValueImage",
+            "to_name": "productOptionValueImage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductOptionValueSortOrder",
+            "to_name": "productOptionValueSortOrder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductOptionValueSortOrder",
+            "to_name": "productOptionValueSortOrder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCode",
+            "to_name": "code",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescriptions",
+            "to_name": "descriptions",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescriptions",
+            "to_name": "descriptions",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 24
+      }
+    ]
+  }
+}

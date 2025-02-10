@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerAttribute.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerAttribute.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTextValue",
+            "to_name": "textValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTextValue",
+            "to_name": "textValue",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomer",
+            "to_name": "customer",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerOptionValue",
+            "to_name": "customerOptionValue",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerOptionValue",
+            "to_name": "customerOptionValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerOption",
+            "to_name": "customerOption",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerOption",
+            "to_name": "customerOption",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomer",
+            "to_name": "customer",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

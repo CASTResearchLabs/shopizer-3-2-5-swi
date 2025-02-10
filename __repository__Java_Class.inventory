@@ -1,0 +1,280 @@
+{
+  "main facts about type [Java Class]": {
+    "00. samples of [Java Class] element type in application [s325s]": {
+      "elements": [
+        {
+          "full_name": "com.salesmanager.core.model.merchant.MerchantStore",
+          "signature": "",
+          "name": "MerchantStore",
+          "nb_callers": 185,
+          "used_in_graphs": 297,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "572"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "12"
+            }
+          ],
+          "nb_callees": 8
+        },
+        {
+          "full_name": "com.salesmanager.core.model.catalog.product.Product",
+          "signature": "",
+          "name": "Product",
+          "nb_callers": 114,
+          "used_in_graphs": 31,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "680"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "19"
+            }
+          ],
+          "nb_callees": 13
+        },
+        {
+          "full_name": "com.salesmanager.core.model.reference.language.Language",
+          "signature": "",
+          "name": "Language",
+          "nb_callers": 104,
+          "used_in_graphs": 281,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "140"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "6"
+            }
+          ],
+          "nb_callees": 4
+        },
+        {
+          "full_name": "com.salesmanager.core.business.exception.ServiceException",
+          "signature": "",
+          "name": "ServiceException",
+          "nb_callers": 1187,
+          "used_in_graphs": 89,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "96"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "com.salesmanager.shop.store.controller.order.facade.OrderFacadeImpl",
+          "signature": "",
+          "name": "OrderFacadeImpl",
+          "nb_callers": 5,
+          "used_in_graphs": 7,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "1095"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "53"
+            }
+          ],
+          "nb_callees": 121
+        },
+        {
+          "full_name": "com.salesmanager.shop.store.controller.customer.facade.CustomerFacadeImpl",
+          "signature": "",
+          "name": "CustomerFacadeImpl",
+          "nb_callers": 10,
+          "used_in_graphs": 7,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "728"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "43"
+            }
+          ],
+          "nb_callees": 88
+        },
+        {
+          "full_name": "com.salesmanager.shop.store.controller.store.facade.StoreFacadeImpl",
+          "signature": "",
+          "name": "StoreFacadeImpl",
+          "nb_callers": 13,
+          "used_in_graphs": 16,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "400"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "26"
+            }
+          ],
+          "nb_callees": 52
+        },
+        {
+          "full_name": "com.salesmanager.core.model.customer.Customer",
+          "signature": "",
+          "name": "Customer",
+          "nb_callers": 50,
+          "used_in_graphs": 32,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "450"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "16"
+            }
+          ],
+          "nb_callees": 8
+        },
+        {
+          "full_name": "com.salesmanager.core.model.order.Order",
+          "signature": "",
+          "name": "Order",
+          "nb_callers": 33,
+          "used_in_graphs": 18,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "504"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "16"
+            }
+          ],
+          "nb_callees": 10
+        },
+        {
+          "full_name": "com.salesmanager.core.model.shoppingcart.ShoppingCartItem",
+          "signature": "",
+          "name": "ShoppingCartItem",
+          "nb_callers": 100,
+          "used_in_graphs": 12,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "318"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "8"
+            }
+          ],
+          "nb_callees": 7
+        },
+        {
+          "full_name": "com.salesmanager.core.model.catalog.category.Category",
+          "signature": "",
+          "name": "Category",
+          "nb_callers": 97,
+          "used_in_graphs": 9,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "288"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "7"
+            }
+          ],
+          "nb_callees": 7
+        },
+        {
+          "full_name": "com.salesmanager.core.model.catalog.product.availability.ProductAvailability",
+          "signature": "",
+          "name": "ProductAvailability",
+          "nb_callers": 67,
+          "used_in_graphs": 9,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "370"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "12"
+            }
+          ],
+          "nb_callees": 6
+        },
+        {
+          "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl",
+          "signature": "",
+          "name": "ShoppingCartFacadeImpl",
+          "nb_callers": 6,
+          "used_in_graphs": 3,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "751"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "32"
+            }
+          ],
+          "nb_callees": 56
+        },
+        {
+          "full_name": "com.salesmanager.core.model.reference.country.Country",
+          "signature": "",
+          "name": "Country",
+          "nb_callers": 76,
+          "used_in_graphs": 29,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "152"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "6"
+            }
+          ],
+          "nb_callees": 4
+        },
+        {
+          "full_name": "com.salesmanager.shop.store.api.exception.ServiceRuntimeException",
+          "signature": "",
+          "name": "ServiceRuntimeException",
+          "nb_callers": 276,
+          "used_in_graphs": 92,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "18"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 2
+        }
+      ],
+      "total_nb": 1388,
+      "elements_list_comment": "Java Class element list is truncated to first 15 items"
+    }
+  }
+}

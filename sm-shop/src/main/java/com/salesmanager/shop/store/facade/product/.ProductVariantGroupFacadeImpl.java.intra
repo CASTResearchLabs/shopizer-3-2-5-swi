@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/product/ProductVariantGroupFacadeImpl.java]": {
+    "00. dependencies between elements defined in file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/product/ProductVariantGroupFacadeImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "removeImage",
+            "to_name": "removeImage$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "removeImage",
+            "to_name": "group",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "addImage",
+            "to_name": "group",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "delete",
+            "to_name": "group",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "update",
+            "to_name": "group",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "get",
+            "to_name": "group",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

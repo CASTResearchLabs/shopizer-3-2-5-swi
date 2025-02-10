@@ -1,0 +1,29 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/availability/ProductAvailabilityServiceImpl.java]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/availability/ProductAvailabilityServiceImpl.java]": [
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 4,
+        "entities_to_test": [
+          {
+            "name": "MERCHANT_STORE",
+            "full_name": "DEFAULT.MERCHANT_STORE"
+          },
+          {
+            "name": "PRODUCT",
+            "full_name": "DEFAULT.PRODUCT"
+          },
+          {
+            "name": "PRODUCT_AVAILABILITY",
+            "full_name": "DEFAULT.PRODUCT_AVAILABILITY"
+          },
+          {
+            "name": "PRODUCT_VARIANT",
+            "full_name": "DEFAULT.PRODUCT_VARIANT"
+          }
+        ],
+        "type_of_entity_to_test": "data entity"
+      }
+    ]
+  }
+}

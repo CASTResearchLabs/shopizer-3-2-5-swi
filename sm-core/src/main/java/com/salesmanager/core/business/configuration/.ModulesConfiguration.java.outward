@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/configuration/ModulesConfiguration.java]": {
+    "00. file [sm-core/src/main/java/com/salesmanager/core/business/configuration/ModulesConfiguration.java] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Interface",
+                "from_name": "liveModules",
+                "to_name": "PaymentModule",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ModulesConfiguration",
+                "to_name": "PaymentModule",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "sm-core-modules/src/main/java/com/salesmanager/core/modules/integration/payment/model/PaymentModule.java"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

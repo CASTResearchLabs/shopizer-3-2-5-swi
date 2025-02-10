@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/services/search/SearchServiceImpl.java]": {
+    "00. dependencies between elements defined in file [sm-core/src/main/java/com/salesmanager/core/business/services/search/SearchServiceImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "attribute$lambda$1",
+            "to_name": "attribute",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "attribute$lambda$0",
+            "to_name": "attribute",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "category$lambda$0",
+            "to_name": "category",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "config$lambda$1",
+            "to_name": "settings",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "config$lambda$1",
+            "to_name": "config",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "config$lambda$0",
+            "to_name": "mappings",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "config$lambda$0",
+            "to_name": "config",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "index$lambda$0",
+            "to_name": "variants",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "manufacturer$lambda$0",
+            "to_name": "manufacturer",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "index",
+            "to_name": "index$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "index",
+            "to_name": "languages",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "index",
+            "to_name": "variants",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "index",
+            "to_name": "indexProduct",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "index",
+            "to_name": "document",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "index",
+            "to_name": "searchModule",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 60
+      }
+    ]
+  }
+}

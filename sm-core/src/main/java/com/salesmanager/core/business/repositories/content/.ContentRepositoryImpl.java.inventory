@@ -1,0 +1,81 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/repositories/content/ContentRepositoryImpl.java]": {
+    "00. file [sm-core/src/main/java/com/salesmanager/core/business/repositories/content/ContentRepositoryImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JPQL Query",
+            "elements": [
+              {
+                "name": "select c from Content",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "listNameByType",
+                "signature": "listNameByType(java.util.List.List\u003ccom.salesmanager.core.model.content.ContentType\u003e,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.content."
+              },
+              {
+                "name": "getBySeUrl",
+                "signature": "getBySeUrl(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return com.salesmanager.core.model.content.ContentDescription"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "em",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ContentRepositoryImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ContentRepositoryImpl",
+                "signature": "ContentRepositoryImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ContentRepositoryImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

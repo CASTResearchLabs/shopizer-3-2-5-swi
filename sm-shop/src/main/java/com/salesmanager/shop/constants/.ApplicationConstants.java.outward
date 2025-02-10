@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/constants/ApplicationConstants.java]": {
+    "00. file [sm-shop/src/main/java/com/salesmanager/shop/constants/ApplicationConstants.java] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Property Mapping",
+                "from_name": "SHOP_SCHEME",
+                "to_name": "SHOP_SCHEME",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Property Mapping",
+                "from_name": "POPULATE_TEST_DATA",
+                "to_name": "POPULATE_TEST_DATA",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Properties File",
+                "from_name": "ApplicationConstants",
+                "to_name": "shopizer-properties.properties",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "sm-shop/src/main/resources/shopizer-properties.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Property Mapping",
+                "from_name": "SHOP_SCHEME",
+                "to_name": "SHOP_SCHEME",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Property Mapping",
+                "from_name": "POPULATE_TEST_DATA",
+                "to_name": "POPULATE_TEST_DATA",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Properties File",
+                "from_name": "ApplicationConstants",
+                "to_name": "shopizer-properties.properties",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "sm-core/src/test/resources/shopizer-properties.properties"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

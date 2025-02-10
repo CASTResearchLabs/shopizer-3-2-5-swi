@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/inventory/ReadableInventory.java]": {
+    "00. dependencies between elements defined in file [sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/inventory/ReadableInventory.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPrice",
+            "to_name": "price",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSku",
+            "to_name": "sku",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCreationDate",
+            "to_name": "creationDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPrices",
+            "to_name": "prices",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStore",
+            "to_name": "store",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPrice",
+            "to_name": "price",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSku",
+            "to_name": "sku",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCreationDate",
+            "to_name": "creationDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPrices",
+            "to_name": "prices",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStore",
+            "to_name": "store",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

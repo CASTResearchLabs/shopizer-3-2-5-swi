@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/common/UserContext.java]": {
+    "00. dependencies between elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/common/UserContext.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setIpAddress",
+            "to_name": "ipAddress",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Constructor",
+            "from_name": "create",
+            "to_name": "UserContext",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getIpAddress",
+            "to_name": "ipAddress",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Class",
+            "from_name": "instance",
+            "to_name": "UserContext",
+            "calling_type": "USE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 4
+      }
+    ]
+  }
+}

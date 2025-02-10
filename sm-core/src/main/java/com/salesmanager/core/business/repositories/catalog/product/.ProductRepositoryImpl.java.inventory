@@ -1,0 +1,105 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/ProductRepositoryImpl.java]": {
+    "00. file [sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/ProductRepositoryImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 19,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getById",
+                "signature": "getById(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "listByTaxClass",
+                "signature": "listByTaxClass(com.salesmanager.core.model.tax.taxclass.TaxClass) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              },
+              {
+                "name": "listByStore",
+                "signature": "listByStore(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              },
+              {
+                "name": "getProductsListForLocale",
+                "signature": "getProductsListForLocale(com.salesmanager.core.model.merchant.MerchantStore,java.util.Set.Set\u003cE\u003e,com.salesmanager.core.model.reference.language.Language,java.util.Locale,int,int) return com.salesmanager.core.model.catalog.product.ProductList"
+              },
+              {
+                "name": "getProductsListByIds",
+                "signature": "getProductsListByIds(java.util.Set.Set\u003cjava.lang.Long\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 15,
+            "type": "JPQL Query",
+            "elements": [
+              {
+                "name": "select p from Product",
+                "signature": ""
+              },
+              {
+                "name": "select count(p) from Product",
+                "signature": ""
+              },
+              {
+                "name": "select distinct p from",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "em",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductRepositoryImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductRepositoryImpl",
+                "signature": "ProductRepositoryImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductRepositoryImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

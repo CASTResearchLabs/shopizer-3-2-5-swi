@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/category/CategoryFacadeImpl.java]": {
+    "00. dependencies between elements defined in file [sm-shop/src/main/java/com/salesmanager/shop/store/facade/category/CategoryFacadeImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "listByProduct$lambda$0",
+            "to_name": "listByProduct",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getOne$lambda$0",
+            "to_name": "getOne",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getCategoryById$lambda$0",
+            "to_name": "getCategoryById",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getById$lambda$0",
+            "to_name": "getById",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "saveCategory$lambda$0",
+            "to_name": "saveCategory",
+            "calling_type": "ACCESS"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getCategoryHierarchy$lambda$1",
+            "to_name": "getCategoryHierarchy",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getCategoryHierarchy$lambda$0",
+            "to_name": "getCategoryHierarchy",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "getOne",
+            "to_name": "getOne$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Method",
+            "from_name": "getOne",
+            "to_name": "ofNullable\u003cCategory\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "listByProduct",
+            "to_name": "listByProduct$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "listByProduct",
+            "to_name": "ArrayList\u003cReadableCategory\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setVisible",
+            "to_name": "getById",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "categoryProductVariants",
+            "to_name": "categoryProductVariants$lambda$1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "categoryProductVariants",
+            "to_name": "categoryProductVariants$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "categoryProductVariants",
+            "to_name": "ArrayList\u003cReadableProductVariantValue\u003e",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 50
+      }
+    ]
+  }
+}

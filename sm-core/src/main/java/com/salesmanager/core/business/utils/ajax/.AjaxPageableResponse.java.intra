@@ -1,0 +1,75 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/utils/ajax/AjaxPageableResponse.java]": {
+    "00. dependencies between elements defined in file [sm-core/src/main/java/com/salesmanager/core/business/utils/ajax/AjaxPageableResponse.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTotalRow",
+            "to_name": "totalRow",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTotalRow",
+            "to_name": "totalRow",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setEndRow",
+            "to_name": "endRow",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getEndRow",
+            "to_name": "endRow",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString",
+            "to_name": "getPageInfo",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPageInfo",
+            "to_name": "endRow",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPageInfo",
+            "to_name": "startRow",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStartRow",
+            "to_name": "startRow",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStartRow",
+            "to_name": "startRow",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 9
+      }
+    ]
+  }
+}

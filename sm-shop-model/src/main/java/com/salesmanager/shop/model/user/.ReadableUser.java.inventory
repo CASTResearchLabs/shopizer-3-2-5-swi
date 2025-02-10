@@ -1,0 +1,98 @@
+{
+  "main facts about source code file [sm-shop-model/src/main/java/com/salesmanager/shop/model/user/ReadableUser.java]": {
+    "00. file [sm-shop-model/src/main/java/com/salesmanager/shop/model/user/ReadableUser.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 14,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getUserName",
+                "signature": "getUserName() return java.lang.String"
+              },
+              {
+                "name": "setActive",
+                "signature": "setActive(boolean) return void"
+              },
+              {
+                "name": "isActive",
+                "signature": "isActive() return boolean"
+              },
+              {
+                "name": "setUserName",
+                "signature": "setUserName(java.lang.String) return void"
+              },
+              {
+                "name": "getPermissions",
+                "signature": "getPermissions() return java.util.List.List\u003ccom.salesmanager.shop.model.security.ReadablePermission\u003e"
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 8,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "groups",
+                "signature": ""
+              },
+              {
+                "name": "permissions",
+                "signature": ""
+              },
+              {
+                "name": "active",
+                "signature": ""
+              },
+              {
+                "name": "userName",
+                "signature": ""
+              },
+              {
+                "name": "merchant",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ReadableUser.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ReadableUser",
+                "signature": "ReadableUser()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ReadableUser",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

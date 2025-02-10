@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentAdministrationApi.java]": {
+    "00. dependencies between elements defined in file [sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentAdministrationApi.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "",
+            "to_type": "Java Class",
+            "from_name": "/api/v1",
+            "to_name": "ContentAdministrationApi",
+            "calling_type": "PROTOTYPE"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "list$lambda$0",
+            "to_name": "list",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "list$lambda$0",
+            "to_name": "convertToImageFile",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPath",
+            "to_name": "path",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPath",
+            "to_name": "path",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDir",
+            "to_name": "dir",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDir",
+            "to_name": "dir",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSize",
+            "to_name": "size",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSize",
+            "to_name": "size",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setName",
+            "to_name": "name",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getName",
+            "to_name": "name",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setUrl",
+            "to_name": "url",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getUrl",
+            "to_name": "url",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 60
+      }
+    ]
+  }
+}

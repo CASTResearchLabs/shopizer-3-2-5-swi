@@ -1,0 +1,52 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/services/customer/review/CustomerReviewService.java]": {
+    "00. file [sm-core/src/main/java/com/salesmanager/core/business/services/customer/review/CustomerReviewService.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 3,
+            "comment": "",
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getByReviewerAndReviewed",
+                "signature": "getByReviewerAndReviewed(java.lang.Long,java.lang.Long) return com.salesmanager.core.model.customer.review.CustomerReview"
+              },
+              {
+                "name": "getByReviewedCustomer",
+                "signature": "getByReviewedCustomer(com.salesmanager.core.model.customer.Customer) return java.util.List.List\u003ccom.salesmanager.core.model.customer.review.CustomerReview\u003e"
+              },
+              {
+                "name": "getByCustomer",
+                "signature": "getByCustomer(com.salesmanager.core.model.customer.Customer) return java.util.List.List\u003ccom.salesmanager.core.model.customer.review.CustomerReview\u003e"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "CustomerReviewService.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "CustomerReviewService",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

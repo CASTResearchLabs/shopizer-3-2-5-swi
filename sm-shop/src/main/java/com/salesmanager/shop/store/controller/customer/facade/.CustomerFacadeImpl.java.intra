@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [sm-shop/src/main/java/com/salesmanager/shop/store/controller/customer/facade/CustomerFacadeImpl.java]": {
+    "00. dependencies between elements defined in file [sm-shop/src/main/java/com/salesmanager/shop/store/controller/customer/facade/CustomerFacadeImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getCustomerById$lambda$0",
+            "to_name": "getCustomerById",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "convertCustomerListToReadableCustomerList$lambda$0",
+            "to_name": "convertCustomerToReadableCustomer",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "convertCustomerListToReadableCustomerList$lambda$0",
+            "to_name": "convertCustomerListToReadableCustomerList",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getByNick$lambda$0",
+            "to_name": "getByNick",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getCustomerReviewById$lambda$0",
+            "to_name": "getCustomerReviewById",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getAllCustomerReviewsByReviewed$lambda$0",
+            "to_name": "convertCustomerReviewToReadableCustomerReview",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getAllCustomerReviewsByReviewed$lambda$0",
+            "to_name": "getAllCustomerReviewsByReviewed",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getCustomerByNickAndStoreId$lambda$0",
+            "to_name": "getCustomerByNickAndStoreId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "deleteByNick",
+            "to_name": "getByNick",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "deleteByNick",
+            "to_name": "delete",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "update",
+            "to_name": "updateAuthCustomer",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "update",
+            "to_name": "getByUserName",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "updateAddress",
+            "to_name": "updateAddress",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "updateAddress",
+            "to_name": "getByUserName",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "deleteById",
+            "to_name": "getCustomerById",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 64
+      }
+    ]
+  }
+}

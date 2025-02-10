@@ -1,0 +1,44 @@
+{
+  "main facts about source code file [sm-core-model/src/main/java/com/salesmanager/core/model/content/Content.java]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [sm-core-model/src/main/java/com/salesmanager/core/model/content/Content.java]": [
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 5,
+        "entities_to_test": [
+          {
+            "name": "api/v1/private/store/{}/marketing/logo/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/logo/"
+          },
+          {
+            "name": "admin/files/downloads/{}/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/controller/FilesController.java//PORT/ANY/admin/files/downloads/{}/{}/"
+          },
+          {
+            "name": "static/files/{}/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/controller/FilesController.java//PORT/ANY/static/files/{}/{}/"
+          },
+          {
+            "name": "static/files/{}/{}/{}/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/controller/ImagesController.java//PORT/ANY/static/files/{}/{}/{}/"
+          },
+          {
+            "name": "api/v1/private/store/{}/marketing/logo/",
+            "full_name": "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/DELETE/api/v1/private/store/{}/marketing/logo/"
+          }
+        ],
+        "type_of_entity_to_test": "user transaction / API endpoint"
+      },
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 1,
+        "entities_to_test": [
+          {
+            "name": "CONTENT",
+            "full_name": "DEFAULT.CONTENT"
+          }
+        ],
+        "type_of_entity_to_test": "data entity"
+      }
+    ]
+  }
+}

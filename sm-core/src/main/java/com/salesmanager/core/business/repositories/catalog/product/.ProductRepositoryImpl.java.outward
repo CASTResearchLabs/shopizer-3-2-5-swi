@@ -1,0 +1,537 @@
+{
+  "main facts about source code file [sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/ProductRepositoryImpl.java]": {
+    "00. file [sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/ProductRepositoryImpl.java] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select p from Product",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select count(p) from Product",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct p from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "getById",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByTaxClass",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 40,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/Product.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select p from Product",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct p from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getById",
+                "to_name": "getId",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "getById",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByTaxClass",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 36,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/merchant/MerchantStore.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select p from Product",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct p from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "getById",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByTaxClass",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 26,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/manufacturer/Manufacturer.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select p from Product",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct p from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "getById",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByTaxClass",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 24,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOptionValue.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select p from Product",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct p from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "getById",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByTaxClass",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 24,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOption.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select p from Product",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct p from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByTaxClass",
+                "to_name": "getId",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByTaxClass",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 19,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/tax/taxclass/TaxClass.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getCategoryIds",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getOrigin",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getOptionValueIds",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getOwnerId",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getManufacturerId",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 12,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/ProductCriteria.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getProductsListForLocale",
+                "to_name": "getId",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getProductsListByCategories",
+                "to_name": "getId",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getProductForLocale",
+                "to_name": "getId",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getByCode",
+                "to_name": "getId",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getCode",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 6,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/reference/language/Language.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getProductsListForLocale",
+                "to_name": "setProducts",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "getProductsListForLocale",
+                "to_name": "ProductList",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "setProducts",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByStore",
+                "to_name": "ProductList",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getProductsForLocale",
+                "to_name": "getProducts",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 6,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/ProductList.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getProductsListForLocale",
+                "to_name": "setTotalCount",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "setTotalCount",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductRepositoryImpl",
+                "to_name": "EntityList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/common/EntityList.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getAttributeValue",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getAttributeCode",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductRepositoryImpl",
+                "to_name": "AttributeCriteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/AttributeCriteria.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getLanguage",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "getCode",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductRepositoryImpl",
+                "to_name": "Criteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/common/Criteria.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "getProductsListForLocale",
+                "to_name": "ALL_REGIONS",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductRepositoryImpl",
+                "to_name": "Constants",
+                "calling_type": "READ"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "sm-core/src/main/java/com/salesmanager/core/business/constants/Constants.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore",
+                "to_name": "paginateQuery",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ProductRepositoryImpl",
+                "to_name": "RepositoryHelper",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "sm-core/src/main/java/com/salesmanager/core/business/utils/RepositoryHelper.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByStore",
+                "to_name": "GenericEntityList",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Class",
+                "from_name": "ProductRepositoryImpl",
+                "to_name": "GenericEntityList\u003cT\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "sm-core-model/src/main/java/com/salesmanager/core/model/common/GenericEntityList.java"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 15
+      }
+    ]
+  }
+}
