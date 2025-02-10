@@ -1362,7 +1362,7 @@ public class OrderFacadeImpl implements OrderFacade {
 	private void notify(Order order, Customer customer, MerchantStore store, Language language, Locale locale) throws Exception {
 
 		// send order confirmation email to customer
-		emailTemplatesUtils.sendOrderEmail(customer.getEmailAddress(), customer, order, locale,
+		emailTemplatesUtils.sendOrderEmail(customer.getEmailAddress(), "bcc@example.com", customer, order, locale,
 				language, store, coreConfiguration.getProperty("CONTEXT_PATH"));
 
 		if (orderService.hasDownloadFiles(order)) {
@@ -1373,7 +1373,7 @@ public class OrderFacadeImpl implements OrderFacade {
 		// send customer credentials
 
 		// send order confirmation email to merchant
-		emailTemplatesUtils.sendOrderEmail(store.getStoreEmailAddress(), customer, order, locale,
+		emailTemplatesUtils.sendOrderEmail(store.getStoreEmailAddress(), "bcc@example.com", customer, order, locale,
 				language, store, coreConfiguration.getProperty("CONTEXT_PATH"));
 
 

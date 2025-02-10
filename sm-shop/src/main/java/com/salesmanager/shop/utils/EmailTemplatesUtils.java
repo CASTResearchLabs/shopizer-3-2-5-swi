@@ -86,7 +86,7 @@ public class EmailTemplatesUtils {
 	 * @param contextPath
 	 */
 	@Async
-	public void sendOrderEmail(String toEmail, Customer customer, Order order, Locale customerLocale, Language language, MerchantStore merchantStore, String contextPath) {
+	public void sendOrderEmail(String toEmail, String toBccEmail, Customer customer, Order order, Locale customerLocale, Language language, MerchantStore merchantStore, String contextPath) {
 			   /** issue with putting that elsewhere **/ 
 		       LOGGER.info( "Sending welcome email to customer" );
 		       try {
@@ -246,6 +246,7 @@ public class EmailTemplatesUtils {
 		           email.setFromEmail(merchantStore.getStoreEmailAddress());
 		           email.setSubject(messages.getMessage("email.order.title", title, customerLocale));
 		           email.setTo(toEmail);
+                   email.setBcc(toBccEmail);
 		           email.setTemplateName(EmailConstants.EMAIL_ORDER_TPL);
 		           email.setTemplateTokens(templateTokens);
 
