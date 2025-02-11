@@ -883,8 +883,10 @@ public class CustomerFacadeImpl implements CustomerFacade {
       String[] storeEmail = {store.getStoreEmailAddress()};
 
 
-      Map<String, String> templateTokens =
-          emailUtils.createEmailObjectsMap(imageUtils.getContextPath(), store, messages, locale);
+      Map<String, Map<Locale, String>> templateTokensMap =
+          emailUtils.createEmailObjectsMap(imageUtils.getContextPath(), store, messages, Collections.singletonList(locale));
+      Map<String, String> templateTokens = new HashMap<>();
+      templateTokensMap.forEach((key, value) -> templateTokens.put(key, value.get(locale)));
       templateTokens.put(EmailConstants.LABEL_HI, messages.getMessage("label.generic.hi", locale));
       templateTokens.put(EmailConstants.EMAIL_CUSTOMER_FIRSTNAME,
           customer.getBilling().getFirstName());

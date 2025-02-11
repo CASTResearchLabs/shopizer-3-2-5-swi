@@ -202,7 +202,9 @@ public class EmailTemplatesUtils {
 		    	   }
 		    	   orderTable.append(CLOSING_TABLE);
 
-		           Map<String, String> templateTokens = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, customerLocale);
+		           Map<String, Map<Locale, String>> templateTokensMap = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, Collections.singletonList(customerLocale));
+           Map<String, String> templateTokens = new HashMap<>();
+           templateTokensMap.forEach((key, value) -> templateTokens.put(key, value.get(customerLocale)));
 		           templateTokens.put(EmailConstants.LABEL_HI, messages.getMessage("label.generic.hi", customerLocale));
 		           templateTokens.put(EmailConstants.EMAIL_CUSTOMER_FIRSTNAME, order.getBilling().getFirstName());
 		           templateTokens.put(EmailConstants.EMAIL_CUSTOMER_LASTNAME, order.getBilling().getLastName());
@@ -273,7 +275,9 @@ public class EmailTemplatesUtils {
 	       LOGGER.info( "Sending welcome email to customer" );
 	       try {
 
-	           Map<String, String> templateTokens = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, customerLocale);
+	           Map<String, Map<Locale, String>> templateTokensMap = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, Collections.singletonList(customerLocale));
+           Map<String, String> templateTokens = new HashMap<>();
+           templateTokensMap.forEach((key, value) -> templateTokens.put(key, value.get(customerLocale)));
 	           templateTokens.put(EmailConstants.LABEL_HI, messages.getMessage("label.generic.hi", customerLocale));
 	           templateTokens.put(EmailConstants.EMAIL_CUSTOMER_FIRSTNAME, customer.getBilling().getFirstName());
 	           templateTokens.put(EmailConstants.EMAIL_CUSTOMER_LASTNAME, customer.getBilling().getLastName());
@@ -365,7 +369,9 @@ public class EmailTemplatesUtils {
 	       try {
 
 
-				Map<String, String> templateTokens = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, customerLocale);
+				Map<String, Map<Locale, String>> templateTokensMap = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, Collections.singletonList(customerLocale));
+           Map<String, String> templateTokens = new HashMap<>();
+           templateTokensMap.forEach((key, value) -> templateTokens.put(key, value.get(customerLocale)));
 				
 		        templateTokens.put(EmailConstants.LABEL_HI, messages.getMessage("label.generic.hi", customerLocale));
 		        templateTokens.put(EmailConstants.EMAIL_CUSTOMER_FIRSTNAME, customer.getBilling().getFirstName());
@@ -419,7 +425,9 @@ public class EmailTemplatesUtils {
 	       LOGGER.info( "Sending download email to customer" );
 	       try {
 
-	           Map<String, String> templateTokens = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, customerLocale);
+	           Map<String, Map<Locale, String>> templateTokensMap = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, Collections.singletonList(customerLocale));
+           Map<String, String> templateTokens = new HashMap<>();
+           templateTokensMap.forEach((key, value) -> templateTokens.put(key, value.get(customerLocale)));
 	           templateTokens.put(EmailConstants.LABEL_HI, messages.getMessage("label.generic.hi", customerLocale));
 	           templateTokens.put(EmailConstants.EMAIL_CUSTOMER_FIRSTNAME, customer.getBilling().getFirstName());
 	           templateTokens.put(EmailConstants.EMAIL_CUSTOMER_LASTNAME, customer.getBilling().getLastName());
@@ -466,7 +474,9 @@ public class EmailTemplatesUtils {
 	       try {
 
 
-				Map<String, String> templateTokens = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, customerLocale);
+				Map<String, Map<Locale, String>> templateTokensMap = emailUtils.createEmailObjectsMap(contextPath, merchantStore, messages, Collections.singletonList(customerLocale));
+           Map<String, String> templateTokens = new HashMap<>();
+           templateTokensMap.forEach((key, value) -> templateTokens.put(key, value.get(customerLocale)));
 				
 		        templateTokens.put(EmailConstants.LABEL_HI, messages.getMessage("label.generic.hi", customerLocale));
 		        templateTokens.put(EmailConstants.EMAIL_CUSTOMER_FIRSTNAME, customer.getBilling().getFirstName());
