@@ -317,7 +317,7 @@ public class OrderFacadeImpl implements OrderFacade {
 	 * Submitted object must be valided prior to the invocation of this method
 	 */
 	@Override
-	public Order processOrder(ShopOrder order, Customer customer, MerchantStore store, Language language)
+	public Order processOrder(ShopOrder order, Customer customer, List<Shipment> shipments, MerchantStore store, Language language)
 			throws ServiceException {
 
 		return processOrderModel(order, customer, null, store, language);
@@ -325,7 +325,7 @@ public class OrderFacadeImpl implements OrderFacade {
 	}
 
 	@Override
-	public Order processOrder(ShopOrder order, Customer customer, Transaction transaction, MerchantStore store,
+	public Order processOrder(ShopOrder order, Customer customer, List<Shipment> shipments, Transaction transaction, MerchantStore store,
 			Language language) throws ServiceException {
 
 		return processOrderModel(order, customer, transaction, store, language);
@@ -548,9 +548,9 @@ public class OrderFacadeImpl implements OrderFacade {
 			payment.setModuleName(order.getPaymentModule());
 
 			if (transaction != null) {
-				orderService.processOrder(modelOrder, customer, order.getShoppingCartItems(), summary, payment, store);
+				orderService.processOrder(modelOrder, customer, order.getShoppingCartItems(), summary, shipments, payment, store);
 			} else {
-				orderService.processOrder(modelOrder, customer, order.getShoppingCartItems(), summary, payment,
+				orderService.processOrder(modelOrder, customer, order.getShoppingCartItems(), summary, shipments, payment,
 						transaction, store);
 			}
 

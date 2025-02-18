@@ -27,7 +27,7 @@ public interface OrderProcessingService {
      * @return The processed order.
      * @throws ServiceException If an error occurs during processing.
      */
-    Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary,
+    Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary, List<Shipment> shipments,
             Payment payment, MerchantStore store) throws ServiceException;
 
     /**
@@ -43,7 +43,7 @@ public interface OrderProcessingService {
      * @return The processed order.
      * @throws ServiceException If an error occurs during processing.
      */
-    Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary,
+    Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary, List<Shipment> shipments,
             Payment payment, Transaction transaction, MerchantStore store) throws ServiceException;
 
         /**

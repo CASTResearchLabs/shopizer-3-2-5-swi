@@ -114,13 +114,13 @@ public class OrderServiceImpl  extends SalesManagerEntityServiceImpl<Long, Order
     }
 
     @Override
-    public Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary, Payment payment, MerchantStore store) throws ServiceException {
+    public Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary, List<Shipment> shipments, Payment payment, MerchantStore store) throws ServiceException {
 
     	return process(order, customer, items, summary, payment, null, store);
     }
 
     @Override
-    public Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary, Payment payment, Transaction transaction, MerchantStore store) throws ServiceException {
+    public Order processOrder(Order order, Customer customer, List<ShoppingCartItem> items, OrderTotalSummary summary, List<Shipment> shipments, Payment payment, Transaction transaction, MerchantStore store) throws ServiceException {
     	return process(order, customer, items, summary, payment, transaction, store);
     }
 
