@@ -60,6 +60,13 @@ public class OrderFacadeImpl implements OrderFacade {
 		Validate.notNull(store, "MerchantStore cannot be null");
 		
 		ReadableOrderConfirmation orderConfirmation = new ReadableOrderConfirmation();
+
+        // Handle multi-package shipments
+        List<Shipment> shipments = order.getShipments();
+        for (Shipment shipment : shipments) {
+            // Set shipment-specific details
+            orderConfirmation.addShipmentDetail(shipment.getDeliveryDate(), shipment.getTrackingNumber());
+        }
 		
 		ReadableCustomer readableCustomer = readableCustomerMapper.convert(customer, store, language);
 		orderConfirmation.setBilling(readableCustomer.getBilling());
