@@ -60,6 +60,7 @@ public class ShippingQuoteServiceImpl extends SalesManagerEntityServiceImpl<Long
 			quote.setShippingOption(q.getOptionName());
 			quote.setShippingOptionCode(q.getOptionCode());
 			quote.setHandling(q.getHandling());
+            quote.setShip_ASAP(false); // Default value, update logic as needed
 			
 			if(shippingService.hasTaxOnShipping(store)) {
 				quote.setTaxOnShipping(true);
