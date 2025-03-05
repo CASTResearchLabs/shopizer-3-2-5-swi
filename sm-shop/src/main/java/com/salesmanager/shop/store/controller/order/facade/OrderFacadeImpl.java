@@ -691,6 +691,7 @@ public class OrderFacadeImpl implements OrderFacade {
 			summary.setHandling(quote.getHandlingFees());
 			summary.setShipping(quote.getSelectedShippingOption().getOptionPrice());
 			summary.setShippingOption(quote.getSelectedShippingOption().getOptionName());
+            summary.setShip_ASAP(true);
 			summary.setShippingModule(quote.getShippingModuleCode());
 			summary.setShippingOptionCode(quote.getSelectedShippingOption().getOptionCode());
 
