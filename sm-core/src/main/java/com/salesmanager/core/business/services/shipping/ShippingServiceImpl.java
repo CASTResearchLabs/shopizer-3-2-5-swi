@@ -366,6 +366,7 @@ public class ShippingServiceImpl implements ShippingService {
 		shippingSummary.setShipping(selectedShippingOption.getOptionPrice());
 		shippingSummary.setShippingModule(shippingQuote.getShippingModuleCode());
 		shippingSummary.setShippingOption(selectedShippingOption.getDescription());
+        shippingSummary.setShip_ASAP(shippingQuote.isShipASAP());
 		
 		return shippingSummary;
 	}
