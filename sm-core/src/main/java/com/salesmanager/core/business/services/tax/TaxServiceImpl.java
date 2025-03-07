@@ -209,6 +209,7 @@ public class TaxServiceImpl
 					amnt.setScale(2, RoundingMode.HALF_UP);
 				}
 				ShippingSummary shippingSummary = orderSummary.getShippingSummary();
+        // Consider ship_ASAP logic here if it affects tax calculation
 				if(shippingSummary!=null && shippingSummary.getShipping()!=null && shippingSummary.getShipping().doubleValue()>0) {
 					amnt = amnt.add(shippingSummary.getShipping());
 					if(shippingSummary.getHandling()!=null && shippingSummary.getHandling().doubleValue()>0) {

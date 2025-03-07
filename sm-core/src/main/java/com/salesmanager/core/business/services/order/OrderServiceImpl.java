@@ -315,6 +315,7 @@ public class OrderServiceImpl  extends SalesManagerEntityServiceImpl<Long, Order
 
         //shipping
         if(summary.getShippingSummary()!=null) {
+            // Consider ship_ASAP logic here if it affects order processing
 
 
 	            OrderTotal shippingSubTotal = new OrderTotal();
