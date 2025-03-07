@@ -35,6 +35,7 @@ public class ReadableShippingSummaryPopulator extends
 			target.setTaxOnShipping(source.isTaxOnShipping());
 			target.setHandlingText(pricingService.getDisplayAmount(source.getHandling(), store));
 			target.setShippingText(pricingService.getDisplayAmount(source.getShipping(), store));
+target.setShipASAP(source.isShip_ASAP());
 			
 			if(source.getDeliveryAddress()!=null) {
 			
