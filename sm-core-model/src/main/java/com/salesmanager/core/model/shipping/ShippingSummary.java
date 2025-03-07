@@ -24,6 +24,7 @@ public class ShippingSummary implements Serializable {
 	private boolean freeShipping;
 	private boolean taxOnShipping;
 	private boolean shippingQuote;
+    private boolean ship_ASAP;
 	
 	private Delivery deliveryAddress;
 	
@@ -81,6 +82,13 @@ public class ShippingSummary implements Serializable {
 	}
 	public void setShippingQuote(boolean shippingQuote) {
 		this.shippingQuote = shippingQuote;
+    public boolean isShip_ASAP() {
+        return ship_ASAP;
+    }
+
+    public void setShip_ASAP(boolean ship_ASAP) {
+        this.ship_ASAP = ship_ASAP;
+    }
 	}
 
 }
