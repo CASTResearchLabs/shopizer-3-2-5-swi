@@ -115,7 +115,9 @@ public class BeanStreamPayment implements PaymentModule {
 
 				return sendTransaction(null, store, messageString.toString(), "PAC", TransactionType.CAPTURE, PaymentType.CREDITCARD, order.getTotal(), configuration, module);
 				
-			} catch(Exception e) {
+			} catch(InvalidCardNumberException e) {
+            throw new IntegrationException("Invalid card number provided", e);
+        } catch(Exception e) {
 				
 				if(e instanceof IntegrationException)
 					throw (IntegrationException)e;
@@ -214,7 +216,9 @@ public class BeanStreamPayment implements PaymentModule {
 
 			return sendTransaction(null, store, messageString.toString(), "R", TransactionType.REFUND, PaymentType.CREDITCARD, amount, configuration, module);
 			
-		} catch(Exception e) {
+		} catch(InvalidCardNumberException e) {
+            throw new IntegrationException("Invalid card number provided", e);
+        } catch(Exception e) {
 			
 			if(e instanceof IntegrationException)
 				throw (IntegrationException)e;
@@ -410,7 +414,9 @@ public class BeanStreamPayment implements PaymentModule {
 			return this.parseResponse(transactionType, paymentType, nvp, amount);
 			
 			
-		} catch(Exception e) {
+		} catch(InvalidCardNumberException e) {
+            throw new IntegrationException("Invalid card number provided", e);
+        } catch(Exception e) {
 			if(e instanceof IntegrationException) {
 				throw (IntegrationException)e;
 			}
@@ -627,7 +633,9 @@ public class BeanStreamPayment implements PaymentModule {
 
 			return sendTransaction(orderNumber, store, messageString.toString(), transactionType, type, payment.getPaymentType(), amount, configuration, module);
 			
-		} catch(Exception e) {
+		} catch(InvalidCardNumberException e) {
+            throw new IntegrationException("Invalid card number provided", e);
+        } catch(Exception e) {
 			
 			if(e instanceof IntegrationException)
 				throw (IntegrationException)e;

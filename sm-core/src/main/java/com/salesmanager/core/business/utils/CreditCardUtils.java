@@ -8,10 +8,10 @@ public class CreditCardUtils {
 	public static final int AMEX = 2, DISCOVER = 3, DINERS = 4;
 
 	public static String maskCardNumber(String clearcardnumber)
-			throws Exception {
+			throws InvalidCardNumberException {
 
 		if (clearcardnumber.length() < 10) {
-			throw new Exception("Invalid number of digits");
+			throw new InvalidCardNumberException("Invalid number of digits");
 		}
 
 		int length = clearcardnumber.length();
