@@ -627,7 +627,10 @@ public class BeanStreamPayment implements PaymentModule {
 
 			return sendTransaction(orderNumber, store, messageString.toString(), transactionType, type, payment.getPaymentType(), amount, configuration, module);
 			
-		} catch(Exception e) {
+		} catch(InvalidCardNumberException e) {
+            LOGGER.error("Invalid card number: " + e.getMessage());
+            throw new IntegrationException("Invalid card number", e);
+        } catch(Exception e) {
 			
 			if(e instanceof IntegrationException)
 				throw (IntegrationException)e;

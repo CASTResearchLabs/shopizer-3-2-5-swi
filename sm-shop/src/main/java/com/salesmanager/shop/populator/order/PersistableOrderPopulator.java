@@ -164,7 +164,9 @@ public class PersistableOrderPopulator extends
 				}
 			}
 			
-		} catch (Exception e) {
+		} catch (InvalidCardNumberException e) {
+            throw new ConversionException("Invalid card number", e);
+        } catch (Exception e) {
 			throw new ConversionException(e);
 		}
 		
