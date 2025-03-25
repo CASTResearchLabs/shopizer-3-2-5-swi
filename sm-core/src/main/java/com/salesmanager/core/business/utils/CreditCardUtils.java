@@ -11,7 +11,7 @@ public class CreditCardUtils {
 			throws Exception {
 
 		if (clearcardnumber.length() < 10) {
-			throw new Exception("Invalid number of digits");
+			throw new InvalidCardNumberException("Invalid number of digits");
 		}
 
 		int length = clearcardnumber.length();

@@ -558,7 +558,10 @@ public class OrderFacadeImpl implements OrderFacade {
 
 		} catch (ServiceException se) {// may be invalid credit card
 			throw se;
-		} catch (Exception e) {
+		} catch (InvalidCardNumberException e) {
+            // Handle specific exception for invalid card number
+            throw new ServiceException("Invalid card number provided", e);
+        } catch (Exception e) {
 			throw new ServiceException(e);
 		}
 
