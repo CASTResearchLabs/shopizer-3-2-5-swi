@@ -291,7 +291,7 @@ public class ProductPriceUtils {
 	 * @throws Exception
 	 */
 	// Utility
-	public String getStoreFormatedAmountWithCurrency(MerchantStore store, BigDecimal amount) throws Exception {
+	public static String getStoreFormatedAmountWithCurrency(MerchantStore store, BigDecimal amount) throws Exception {
 		if (amount == null) {
 			return "";
 		}
@@ -303,6 +303,7 @@ public class ProductPriceUtils {
 			currency = store.getCurrency().getCurrency();
 			locale = new Locale(store.getDefaultLanguage().getCode(), store.getCountry().getIsoCode());
 		} catch (Exception e) {
+            throw new ServiceException("Error creating currency or locale instance for store " + store.getCode(), e);
 			LOGGER.error("Cannot create currency or locale instance for store " + store.getCode());
 		}
 
@@ -443,6 +444,7 @@ public class ProductPriceUtils {
 		try {
 			Integer.parseInt(newAmount.toString());
 		} catch (Exception e) {
+            throw new ServiceException("Error creating currency or locale instance for store " + store.getCode(), e);
 			throw new Exception("Cannot parse " + amount);
 		}
 
