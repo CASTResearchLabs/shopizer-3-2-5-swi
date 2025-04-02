@@ -684,6 +684,7 @@ public class OrderFacadeImpl implements OrderFacade {
 	public ShippingSummary getShippingSummary(ShippingQuote quote, MerchantStore store, Language language) {
 
 		ShippingSummary summary = new ShippingSummary();
+        summary.setShip_ASAP(false); // Default value, update as needed based on conditions
 		if (quote.getSelectedShippingOption() != null) {
 			summary.setShippingQuote(true);
 			summary.setFreeShipping(quote.isFreeShipping());
