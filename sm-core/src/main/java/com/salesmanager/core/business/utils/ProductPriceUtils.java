@@ -251,7 +251,7 @@ public class ProductPriceUtils {
 	 * @throws Exception
 	 */
 	@Deprecated
-	public String getAdminFormatedAmount(MerchantStore store, BigDecimal amount) throws Exception {
+	public static String getAdminFormatedAmount(MerchantStore store, BigDecimal amount) throws Exception {
 
 		if (amount == null) {
 			return "";
