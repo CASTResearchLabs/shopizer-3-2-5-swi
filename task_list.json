@@ -1,0 +1,53 @@
+{
+  "todo": [
+    {
+      "task_id": 1,
+      "nature": "coding",
+      "title": "Add ship_ASAP Field to ShippingSummary",
+      "description": "Add a new boolean field ship_ASAP to the ShippingSummary class with getter and setter methods.",
+      "dependencies": [],
+      "estimated_hours": 1,
+      "affected_files": ["sm-core-model/src/main/java/com/salesmanager/core/model/shipping/ShippingSummary.java"]
+    },
+    {
+      "task_id": 2,
+      "nature": "coding",
+      "title": "Update Direct Callers for ship_ASAP",
+      "description": "Update OrderFacadeImpl.java, ReadableShippingSummaryPopulator.java, ShippingQuoteServiceImpl.java, ShippingServiceImpl.java, OrderServiceImpl.java, and TaxServiceImpl.java to handle the new ship_ASAP field.",
+      "dependencies": [1],
+      "estimated_hours": 3,
+      "affected_files": [
+        "sm-shop/src/main/java/com/salesmanager/shop/store/controller/order/facade/OrderFacadeImpl.java",
+        "sm-shop/src/main/java/com/salesmanager/shop/populator/order/ReadableShippingSummaryPopulator.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingQuoteServiceImpl.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingServiceImpl.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/order/OrderServiceImpl.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/tax/TaxServiceImpl.java"
+      ]
+    },
+    {
+      "task_id": 3,
+      "nature": "coding",
+      "title": "Update API Endpoints for ship_ASAP",
+      "description": "Ensure that the API endpoints handle the ship_ASAP field correctly.",
+      "dependencies": [2],
+      "estimated_hours": 2,
+      "affected_files": [
+        "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java",
+        "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java",
+        "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java"
+      ]
+    },
+    {
+      "task_id": 4,
+      "nature": "testing",
+      "title": "Test ship_ASAP Functionality",
+      "description": "Conduct thorough testing of the updated components and API endpoints to ensure the new functionality works as expected.",
+      "dependencies": [3],
+      "estimated_hours": 3,
+      "affected_files": []
+    }
+  ],
+  "done": []
+}
+
