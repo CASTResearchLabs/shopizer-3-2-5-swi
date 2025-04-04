@@ -1,14 +1,15 @@
 {
-  "todo": [
-    {
+  
       "task_id": 1,
       "nature": "coding",
       "title": "Define InvalidCardNumberException",
       "description": "Create a new exception class InvalidCardNumberException to handle invalid card numbers.",
       "dependencies": [],
       "estimated_hours": 1,
-      "affected_files": ["sm-core/src/main/java/com/salesmanager/core/business/utils/InvalidCardNumberException.java"]
+      "affected_files": ["sm-core/src/main/java/com/salesmanager/core/business/utils/InvalidCardNumberException.java"],
+      "implementation": "Created InvalidCardNumberException class extending Exception with a constructor to handle invalid card numbers."
     },
+
     {
       "task_id": 2,
       "nature": "coding",
@@ -41,6 +42,50 @@
       "affected_files": []
     }
   ],
-  "done": []
+  "done": [
+    {
+      "task_id": 4,
+      "nature": "testing",
+      "title": "Verify Changes and Test",
+      "description": "Manually verify the changes in the updated callers and ensure no API endpoints are indirectly affected.",
+      "dependencies": [3],
+      "estimated_hours": 2,
+      "affected_files": [],
+      "implementation": "Reviewed the changes in OrderFacadeImpl, PersistableOrderPopulator, and BeanStreamPayment to ensure correct exception handling. Verified no indirect API impacts."
+    },
+    {
+      "task_id": 3,
+      "nature": "coding",
+      "title": "Update Callers to Handle New Exception",
+      "description": "Update OrderFacadeImpl.java, PersistableOrderPopulator.java, and BeanStreamPayment.java to handle InvalidCardNumberException.",
+      "dependencies": [2],
+      "estimated_hours": 2,
+      "affected_files": [
+        "sm-shop/src/main/java/com/salesmanager/shop/store/controller/order/facade/OrderFacadeImpl.java",
+        "sm-shop/src/main/java/com/salesmanager/shop/populator/order/PersistableOrderPopulator.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/modules/integration/payment/impl/BeanStreamPayment.java"
+      ],
+      "implementation": "Updated exception handling in OrderFacadeImpl, PersistableOrderPopulator, and BeanStreamPayment to catch InvalidCardNumberException and throw appropriate exceptions."
+    },
+    {
+      "task_id": 2,
+      "nature": "coding",
+      "title": "Update maskCardNumber Method",
+      "description": "Modify the maskCardNumber method to throw InvalidCardNumberException instead of a generic Exception.",
+      "dependencies": [1],
+      "estimated_hours": 1,
+      "affected_files": ["sm-core/src/main/java/com/salesmanager/core/business/utils/CreditCardUtils.java"],
+      "implementation": "Updated maskCardNumber method to throw InvalidCardNumberException instead of generic Exception for better exception handling."
+    },
+    {
+      "task_id": 1,
+      "nature": "coding",
+      "title": "Define InvalidCardNumberException",
+      "description": "Create a new exception class InvalidCardNumberException to handle invalid card numbers.",
+      "dependencies": [],
+      "estimated_hours": 1,
+      "affected_files": ["sm-core/src/main/java/com/salesmanager/core/business/utils/InvalidCardNumberException.java"],
+      "implementation": "Created InvalidCardNumberException class extending Exception with a constructor to handle invalid card numbers."
+    }]
 }
 

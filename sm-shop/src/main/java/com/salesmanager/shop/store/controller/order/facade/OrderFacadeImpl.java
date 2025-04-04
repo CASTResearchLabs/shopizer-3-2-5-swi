@@ -518,6 +518,7 @@ public class OrderFacadeImpl implements OrderFacade {
 					// hash credit card number
 					if (!StringUtils.isBlank(cc.getCcNumber())) {
 						String maskedNumber = CreditCardUtils
+import com.salesmanager.core.business.utils.InvalidCardNumberException;
 								.maskCardNumber(order.getPayment().get("creditcard_card_number"));
 						cc.setCcNumber(maskedNumber);
 						modelOrder.setCreditCard(cc);
@@ -558,7 +559,8 @@ public class OrderFacadeImpl implements OrderFacade {
 
 		} catch (ServiceException se) {// may be invalid credit card
 			throw se;
-		} catch (Exception e) {
+		} catch (InvalidCardNumberException e) {
+            throw new ServiceException("Invalid card number: " + e.getMessage(), e);
 			throw new ServiceException(e);
 		}
 
@@ -965,7 +967,8 @@ public class OrderFacadeImpl implements OrderFacade {
 
 			return returnList;
 
-		} catch (Exception e) {
+		} catch (InvalidCardNumberException e) {
+            throw new ServiceException("Invalid card number: " + e.getMessage(), e);
 			throw new ServiceRuntimeException("Error while getting orders", e);
 		}
 
@@ -1141,7 +1144,8 @@ public class OrderFacadeImpl implements OrderFacade {
 			}
 
 			readableOrder.setProducts(orderProducts);
-		} catch (Exception e) {
+		} catch (InvalidCardNumberException e) {
+            throw new ServiceException("Invalid card number: " + e.getMessage(), e);
 			throw new ServiceRuntimeException("Error while getting order [" + orderId + "]");
 		}
 
@@ -1331,7 +1335,8 @@ public class OrderFacadeImpl implements OrderFacade {
 			try {
 				cart.setOrderId(modelOrder.getId());
 				shoppingCartFacade.saveOrUpdateShoppingCart(cart);
-			} catch (Exception e) {
+			} catch (InvalidCardNumberException e) {
+            throw new ServiceException("Invalid card number: " + e.getMessage(), e);
 				LOGGER.error("Cannot delete cart " + cart.getId(), e);
 			}
 
@@ -1343,14 +1348,16 @@ public class OrderFacadeImpl implements OrderFacade {
 					notify(modelOrder, customer, store, language, locale);
 
 
-				} catch (Exception e) {
+				} catch (InvalidCardNumberException e) {
+            throw new ServiceException("Invalid card number: " + e.getMessage(), e);
 					LOGGER.error("Cannot send order confirmation email", e);
 				}
 			}
 
 			return modelOrder;
 
-		} catch (Exception e) {
+		} catch (InvalidCardNumberException e) {
+            throw new ServiceException("Invalid card number: " + e.getMessage(), e);
 
 			throw new ServiceException(e);
 
@@ -1477,7 +1484,8 @@ public class OrderFacadeImpl implements OrderFacade {
 
 			orderService.addOrderStatusHistory(order, history);
 
-		} catch (Exception e) {
+		} catch (InvalidCardNumberException e) {
+            throw new ServiceException("Invalid card number: " + e.getMessage(), e);
 			throw new ServiceRuntimeException("An error occured while converting orderstatushistory", e);
 		}
 
