@@ -1,0 +1,44 @@
+{
+  "todo": [
+    {
+      "task_id": 1,
+      "nature": "coding",
+      "title": "Replace Deprecated Method Calls",
+      "description": "Replace all calls to getAdminFormatedAmount with getStoreFormatedAmountWithCurrency in the affected files.",
+      "dependencies": [],
+      "estimated_hours": 4,
+      "affected_files": [
+        "sm-core/src/main/java/com/salesmanager/core/business/services/pricing/PricingServiceImpl.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/payment/StripePayment.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/payment/Stripe3Payment.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/payment/BeanStreamPayment.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/shipping/StorePickupShippingQuote.java",
+        "sm-core/src/main/java/com/salesmanager/core/business/services/shipping/USPSShippingQuote.java"
+      ]
+    },
+    {
+      "task_id": 2,
+      "nature": "coding",
+      "title": "Make Method Static",
+      "description": "Convert getAdminFormatedAmount to a static method.",
+      "dependencies": [1],
+      "estimated_hours": 1,
+      "affected_files": [
+        "sm-core/src/main/java/com/salesmanager/core/business/utils/ProductPriceUtils.java"
+      ]
+    },
+    {
+      "task_id": 3,
+      "nature": "testing",
+      "title": "Test Affected API Endpoints",
+      "description": "Test the API endpoints to ensure they function correctly after the changes.",
+      "dependencies": [1, 2],
+      "estimated_hours": 3,
+      "affected_files": [
+        "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java"
+      ]
+    }
+  ],
+  "done": []
+}
+
