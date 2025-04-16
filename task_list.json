@@ -1,0 +1,50 @@
+[
+  {
+    "id_status": "CD001-todo",
+    "nature": "coding",
+    "title": "Add ship_ASAP Field to ShippingSummary",
+    "description": "Introduce a new boolean field 'ship_ASAP' in the ShippingSummary class to indicate whether products should be shipped as soon as they are available.",
+    "dependencies": [],
+    "estimated_hours": 2,
+    "affected_files": ["sm-core-model/src/main/java/com/salesmanager/core/model/shipping/ShippingSummary.java"]
+  },
+  {
+    "id_status": "CD002-todo",
+    "nature": "coding",
+    "title": "Update Direct Callers of ShippingSummary",
+    "description": "Review and update the direct callers of the ShippingSummary class to ensure they handle the new 'ship_ASAP' field appropriately.",
+    "dependencies": ["CD001-todo"],
+    "estimated_hours": 4,
+    "affected_files": [
+      "sm-shop/src/main/java/com/salesmanager/shop/store/controller/order/facade/OrderFacadeImpl.java",
+      "sm-shop/src/main/java/com/salesmanager/shop/populator/order/ReadableShippingSummaryPopulator.java",
+      "sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingQuoteServiceImpl.java",
+      "sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingServiceImpl.java",
+      "sm-core/src/main/java/com/salesmanager/core/business/services/order/OrderServiceImpl.java",
+      "sm-core/src/main/java/com/salesmanager/core/business/services/tax/TaxServiceImpl.java"
+    ]
+  },
+  {
+    "id_status": "CD003-todo",
+    "nature": "testing",
+    "title": "Test Affected API Endpoints",
+    "description": "Conduct thorough testing of the affected API endpoints to ensure they correctly handle the new 'ship_ASAP' field and provide the expected behavior to users.",
+    "dependencies": ["CD002-todo"],
+    "estimated_hours": 3,
+    "affected_files": [
+      "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java",
+      "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java",
+      "sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java"
+    ]
+  },
+  {
+    "id_status": "CD004-todo",
+    "nature": "documentation",
+    "title": "Document Changes",
+    "description": "Update any relevant documentation to reflect the new feature and its impact on the system.",
+    "dependencies": ["CD003-todo"],
+    "estimated_hours": 1,
+    "affected_files": []
+  }
+]
+
