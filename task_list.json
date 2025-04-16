@@ -1,0 +1,43 @@
+[
+  {
+    "id_status": "CD001-todo",
+    "nature": "coding",
+    "title": "Define InvalidCardNumberException",
+    "description": "Create a new exception class named InvalidCardNumberException to replace the generic Exception in the maskCardNumber method.",
+    "dependencies": [],
+    "estimated_hours": 2,
+    "affected_files": ["sm-core/src/main/java/com/salesmanager/core/business/utils/CreditCardUtils.java"]
+  },
+  {
+    "id_status": "CD002-todo",
+    "nature": "coding",
+    "title": "Update maskCardNumber Method",
+    "description": "Modify the maskCardNumber method to throw InvalidCardNumberException instead of a generic Exception.",
+    "dependencies": ["CD001-todo"],
+    "estimated_hours": 1,
+    "affected_files": ["sm-core/src/main/java/com/salesmanager/core/business/utils/CreditCardUtils.java"]
+  },
+  {
+    "id_status": "CD003-todo",
+    "nature": "coding",
+    "title": "Update Callers to Handle New Exception",
+    "description": "Modify OrderFacadeImpl.java, PersistableOrderPopulator.java, and BeanStreamPayment.java to catch and handle InvalidCardNumberException.",
+    "dependencies": ["CD002-todo"],
+    "estimated_hours": 3,
+    "affected_files": [
+      "sm-shop/src/main/java/com/salesmanager/shop/store/controller/order/facade/OrderFacadeImpl.java",
+      "sm-shop/src/main/java/com/salesmanager/shop/populator/order/PersistableOrderPopulator.java",
+      "sm-core/src/main/java/com/salesmanager/core/business/modules/integration/payment/impl/BeanStreamPayment.java"
+    ]
+  },
+  {
+    "id_status": "CD004-todo",
+    "nature": "testing",
+    "title": "Test Exception Handling",
+    "description": "Test the changes in the context of the caller files to ensure that the new exception is handled correctly.",
+    "dependencies": ["CD003-todo"],
+    "estimated_hours": 2,
+    "affected_files": []
+  }
+]
+
