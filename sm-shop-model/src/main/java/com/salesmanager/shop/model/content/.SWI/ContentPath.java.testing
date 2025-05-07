@@ -1,0 +1,38 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/content/ContentPath.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/content/ContentPath.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 1,
+        "impacting_elements": [
+          {
+            "name": "ContentPath",
+            "comment": "",
+            "type": "Java Class",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/files/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/POST/api/v1/private/files/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/file/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentApi.java/api/v1/PORT/POST/api/v1/private/file/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/content/images/add/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentAdministrationApi.java/api/v1/PORT/POST/api/v1/private/content/images/add/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

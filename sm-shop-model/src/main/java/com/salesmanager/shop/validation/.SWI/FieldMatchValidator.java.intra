@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/validation/FieldMatchValidator.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/validation/FieldMatchValidator.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "initialize(com.salesmanager.shop.validation.FieldMatch) return void",
+            "to_name": "beanUtils",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isValid(java.lang.Object,javax.validation.ConstraintValidatorContext) return boolean",
+            "to_name": "secondFieldName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "initialize(com.salesmanager.shop.validation.FieldMatch) return void",
+            "to_name": "secondFieldName",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isValid(java.lang.Object,javax.validation.ConstraintValidatorContext) return boolean",
+            "to_name": "firstFieldName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "initialize(com.salesmanager.shop.validation.FieldMatch) return void",
+            "to_name": "firstFieldName",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/tax/ReadableTaxRate.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/tax/ReadableTaxRate.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getCountry",
+                "signature": "getCountry() return java.lang.String"
+              },
+              {
+                "name": "getZone",
+                "signature": "getZone() return java.lang.String"
+              },
+              {
+                "name": "setStore",
+                "signature": "setStore(java.lang.String) return void"
+              },
+              {
+                "name": "getStore",
+                "signature": "getStore() return java.lang.String"
+              },
+              {
+                "name": "getRate",
+                "signature": "getRate() return java.lang.String"
+              },
+              {
+                "name": "getDescription",
+                "signature": "getDescription() return com.salesmanager.shop.model.tax.ReadableTaxRateDescription"
+              },
+              {
+                "name": "setTaxClass",
+                "signature": "setTaxClass(com.salesmanager.shop.model.tax.ReadableTaxClass) return void"
+              },
+              {
+                "name": "getTaxClass",
+                "signature": "getTaxClass() return com.salesmanager.shop.model.tax.ReadableTaxClass"
+              },
+              {
+                "name": "setCountry",
+                "signature": "setCountry(java.lang.String) return void"
+              },
+              {
+                "name": "setZone",
+                "signature": "setZone(java.lang.String) return void"
+              },
+              {
+                "name": "setRate",
+                "signature": "setRate(java.lang.String) return void"
+              },
+              {
+                "name": "setDescription",
+                "signature": "setDescription(com.salesmanager.shop.model.tax.ReadableTaxRateDescription) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "taxClass",
+                "signature": ""
+              },
+              {
+                "name": "description",
+                "signature": ""
+              },
+              {
+                "name": "country",
+                "signature": ""
+              },
+              {
+                "name": "zone",
+                "signature": ""
+              },
+              {
+                "name": "store",
+                "signature": ""
+              },
+              {
+                "name": "rate",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ReadableTaxRate.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ReadableTaxRate",
+                "signature": "ReadableTaxRate()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ReadableTaxRate",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

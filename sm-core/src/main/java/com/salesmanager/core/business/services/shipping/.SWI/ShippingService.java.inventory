@@ -1,0 +1,116 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingService.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingService.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 19,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "requiresShipping",
+                "signature": "requiresShipping(java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e,com.salesmanager.core.model.merchant.MerchantStore) return boolean"
+              },
+              {
+                "name": "getShipToCountryList",
+                "signature": "getShipToCountryList(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.reference.country.Country\u003e"
+              },
+              {
+                "name": "getShippingConfiguration",
+                "signature": "getShippingConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.system.IntegrationConfiguration"
+              },
+              {
+                "name": "getShippingQuote",
+                "signature": "getShippingQuote(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.common.Delivery,java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingProduct\u003e,com.salesmanager.core.model.reference.language.Languag"
+              },
+              {
+                "name": "saveShippingConfiguration",
+                "signature": "saveShippingConfiguration(com.salesmanager.core.model.shipping.ShippingConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getShippingConfiguration",
+                "signature": "getShippingConfiguration(com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shipping.ShippingConfiguration"
+              },
+              {
+                "name": "saveShippingQuoteModuleConfiguration",
+                "signature": "saveShippingQuoteModuleConfiguration(com.salesmanager.core.model.system.IntegrationConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getShippingModulesConfigured",
+                "signature": "getShippingModulesConfigured(com.salesmanager.core.model.merchant.MerchantStore) return java.util.Map.Map\u003cjava.lang.String,com.salesmanager.core.model.system.IntegrationConfiguration\u003e"
+              },
+              {
+                "name": "getShippingMethods",
+                "signature": "getShippingMethods(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.system.IntegrationModule\u003e"
+              },
+              {
+                "name": "setSupportedCountries",
+                "signature": "setSupportedCountries(com.salesmanager.core.model.merchant.MerchantStore,java.util.List.List\u003cjava.lang.String\u003e) return void"
+              },
+              {
+                "name": "getSupportedCountries",
+                "signature": "getSupportedCountries(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003cjava.lang.String\u003e"
+              },
+              {
+                "name": "hasTaxOnShipping",
+                "signature": "hasTaxOnShipping(com.salesmanager.core.model.merchant.MerchantStore) return boolean"
+              },
+              {
+                "name": "getShippingMetaData",
+                "signature": "getShippingMetaData(com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shipping.ShippingMetaData"
+              },
+              {
+                "name": "getShippingSummary",
+                "signature": "getShippingSummary(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.shipping.ShippingQuote,com.salesmanager.core.model.shipping.ShippingOption) return com.salesmanager.core.model.shipping.ShippingSummary"
+              },
+              {
+                "name": "removeCustomShippingQuoteModuleConfiguration",
+                "signature": "removeCustomShippingQuoteModuleConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "saveCustomShippingConfiguration",
+                "signature": "saveCustomShippingConfiguration(java.lang.String,com.salesmanager.core.model.system.CustomIntegrationConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getCustomShippingConfiguration",
+                "signature": "getCustomShippingConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.system.CustomIntegrationConfiguration"
+              },
+              {
+                "name": "getPackagesDetails",
+                "signature": "getPackagesDetails(java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingProduct\u003e,com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.shipping.PackageDetails\u003e"
+              },
+              {
+                "name": "removeShippingQuoteModuleConfiguration",
+                "signature": "removeShippingQuoteModuleConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ShippingService.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "ShippingService",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/system/optin/OptinServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/system/optin/OptinServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 2,
+        "impacting_elements": [
+          {
+            "name": "getOptinByMerchantAndType(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.system.optin.OptinType) return com.salesmanager.core.model.system.optin.Optin",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "OPTIN",
+                "full_name": "DEFAULT.OPTIN",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getOptinByCode(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return com.salesmanager.core.model.system.optin.Optin",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "OPTIN",
+                "full_name": "DEFAULT.OPTIN",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

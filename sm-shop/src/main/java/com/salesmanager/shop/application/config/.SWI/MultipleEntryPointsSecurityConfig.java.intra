@@ -1,0 +1,110 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/MultipleEntryPointsSecurityConfig.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/MultipleEntryPointsSecurityConfig.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void",
+            "to_name": "apiCustomerAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void",
+            "to_name": "apiAdminAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "configure(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) return void",
+            "to_name": "authenticationProvider() return org.springframework.security.authentication.AuthenticationProvider",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void",
+            "to_name": "servicesAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void",
+            "to_name": "shopAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "authenticationProvider() return org.springframework.security.authentication.AuthenticationProvider",
+            "to_name": "jwtCustomerDetailsService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "configure(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) return void",
+            "to_name": "jwtCustomerDetailsService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void",
+            "to_name": "authenticationTokenFilter",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "authenticationProvider() return org.springframework.security.authentication.AuthenticationProvider",
+            "to_name": "jwtUserDetailsService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "configure(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) return void",
+            "to_name": "jwtUserDetailsService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void",
+            "to_name": "servicesAuthenticationSuccessHandler",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "configure(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) return void",
+            "to_name": "userDetailsService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "configure(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) return void",
+            "to_name": "customerDetailsService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void",
+            "to_name": "API_VERSION",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 16
+      }
+    ]
+  }
+}

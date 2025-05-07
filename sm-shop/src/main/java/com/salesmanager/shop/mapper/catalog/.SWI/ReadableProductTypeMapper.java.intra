@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/ReadableProductTypeMapper.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/ReadableProductTypeMapper.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "type(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "to_name": "type$lambda$2(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return R",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "type(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "to_name": "type$lambda$1(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return R",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "type(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "to_name": "type$lambda$0(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "type$lambda$2(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return R",
+            "to_name": "typeDescription(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return com.salesmanager.shop.model.catalog.product.type.ProductTypeDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "type$lambda$1(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return R",
+            "to_name": "typeDescription(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return com.salesmanager.shop.model.catalog.product.type.ProductTypeDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "type(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "to_name": "typeDescription(com.salesmanager.core.model.catalog.product.type.ProductTypeDescription) return com.salesmanager.shop.model.catalog.product.type.ProductTypeDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.shop.model.catalog.product.type.ReadableProductType,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.",
+            "to_name": "type(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "convert(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "to_name": "merge(com.salesmanager.core.model.catalog.product.type.ProductType,com.salesmanager.shop.model.catalog.product.type.ReadableProductType,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 8
+      }
+    ]
+  }
+}

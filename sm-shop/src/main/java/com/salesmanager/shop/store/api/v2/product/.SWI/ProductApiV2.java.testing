@@ -1,0 +1,332 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 22,
+        "impacting_elements": [
+          {
+            "name": "updateV2(java.lang.Long,com.salesmanager.shop.model.catalog.product.product.definition.PersistableProductDefinition,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/PUT/api/v2/private/product/{}/",
+                "type": "Spring MVC Put Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/private/product/{}/",
+            "comment": "",
+            "type": "Spring MVC Put Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/PUT/api/v2/private/product/{}/",
+                "type": "Spring MVC Put Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "createV2(com.salesmanager.shop.model.catalog.product.product.definition.PersistableProductDefinition,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.Enti",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/POST/api/v2/private/product/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/private/product/",
+            "comment": "",
+            "type": "Spring MVC Post Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/POST/api/v2/private/product/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "create(com.salesmanager.shop.model.catalog.product.product.PersistableProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.Entity",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/inventory/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/POST/api/v2/private/product/inventory/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/private/product/inventory/",
+            "comment": "",
+            "type": "Spring MVC Post Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/inventory/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/POST/api/v2/private/product/inventory/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "update(java.lang.String,com.salesmanager.shop.model.catalog.product.LightPersistableProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/ANY/api/v2/private/product/{}/",
+                "type": "Spring MVC Any Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/private/product/{}/",
+            "comment": "",
+            "type": "Spring MVC Any Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/ANY/api/v2/private/product/{}/",
+                "type": "Spring MVC Any Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "get(java.lang.String,java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/product/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/product/{}/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/product/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "list(java.lang.String,com.salesmanager.core.model.catalog.product.ProductCriteria,java.lang.Integer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.prod",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/products/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/products/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/products/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "ProductApiV2",
+            "comment": "",
+            "type": "Java Class",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/products/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v2/products/category/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/category/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "list(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Integer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProductList",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/products/category/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/category/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/products/category/{}/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/products/category/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/products/category/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "getByfriendlyUrl(java.lang.String,java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletResponse) return com.salesmanager.shop.model.catalog.product.Readab",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/product/friendly/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/product/friendly/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v2/product/name/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/product/name/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/product/friendly/{}/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/product/friendly/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/product/friendly/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/product/name/{}/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/product/name/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/product/name/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "getV2(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.product.definition.ReadableProductDefinition",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/private/product/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/private/product/{}/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/GET/api/v2/private/product/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "deleteV2(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/DELETE/api/v2/private/product/{}/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v2/private/product/{}/",
+            "comment": "",
+            "type": "Spring MVC Delete Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v2/private/product/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v2/product/ProductApiV2.java/api/v2/PORT/DELETE/api/v2/private/product/{}/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

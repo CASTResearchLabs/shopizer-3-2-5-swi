@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/catalog/ReadableCatalogCategoryEntry.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/catalog/ReadableCatalogCategoryEntry.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCategory() return com.salesmanager.shop.model.catalog.category.ReadableCategory",
+            "to_name": "category",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCategory(com.salesmanager.shop.model.catalog.category.ReadableCategory) return void",
+            "to_name": "category",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCreationDate() return java.lang.String",
+            "to_name": "creationDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCreationDate(java.lang.String) return void",
+            "to_name": "creationDate",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 4
+      }
+    ]
+  }
+}

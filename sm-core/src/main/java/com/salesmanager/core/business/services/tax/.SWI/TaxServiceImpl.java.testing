@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/tax/TaxServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/tax/TaxServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 3,
+        "impacting_elements": [
+          {
+            "name": "calculateTax(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanag",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "TAX_CLASS",
+                "full_name": "DEFAULT.TAX_CLASS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "TAX_RATE",
+                "full_name": "DEFAULT.TAX_RATE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "saveTaxConfiguration(com.salesmanager.core.model.tax.TaxConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getTaxConfiguration(com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.tax.TaxConfiguration",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

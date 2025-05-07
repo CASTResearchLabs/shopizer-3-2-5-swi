@@ -1,0 +1,61 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/ProductServiceImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/ProductServiceImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "saveProduct(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.Product",
+            "to_name": "saveOrUpdate(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "update(com.salesmanager.core.model.catalog.product.Product) return void",
+            "to_name": "saveOrUpdate(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "create(com.salesmanager.core.model.catalog.product.Product) return void",
+            "to_name": "saveOrUpdate(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getBySku(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product",
+            "to_name": "findOne(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "retrieveById(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return java.util.Optional.Optional\u003ccom.salesmanager.core.model.catalog.product.Product\u003e",
+            "to_name": "findOne(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "addProductDescription(com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.catalog.product.description.ProductDescription) return void",
+            "to_name": "update(com.salesmanager.core.model.catalog.product.Product) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ProductServiceImpl(com.salesmanager.core.business.repositories.catalog.product.ProductRepository)",
+            "to_name": "productRepository",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/CustomerReviewEntity.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/CustomerReviewEntity.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getRating() return java.lang.Double",
+            "to_name": "rating",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setRating(java.lang.Double) return void",
+            "to_name": "rating",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDate() return java.lang.String",
+            "to_name": "date",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDate(java.lang.String) return void",
+            "to_name": "date",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerId() return java.lang.Long",
+            "to_name": "customerId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerId(java.lang.Long) return void",
+            "to_name": "customerId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescription() return java.lang.String",
+            "to_name": "description",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescription(java.lang.String) return void",
+            "to_name": "description",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 8
+      }
+    ]
+  }
+}

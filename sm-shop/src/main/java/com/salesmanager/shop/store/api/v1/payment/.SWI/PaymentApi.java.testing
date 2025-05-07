@@ -1,0 +1,204 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 12,
+        "impacting_elements": [
+          {
+            "name": "Map\u003cString,IntegrationModule\u003e",
+            "comment": "",
+            "type": "Java Instantiated Interface",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/shipping/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shipping/ShippingConfigurationApi.java/api/v1/PORT/POST/api/v1/private/modules/shipping/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/POST/api/v1/private/modules/payment/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "configure$lambda$0(com.salesmanager.core.model.system.IntegrationModule) return R",
+            "comment": "",
+            "type": "Java Lambda Expression",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/POST/api/v1/private/modules/payment/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "configure(com.salesmanager.shop.model.system.IntegrationModuleConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/POST/api/v1/private/modules/payment/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v1/private/modules/payment/",
+            "comment": "",
+            "type": "Spring MVC Post Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/POST/api/v1/private/modules/payment/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "PaymentApi",
+            "comment": "",
+            "type": "Java Class",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/POST/api/v1/private/modules/payment/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/modules/payment/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "List\u003cIntegrationModuleSummaryEntity\u003e",
+            "comment": "",
+            "type": "Java Instantiated Interface",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/shipping/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shipping/ShippingConfigurationApi.java/api/v1/PORT/GET/api/v1/private/modules/shipping/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "paymentModule(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.system.IntegrationModuleConfiguration",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v1/private/modules/payment/{}/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "paymentModules$lambda$0(com.salesmanager.core.model.system.IntegrationModule) return R",
+            "comment": "",
+            "type": "Java Lambda Expression",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "integrationModule(com.salesmanager.core.model.system.IntegrationModule,java.util.Map.Map\u003cjava.lang.String,com.salesmanager.core.model.system.IntegrationConfiguration\u003e) return com.salesmanager.shop.model.system.IntegrationModuleSummaryEntity",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "paymentModules(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.model.system.IntegrationModuleSummaryEntity\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "api/v1/private/modules/payment/",
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/modules/payment/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/payment/PaymentApi.java/api/v1/PORT/GET/api/v1/private/modules/payment/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

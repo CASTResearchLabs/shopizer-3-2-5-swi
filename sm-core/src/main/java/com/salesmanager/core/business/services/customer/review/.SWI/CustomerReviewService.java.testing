@@ -1,0 +1,72 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/customer/review/CustomerReviewService.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/customer/review/CustomerReviewService.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 3,
+        "impacting_elements": [
+          {
+            "name": "CustomerReviewService",
+            "comment": "",
+            "type": "Java Interface",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/customers/{}/reviews/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/PUT/api/v1/private/customers/{}/reviews/{}/",
+                "type": "Spring MVC Put Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/customers/{}/reviews/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/POST/api/v1/private/customers/{}/reviews/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/customers/{}/reviews/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/GET/api/v1/customers/{}/reviews/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/customers/{}/reviews/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/DELETE/api/v1/private/customers/{}/reviews/{}/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "getByReviewerAndReviewed(java.lang.Long,java.lang.Long) return com.salesmanager.core.model.customer.review.CustomerReview",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/customers/{}/reviews/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/POST/api/v1/private/customers/{}/reviews/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "getByReviewedCustomer(com.salesmanager.core.model.customer.Customer) return java.util.List.List\u003ccom.salesmanager.core.model.customer.review.CustomerReview\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/customers/{}/reviews/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/GET/api/v1/customers/{}/reviews/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

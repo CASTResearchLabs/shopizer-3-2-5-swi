@@ -1,0 +1,292 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/merchant/MerchantStoreServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/merchant/MerchantStoreServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 11,
+        "impacting_elements": [
+          {
+            "name": "isStoreInGroup(java.lang.String) return boolean",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByGroup(java.util.Optional.Optional\u003cjava.lang.String\u003e,java.lang.String,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getParent(java.lang.String) return com.salesmanager.core.model.merchant.MerchantStore",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listAllRetailers(java.util.Optional.Optional\u003cjava.lang.String\u003e,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listAll(java.util.Optional.Optional\u003cjava.lang.String\u003e,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listChildren(java.lang.String,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByCode(java.lang.String) return com.salesmanager.core.model.merchant.MerchantStore",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findAllStoreNames(java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findAllStoreNames() return java.util.List.List\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findAllStoreCodeNameEmail() return java.util.List.List\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "existByCode(java.lang.String) return boolean",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/CustomerServicesImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/CustomerServicesImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "CustomerServicesImpl(com.salesmanager.core.business.services.customer.CustomerService,com.salesmanager.core.business.services.user.PermissionService,com.salesmanager.core.business.services.user.GroupService)",
+            "to_name": "groupService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "CustomerServicesImpl(com.salesmanager.core.business.services.customer.CustomerService,com.salesmanager.core.business.services.user.PermissionService,com.salesmanager.core.business.services.user.GroupService)",
+            "to_name": "permissionService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "CustomerServicesImpl(com.salesmanager.core.business.services.customer.CustomerService,com.salesmanager.core.business.services.user.PermissionService,com.salesmanager.core.business.services.user.GroupService)",
+            "to_name": "customerService",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 3
+      }
+    ]
+  }
+}

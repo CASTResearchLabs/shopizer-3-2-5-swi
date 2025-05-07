@@ -1,0 +1,136 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/MerchantLog.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/MerchantLog.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 8,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setLog",
+                "signature": "setLog(java.lang.String) return void"
+              },
+              {
+                "name": "getLog",
+                "signature": "getLog() return java.lang.String"
+              },
+              {
+                "name": "setModule",
+                "signature": "setModule(java.lang.String) return void"
+              },
+              {
+                "name": "getModule",
+                "signature": "getModule() return java.lang.String"
+              },
+              {
+                "name": "setStore",
+                "signature": "setStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getStore",
+                "signature": "getStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "log",
+                "signature": ""
+              },
+              {
+                "name": "module",
+                "signature": ""
+              },
+              {
+                "name": "store",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "MerchantLog",
+                "signature": "MerchantLog(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,java.lang.String)"
+              },
+              {
+                "name": "MerchantLog",
+                "signature": "MerchantLog(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String)"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "MerchantLog",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "MerchantLog.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "MerchantLog",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

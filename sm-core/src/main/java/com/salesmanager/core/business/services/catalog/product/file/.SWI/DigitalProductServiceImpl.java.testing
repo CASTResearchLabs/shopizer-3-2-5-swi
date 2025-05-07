@@ -1,0 +1,90 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/file/DigitalProductServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/file/DigitalProductServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 3,
+        "impacting_elements": [
+          {
+            "name": "delete(com.salesmanager.core.model.catalog.product.file.DigitalProduct) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java GCP Cloud Storage Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "addProductFile(com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.catalog.product.file.DigitalProduct,com.salesmanager.core.model.content.InputContentFile) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java GCP Cloud Storage Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByProduct(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.file.DigitalProduct",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_DIGITAL",
+                "full_name": "DEFAULT.PRODUCT_DIGITAL",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

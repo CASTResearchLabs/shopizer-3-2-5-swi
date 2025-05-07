@@ -1,0 +1,398 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/merchant/MerchantStoreService.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/merchant/MerchantStoreService.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 7,
+        "impacting_elements": [
+          {
+            "name": "getByCode(java.lang.String) return com.salesmanager.core.model.merchant.MerchantStore",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 22,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/PUT/api/v1/private/store/{}/",
+                "type": "Spring MVC Put Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/logo/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/logo/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/signup/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/marketplace/MarketPlaceApi.java/api/v1/PORT/POST/api/v1/store/signup/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/auth/customer/password/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/AuthenticateCustomerApi.java/api/v1/PORT/POST/api/v1/auth/customer/password/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "services/public/{}/contact/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v0/store/StoreContactRESTController.java/services/PORT/POST/services/public/{}/contact/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/unique/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/unique/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/unique/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/unique/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/merchant/{}/children/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/children/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/marketing/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/languages/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/languages/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/merchant/{}/stores/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/stores/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/zones/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java/api/v1/PORT/GET/api/v1/zones/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/country/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java/api/v1/PORT/GET/api/v1/country/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/marketplace/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/marketplace/MarketPlaceApi.java/api/v1/PORT/GET/api/v1/private/marketplace/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "services/public/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v0/store/StoreContactRESTController.java/services/PORT/GET/services/public/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/DELETE/api/v1/private/store/{}/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/logo/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/DELETE/api/v1/private/store/{}/marketing/logo/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/auth/cache/store/{}/clear/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/configurations/CacheApi.java/api/v1/PORT/DELETE/api/v1/auth/cache/store/{}/clear/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "MerchantStoreService",
+            "comment": "",
+            "type": "Java Interface",
+            "nb_impacted_elements": 24,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/PUT/api/v1/private/store/{}/",
+                "type": "Spring MVC Put Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/logo/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/logo/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/signup/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/marketplace/MarketPlaceApi.java/api/v1/PORT/POST/api/v1/store/signup/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/auth/customer/password/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/AuthenticateCustomerApi.java/api/v1/PORT/POST/api/v1/auth/customer/password/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "services/public/{}/contact/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v0/store/StoreContactRESTController.java/services/PORT/POST/services/public/{}/contact/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/unique/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/unique/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/unique/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/unique/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/merchant/{}/children/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/children/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/marketing/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/languages/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/languages/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/stores/names/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/names/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/stores/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/merchant/{}/stores/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/stores/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/zones/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java/api/v1/PORT/GET/api/v1/zones/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/country/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java/api/v1/PORT/GET/api/v1/country/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/marketplace/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/marketplace/MarketPlaceApi.java/api/v1/PORT/GET/api/v1/private/marketplace/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "services/public/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v0/store/StoreContactRESTController.java/services/PORT/GET/services/public/{}/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/DELETE/api/v1/private/store/{}/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/store/{}/marketing/logo/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/DELETE/api/v1/private/store/{}/marketing/logo/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/auth/cache/store/{}/clear/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/configurations/CacheApi.java/api/v1/PORT/DELETE/api/v1/auth/cache/store/{}/clear/",
+                "type": "Spring MVC Delete Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "saveOrUpdate(com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/store/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/",
+                "type": "Spring MVC Post Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "listChildren(java.lang.String,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/merchant/{}/children/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/children/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/merchant/{}/stores/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/stores/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "listAllRetailers(java.util.Optional.Optional\u003cjava.lang.String\u003e,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/stores/names/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/names/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/stores/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "listByGroup(java.util.Optional.Optional\u003cjava.lang.String\u003e,java.lang.String,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/stores/names/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/names/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/stores/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          },
+          {
+            "name": "listAll(java.util.Optional.Optional\u003cjava.lang.String\u003e,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "api/v1/private/stores/names/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/names/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              },
+              {
+                "name": "api/v1/private/stores/",
+                "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/",
+                "type": "Spring MVC Get Operation",
+                "nature": "user transaction / API endpoint"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

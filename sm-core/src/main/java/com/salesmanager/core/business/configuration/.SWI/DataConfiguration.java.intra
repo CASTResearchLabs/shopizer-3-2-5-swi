@@ -1,0 +1,103 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/DataConfiguration.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/DataConfiguration.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+            "to_name": "additionalProperties() return java.util.Properties",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+            "to_name": "dataSource() return HikariDataSource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "dataSource() return HikariDataSource",
+            "to_name": "maxPoolSize",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "dataSource() return HikariDataSource",
+            "to_name": "minPoolSize",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "dataSource() return HikariDataSource",
+            "to_name": "testQuery",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "additionalProperties() return java.util.Properties",
+            "to_name": "schema",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "additionalProperties() return java.util.Properties",
+            "to_name": "showSql",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "additionalProperties() return java.util.Properties",
+            "to_name": "dialect",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "additionalProperties() return java.util.Properties",
+            "to_name": "hbm2ddl",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "dataSource() return HikariDataSource",
+            "to_name": "password",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "dataSource() return HikariDataSource",
+            "to_name": "user",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "dataSource() return HikariDataSource",
+            "to_name": "url",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "dataSource() return HikariDataSource",
+            "to_name": "driverClassName",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 13
+      }
+    ]
+  }
+}

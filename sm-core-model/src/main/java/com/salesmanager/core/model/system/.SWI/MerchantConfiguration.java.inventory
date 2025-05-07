@@ -1,0 +1,168 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/MerchantConfiguration.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/MerchantConfiguration.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 14,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setActive",
+                "signature": "setActive(java.lang.Boolean) return void"
+              },
+              {
+                "name": "getActive",
+                "signature": "getActive() return java.lang.Boolean"
+              },
+              {
+                "name": "getMerchantConfigurationType",
+                "signature": "getMerchantConfigurationType() return com.salesmanager.core.model.system.MerchantConfigurationType"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "getKey",
+                "signature": "getKey() return java.lang.String"
+              },
+              {
+                "name": "setMerchantConfigurationType",
+                "signature": "setMerchantConfigurationType(com.salesmanager.core.model.system.MerchantConfigurationType) return void"
+              },
+              {
+                "name": "setMerchantStore",
+                "signature": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "getValue",
+                "signature": "getValue() return java.lang.String"
+              },
+              {
+                "name": "setValue",
+                "signature": "setValue(java.lang.String) return void"
+              },
+              {
+                "name": "setKey",
+                "signature": "setKey(java.lang.String) return void"
+              },
+              {
+                "name": "getMerchantStore",
+                "signature": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "setAuditSection",
+                "signature": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void"
+              },
+              {
+                "name": "getAuditSection",
+                "signature": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 8,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "merchantConfigurationType",
+                "signature": ""
+              },
+              {
+                "name": "value",
+                "signature": ""
+              },
+              {
+                "name": "active",
+                "signature": ""
+              },
+              {
+                "name": "key",
+                "signature": ""
+              },
+              {
+                "name": "auditSection",
+                "signature": ""
+              },
+              {
+                "name": "merchantStore",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "MerchantConfiguration.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "MerchantConfiguration",
+                "signature": "MerchantConfiguration()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "MerchantConfiguration",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "MerchantConfiguration",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

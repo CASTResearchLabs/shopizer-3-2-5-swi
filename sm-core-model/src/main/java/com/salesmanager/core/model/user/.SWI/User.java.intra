@@ -1,0 +1,313 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAdminName() return java.lang.String",
+            "to_name": "adminName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAdminName(java.lang.String) return void",
+            "to_name": "adminName",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "User(java.lang.String,java.lang.String,java.lang.String)",
+            "to_name": "adminName",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLastName() return java.lang.String",
+            "to_name": "lastName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setLastName(java.lang.String) return void",
+            "to_name": "lastName",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isActive() return boolean",
+            "to_name": "active",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setActive(boolean) return void",
+            "to_name": "active",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFirstName() return java.lang.String",
+            "to_name": "firstName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setFirstName(java.lang.String) return void",
+            "to_name": "firstName",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGroups() return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e",
+            "to_name": "groups",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGroups(java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e) return void",
+            "to_name": "groups",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCredentialsResetRequest() return com.salesmanager.core.model.common.CredentialsReset",
+            "to_name": "credentialsResetRequest",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCredentialsResetRequest(com.salesmanager.core.model.common.CredentialsReset) return void",
+            "to_name": "credentialsResetRequest",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLoginTime() return java.util.Date",
+            "to_name": "loginTime",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setLoginTime(java.util.Date) return void",
+            "to_name": "loginTime",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLastAccess() return java.util.Date",
+            "to_name": "lastAccess",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setLastAccess(java.util.Date) return void",
+            "to_name": "lastAccess",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+            "to_name": "auditSection",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAnswer3() return java.lang.String",
+            "to_name": "answer3",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAnswer3(java.lang.String) return void",
+            "to_name": "answer3",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAnswer2() return java.lang.String",
+            "to_name": "answer2",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAnswer2(java.lang.String) return void",
+            "to_name": "answer2",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAnswer1() return java.lang.String",
+            "to_name": "answer1",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAnswer1(java.lang.String) return void",
+            "to_name": "answer1",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getQuestion3() return java.lang.String",
+            "to_name": "question3",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setQuestion3(java.lang.String) return void",
+            "to_name": "question3",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getQuestion2() return java.lang.String",
+            "to_name": "question2",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setQuestion2(java.lang.String) return void",
+            "to_name": "question2",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getQuestion1() return java.lang.String",
+            "to_name": "question1",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setQuestion1(java.lang.String) return void",
+            "to_name": "question1",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDefaultLanguage() return com.salesmanager.core.model.reference.language.Language",
+            "to_name": "defaultLanguage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultLanguage(com.salesmanager.core.model.reference.language.Language) return void",
+            "to_name": "defaultLanguage",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "to_name": "merchantStore",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAdminPassword() return java.lang.String",
+            "to_name": "adminPassword",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAdminPassword(java.lang.String) return void",
+            "to_name": "adminPassword",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "User(java.lang.String,java.lang.String,java.lang.String)",
+            "to_name": "adminPassword",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAdminEmail() return java.lang.String",
+            "to_name": "adminEmail",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAdminEmail(java.lang.String) return void",
+            "to_name": "adminEmail",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "User(java.lang.String,java.lang.String,java.lang.String)",
+            "to_name": "adminEmail",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 43
+      }
+    ]
+  }
+}

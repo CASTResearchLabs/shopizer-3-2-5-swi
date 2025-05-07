@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/order/OrderProductPopulator.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/order/OrderProductPopulator.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "populate(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.order.orderproduct.OrderProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmana",
+            "to_name": "orderProductPrice(com.salesmanager.core.model.catalog.product.price.FinalPrice) return com.salesmanager.core.model.order.orderproduct.OrderProductPrice",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "populate(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.order.orderproduct.OrderProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmana",
+            "to_name": "productAttributeService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeService() return com.salesmanager.core.business.services.catalog.product.attribute.ProductAttributeService",
+            "to_name": "productAttributeService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeService(com.salesmanager.core.business.services.catalog.product.attribute.ProductAttributeService) return void",
+            "to_name": "productAttributeService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "populate(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.order.orderproduct.OrderProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmana",
+            "to_name": "digitalProductService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDigitalProductService() return com.salesmanager.core.business.services.catalog.product.file.DigitalProductService",
+            "to_name": "digitalProductService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDigitalProductService(com.salesmanager.core.business.services.catalog.product.file.DigitalProductService) return void",
+            "to_name": "digitalProductService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductService() return com.salesmanager.core.business.services.catalog.product.ProductService",
+            "to_name": "productService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "populate(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.order.orderproduct.OrderProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmana",
+            "to_name": "productService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductService(com.salesmanager.core.business.services.catalog.product.ProductService) return void",
+            "to_name": "productService",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

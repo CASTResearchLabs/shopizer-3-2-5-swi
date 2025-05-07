@@ -1,0 +1,278 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/PermissionRepositoryImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/PermissionRepositoryImpl.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 9,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select p from Permission",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select count(p) from Permission",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "Permission",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "Permission",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "Permission",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/Permission.java",
+            "nb_calls_between_elements": 8
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "setParameter(java.lang.String,java.lang.Object) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "setFirstResult(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "setMaxResults(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "getSingleResult() return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "getResultList() return java.util.List\u003cE\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "Query",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Query_32662.java",
+            "nb_calls_between_elements": 6
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "setPermissions(java.util.List.List\u003ccom.salesmanager.core.model.user.Permission\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "setTotalCount(int) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "PermissionList()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "PermissionList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/PermissionList.java",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "append(java.lang.String) return java.lang.StringBuilder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "StringBuilder()",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/StringBuilder_563a9673c4e624ff.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "getMaxCount() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "getStartIndex() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "Criteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/Criteria.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "size() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Interface",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "Set\u003cE\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/util/Set_6c6e95639124730f.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "createQuery(java.lang.String) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "EntityManager",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/EntityManager_1769.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "getGroupIds() return java.util.Set.Set\u003cjava.lang.Integer\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "PermissionRepositoryImpl",
+                "to_name": "PermissionCriteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/PermissionCriteria.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.user.PermissionCriteria) return com.salesmanager.core.model.user.PermissionList",
+                "to_name": "intValue() return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Number_1fecc723ff0302c0.java",
+            "nb_calls_between_elements": 1
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

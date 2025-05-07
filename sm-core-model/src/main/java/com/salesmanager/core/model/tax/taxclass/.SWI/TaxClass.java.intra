@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/tax/taxclass/TaxClass.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/tax/taxclass/TaxClass.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxRates() return java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRate\u003e",
+            "to_name": "taxRates",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxRates(java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRate\u003e) return void",
+            "to_name": "taxRates",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "to_name": "merchantStore",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTitle() return java.lang.String",
+            "to_name": "title",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTitle(java.lang.String) return void",
+            "to_name": "title",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "TaxClass(java.lang.String)",
+            "to_name": "title",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCode() return java.lang.String",
+            "to_name": "code",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCode(java.lang.String) return void",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "TaxClass(java.lang.String)",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 12
+      }
+    ]
+  }
+}

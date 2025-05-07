@@ -1,0 +1,182 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/customer/review/CustomerReviewRepository.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/customer/review/CustomerReviewRepository.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 8,
+        "impacting_elements": [
+          {
+            "name": "select distinct r from",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_REVIEW",
+                "full_name": "DEFAULT.CUSTOMER_REVIEW",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select distinct r from",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_REVIEW",
+                "full_name": "DEFAULT.CUSTOMER_REVIEW",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select r from CustomerReview",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_REVIEW",
+                "full_name": "DEFAULT.CUSTOMER_REVIEW",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findOne(java.lang.Long) return com.salesmanager.core.model.customer.review.CustomerReview",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_REVIEW",
+                "full_name": "DEFAULT.CUSTOMER_REVIEW",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByRevieweAndReviewed(java.lang.Long,java.lang.Long) return com.salesmanager.core.model.customer.review.CustomerReview",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_REVIEW",
+                "full_name": "DEFAULT.CUSTOMER_REVIEW",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByReviewed(java.lang.Long) return java.util.List.List\u003ccom.salesmanager.core.model.customer.review.CustomerReview\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_REVIEW",
+                "full_name": "DEFAULT.CUSTOMER_REVIEW",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByReviewer(java.lang.Long) return java.util.List.List\u003ccom.salesmanager.core.model.customer.review.CustomerReview\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_REVIEW",
+                "full_name": "DEFAULT.CUSTOMER_REVIEW",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

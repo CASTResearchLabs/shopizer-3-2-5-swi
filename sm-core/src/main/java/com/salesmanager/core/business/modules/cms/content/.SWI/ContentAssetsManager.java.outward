@@ -1,0 +1,397 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/content/ContentAssetsManager.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/content/ContentAssetsManager.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 16,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "nodePath(java.lang.String) return java.lang.String",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "nodePath(java.lang.String) return java.lang.String",
+                "to_name": "append(java.lang.String) return java.lang.StringBuilder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "nodePath(java.lang.String) return java.lang.String",
+                "to_name": "StringBuilder()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "nodePath(java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "nodePath(java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String",
+                "to_name": "append(java.lang.String) return java.lang.StringBuilder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "nodePath(java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String",
+                "to_name": "StringBuilder()",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 6,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/StringBuilder_563a9673c4e624ff.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "isBlank(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "isInsideSubFolder(java.lang.String) return boolean",
+                "to_name": "countMatches(java.lang.CharSequence,java.lang.CharSequence) return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "StringUtils",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/StringUtils_9930.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "indexOfLastSeparator(java.lang.String) return int",
+                "to_name": "lastIndexOf(int) return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getName(java.lang.String) return java.lang.String",
+                "to_name": "substring(int) return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "nodePath(java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String",
+                "to_name": "equals(java.lang.Object) return boolean",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/String_bce7fff4709de738.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "isInsideSubFolder(java.lang.String) return boolean",
+                "to_name": "SLASH",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "nodePath(java.lang.String) return java.lang.String",
+                "to_name": "SLASH",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "nodePath(java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String",
+                "to_name": "SLASH",
+                "calling_type": "READ"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/constants/Constants.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getOutputContentFile(byte[]) return com.salesmanager.core.model.content.OutputContentFile",
+                "to_name": "write(byte[],int,int) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "getOutputContentFile(byte[]) return com.salesmanager.core.model.content.OutputContentFile",
+                "to_name": "ByteArrayOutputStream(int)",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "ByteArrayOutputStream",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/io/ByteArrayOutputStream_5fcc221abc7b953d.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getOutputContentFile(byte[]) return com.salesmanager.core.model.content.OutputContentFile",
+                "to_name": "setFile(java.io.ByteArrayOutputStream) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "getOutputContentFile(byte[]) return com.salesmanager.core.model.content.OutputContentFile",
+                "to_name": "OutputContentFile()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "OutputContentFile",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/content/OutputContentFile.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "getRootName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Interface",
+                "from_name": "ContentAssetsManager",
+                "to_name": "CMSManager",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/impl/CMSManager.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "getRootName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "StoreCacheManagerImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/impl/StoreCacheManagerImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "getRootName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "StaticContentCacheManagerImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/impl/StaticContentCacheManagerImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "getRootName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "S3CacheManagerImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/impl/S3CacheManagerImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "getRootName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "LocalCacheManagerImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/impl/LocalCacheManagerImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "getRootName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "GCPCacheManagerImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/impl/GCPCacheManagerImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "bucketName() return java.lang.String",
+                "to_name": "getRootName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "ContentAssetsManager",
+                "to_name": "DownloadCacheManagerImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/impl/DownloadCacheManagerImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Enum",
+                "from_name": "nodePath(java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String",
+                "to_name": "FileContentType",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Enum",
+                "from_name": "ContentAssetsManager",
+                "to_name": "FileContentType",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/content/FileContentType.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "indexOfLastSeparator(java.lang.String) return int",
+                "to_name": "max(int,int) return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Math_2f53a0a798fc26ef.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "nodePath(java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String",
+                "to_name": "name() return java.lang.String",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Enum_a162e065282dce60.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

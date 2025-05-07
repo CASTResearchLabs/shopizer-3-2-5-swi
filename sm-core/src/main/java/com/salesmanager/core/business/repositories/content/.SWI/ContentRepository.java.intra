@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/content/ContentRepository.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/content/ContentRepository.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByCode(java.lang.String,java.lang.Integer,java.lang.Integer) return com.salesmanager.core.model.content.Content",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findOne(java.lang.Long) return com.salesmanager.core.model.content.Content",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByIdAndLanguage(java.lang.Long,java.lang.Integer) return com.salesmanager.core.model.content.Content",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByCodeLike(com.salesmanager.core.model.content.ContentType,java.lang.String,java.lang.Integer,java.lang.Integer) return java.util.List.List\u003ccom.salesmanager.core.model.content.Content\u003e",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByCode(java.lang.String,java.lang.Integer) return com.salesmanager.core.model.content.Content",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByTypes(java.util.List.List\u003ccom.salesmanager.core.model.content.ContentType\u003e,java.lang.Integer) return java.util.List.List\u003ccom.salesmanager.core.model.content.Content\u003e",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByTypes(java.util.List.List\u003ccom.salesmanager.core.model.content.ContentType\u003e,java.lang.Integer,java.lang.Integer) return java.util.List.List\u003ccom.salesmanager.core.model.content.Content\u003e",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByCodeAndType(java.lang.String,com.salesmanager.core.model.content.ContentType,java.lang.Integer) return com.salesmanager.core.model.content.Content",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByType(com.salesmanager.core.model.content.ContentType,java.lang.Integer) return java.util.List.List\u003ccom.salesmanager.core.model.content.Content\u003e",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByType(com.salesmanager.core.model.content.ContentType,java.lang.Integer,java.lang.Integer) return java.util.List.List\u003ccom.salesmanager.core.model.content.Content\u003e",
+            "to_name": "select c from Content",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

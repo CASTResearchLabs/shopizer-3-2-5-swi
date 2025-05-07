@@ -1,0 +1,209 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOptionSet.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOptionSet.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 14,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setProductTypes",
+                "signature": "setProductTypes(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.type.ProductType\u003e) return void"
+              },
+              {
+                "name": "getProductTypes",
+                "signature": "getProductTypes() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.type.ProductType\u003e"
+              },
+              {
+                "name": "setOptionDisplayOnly",
+                "signature": "setOptionDisplayOnly(boolean) return void"
+              },
+              {
+                "name": "isOptionDisplayOnly",
+                "signature": "isOptionDisplayOnly() return boolean"
+              },
+              {
+                "name": "setCode",
+                "signature": "setCode(java.lang.String) return void"
+              },
+              {
+                "name": "getCode",
+                "signature": "getCode() return java.lang.String"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "setStore",
+                "signature": "setStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getStore",
+                "signature": "getStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "setValues",
+                "signature": "setValues(java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductOptionValue\u003e) return void"
+              },
+              {
+                "name": "getValues",
+                "signature": "getValues() return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductOptionValue\u003e"
+              },
+              {
+                "name": "setOption",
+                "signature": "setOption(com.salesmanager.core.model.catalog.product.attribute.ProductOption) return void"
+              },
+              {
+                "name": "getOption",
+                "signature": "getOption() return com.salesmanager.core.model.catalog.product.attribute.ProductOption"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 8,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "optionDisplayOnly",
+                "signature": ""
+              },
+              {
+                "name": "store",
+                "signature": ""
+              },
+              {
+                "name": "productTypes",
+                "signature": ""
+              },
+              {
+                "name": "values",
+                "signature": ""
+              },
+              {
+                "name": "option",
+                "signature": ""
+              },
+              {
+                "name": "code",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "ArrayList\u003cProductOptionValue\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cProductType\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "HashSet\u003cProductType\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cProductOptionValue\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "Set\u003cProductType\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductOptionSet.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductOptionSet",
+                "signature": "ProductOptionSet()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductOptionSet",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "ProductOptionSet",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

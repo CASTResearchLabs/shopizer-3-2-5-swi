@@ -1,0 +1,397 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/customer/CustomerRepositoryImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/customer/CustomerRepositoryImpl.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 14,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select c from Customer",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select count(c) from Customer",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "Customer",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 50 items",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/Customer.java",
+            "nb_calls_between_elements": 66
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select c from Customer",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "CustomerOptionValue",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerOptionValue.java",
+            "nb_calls_between_elements": 34
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select c from Customer",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "CustomerOption",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerOption.java",
+            "nb_calls_between_elements": 34
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "setParameter(java.lang.String,java.lang.Object) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "setFirstResult(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "setMaxResults(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getSingleResult() return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getResultList() return java.util.List\u003cE\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "Query",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Query_32662.java",
+            "nb_calls_between_elements": 6
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getCountry() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getEmail() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getLastName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getFirstName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "CustomerCriteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/CustomerCriteria.java",
+            "nb_calls_between_elements": 6
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "append(java.lang.String) return java.lang.StringBuilder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "StringBuilder()",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/StringBuilder_563a9673c4e624ff.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getMaxCount() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getStartIndex() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "Criteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/Criteria.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "setCustomers(java.util.List.List\u003ccom.salesmanager.core.model.customer.Customer\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "CustomerList()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "CustomerList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/CustomerList.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "isBlank(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "StringUtils",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/StringUtils_9930.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "createQuery(java.lang.String) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "EntityManager",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/EntityManager_1769.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "getId() return java.lang.Integer",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "MerchantStore",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/merchant/MerchantStore.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "setTotalCount(long) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "CustomerRepositoryImpl",
+                "to_name": "EntityList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/EntityList.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "min(int,int) return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Math_2f53a0a798fc26ef.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.customer.CustomerCriteria) return com.salesmanager.core.model.customer.CustomerList",
+                "to_name": "intValue() return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Number_1fecc723ff0302c0.java",
+            "nb_calls_between_elements": 1
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

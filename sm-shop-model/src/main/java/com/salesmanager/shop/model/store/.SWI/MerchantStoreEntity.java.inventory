@@ -1,0 +1,230 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/store/MerchantStoreEntity.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/store/MerchantStoreEntity.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 28,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setRetailer",
+                "signature": "setRetailer(boolean) return void"
+              },
+              {
+                "name": "isRetailer",
+                "signature": "isRetailer() return boolean"
+              },
+              {
+                "name": "setWeight",
+                "signature": "setWeight(com.salesmanager.shop.model.references.WeightUnit) return void"
+              },
+              {
+                "name": "getWeight",
+                "signature": "getWeight() return com.salesmanager.shop.model.references.WeightUnit"
+              },
+              {
+                "name": "setDimension",
+                "signature": "setDimension(com.salesmanager.shop.model.references.MeasureUnit) return void"
+              },
+              {
+                "name": "getDimension",
+                "signature": "getDimension() return com.salesmanager.shop.model.references.MeasureUnit"
+              },
+              {
+                "name": "setUseCache",
+                "signature": "setUseCache(boolean) return void"
+              },
+              {
+                "name": "isUseCache",
+                "signature": "isUseCache() return boolean"
+              },
+              {
+                "name": "setPhone",
+                "signature": "setPhone(java.lang.String) return void"
+              },
+              {
+                "name": "setCurrencyFormatNational",
+                "signature": "setCurrencyFormatNational(boolean) return void"
+              },
+              {
+                "name": "isCurrencyFormatNational",
+                "signature": "isCurrencyFormatNational() return boolean"
+              },
+              {
+                "name": "setTemplate",
+                "signature": "setTemplate(java.lang.String) return void"
+              },
+              {
+                "name": "getTemplate",
+                "signature": "getTemplate() return java.lang.String"
+              },
+              {
+                "name": "setEmail",
+                "signature": "setEmail(java.lang.String) return void"
+              },
+              {
+                "name": "getEmail",
+                "signature": "getEmail() return java.lang.String"
+              },
+              {
+                "name": "setInBusinessSince",
+                "signature": "setInBusinessSince(java.lang.String) return void"
+              },
+              {
+                "name": "getInBusinessSince",
+                "signature": "getInBusinessSince() return java.lang.String"
+              },
+              {
+                "name": "setCurrency",
+                "signature": "setCurrency(java.lang.String) return void"
+              },
+              {
+                "name": "getCurrency",
+                "signature": "getCurrency() return java.lang.String"
+              },
+              {
+                "name": "setName",
+                "signature": "setName(java.lang.String) return void"
+              },
+              {
+                "name": "getName",
+                "signature": "getName() return java.lang.String"
+              },
+              {
+                "name": "setDefaultLanguage",
+                "signature": "setDefaultLanguage(java.lang.String) return void"
+              },
+              {
+                "name": "getDefaultLanguage",
+                "signature": "getDefaultLanguage() return java.lang.String"
+              },
+              {
+                "name": "setCode",
+                "signature": "setCode(java.lang.String) return void"
+              },
+              {
+                "name": "getCode",
+                "signature": "getCode() return java.lang.String"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(int) return void"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return int"
+              },
+              {
+                "name": "getPhone",
+                "signature": "getPhone() return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 15,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "weight",
+                "signature": ""
+              },
+              {
+                "name": "dimension",
+                "signature": ""
+              },
+              {
+                "name": "retailer",
+                "signature": ""
+              },
+              {
+                "name": "currencyFormatNational",
+                "signature": ""
+              },
+              {
+                "name": "useCache",
+                "signature": ""
+              },
+              {
+                "name": "template",
+                "signature": ""
+              },
+              {
+                "name": "phone",
+                "signature": ""
+              },
+              {
+                "name": "email",
+                "signature": ""
+              },
+              {
+                "name": "inBusinessSince",
+                "signature": ""
+              },
+              {
+                "name": "currency",
+                "signature": ""
+              },
+              {
+                "name": "defaultLanguage",
+                "signature": ""
+              },
+              {
+                "name": "name",
+                "signature": ""
+              },
+              {
+                "name": "code",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "MerchantStoreEntity.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "MerchantStoreEntity",
+                "signature": "MerchantStoreEntity()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "MerchantStoreEntity",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,245 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderproduct/OrderProduct.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderproduct/OrderProduct.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 18,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setOneTimeCharge",
+                "signature": "setOneTimeCharge(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getSku",
+                "signature": "getSku() return java.lang.String"
+              },
+              {
+                "name": "setSku",
+                "signature": "setSku(java.lang.String) return void"
+              },
+              {
+                "name": "setPrices",
+                "signature": "setPrices(java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductPrice\u003e) return void"
+              },
+              {
+                "name": "setOrderAttributes",
+                "signature": "setOrderAttributes(java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductAttribute\u003e) return void"
+              },
+              {
+                "name": "setOrder",
+                "signature": "setOrder(com.salesmanager.core.model.order.Order) return void"
+              },
+              {
+                "name": "getOrder",
+                "signature": "getOrder() return com.salesmanager.core.model.order.Order"
+              },
+              {
+                "name": "setProductQuantity",
+                "signature": "setProductQuantity(int) return void"
+              },
+              {
+                "name": "setProductName",
+                "signature": "setProductName(java.lang.String) return void"
+              },
+              {
+                "name": "getOneTimeCharge",
+                "signature": "getOneTimeCharge() return java.math.BigDecimal"
+              },
+              {
+                "name": "getDownloads",
+                "signature": "getDownloads() return java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductDownload\u003e"
+              },
+              {
+                "name": "getOrderAttributes",
+                "signature": "getOrderAttributes() return java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductAttribute\u003e"
+              },
+              {
+                "name": "getProductQuantity",
+                "signature": "getProductQuantity() return int"
+              },
+              {
+                "name": "getProductName",
+                "signature": "getProductName() return java.lang.String"
+              },
+              {
+                "name": "setDownloads",
+                "signature": "setDownloads(java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductDownload\u003e) return void"
+              },
+              {
+                "name": "getPrices",
+                "signature": "getPrices() return java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductPrice\u003e"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "downloads",
+                "signature": ""
+              },
+              {
+                "name": "prices",
+                "signature": ""
+              },
+              {
+                "name": "orderAttributes",
+                "signature": ""
+              },
+              {
+                "name": "oneTimeCharge",
+                "signature": ""
+              },
+              {
+                "name": "productQuantity",
+                "signature": ""
+              },
+              {
+                "name": "productName",
+                "signature": ""
+              },
+              {
+                "name": "sku",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              },
+              {
+                "name": "order",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "HashSet\u003cOrderProductPrice\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cOrderProductAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cOrderProductDownload\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "HashSet\u003cOrderProductPrice\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cOrderProductAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cOrderProductDownload\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "Set\u003cOrderProductPrice\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Set\u003cOrderProductDownload\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "OrderProduct.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "OrderProduct",
+                "signature": "OrderProduct()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "OrderProduct",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "OrderProduct",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

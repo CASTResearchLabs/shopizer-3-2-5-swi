@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/inventory/ProductInventory.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/inventory/ProductInventory.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPrice() return com.salesmanager.core.model.catalog.product.price.FinalPrice",
+            "to_name": "price",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPrice(com.salesmanager.core.model.catalog.product.price.FinalPrice) return void",
+            "to_name": "price",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getQuantity() return long",
+            "to_name": "quantity",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setQuantity(long) return void",
+            "to_name": "quantity",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSku() return java.lang.String",
+            "to_name": "sku",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSku(java.lang.String) return void",
+            "to_name": "sku",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

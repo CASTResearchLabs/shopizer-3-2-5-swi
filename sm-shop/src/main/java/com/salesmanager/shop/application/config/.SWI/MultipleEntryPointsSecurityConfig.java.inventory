@@ -1,0 +1,178 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/MultipleEntryPointsSecurityConfig.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/MultipleEntryPointsSecurityConfig.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 25,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "apiCustomerAuthenticationEntryPoint",
+                "signature": "apiCustomerAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint"
+              },
+              {
+                "name": "authenticationProvider",
+                "signature": "authenticationProvider() return org.springframework.security.authentication.AuthenticationProvider"
+              },
+              {
+                "name": "configure",
+                "signature": "configure(org.springframework.security.config.annotation.web.builders.HttpSecurity) return void"
+              },
+              {
+                "name": "configure",
+                "signature": "configure(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) return void"
+              },
+              {
+                "name": "authenticationManagerBean",
+                "signature": "authenticationManagerBean() return org.springframework.security.authentication.AuthenticationManager"
+              },
+              {
+                "name": "apiAdminAuthenticationEntryPoint",
+                "signature": "apiAdminAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint"
+              },
+              {
+                "name": "configure",
+                "signature": "configure(org.springframework.security.config.annotation.web.builders.WebSecurity) return void"
+              },
+              {
+                "name": "servicesAuthenticationEntryPoint",
+                "signature": "servicesAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint"
+              },
+              {
+                "name": "shopAuthenticationEntryPoint",
+                "signature": "shopAuthenticationEntryPoint() return org.springframework.security.web.AuthenticationEntryPoint"
+              },
+              {
+                "name": "customerFacade",
+                "signature": "customerFacade() return com.salesmanager.shop.store.controller.customer.facade.CustomerFacade"
+              },
+              {
+                "name": "servicesAuthenticationSuccessHandler",
+                "signature": "servicesAuthenticationSuccessHandler() return com.salesmanager.shop.store.security.ServicesAuthenticationSuccessHandler"
+              },
+              {
+                "name": "userAuthenticationSuccessHandler",
+                "signature": "userAuthenticationSuccessHandler() return com.salesmanager.shop.admin.security.UserAuthenticationSuccessHandler"
+              },
+              {
+                "name": "passwordEncoder",
+                "signature": "passwordEncoder() return org.springframework.security.crypto.password.PasswordEncoder"
+              },
+              {
+                "name": "credentialsService",
+                "signature": "credentialsService() return com.salesmanager.shop.store.security.services.CredentialsService"
+              },
+              {
+                "name": "authenticationTokenFilter",
+                "signature": "authenticationTokenFilter() return com.salesmanager.shop.store.security.AuthenticationTokenFilter"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 8,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "jwtCustomerDetailsService",
+                "signature": ""
+              },
+              {
+                "name": "authenticationTokenFilter",
+                "signature": ""
+              },
+              {
+                "name": "jwtUserDetailsService",
+                "signature": ""
+              },
+              {
+                "name": "servicesAuthenticationSuccessHandler",
+                "signature": ""
+              },
+              {
+                "name": "userDetailsService",
+                "signature": ""
+              },
+              {
+                "name": "customerDetailsService",
+                "signature": ""
+              },
+              {
+                "name": "API_VERSION",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "MultipleEntryPointsSecurityConfig",
+                "signature": "MultipleEntryPointsSecurityConfig()"
+              },
+              {
+                "name": "CustomeApiConfigurationAdapter",
+                "signature": "CustomeApiConfigurationAdapter()"
+              },
+              {
+                "name": "UserApiConfigurationAdapter",
+                "signature": "UserApiConfigurationAdapter()"
+              },
+              {
+                "name": "ServicesApiConfigurationAdapter",
+                "signature": "ServicesApiConfigurationAdapter()"
+              },
+              {
+                "name": "CustomerConfigurationAdapter",
+                "signature": "CustomerConfigurationAdapter()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "CustomeApiConfigurationAdapter",
+                "signature": ""
+              },
+              {
+                "name": "UserApiConfigurationAdapter",
+                "signature": ""
+              },
+              {
+                "name": "ServicesApiConfigurationAdapter",
+                "signature": ""
+              },
+              {
+                "name": "CustomerConfigurationAdapter",
+                "signature": ""
+              },
+              {
+                "name": "MultipleEntryPointsSecurityConfig",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "MultipleEntryPointsSecurityConfig.java",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/payments/PaymentServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/payments/PaymentServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 14,
+        "impacting_elements": [
+          {
+            "name": "processRefund(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,java.math.BigDecimal) return com.salesmanager.core.model.payments.Transaction",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "processCapturePayment(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.payments.Transaction",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "processPayment(com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.payments.Payment,java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e,com.salesmanager.co",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "removeCustomModuleConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "removePaymentModuleConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "savePaymentModuleConfiguration(com.salesmanager.core.model.system.IntegrationConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getPaymentModulesConfigured(com.salesmanager.core.model.merchant.MerchantStore) return java.util.Map.Map\u003cjava.lang.String,com.salesmanager.core.model.system.IntegrationConfiguration\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "initTransaction(com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.payments.Payment,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.payments.Transaction",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "initTransaction(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.payments.Payment,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.payments.Transaction",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getPaymentConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.system.IntegrationConfiguration",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getAcceptedPaymentMethods(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.payments.PaymentMethod\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getPaymentMethods(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.system.IntegrationModule\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getPaymentMethodByCode(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return com.salesmanager.core.model.system.IntegrationModule",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getPaymentMethodByType(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return com.salesmanager.core.model.system.IntegrationModule",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

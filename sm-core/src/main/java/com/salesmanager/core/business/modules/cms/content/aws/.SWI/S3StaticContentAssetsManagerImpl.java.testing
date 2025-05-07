@@ -1,0 +1,180 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/content/aws/S3StaticContentAssetsManagerImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/content/aws/S3StaticContentAssetsManagerImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 9,
+        "impacting_elements": [
+          {
+            "name": "removeFiles(java.lang.String,java.util.Optional.Optional\u003cjava.lang.String\u003e) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "removeFile(java.lang.String,com.salesmanager.core.model.content.FileContentType,java.lang.String,java.util.Optional.Optional\u003cjava.lang.String\u003e) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "addFile(java.lang.String,java.util.Optional.Optional\u003cjava.lang.String\u003e,com.salesmanager.core.model.content.InputContentFile) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getFiles(java.lang.String,java.util.Optional.Optional\u003cjava.lang.String\u003e,com.salesmanager.core.model.content.FileContentType) return java.util.List.List\u003ccom.salesmanager.core.model.content.OutputContentFile\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getFileNames(java.lang.String,java.util.Optional.Optional\u003cjava.lang.String\u003e,com.salesmanager.core.model.content.FileContentType) return java.util.List.List\u003cjava.lang.String\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getFile(java.lang.String,java.util.Optional.Optional\u003cjava.lang.String\u003e,com.salesmanager.core.model.content.FileContentType,java.lang.String) return com.salesmanager.core.model.content.OutputContentFile",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "addFiles(java.lang.String,java.util.Optional.Optional\u003cjava.lang.String\u003e,java.util.List.List\u003ccom.salesmanager.core.model.content.InputContentFile\u003e) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "shopizer",
+                "full_name": "_sm-core_6bda2aea_.shopizer",
+                "type": "Java AWS S3 Bucket",
+                "nature": "data entity"
+              },
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "createBucket(java.lang.String) return com.amazonaws.services.s3.model.Bucket",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getBucket(java.lang.String) return com.amazonaws.services.s3.model.Bucket",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "Unknown",
+                "full_name": "_sm-core_6bda2aea_.Unknown",
+                "type": "Java AWS Unknown S3 Bucket",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

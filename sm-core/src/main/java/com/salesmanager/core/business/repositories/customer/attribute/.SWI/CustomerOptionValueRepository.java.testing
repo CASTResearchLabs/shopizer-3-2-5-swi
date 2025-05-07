@@ -1,0 +1,92 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/customer/attribute/CustomerOptionValueRepository.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/customer/attribute/CustomerOptionValueRepository.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 6,
+        "impacting_elements": [
+          {
+            "name": "select o from CustomerOptionValue",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByStore(java.lang.Integer,java.lang.Integer) return java.util.List.List\u003ccom.salesmanager.core.model.customer.attribute.CustomerOptionValue\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByCode(java.lang.Integer,java.lang.String) return com.salesmanager.core.model.customer.attribute.CustomerOptionValue",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findOne(java.lang.Long) return com.salesmanager.core.model.customer.attribute.CustomerOptionValue",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

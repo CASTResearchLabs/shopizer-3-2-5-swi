@@ -1,0 +1,98 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/audit/AuditSection.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/audit/AuditSection.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 6,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setModifiedBy",
+                "signature": "setModifiedBy(java.lang.String) return void"
+              },
+              {
+                "name": "getModifiedBy",
+                "signature": "getModifiedBy() return java.lang.String"
+              },
+              {
+                "name": "setDateModified",
+                "signature": "setDateModified(java.util.Date) return void"
+              },
+              {
+                "name": "getDateModified",
+                "signature": "getDateModified() return java.util.Date"
+              },
+              {
+                "name": "getDateCreated",
+                "signature": "getDateCreated() return java.util.Date"
+              },
+              {
+                "name": "setDateCreated",
+                "signature": "setDateCreated(java.util.Date) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "modifiedBy",
+                "signature": ""
+              },
+              {
+                "name": "dateModified",
+                "signature": ""
+              },
+              {
+                "name": "dateCreated",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "AuditSection.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "AuditSection",
+                "signature": "AuditSection()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "AuditSection",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

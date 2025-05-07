@@ -1,0 +1,76 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/catalog/PageableCatalogEntryRepository.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/catalog/PageableCatalogEntryRepository.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 2,
+        "impacting_elements": [
+          {
+            "name": "select distinct c from",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATALOG",
+                "full_name": "DEFAULT.CATALOG",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CATALOG_ENTRY",
+                "full_name": "DEFAULT.CATALOG_ENTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByCatalog(java.lang.Long,java.lang.Integer,java.lang.Integer,java.lang.String,org.springframework.data.domain.Pageable) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.catalog.catalog.CatalogCategoryEntry\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATALOG",
+                "full_name": "DEFAULT.CATALOG",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CATALOG_ENTRY",
+                "full_name": "DEFAULT.CATALOG_ENTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/reference/geozone/GeoZoneDescription.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/reference/geozone/GeoZoneDescription.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGeoZone() return com.salesmanager.core.model.reference.geozone.GeoZone",
+            "to_name": "geoZone",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGeoZone(com.salesmanager.core.model.reference.geozone.GeoZone) return void",
+            "to_name": "geoZone",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/PermissionRepository.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/PermissionRepository.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 6,
+        "impacting_elements": [
+          {
+            "name": "select distinct p from",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PERMISSION",
+                "full_name": "DEFAULT.PERMISSION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select p from Permission",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PERMISSION",
+                "full_name": "DEFAULT.PERMISSION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findOne(java.lang.Integer) return com.salesmanager.core.model.user.Permission",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PERMISSION",
+                "full_name": "DEFAULT.PERMISSION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByGroups(java.util.Set.Set\u003cjava.lang.Integer\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.user.Permission\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PERMISSION",
+                "full_name": "DEFAULT.PERMISSION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findAll() return java.util.List.List\u003ccom.salesmanager.core.model.user.Permission\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PERMISSION",
+                "full_name": "DEFAULT.PERMISSION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

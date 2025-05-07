@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/attribute/PersistableCustomerOption.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/attribute/PersistableCustomerOption.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescriptions() return java.util.List.List\u003ccom.salesmanager.shop.model.customer.attribute.CustomerOptionDescription\u003e",
+            "to_name": "descriptions",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescriptions(java.util.List.List\u003ccom.salesmanager.shop.model.customer.attribute.CustomerOptionDescription\u003e) return void",
+            "to_name": "descriptions",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

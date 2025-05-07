@@ -1,0 +1,161 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/ProductRepositoryImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/ProductRepositoryImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 19,
+            "comment": "",
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getByFriendlyUrl",
+                "signature": "getByFriendlyUrl(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,java.util.Locale) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "getById",
+                "signature": "getById(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "listByTaxClass",
+                "signature": "listByTaxClass(com.salesmanager.core.model.tax.taxclass.TaxClass) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              },
+              {
+                "name": "listByStore",
+                "signature": "listByStore(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              },
+              {
+                "name": "getProductsListForLocale",
+                "signature": "getProductsListForLocale(com.salesmanager.core.model.merchant.MerchantStore,java.util.Set.Set\u003cE\u003e,com.salesmanager.core.model.reference.language.Language,java.util.Locale,int,int) return com.salesmanager.core.model.catalog.product.ProductList"
+              },
+              {
+                "name": "getProductsListByIds",
+                "signature": "getProductsListByIds(java.util.Set.Set\u003cjava.lang.Long\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              },
+              {
+                "name": "getProductsListByCategories",
+                "signature": "getProductsListByCategories(java.util.Set.Set\u003cjava.lang.Long\u003e,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              },
+              {
+                "name": "getProductsListByCategories",
+                "signature": "getProductsListByCategories(java.util.Set.Set\u003cE\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Product\u003e"
+              },
+              {
+                "name": "getProductForLocale",
+                "signature": "getProductForLocale(long,com.salesmanager.core.model.reference.language.Language,java.util.Locale) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "getByCode",
+                "signature": "getByCode(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "getByCode",
+                "signature": "getByCode(java.lang.String,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "get",
+                "signature": "get(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "getProductWithOnlyMerchantStoreById",
+                "signature": "getProductWithOnlyMerchantStoreById(java.lang.Long) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "productQueryV2",
+                "signature": "productQueryV2() return java.lang.String"
+              },
+              {
+                "name": "productQueryV1",
+                "signature": "productQueryV1() return java.lang.String"
+              },
+              {
+                "name": "listByStore",
+                "signature": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.catalog.product.ProductCriteria) return com.salesmanager.core.model.catalog.product.ProductList"
+              },
+              {
+                "name": "getProductsForLocale",
+                "signature": "getProductsForLocale(com.salesmanager.core.model.merchant.MerchantStore,java.util.Set.Set\u003cjava.lang.Long\u003e,com.salesmanager.core.model.reference.language.Language,java.util.Locale) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.Prod"
+              },
+              {
+                "name": "getById",
+                "signature": "getById(java.lang.Long) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "getById",
+                "signature": "getById(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product"
+              }
+            ]
+          },
+          {
+            "nb_elements": 15,
+            "comment": "",
+            "type": "JPQL Query",
+            "elements": [
+              {
+                "name": "select p from Product",
+                "signature": ""
+              },
+              {
+                "name": "select count(p) from Product",
+                "signature": ""
+              },
+              {
+                "name": "select distinct p from",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "em",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductRepositoryImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductRepositoryImpl",
+                "signature": "ProductRepositoryImpl()"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductRepositoryImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

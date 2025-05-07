@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/util/ReadableEntityUtil.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/util/ReadableEntityUtil.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 4,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Generic Java Method",
+                "to_type": "Java Method",
+                "from_name": "createReadableList\u003cT,R\u003e(org.springframework.data.domain.Page.Page\u003cT\u003e,java.util.List.List\u003cE\u003e) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003cT\u003e",
+                "to_name": "setNumber(int) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Generic Java Method",
+                "to_type": "Java Method",
+                "from_name": "createReadableList\u003cT,R\u003e(org.springframework.data.domain.Page.Page\u003cT\u003e,java.util.List.List\u003cE\u003e) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003cT\u003e",
+                "to_name": "setRecordsTotal(long) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Generic Java Method",
+                "to_type": "Java Method",
+                "from_name": "createReadableList\u003cT,R\u003e(org.springframework.data.domain.Page.Page\u003cT\u003e,java.util.List.List\u003cE\u003e) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003cT\u003e",
+                "to_name": "setTotalPages(int) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReadableEntityUtil",
+                "to_name": "ReadableList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/entity/ReadableList.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Generic Java Method",
+                "to_type": "Java Method",
+                "from_name": "createReadableList\u003cT,R\u003e(org.springframework.data.domain.Page.Page\u003cT\u003e,java.util.List.List\u003cE\u003e) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003cT\u003e",
+                "to_name": "getTotalElements() return long",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Generic Java Method",
+                "to_type": "Java Method",
+                "from_name": "createReadableList\u003cT,R\u003e(org.springframework.data.domain.Page.Page\u003cT\u003e,java.util.List.List\u003cE\u003e) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003cT\u003e",
+                "to_name": "getTotalPages() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Interface",
+                "from_name": "ReadableEntityUtil",
+                "to_name": "Page\u003cT extends java.lang.Object\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Page_11075.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Generic Java Method",
+                "to_type": "Java Method",
+                "from_name": "createReadableList\u003cT,R\u003e(org.springframework.data.domain.Page.Page\u003cT\u003e,java.util.List.List\u003cE\u003e) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003cT\u003e",
+                "to_name": "size() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Interface",
+                "from_name": "ReadableEntityUtil",
+                "to_name": "List\u003cE\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/util/List_64677f8dab63b405.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Generic Java Method",
+                "to_type": "Java Method",
+                "from_name": "createReadableList\u003cT,R\u003e(org.springframework.data.domain.Page.Page\u003cT\u003e,java.util.List.List\u003cE\u003e) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003cT\u003e",
+                "to_name": "setItems(java.util.List.List\u003cE\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Class",
+                "from_name": "ReadableEntityUtil",
+                "to_name": "ReadableEntityList\u003cT\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/entity/ReadableEntityList.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

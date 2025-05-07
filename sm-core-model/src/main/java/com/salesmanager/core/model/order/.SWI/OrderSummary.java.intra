@@ -1,0 +1,75 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderSummary.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderSummary.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "products",
+            "to_name": "ArrayList\u003cShoppingCartItem\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProducts() return java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e",
+            "to_name": "products",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProducts(java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e) return void",
+            "to_name": "products",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPromoCode() return java.lang.String",
+            "to_name": "promoCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPromoCode(java.lang.String) return void",
+            "to_name": "promoCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShippingSummary() return com.salesmanager.core.model.shipping.ShippingSummary",
+            "to_name": "shippingSummary",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingSummary(com.salesmanager.core.model.shipping.ShippingSummary) return void",
+            "to_name": "shippingSummary",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderSummaryType() return com.salesmanager.core.model.order.OrderSummaryType",
+            "to_name": "orderSummaryType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderSummaryType(com.salesmanager.core.model.order.OrderSummaryType) return void",
+            "to_name": "orderSummaryType",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 9
+      }
+    ]
+  }
+}

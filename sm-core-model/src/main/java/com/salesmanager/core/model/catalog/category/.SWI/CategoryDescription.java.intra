@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/category/CategoryDescription.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/category/CategoryDescription.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMetatagDescription() return java.lang.String",
+            "to_name": "metatagDescription",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMetatagDescription(java.lang.String) return void",
+            "to_name": "metatagDescription",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMetatagKeywords() return java.lang.String",
+            "to_name": "metatagKeywords",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMetatagKeywords(java.lang.String) return void",
+            "to_name": "metatagKeywords",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMetatagTitle() return java.lang.String",
+            "to_name": "metatagTitle",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMetatagTitle(java.lang.String) return void",
+            "to_name": "metatagTitle",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCategoryHighlight() return java.lang.String",
+            "to_name": "categoryHighlight",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCategoryHighlight(java.lang.String) return void",
+            "to_name": "categoryHighlight",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSeUrl() return java.lang.String",
+            "to_name": "seUrl",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSeUrl(java.lang.String) return void",
+            "to_name": "seUrl",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCategory() return com.salesmanager.core.model.catalog.category.Category",
+            "to_name": "category",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCategory(com.salesmanager.core.model.catalog.category.Category) return void",
+            "to_name": "category",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/ReadableProductOptionMapper.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/ReadableProductOptionMapper.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.attribute.ProductOption,com.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionEntity,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.langua",
+            "to_name": "ArrayList\u003cProductOptionDescription\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.attribute.ProductOption,com.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionEntity,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.langua",
+            "to_name": "description(com.salesmanager.core.model.catalog.product.attribute.ProductOptionDescription) return com.salesmanager.shop.model.catalog.product.attribute.ProductOptionDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "convert(com.salesmanager.core.model.catalog.product.attribute.ProductOption,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.attribute.api.Readab",
+            "to_name": "merge(com.salesmanager.core.model.catalog.product.attribute.ProductOption,com.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionEntity,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.langua",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 3
+      }
+    ]
+  }
+}

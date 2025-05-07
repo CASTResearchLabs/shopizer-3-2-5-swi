@@ -1,0 +1,158 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/inventory/InventoryEntity.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/inventory/InventoryEntity.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 16,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setProductQuantityOrderMax",
+                "signature": "setProductQuantityOrderMax(int) return void"
+              },
+              {
+                "name": "getProductQuantityOrderMax",
+                "signature": "getProductQuantityOrderMax() return int"
+              },
+              {
+                "name": "setProductQuantityOrderMin",
+                "signature": "setProductQuantityOrderMin(int) return void"
+              },
+              {
+                "name": "getProductQuantityOrderMin",
+                "signature": "getProductQuantityOrderMin() return int"
+              },
+              {
+                "name": "setAvailable",
+                "signature": "setAvailable(boolean) return void"
+              },
+              {
+                "name": "isAvailable",
+                "signature": "isAvailable() return boolean"
+              },
+              {
+                "name": "setOwner",
+                "signature": "setOwner(java.lang.String) return void"
+              },
+              {
+                "name": "getOwner",
+                "signature": "getOwner() return java.lang.String"
+              },
+              {
+                "name": "setRegionVariant",
+                "signature": "setRegionVariant(java.lang.String) return void"
+              },
+              {
+                "name": "setRegion",
+                "signature": "setRegion(java.lang.String) return void"
+              },
+              {
+                "name": "getRegion",
+                "signature": "getRegion() return java.lang.String"
+              },
+              {
+                "name": "setQuantity",
+                "signature": "setQuantity(int) return void"
+              },
+              {
+                "name": "getQuantity",
+                "signature": "getQuantity() return int"
+              },
+              {
+                "name": "getRegionVariant",
+                "signature": "getRegionVariant() return java.lang.String"
+              },
+              {
+                "name": "setDateAvailable",
+                "signature": "setDateAvailable(java.lang.String) return void"
+              },
+              {
+                "name": "getDateAvailable",
+                "signature": "getDateAvailable() return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 9,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "productQuantityOrderMax",
+                "signature": ""
+              },
+              {
+                "name": "productQuantityOrderMin",
+                "signature": ""
+              },
+              {
+                "name": "available",
+                "signature": ""
+              },
+              {
+                "name": "dateAvailable",
+                "signature": ""
+              },
+              {
+                "name": "owner",
+                "signature": ""
+              },
+              {
+                "name": "regionVariant",
+                "signature": ""
+              },
+              {
+                "name": "quantity",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              },
+              {
+                "name": "region",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "InventoryEntity.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "InventoryEntity",
+                "signature": "InventoryEntity()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "InventoryEntity",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

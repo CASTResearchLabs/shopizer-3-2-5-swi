@@ -1,0 +1,103 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/tax/PersistableTaxRate.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/tax/PersistableTaxRate.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "descriptions",
+            "to_name": "ArrayList\u003cTaxRateDescription\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescriptions() return java.util.List.List\u003ccom.salesmanager.shop.model.tax.TaxRateDescription\u003e",
+            "to_name": "descriptions",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescriptions(java.util.List.List\u003ccom.salesmanager.shop.model.tax.TaxRateDescription\u003e) return void",
+            "to_name": "descriptions",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxClass() return java.lang.String",
+            "to_name": "taxClass",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxClass(java.lang.String) return void",
+            "to_name": "taxClass",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCountry() return java.lang.String",
+            "to_name": "country",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCountry(java.lang.String) return void",
+            "to_name": "country",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getZone() return java.lang.String",
+            "to_name": "zone",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setZone(java.lang.String) return void",
+            "to_name": "zone",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStore() return java.lang.String",
+            "to_name": "store",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStore(java.lang.String) return void",
+            "to_name": "store",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getRate() return java.math.BigDecimal",
+            "to_name": "rate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setRate(java.math.BigDecimal) return void",
+            "to_name": "rate",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 13
+      }
+    ]
+  }
+}

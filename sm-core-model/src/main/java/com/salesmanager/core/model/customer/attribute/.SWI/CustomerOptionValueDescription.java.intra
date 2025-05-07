@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerOptionValueDescription.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerOptionValueDescription.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerOptionValue() return com.salesmanager.core.model.customer.attribute.CustomerOptionValue",
+            "to_name": "customerOptionValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerOptionValue(com.salesmanager.core.model.customer.attribute.CustomerOptionValue) return void",
+            "to_name": "customerOptionValue",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

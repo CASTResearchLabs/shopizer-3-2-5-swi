@@ -1,0 +1,195 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/facade/product/ProductCommonFacadeImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/facade/product/ProductCommonFacadeImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 18,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setAvailability",
+                "signature": "setAvailability(com.salesmanager.core.model.catalog.product.availability.ProductAvailability,com.salesmanager.shop.model.catalog.product.LightPersistableProduct) return void"
+              },
+              {
+                "name": "update",
+                "signature": "update(java.lang.String,com.salesmanager.shop.model.catalog.product.LightPersistableProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "getProduct",
+                "signature": "getProduct(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "deleteProduct",
+                "signature": "deleteProduct(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "exists",
+                "signature": "exists(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return boolean"
+              },
+              {
+                "name": "update",
+                "signature": "update(java.lang.Long,com.salesmanager.shop.model.catalog.product.LightPersistableProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "getProductReviews",
+                "signature": "getProductReviews(com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.Readab"
+              },
+              {
+                "name": "deleteReview",
+                "signature": "deleteReview(com.salesmanager.core.model.catalog.product.review.ProductReview,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "saveOrUpdateReview",
+                "signature": "saveOrUpdateReview(com.salesmanager.shop.model.catalog.product.PersistableProductReview,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "getProductByCode",
+                "signature": "getProductByCode(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct"
+              },
+              {
+                "name": "removeProductFromCategory",
+                "signature": "removeProductFromCategory(com.salesmanager.core.model.catalog.category.Category,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct"
+              },
+              {
+                "name": "addProductToCategory",
+                "signature": "addProductToCategory(com.salesmanager.core.model.catalog.category.Category,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct"
+              },
+              {
+                "name": "deleteProduct",
+                "signature": "deleteProduct(com.salesmanager.core.model.catalog.product.Product) return void"
+              },
+              {
+                "name": "updateProductQuantity",
+                "signature": "updateProductQuantity(com.salesmanager.shop.model.catalog.product.ReadableProduct,int,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct"
+              },
+              {
+                "name": "updateProductPrice",
+                "signature": "updateProductPrice(com.salesmanager.shop.model.catalog.product.ReadableProduct,com.salesmanager.shop.model.catalog.product.ProductPriceEntity,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.Reada"
+              },
+              {
+                "name": "getProduct",
+                "signature": "getProduct(com.salesmanager.core.model.merchant.MerchantStore,java.lang.Long,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.ReadableProduct"
+              },
+              {
+                "name": "updateProduct",
+                "signature": "updateProduct(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.model.catalog.product.product.PersistableProduct,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "saveProduct",
+                "signature": "saveProduct(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.model.catalog.product.product.PersistableProduct,com.salesmanager.core.model.reference.language.Language) return java.lang.Long"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "imageUtils",
+                "signature": ""
+              },
+              {
+                "name": "persistableProductMapper",
+                "signature": ""
+              },
+              {
+                "name": "productReviewService",
+                "signature": ""
+              },
+              {
+                "name": "customerService",
+                "signature": ""
+              },
+              {
+                "name": "pricingService",
+                "signature": ""
+              },
+              {
+                "name": "productService",
+                "signature": ""
+              },
+              {
+                "name": "languageService",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "update$lambda$0",
+                "signature": "update$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return boolean"
+              },
+              {
+                "name": "addProductToCategory$lambda$0",
+                "signature": "addProductToCategory$lambda$0(com.salesmanager.core.model.catalog.category.Category) return boolean"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "ArrayList\u003cReadableProductReview\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "ArrayList\u003cReadableProductReview\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductCommonFacadeImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductCommonFacadeImpl",
+                "signature": "ProductCommonFacadeImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductCommonFacadeImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

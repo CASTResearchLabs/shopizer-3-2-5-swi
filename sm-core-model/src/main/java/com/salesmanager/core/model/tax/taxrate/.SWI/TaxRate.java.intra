@@ -1,0 +1,250 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/tax/taxrate/TaxRate.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/tax/taxrate/TaxRate.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "descriptions",
+            "to_name": "ArrayList\u003cTaxRateDescription\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "taxRates",
+            "to_name": "ArrayList\u003cTaxRate\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getRateText() return java.lang.String",
+            "to_name": "rateText",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setRateText(java.lang.String) return void",
+            "to_name": "rateText",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxRates() return java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRate\u003e",
+            "to_name": "taxRates",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxRates(java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRate\u003e) return void",
+            "to_name": "taxRates",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getParent() return com.salesmanager.core.model.tax.taxrate.TaxRate",
+            "to_name": "parent",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setParent(com.salesmanager.core.model.tax.taxrate.TaxRate) return void",
+            "to_name": "parent",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStateProvince() return java.lang.String",
+            "to_name": "stateProvince",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStateProvince(java.lang.String) return void",
+            "to_name": "stateProvince",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getZone() return com.salesmanager.core.model.reference.zone.Zone",
+            "to_name": "zone",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setZone(com.salesmanager.core.model.reference.zone.Zone) return void",
+            "to_name": "zone",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCountry() return com.salesmanager.core.model.reference.country.Country",
+            "to_name": "country",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCountry(com.salesmanager.core.model.reference.country.Country) return void",
+            "to_name": "country",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescriptions() return java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRateDescription\u003e",
+            "to_name": "descriptions",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescriptions(java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRateDescription\u003e) return void",
+            "to_name": "descriptions",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "to_name": "merchantStore",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxClass() return com.salesmanager.core.model.tax.taxclass.TaxClass",
+            "to_name": "taxClass",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxClass(com.salesmanager.core.model.tax.taxclass.TaxClass) return void",
+            "to_name": "taxClass",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isPiggyback() return boolean",
+            "to_name": "piggyback",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPiggyback(boolean) return void",
+            "to_name": "piggyback",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCode() return java.lang.String",
+            "to_name": "code",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCode(java.lang.String) return void",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxRate() return java.math.BigDecimal",
+            "to_name": "taxRate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxRate(java.math.BigDecimal) return void",
+            "to_name": "taxRate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxPriority() return java.lang.Integer",
+            "to_name": "taxPriority",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxPriority(java.lang.Integer) return void",
+            "to_name": "taxPriority",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+            "to_name": "auditSection",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Class",
+            "from_name": "getTaxRates() return java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRate\u003e",
+            "to_name": "TaxRate",
+            "calling_type": "USE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Class",
+            "from_name": "setTaxRates(java.util.List.List\u003ccom.salesmanager.core.model.tax.taxrate.TaxRate\u003e) return void",
+            "to_name": "TaxRate",
+            "calling_type": "USE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 34
+      }
+    ]
+  }
+}

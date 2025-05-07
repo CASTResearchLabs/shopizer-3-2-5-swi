@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/catalog/PersistableCategoryPopulator.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/catalog/PersistableCategoryPopulator.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "populate(com.salesmanager.shop.model.catalog.category.PersistableCategory,com.salesmanager.core.model.catalog.category.Category,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesman",
+            "to_name": "buildDescription(com.salesmanager.shop.model.catalog.category.CategoryDescription,com.salesmanager.core.model.catalog.category.CategoryDescription) return com.salesmanager.core.model.catalog.category.CategoryDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLanguageService() return com.salesmanager.core.business.services.reference.language.LanguageService",
+            "to_name": "languageService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setLanguageService(com.salesmanager.core.business.services.reference.language.LanguageService) return void",
+            "to_name": "languageService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCategoryService() return com.salesmanager.core.business.services.catalog.category.CategoryService",
+            "to_name": "categoryService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCategoryService(com.salesmanager.core.business.services.catalog.category.CategoryService) return void",
+            "to_name": "categoryService",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 5
+      }
+    ]
+  }
+}

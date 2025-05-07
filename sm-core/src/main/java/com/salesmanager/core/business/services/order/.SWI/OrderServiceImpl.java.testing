@@ -1,0 +1,380 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/order/OrderServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/order/OrderServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 11,
+        "impacting_elements": [
+          {
+            "name": "getCapturableOrders(com.salesmanager.core.model.merchant.MerchantStore,java.util.Date,java.util.Date) return java.util.List.List\u003ccom.salesmanager.core.model.order.Order\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDER_TOTAL",
+                "full_name": "DEFAULT.ORDER_TOTAL",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "caculateShoppingCart(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.co",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "TAX_CLASS",
+                "full_name": "DEFAULT.TAX_CLASS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "TAX_RATE",
+                "full_name": "DEFAULT.TAX_RATE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "caculateOrder(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.order",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "TAX_CLASS",
+                "full_name": "DEFAULT.TAX_CLASS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "TAX_RATE",
+                "full_name": "DEFAULT.TAX_RATE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "calculateShoppingCartTotal(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.order.OrderTotalSummary",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "TAX_CLASS",
+                "full_name": "DEFAULT.TAX_CLASS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "TAX_RATE",
+                "full_name": "DEFAULT.TAX_RATE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "calculateShoppingCartTotal(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmana",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "TAX_CLASS",
+                "full_name": "DEFAULT.TAX_CLASS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "TAX_RATE",
+                "full_name": "DEFAULT.TAX_RATE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "caculateOrderTotal(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.order.OrderTotalSummary",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "TAX_CLASS",
+                "full_name": "DEFAULT.TAX_CLASS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "TAX_RATE",
+                "full_name": "DEFAULT.TAX_RATE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "caculateOrderTotal(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "TAX_CLASS",
+                "full_name": "DEFAULT.TAX_CLASS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "TAX_RATE",
+                "full_name": "DEFAULT.TAX_RATE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getOrder(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.order.Order",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "process(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.customer.Customer,java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e,com.salesmanager.core.model.order.OrderTotalSummary,com.salesmanager.core.model.pa",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "processOrder(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.customer.Customer,java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e,com.salesmanager.core.model.order.OrderTotalSummary,com.salesmanager.core.mod",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_CONFIGURATION",
+                "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MODULE_CONFIGURATION",
+                "full_name": "DEFAULT.MODULE_CONFIGURATION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

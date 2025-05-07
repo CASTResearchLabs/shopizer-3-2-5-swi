@@ -1,0 +1,88 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/store/controller/tax/facade/TaxFacade.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/store/controller/tax/facade/TaxFacade.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "taxRate",
+                "signature": "taxRate(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.tax.ReadableTaxRate"
+              },
+              {
+                "name": "taxRates",
+                "signature": "taxRates(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003ccom.salesmanager.shop.model.tax.ReadableTaxRate\u003e"
+              },
+              {
+                "name": "existsTaxRate",
+                "signature": "existsTaxRate(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return boolean"
+              },
+              {
+                "name": "deleteTaxRate",
+                "signature": "deleteTaxRate(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "updateTaxRate",
+                "signature": "updateTaxRate(java.lang.Long,com.salesmanager.shop.model.tax.PersistableTaxRate,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "createTaxRate",
+                "signature": "createTaxRate(com.salesmanager.shop.model.tax.PersistableTaxRate,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.Entity"
+              },
+              {
+                "name": "taxClass",
+                "signature": "taxClass(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.tax.ReadableTaxClass"
+              },
+              {
+                "name": "taxClasses",
+                "signature": "taxClasses(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003ccom.salesmanager.shop.model.tax.ReadableTaxClass\u003e"
+              },
+              {
+                "name": "existsTaxClass",
+                "signature": "existsTaxClass(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return boolean"
+              },
+              {
+                "name": "deleteTaxClass",
+                "signature": "deleteTaxClass(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "updateTaxClass",
+                "signature": "updateTaxClass(java.lang.Long,com.salesmanager.shop.model.tax.PersistableTaxClass,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "createTaxClass",
+                "signature": "createTaxClass(com.salesmanager.shop.model.tax.PersistableTaxClass,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.Entity"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "TaxFacade.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "TaxFacade",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/user/UserApi.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/user/UserApi.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 9,
+            "comment": "",
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getAuthUser",
+                "signature": "getAuthUser(com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return com.salesmanager.shop.model.user.ReadableUser"
+              },
+              {
+                "name": "exists",
+                "signature": "exists(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.shop.model.entity.UniqueEntity) return org.springframework.http.ResponseEntity.ResponseEntity\u003ccom.salesmanager.shop.model.en"
+              },
+              {
+                "name": "delete",
+                "signature": "delete(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,java.lang.Long,javax.servlet.http.HttpServletRequest) return void"
+              },
+              {
+                "name": "updateEnabled",
+                "signature": "updateEnabled(java.lang.Long,com.salesmanager.shop.model.user.PersistableUser,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "list",
+                "signature": "list(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,java.lang.Integer,java.lang.Integer,java.lang.String) return com.salesmanager.shop.model.user.ReadableUserList"
+              },
+              {
+                "name": "password",
+                "signature": "password(com.salesmanager.shop.model.user.UserPassword,java.lang.Long) return void"
+              },
+              {
+                "name": "update",
+                "signature": "update(com.salesmanager.shop.model.user.PersistableUser,java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.user.ReadableUser"
+              },
+              {
+                "name": "create",
+                "signature": "create(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.shop.model.user.PersistableUser,javax.servlet.http.HttpServletRequest) return com.salesmanager.shop.model.user.ReadableUser"
+              },
+              {
+                "name": "get",
+                "signature": "get(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,java.lang.Long,javax.servlet.http.HttpServletRequest) return com.salesmanager.shop.model.user.ReadableUser"
+              }
+            ]
+          },
+          {
+            "nb_elements": 3,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "/api/v1",
+                "signature": ""
+              },
+              {
+                "name": "UserApi.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 3,
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/users/{}/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/user/profile/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/users/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "Spring MVC Post Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/user/unique/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/user/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "Spring MVC Any Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/user/{}/enabled/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/user/{}/password/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "userFacade",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Spring MVC Put Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/user/{}/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "UserApi",
+                "signature": "UserApi()"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "UserApi",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Spring MVC Delete Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/user/{}/",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

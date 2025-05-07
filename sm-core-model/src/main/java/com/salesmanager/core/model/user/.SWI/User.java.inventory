@@ -1,0 +1,332 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 40,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getLoginTime",
+                "signature": "getLoginTime() return java.util.Date"
+              },
+              {
+                "name": "setLoginTime",
+                "signature": "setLoginTime(java.util.Date) return void"
+              },
+              {
+                "name": "getLastAccess",
+                "signature": "getLastAccess() return java.util.Date"
+              },
+              {
+                "name": "setLastAccess",
+                "signature": "setLastAccess(java.util.Date) return void"
+              },
+              {
+                "name": "isActive",
+                "signature": "isActive() return boolean"
+              },
+              {
+                "name": "setActive",
+                "signature": "setActive(boolean) return void"
+              },
+              {
+                "name": "setMerchantStore",
+                "signature": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getMerchantStore",
+                "signature": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "getGroups",
+                "signature": "getGroups() return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e"
+              },
+              {
+                "name": "setGroups",
+                "signature": "setGroups(java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e) return void"
+              },
+              {
+                "name": "setDefaultLanguage",
+                "signature": "setDefaultLanguage(com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "getDefaultLanguage",
+                "signature": "getDefaultLanguage() return com.salesmanager.core.model.reference.language.Language"
+              },
+              {
+                "name": "setLastName",
+                "signature": "setLastName(java.lang.String) return void"
+              },
+              {
+                "name": "getLastName",
+                "signature": "getLastName() return java.lang.String"
+              },
+              {
+                "name": "setFirstName",
+                "signature": "setFirstName(java.lang.String) return void"
+              },
+              {
+                "name": "getFirstName",
+                "signature": "getFirstName() return java.lang.String"
+              },
+              {
+                "name": "setAdminPassword",
+                "signature": "setAdminPassword(java.lang.String) return void"
+              },
+              {
+                "name": "getAdminPassword",
+                "signature": "getAdminPassword() return java.lang.String"
+              },
+              {
+                "name": "setAdminEmail",
+                "signature": "setAdminEmail(java.lang.String) return void"
+              },
+              {
+                "name": "getAdminEmail",
+                "signature": "getAdminEmail() return java.lang.String"
+              },
+              {
+                "name": "setAdminName",
+                "signature": "setAdminName(java.lang.String) return void"
+              },
+              {
+                "name": "getAdminName",
+                "signature": "getAdminName() return java.lang.String"
+              },
+              {
+                "name": "getAuditSection",
+                "signature": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection"
+              },
+              {
+                "name": "setCredentialsResetRequest",
+                "signature": "setCredentialsResetRequest(com.salesmanager.core.model.common.CredentialsReset) return void"
+              },
+              {
+                "name": "getCredentialsResetRequest",
+                "signature": "getCredentialsResetRequest() return com.salesmanager.core.model.common.CredentialsReset"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "getQuestion3",
+                "signature": "getQuestion3() return java.lang.String"
+              },
+              {
+                "name": "getAnswer1",
+                "signature": "getAnswer1() return java.lang.String"
+              },
+              {
+                "name": "getAnswer3",
+                "signature": "getAnswer3() return java.lang.String"
+              },
+              {
+                "name": "setQuestion3",
+                "signature": "setQuestion3(java.lang.String) return void"
+              },
+              {
+                "name": "setAnswer2",
+                "signature": "setAnswer2(java.lang.String) return void"
+              },
+              {
+                "name": "setQuestion2",
+                "signature": "setQuestion2(java.lang.String) return void"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "getQuestion2",
+                "signature": "getQuestion2() return java.lang.String"
+              },
+              {
+                "name": "setQuestion1",
+                "signature": "setQuestion1(java.lang.String) return void"
+              },
+              {
+                "name": "getQuestion1",
+                "signature": "getQuestion1() return java.lang.String"
+              },
+              {
+                "name": "setAuditSection",
+                "signature": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void"
+              },
+              {
+                "name": "getAnswer2",
+                "signature": "getAnswer2() return java.lang.String"
+              },
+              {
+                "name": "setAnswer1",
+                "signature": "setAnswer1(java.lang.String) return void"
+              },
+              {
+                "name": "setAnswer3",
+                "signature": "setAnswer3(java.lang.String) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 21,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "adminName",
+                "signature": ""
+              },
+              {
+                "name": "lastName",
+                "signature": ""
+              },
+              {
+                "name": "active",
+                "signature": ""
+              },
+              {
+                "name": "firstName",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "groups",
+                "signature": ""
+              },
+              {
+                "name": "credentialsResetRequest",
+                "signature": ""
+              },
+              {
+                "name": "loginTime",
+                "signature": ""
+              },
+              {
+                "name": "lastAccess",
+                "signature": ""
+              },
+              {
+                "name": "auditSection",
+                "signature": ""
+              },
+              {
+                "name": "answer3",
+                "signature": ""
+              },
+              {
+                "name": "answer2",
+                "signature": ""
+              },
+              {
+                "name": "answer1",
+                "signature": ""
+              },
+              {
+                "name": "question3",
+                "signature": ""
+              },
+              {
+                "name": "question2",
+                "signature": ""
+              },
+              {
+                "name": "question1",
+                "signature": ""
+              },
+              {
+                "name": "defaultLanguage",
+                "signature": ""
+              },
+              {
+                "name": "merchantStore",
+                "signature": ""
+              },
+              {
+                "name": "adminPassword",
+                "signature": ""
+              },
+              {
+                "name": "adminEmail",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "User",
+                "signature": "User(java.lang.String,java.lang.String,java.lang.String)"
+              },
+              {
+                "name": "User",
+                "signature": "User()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Update",
+                "signature": ""
+              },
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "User.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "User",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "User",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

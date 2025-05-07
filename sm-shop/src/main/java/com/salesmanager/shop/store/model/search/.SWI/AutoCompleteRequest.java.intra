@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/model/search/AutoCompleteRequest.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/model/search/AutoCompleteRequest.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getCollectionName() return java.lang.String",
+            "to_name": "getLanguageCode() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getCollectionName() return java.lang.String",
+            "to_name": "getMerchantCode() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString(java.lang.String) return java.lang.String",
+            "to_name": "MATCH",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString(java.lang.String) return java.lang.String",
+            "to_name": "QUERY",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString(java.lang.String) return java.lang.String",
+            "to_name": "STD_ANALYZER",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString(java.lang.String) return java.lang.String",
+            "to_name": "ANALYZER",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCollectionName() return java.lang.String",
+            "to_name": "UNDERSCORE",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCollectionName() return java.lang.String",
+            "to_name": "KEYWORD",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString(java.lang.String) return java.lang.String",
+            "to_name": "KEYWORD",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLanguageCode() return java.lang.String",
+            "to_name": "languageCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setLanguageCode(java.lang.String) return void",
+            "to_name": "languageCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "AutoCompleteRequest(java.lang.String,java.lang.String)",
+            "to_name": "languageCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMerchantCode() return java.lang.String",
+            "to_name": "merchantCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantCode(java.lang.String) return void",
+            "to_name": "merchantCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "AutoCompleteRequest(java.lang.String,java.lang.String)",
+            "to_name": "merchantCode",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 15
+      }
+    ]
+  }
+}

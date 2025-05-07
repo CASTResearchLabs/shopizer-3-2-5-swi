@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/order/transaction/PersistableTransactionPopulator.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/order/transaction/PersistableTransactionPopulator.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPricingService() return com.salesmanager.core.business.services.catalog.pricing.PricingService",
+            "to_name": "pricingService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "populate(com.salesmanager.shop.model.order.transaction.PersistableTransaction,com.salesmanager.core.model.payments.Transaction,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmana",
+            "to_name": "pricingService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPricingService(com.salesmanager.core.business.services.catalog.pricing.PricingService) return void",
+            "to_name": "pricingService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderService() return com.salesmanager.core.business.services.order.OrderService",
+            "to_name": "orderService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "populate(com.salesmanager.shop.model.order.transaction.PersistableTransaction,com.salesmanager.core.model.payments.Transaction,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmana",
+            "to_name": "orderService",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderService(com.salesmanager.core.business.services.order.OrderService) return void",
+            "to_name": "orderService",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

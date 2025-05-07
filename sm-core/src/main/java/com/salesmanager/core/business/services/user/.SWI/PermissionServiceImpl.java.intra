@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/user/PermissionServiceImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/user/PermissionServiceImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "removePermission(com.salesmanager.core.model.user.Permission,com.salesmanager.core.model.user.Group) return void",
+            "to_name": "getById(java.lang.Integer) return com.salesmanager.core.model.user.Permission",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "deletePermission(com.salesmanager.core.model.user.Permission) return void",
+            "to_name": "getById(java.lang.Integer) return com.salesmanager.core.model.user.Permission",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "PermissionServiceImpl(com.salesmanager.core.business.repositories.user.PermissionRepository)",
+            "to_name": "permissionRepository",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 3
+      }
+    ]
+  }
+}

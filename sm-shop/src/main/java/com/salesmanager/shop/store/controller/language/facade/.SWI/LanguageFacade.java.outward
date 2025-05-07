@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/language/facade/LanguageFacade.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/language/facade/LanguageFacade.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 1,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getLanguages() return java.util.List.List\u003ccom.salesmanager.core.model.reference.language.Language\u003e",
+                "to_name": "Language",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Interface",
+                "to_type": "Java Class",
+                "from_name": "LanguageFacade",
+                "to_name": "Language",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/reference/language/Language.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

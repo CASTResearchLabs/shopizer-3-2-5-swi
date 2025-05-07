@@ -1,0 +1,19 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/reference/currency/CurrencyServiceImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/reference/currency/CurrencyServiceImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "CurrencyServiceImpl(com.salesmanager.core.business.repositories.reference.currency.CurrencyRepository)",
+            "to_name": "currencyRepository",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 1
+      }
+    ]
+  }
+}

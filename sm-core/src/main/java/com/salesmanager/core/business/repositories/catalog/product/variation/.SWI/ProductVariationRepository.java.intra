@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/variation/ProductVariationRepository.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/variation/ProductVariationRepository.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findOne(java.lang.Integer,java.lang.Long,java.lang.Integer) return java.util.Optional.Optional\u003ccom.salesmanager.core.model.catalog.product.variation.ProductVariation\u003e",
+            "to_name": "select distinct p from",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByIds(java.lang.Integer,java.util.List.List\u003cjava.lang.Long\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.variation.ProductVariation\u003e",
+            "to_name": "select distinct p from",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByCode(java.lang.String,java.lang.Integer) return java.util.Optional.Optional\u003ccom.salesmanager.core.model.catalog.product.variation.ProductVariation\u003e",
+            "to_name": "select distinct p from",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findOne(java.lang.Integer,java.lang.Long) return java.util.Optional.Optional\u003ccom.salesmanager.core.model.catalog.product.variation.ProductVariation\u003e",
+            "to_name": "select distinct p from",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 4
+      }
+    ]
+  }
+}

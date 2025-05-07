@@ -1,0 +1,244 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/OrderEntity.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/OrderEntity.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 26,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setAttributes",
+                "signature": "setAttributes(java.util.List.List\u003ccom.salesmanager.shop.model.order.OrderAttribute\u003e) return void"
+              },
+              {
+                "name": "setComments",
+                "signature": "setComments(java.lang.String) return void"
+              },
+              {
+                "name": "setPreviousOrderStatus",
+                "signature": "setPreviousOrderStatus(java.util.List.List\u003ccom.salesmanager.core.model.order.orderstatus.OrderStatus\u003e) return void"
+              },
+              {
+                "name": "setCreditCard",
+                "signature": "setCreditCard(com.salesmanager.core.model.order.payment.CreditCard) return void"
+              },
+              {
+                "name": "getAttributes",
+                "signature": "getAttributes() return java.util.List.List\u003ccom.salesmanager.shop.model.order.OrderAttribute\u003e"
+              },
+              {
+                "name": "getComments",
+                "signature": "getComments() return java.lang.String"
+              },
+              {
+                "name": "setConfirmedAddress",
+                "signature": "setConfirmedAddress(boolean) return void"
+              },
+              {
+                "name": "isConfirmedAddress",
+                "signature": "isConfirmedAddress() return boolean"
+              },
+              {
+                "name": "setCustomerAgreed",
+                "signature": "setCustomerAgreed(boolean) return void"
+              },
+              {
+                "name": "isCustomerAgreed",
+                "signature": "isCustomerAgreed() return boolean"
+              },
+              {
+                "name": "setCurrency",
+                "signature": "setCurrency(java.lang.String) return void"
+              },
+              {
+                "name": "getCurrency",
+                "signature": "getCurrency() return java.lang.String"
+              },
+              {
+                "name": "getOrderStatus",
+                "signature": "getOrderStatus() return com.salesmanager.core.model.order.orderstatus.OrderStatus"
+              },
+              {
+                "name": "setOrderStatus",
+                "signature": "setOrderStatus(com.salesmanager.core.model.order.orderstatus.OrderStatus) return void"
+              },
+              {
+                "name": "getPreviousOrderStatus",
+                "signature": "getPreviousOrderStatus() return java.util.List.List\u003ccom.salesmanager.core.model.order.orderstatus.OrderStatus\u003e"
+              },
+              {
+                "name": "setDatePurchased",
+                "signature": "setDatePurchased(java.util.Date) return void"
+              },
+              {
+                "name": "getDatePurchased",
+                "signature": "getDatePurchased() return java.util.Date"
+              },
+              {
+                "name": "getCreditCard",
+                "signature": "getCreditCard() return com.salesmanager.core.model.order.payment.CreditCard"
+              },
+              {
+                "name": "setShippingModule",
+                "signature": "setShippingModule(java.lang.String) return void"
+              },
+              {
+                "name": "getShippingModule",
+                "signature": "getShippingModule() return java.lang.String"
+              },
+              {
+                "name": "setPaymentModule",
+                "signature": "setPaymentModule(java.lang.String) return void"
+              },
+              {
+                "name": "getPaymentModule",
+                "signature": "getPaymentModule() return java.lang.String"
+              },
+              {
+                "name": "setPaymentType",
+                "signature": "setPaymentType(com.salesmanager.core.model.payments.PaymentType) return void"
+              },
+              {
+                "name": "getPaymentType",
+                "signature": "getPaymentType() return com.salesmanager.core.model.payments.PaymentType"
+              },
+              {
+                "name": "getTotals",
+                "signature": "getTotals() return java.util.List.List\u003ccom.salesmanager.shop.model.order.total.OrderTotal\u003e"
+              },
+              {
+                "name": "setTotals",
+                "signature": "setTotals(java.util.List.List\u003ccom.salesmanager.shop.model.order.total.OrderTotal\u003e) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 14,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "comments",
+                "signature": ""
+              },
+              {
+                "name": "confirmedAddress",
+                "signature": ""
+              },
+              {
+                "name": "customerAgreed",
+                "signature": ""
+              },
+              {
+                "name": "currency",
+                "signature": ""
+              },
+              {
+                "name": "datePurchased",
+                "signature": ""
+              },
+              {
+                "name": "creditCard",
+                "signature": ""
+              },
+              {
+                "name": "orderStatus",
+                "signature": ""
+              },
+              {
+                "name": "previousOrderStatus",
+                "signature": ""
+              },
+              {
+                "name": "shippingModule",
+                "signature": ""
+              },
+              {
+                "name": "paymentModule",
+                "signature": ""
+              },
+              {
+                "name": "paymentType",
+                "signature": ""
+              },
+              {
+                "name": "attributes",
+                "signature": ""
+              },
+              {
+                "name": "totals",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cOrderStatus\u003e",
+                "signature": ""
+              },
+              {
+                "name": "List\u003cOrderAttribute\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "ArrayList\u003cOrderAttribute\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "OrderEntity.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "OrderEntity",
+                "signature": "OrderEntity()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "OrderEntity",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

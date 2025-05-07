@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/order/orderproduct/OrderProductDownloadRepository.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/order/orderproduct/OrderProductDownloadRepository.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findByOrderId(java.lang.Long) return java.util.List.List\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductDownload\u003e",
+            "to_name": "select o from OrderProductDownload",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Spring Data JPQL Query",
+            "from_name": "findOne(java.lang.Long) return com.salesmanager.core.model.order.orderproduct.OrderProductDownload",
+            "to_name": "select o from OrderProductDownload",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

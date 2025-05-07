@@ -1,0 +1,523 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 20,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getZones(java.lang.String,com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableZone\u003e",
+                "to_name": "getByCode(javax.servlet.http.HttpServletRequest) return com.salesmanager.core.model.merchant.MerchantStore",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getCountry(com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableCountry\u003e",
+                "to_name": "getByCode(javax.servlet.http.HttpServletRequest) return com.salesmanager.core.model.merchant.MerchantStore",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "ReferencesApi()",
+                "to_name": "StoreFacadeImpl()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "StoreFacadeImpl",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "StoreFacadeImpl",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/store/facade/StoreFacadeImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "measures() return com.salesmanager.shop.model.references.SizeReferences",
+                "to_name": "setMeasures(java.util.List.List\u003ccom.salesmanager.shop.model.references.MeasureUnit\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "measures() return com.salesmanager.shop.model.references.SizeReferences",
+                "to_name": "setWeights(java.util.List.List\u003ccom.salesmanager.shop.model.references.WeightUnit\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "measures() return com.salesmanager.shop.model.references.SizeReferences",
+                "to_name": "SizeReferences()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "SizeReferences",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/references/SizeReferences.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getCurrency() return java.util.List.List\u003ccom.salesmanager.core.model.reference.currency.Currency\u003e",
+                "to_name": "getList() return java.util.List.List\u003ccom.salesmanager.core.model.reference.currency.Currency\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "ReferencesApi()",
+                "to_name": "CurrencyFacadeImpl()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "CurrencyFacadeImpl",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "CurrencyFacadeImpl",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/currency/facade/CurrencyFacadeImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getZones(java.lang.String,com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableZone\u003e",
+                "to_name": "getZones(java.lang.String,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableZone\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "ReferencesApi()",
+                "to_name": "ZoneFacadeImpl()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "ZoneFacadeImpl",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "ZoneFacadeImpl",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/zone/facade/ZoneFacadeImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getCountry(com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableCountry\u003e",
+                "to_name": "getListCountryZones(com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableCountry\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "ReferencesApi()",
+                "to_name": "CountryFacadeImpl()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "CountryFacadeImpl",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "CountryFacadeImpl",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/country/facade/CountryFacadeImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getLanguages() return java.util.List.List\u003ccom.salesmanager.core.model.reference.language.Language\u003e",
+                "to_name": "getLanguages() return java.util.List.List\u003ccom.salesmanager.core.model.reference.language.Language\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "ReferencesApi()",
+                "to_name": "LanguageFacadeImpl()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "LanguageFacadeImpl",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "LanguageFacadeImpl",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/language/facade/LanguageFacadeImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getZones(java.lang.String,com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableZone\u003e",
+                "to_name": "getByCode(javax.servlet.http.HttpServletRequest) return com.salesmanager.core.model.merchant.MerchantStore",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getCountry(com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableCountry\u003e",
+                "to_name": "getByCode(javax.servlet.http.HttpServletRequest) return com.salesmanager.core.model.merchant.MerchantStore",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ReferencesApi",
+                "to_name": "StoreFacade",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/store/facade/StoreFacade.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "measures() return com.salesmanager.shop.model.references.SizeReferences",
+                "to_name": "Arrays",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "Arrays",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/util/Arrays_4104c3d3138f8a43.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "measures() return com.salesmanager.shop.model.references.SizeReferences",
+                "to_name": "values() return com.salesmanager.shop.model.references.WeightUnit[]",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Enum",
+                "from_name": "ReferencesApi",
+                "to_name": "WeightUnit",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/references/WeightUnit.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "measures() return com.salesmanager.shop.model.references.SizeReferences",
+                "to_name": "values() return com.salesmanager.shop.model.references.MeasureUnit[]",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Enum",
+                "from_name": "ReferencesApi",
+                "to_name": "MeasureUnit",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/references/MeasureUnit.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getCurrency() return java.util.List.List\u003ccom.salesmanager.core.model.reference.currency.Currency\u003e",
+                "to_name": "getList() return java.util.List.List\u003ccom.salesmanager.core.model.reference.currency.Currency\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ReferencesApi",
+                "to_name": "CurrencyFacade",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/currency/facade/CurrencyFacade.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getCurrency() return java.util.List.List\u003ccom.salesmanager.core.model.reference.currency.Currency\u003e",
+                "to_name": "Currency",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "Currency",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/reference/currency/Currency.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getZones(java.lang.String,com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableZone\u003e",
+                "to_name": "getZones(java.lang.String,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableZone\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ReferencesApi",
+                "to_name": "ZoneFacade",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/zone/facade/ZoneFacade.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getZones(java.lang.String,com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableZone\u003e",
+                "to_name": "ReadableZone",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "ReadableZone",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/references/ReadableZone.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getCountry(com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableCountry\u003e",
+                "to_name": "getListCountryZones(com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableCountry\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ReferencesApi",
+                "to_name": "CountryFacade",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/country/facade/CountryFacade.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getCountry(com.salesmanager.core.model.reference.language.Language,javax.servlet.http.HttpServletRequest) return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableCountry\u003e",
+                "to_name": "ReadableCountry",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "ReadableCountry",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/references/ReadableCountry.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getLanguages() return java.util.List.List\u003ccom.salesmanager.core.model.reference.language.Language\u003e",
+                "to_name": "getLanguages() return java.util.List.List\u003ccom.salesmanager.core.model.reference.language.Language\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ReferencesApi",
+                "to_name": "LanguageFacade",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/language/facade/LanguageFacade.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getLanguages() return java.util.List.List\u003ccom.salesmanager.core.model.reference.language.Language\u003e",
+                "to_name": "Language",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "Language",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/reference/language/Language.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "ReferencesApi()",
+                "to_name": "LanguageUtils()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ReferencesApi",
+                "to_name": "LanguageUtils",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/LanguageUtils.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Method",
+                "from_name": "LOGGER",
+                "to_name": "getLogger(java.lang.Class.Class\u003c? extends\u003e) return org.slf4j.Logger",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/LoggerFactory_27529.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

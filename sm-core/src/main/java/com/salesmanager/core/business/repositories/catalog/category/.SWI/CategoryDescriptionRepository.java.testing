@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/category/CategoryDescriptionRepository.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/category/CategoryDescriptionRepository.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 2,
+        "impacting_elements": [
+          {
+            "name": "select c from CategoryDescription",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY_DESCRIPTION",
+                "full_name": "DEFAULT.CATEGORY_DESCRIPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByCategoryId(java.lang.Long) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.CategoryDescription\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY_DESCRIPTION",
+                "full_name": "DEFAULT.CATEGORY_DESCRIPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

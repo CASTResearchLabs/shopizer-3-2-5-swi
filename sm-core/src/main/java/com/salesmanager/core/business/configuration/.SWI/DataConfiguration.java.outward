@@ -1,0 +1,411 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/DataConfiguration.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/DataConfiguration.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 16,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "dataSource() return HikariDataSource",
+                "to_name": "create() return org.springframework.boot.jdbc.DataSourceBuilder.DataSourceBuilder\u003c? extends\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "dataSource() return HikariDataSource",
+                "to_name": "build() return javax.sql.DataSource",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "dataSource() return HikariDataSource",
+                "to_name": "password(java.lang.String) return org.springframework.boot.jdbc.DataSourceBuilder.DataSourceBuilder\u003cT\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "dataSource() return HikariDataSource",
+                "to_name": "username(java.lang.String) return org.springframework.boot.jdbc.DataSourceBuilder.DataSourceBuilder\u003cT\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "dataSource() return HikariDataSource",
+                "to_name": "driverClassName(java.lang.String) return org.springframework.boot.jdbc.DataSourceBuilder.DataSourceBuilder\u003cT\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "dataSource() return HikariDataSource",
+                "to_name": "url(java.lang.String) return org.springframework.boot.jdbc.DataSourceBuilder.DataSourceBuilder\u003cT\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Instantiated Method",
+                "from_name": "dataSource() return HikariDataSource",
+                "to_name": "type\u003cHikariDataSource\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Class",
+                "from_name": "DataConfiguration",
+                "to_name": "DataSourceBuilder\u003cT extends javax.sql.DataSource\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 8,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/DataSourceBuilder_5436.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "transactionManager(javax.persistence.EntityManagerFactory) return org.springframework.transaction.PlatformTransactionManager",
+                "to_name": "setEntityManagerFactory(javax.persistence.EntityManagerFactory) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "transactionManager(javax.persistence.EntityManagerFactory) return org.springframework.transaction.PlatformTransactionManager",
+                "to_name": "JpaTransactionManager()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "DataConfiguration",
+                "to_name": "JpaTransactionManager",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/JpaTransactionManager_3902.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "setProperty(java.lang.String,java.lang.String) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "Properties()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "DataConfiguration",
+                "to_name": "Properties",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/util/Properties_c636b5d27b5bee00.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "to_name": "setJpaVendorAdapter(org.springframework.orm.jpa.JpaVendorAdapter) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "to_name": "setJpaProperties(java.util.Properties) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "DataConfiguration",
+                "to_name": "AbstractEntityManagerFactoryBean",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/AbstractEntityManagerFactoryBean_21726.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "to_name": "setPackagesToScan(java.lang.String[]) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "to_name": "LocalContainerEntityManagerFactoryBean()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "DataConfiguration",
+                "to_name": "LocalContainerEntityManagerFactoryBean",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/LocalContainerEntityManagerFactoryBean_19718.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/resources/profiles/docker/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/resources/profiles/cloud/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/resources/profiles/dependency/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/resources/profiles/mysql/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/resources/profiles/local/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/test/resources/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/resources/profiles/gcp/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.hbm2ddl.auto",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/test/resources/database.properties"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "to_name": "setGenerateDdl(boolean) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "DataConfiguration",
+                "to_name": "AbstractJpaVendorAdapter",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/AbstractJpaVendorAdapter_17673.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "entityManagerFactory() return org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean",
+                "to_name": "HibernateJpaVendorAdapter()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "DataConfiguration",
+                "to_name": "HibernateJpaVendorAdapter",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/HibernateJpaVendorAdapter_19895.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Property Mapping",
+                "from_name": "additionalProperties() return java.util.Properties",
+                "to_name": "hibernate.dialect",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/test/resources/hbm2dll.properties"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

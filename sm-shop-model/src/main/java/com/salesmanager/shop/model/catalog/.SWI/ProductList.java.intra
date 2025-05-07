@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/ProductList.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/ProductList.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProducts() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ReadableProduct\u003e",
+            "to_name": "products",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProducts(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ReadableProduct\u003e) return void",
+            "to_name": "products",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMaxPrice() return java.math.BigDecimal",
+            "to_name": "maxPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMaxPrice(java.math.BigDecimal) return void",
+            "to_name": "maxPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMinPrice() return java.math.BigDecimal",
+            "to_name": "minPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMinPrice(java.math.BigDecimal) return void",
+            "to_name": "minPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductCount() return int",
+            "to_name": "productCount",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductCount(int) return void",
+            "to_name": "productCount",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 8
+      }
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/Customer.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/Customer.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "reviews",
+            "to_name": "ArrayList\u003cProductReview\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "attributes",
+            "to_name": "HashSet\u003cCustomerAttribute\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isAnonymous() return boolean",
+            "to_name": "anonymous",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAnonymous(boolean) return void",
+            "to_name": "anonymous",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCredentialsResetRequest() return com.salesmanager.core.model.common.CredentialsReset",
+            "to_name": "credentialsResetRequest",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCredentialsResetRequest(com.salesmanager.core.model.common.CredentialsReset) return void",
+            "to_name": "credentialsResetRequest",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShowDeliveryStateList() return java.lang.String",
+            "to_name": "showDeliveryStateList",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShowDeliveryStateList(java.lang.String) return void",
+            "to_name": "showDeliveryStateList",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShowBillingStateList() return java.lang.String",
+            "to_name": "showBillingStateList",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShowBillingStateList(java.lang.String) return void",
+            "to_name": "showBillingStateList",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShowCustomerStateList() return java.lang.String",
+            "to_name": "showCustomerStateList",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShowCustomerStateList(java.lang.String) return void",
+            "to_name": "showCustomerStateList",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGroups() return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e",
+            "to_name": "groups",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGroups(java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e) return void",
+            "to_name": "groups",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getBilling() return com.salesmanager.core.model.common.Billing",
+            "to_name": "billing",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setBilling(com.salesmanager.core.model.common.Billing) return void",
+            "to_name": "billing",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDelivery() return com.salesmanager.core.model.common.Delivery",
+            "to_name": "delivery",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDelivery(com.salesmanager.core.model.common.Delivery) return void",
+            "to_name": "delivery",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "to_name": "merchantStore",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getReviews() return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.review.ProductReview\u003e",
+            "to_name": "reviews",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setReviews(java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.review.ProductReview\u003e) return void",
+            "to_name": "reviews",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDefaultLanguage() return com.salesmanager.core.model.reference.language.Language",
+            "to_name": "defaultLanguage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultLanguage(com.salesmanager.core.model.reference.language.Language) return void",
+            "to_name": "defaultLanguage",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProvider() return java.lang.String",
+            "to_name": "provider",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProvider(java.lang.String) return void",
+            "to_name": "provider",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerReviewCount() return java.lang.Integer",
+            "to_name": "customerReviewCount",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerReviewCount(java.lang.Integer) return void",
+            "to_name": "customerReviewCount",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerReviewAvg() return java.math.BigDecimal",
+            "to_name": "customerReviewAvg",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerReviewAvg(java.math.BigDecimal) return void",
+            "to_name": "customerReviewAvg",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPassword() return java.lang.String",
+            "to_name": "password",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPassword(java.lang.String) return void",
+            "to_name": "password",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCompany() return java.lang.String",
+            "to_name": "company",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCompany(java.lang.String) return void",
+            "to_name": "company",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getNick() return java.lang.String",
+            "to_name": "nick",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setNick(java.lang.String) return void",
+            "to_name": "nick",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getEmailAddress() return java.lang.String",
+            "to_name": "emailAddress",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setEmailAddress(java.lang.String) return void",
+            "to_name": "emailAddress",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDateOfBirth() return java.util.Date",
+            "to_name": "dateOfBirth",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDateOfBirth(java.util.Date) return void",
+            "to_name": "dateOfBirth",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGender() return com.salesmanager.core.model.customer.CustomerGender",
+            "to_name": "gender",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGender(com.salesmanager.core.model.customer.CustomerGender) return void",
+            "to_name": "gender",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributes() return java.util.Set.Set\u003ccom.salesmanager.core.model.customer.attribute.CustomerAttribute\u003e",
+            "to_name": "attributes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributes(java.util.Set.Set\u003ccom.salesmanager.core.model.customer.attribute.CustomerAttribute\u003e) return void",
+            "to_name": "attributes",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+            "to_name": "auditSection",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 48
+      }
+    ]
+  }
+}

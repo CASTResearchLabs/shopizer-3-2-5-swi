@@ -1,0 +1,159 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderproduct/OrderProduct.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderproduct/OrderProduct.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "prices",
+            "to_name": "HashSet\u003cOrderProductPrice\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "orderAttributes",
+            "to_name": "HashSet\u003cOrderProductAttribute\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "downloads",
+            "to_name": "HashSet\u003cOrderProductDownload\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDownloads() return java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductDownload\u003e",
+            "to_name": "downloads",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDownloads(java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductDownload\u003e) return void",
+            "to_name": "downloads",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPrices() return java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductPrice\u003e",
+            "to_name": "prices",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPrices(java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductPrice\u003e) return void",
+            "to_name": "prices",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderAttributes() return java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductAttribute\u003e",
+            "to_name": "orderAttributes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderAttributes(java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductAttribute\u003e) return void",
+            "to_name": "orderAttributes",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOneTimeCharge() return java.math.BigDecimal",
+            "to_name": "oneTimeCharge",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOneTimeCharge(java.math.BigDecimal) return void",
+            "to_name": "oneTimeCharge",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductQuantity() return int",
+            "to_name": "productQuantity",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductQuantity(int) return void",
+            "to_name": "productQuantity",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductName() return java.lang.String",
+            "to_name": "productName",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductName(java.lang.String) return void",
+            "to_name": "productName",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSku() return java.lang.String",
+            "to_name": "sku",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSku(java.lang.String) return void",
+            "to_name": "sku",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrder() return com.salesmanager.core.model.order.Order",
+            "to_name": "order",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrder(com.salesmanager.core.model.order.Order) return void",
+            "to_name": "order",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 21
+      }
+    ]
+  }
+}

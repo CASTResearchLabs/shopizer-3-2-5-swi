@@ -1,0 +1,181 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderproduct/OrderProductPrice.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderproduct/OrderProductPrice.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 18,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setProductPrice",
+                "signature": "setProductPrice(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "setProductPriceSpecial",
+                "signature": "setProductPriceSpecial(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "setProductPriceSpecialEndDate",
+                "signature": "setProductPriceSpecialEndDate(java.util.Date) return void"
+              },
+              {
+                "name": "setProductPriceSpecialStartDate",
+                "signature": "setProductPriceSpecialStartDate(java.util.Date) return void"
+              },
+              {
+                "name": "setProductPriceCode",
+                "signature": "setProductPriceCode(java.lang.String) return void"
+              },
+              {
+                "name": "setOrderProduct",
+                "signature": "setOrderProduct(com.salesmanager.core.model.order.orderproduct.OrderProduct) return void"
+              },
+              {
+                "name": "setProductPriceName",
+                "signature": "setProductPriceName(java.lang.String) return void"
+              },
+              {
+                "name": "setDefaultPrice",
+                "signature": "setDefaultPrice(java.lang.Boolean) return void"
+              },
+              {
+                "name": "getProductPrice",
+                "signature": "getProductPrice() return java.math.BigDecimal"
+              },
+              {
+                "name": "getProductPriceSpecial",
+                "signature": "getProductPriceSpecial() return java.math.BigDecimal"
+              },
+              {
+                "name": "getProductPriceSpecialEndDate",
+                "signature": "getProductPriceSpecialEndDate() return java.util.Date"
+              },
+              {
+                "name": "getProductPriceSpecialStartDate",
+                "signature": "getProductPriceSpecialStartDate() return java.util.Date"
+              },
+              {
+                "name": "getProductPriceCode",
+                "signature": "getProductPriceCode() return java.lang.String"
+              },
+              {
+                "name": "getOrderProduct",
+                "signature": "getOrderProduct() return com.salesmanager.core.model.order.orderproduct.OrderProduct"
+              },
+              {
+                "name": "getProductPriceName",
+                "signature": "getProductPriceName() return java.lang.String"
+              },
+              {
+                "name": "getDefaultPrice",
+                "signature": "getDefaultPrice() return java.lang.Boolean"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "productPriceName",
+                "signature": ""
+              },
+              {
+                "name": "defaultPrice",
+                "signature": ""
+              },
+              {
+                "name": "productPriceSpecialEndDate",
+                "signature": ""
+              },
+              {
+                "name": "productPriceSpecialStartDate",
+                "signature": ""
+              },
+              {
+                "name": "productPriceSpecial",
+                "signature": ""
+              },
+              {
+                "name": "productPrice",
+                "signature": ""
+              },
+              {
+                "name": "productPriceCode",
+                "signature": ""
+              },
+              {
+                "name": "orderProduct",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "OrderProductPrice.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "OrderProductPrice",
+                "signature": "OrderProductPrice()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "OrderProductPrice",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "OrderProductPrice",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

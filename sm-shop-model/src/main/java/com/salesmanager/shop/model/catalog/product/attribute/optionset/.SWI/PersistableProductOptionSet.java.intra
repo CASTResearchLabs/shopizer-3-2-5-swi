@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/optionset/PersistableProductOptionSet.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/optionset/PersistableProductOptionSet.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOption() return java.lang.Long",
+            "to_name": "option",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOption(java.lang.Long) return void",
+            "to_name": "option",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductTypes() return java.util.List.List\u003cjava.lang.Long\u003e",
+            "to_name": "productTypes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductTypes(java.util.List.List\u003cjava.lang.Long\u003e) return void",
+            "to_name": "productTypes",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionValues() return java.util.List.List\u003cjava.lang.Long\u003e",
+            "to_name": "optionValues",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionValues(java.util.List.List\u003cjava.lang.Long\u003e) return void",
+            "to_name": "optionValues",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

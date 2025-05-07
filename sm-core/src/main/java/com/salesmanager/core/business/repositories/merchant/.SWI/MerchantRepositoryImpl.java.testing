@@ -1,0 +1,90 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/merchant/MerchantRepositoryImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/merchant/MerchantRepositoryImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 19,
+        "impacting_elements": [
+          {
+            "name": "select distinct m from",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByCriteria(com.salesmanager.core.model.merchant.MerchantStoreCriteria) return com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select count(distinct m) from",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

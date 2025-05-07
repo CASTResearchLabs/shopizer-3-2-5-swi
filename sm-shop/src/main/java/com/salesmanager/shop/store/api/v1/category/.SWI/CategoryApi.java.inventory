@@ -1,0 +1,189 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/category/CategoryApi.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "delete",
+                "signature": "delete(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "move",
+                "signature": "move(java.lang.Long,java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "updateVisible",
+                "signature": "updateVisible(java.lang.Long,com.salesmanager.shop.model.catalog.category.PersistableCategory,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "update",
+                "signature": "update(java.lang.Long,com.salesmanager.shop.model.catalog.category.PersistableCategory,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.shop.model.catalog.category.PersistableCategory"
+              },
+              {
+                "name": "create",
+                "signature": "create(com.salesmanager.shop.model.catalog.category.PersistableCategory,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.category.PersistableCategory"
+              },
+              {
+                "name": "list",
+                "signature": "list(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.category.ReadableCategoryList"
+              },
+              {
+                "name": "list",
+                "signature": "list(java.util.List.List\u003cjava.lang.String\u003e,java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,java.lang.Integer,java.lang.Integer) return com.salesmanager.shop.model.catalog.category"
+              },
+              {
+                "name": "exists",
+                "signature": "exists(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return org.springframework.http.ResponseEntity.ResponseEntity\u003ccom.salesmanager.shop.model.entity.EntityExists\u003e"
+              },
+              {
+                "name": "getByfriendlyUrl",
+                "signature": "getByfriendlyUrl(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.category.ReadableCategory"
+              },
+              {
+                "name": "get",
+                "signature": "get(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.category.ReadableCategory"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "Spring MVC Get Operation",
+            "elements": [
+              {
+                "name": "api/v1/category/product/{}/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/category/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/category/unique/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/category/{}/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/category/{}/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "",
+            "elements": [
+              {
+                "name": "/api/v1",
+                "signature": ""
+              },
+              {
+                "name": "CategoryApi.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "userFacade",
+                "signature": ""
+              },
+              {
+                "name": "categoryFacade",
+                "signature": ""
+              },
+              {
+                "name": "DEFAULT_CATEGORY_DEPTH",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Spring MVC Put Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/category/{}/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/category/{}/move/{}/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Spring MVC Post Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/category/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Spring MVC Any Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/category/{}/visible/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "CategoryApi",
+                "signature": "CategoryApi()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "CategoryApi",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Spring MVC Delete Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/category/{}/",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

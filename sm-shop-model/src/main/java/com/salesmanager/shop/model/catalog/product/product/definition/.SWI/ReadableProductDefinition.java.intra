@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/definition/ReadableProductDefinition.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/definition/ReadableProductDefinition.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "properties",
+            "to_name": "ArrayList\u003cPersistableProductAttribute\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getInventory() return com.salesmanager.shop.model.catalog.product.inventory.ReadableInventory",
+            "to_name": "inventory",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setInventory(com.salesmanager.shop.model.catalog.product.inventory.ReadableInventory) return void",
+            "to_name": "inventory",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getImages() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ReadableImage\u003e",
+            "to_name": "images",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setImages(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ReadableImage\u003e) return void",
+            "to_name": "images",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProperties() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.attribute.PersistableProductAttribute\u003e",
+            "to_name": "properties",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProperties(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.attribute.PersistableProductAttribute\u003e) return void",
+            "to_name": "properties",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDescription() return com.salesmanager.shop.model.catalog.product.ProductDescription",
+            "to_name": "description",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDescription(com.salesmanager.shop.model.catalog.product.ProductDescription) return void",
+            "to_name": "description",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getManufacturer() return com.salesmanager.shop.model.catalog.manufacturer.ReadableManufacturer",
+            "to_name": "manufacturer",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setManufacturer(com.salesmanager.shop.model.catalog.manufacturer.ReadableManufacturer) return void",
+            "to_name": "manufacturer",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCategories() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.category.ReadableCategory\u003e",
+            "to_name": "categories",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCategories(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.category.ReadableCategory\u003e) return void",
+            "to_name": "categories",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getType() return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "to_name": "type",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setType(com.salesmanager.shop.model.catalog.product.type.ReadableProductType) return void",
+            "to_name": "type",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 15
+      }
+    ]
+  }
+}

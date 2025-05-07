@@ -1,0 +1,103 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderaccount/OrderAccount.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderaccount/OrderAccount.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "orderAccountProducts",
+            "to_name": "HashSet\u003cOrderAccountProduct\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderAccountProducts() return java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderaccount.OrderAccountProduct\u003e",
+            "to_name": "orderAccountProducts",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderAccountProducts(java.util.Set.Set\u003ccom.salesmanager.core.model.order.orderaccount.OrderAccountProduct\u003e) return void",
+            "to_name": "orderAccountProducts",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderAccountBillDay() return java.lang.Integer",
+            "to_name": "orderAccountBillDay",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderAccountBillDay(java.lang.Integer) return void",
+            "to_name": "orderAccountBillDay",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderAccountEndDate() return java.util.Date",
+            "to_name": "orderAccountEndDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderAccountEndDate(java.util.Date) return void",
+            "to_name": "orderAccountEndDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderAccountStartDate() return java.util.Date",
+            "to_name": "orderAccountStartDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderAccountStartDate(java.util.Date) return void",
+            "to_name": "orderAccountStartDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrder() return com.salesmanager.core.model.order.Order",
+            "to_name": "order",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrder(com.salesmanager.core.model.order.Order) return void",
+            "to_name": "order",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 13
+      }
+    ]
+  }
+}

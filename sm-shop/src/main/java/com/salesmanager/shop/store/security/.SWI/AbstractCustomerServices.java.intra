@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/AbstractCustomerServices.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/AbstractCustomerServices.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "loadUserByUsername(java.lang.String) return org.springframework.security.core.userdetails.UserDetails",
+            "to_name": "userDetails(java.lang.String,com.salesmanager.core.model.customer.Customer,java.util.Collection.Collection\u003corg.springframework.security.core.GrantedAuthority\u003e) return org.springframework.security.core.userdetails.UserDetails",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "loadUserByUsername(java.lang.String) return org.springframework.security.core.userdetails.UserDetails",
+            "to_name": "ROLE_PREFIX",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "AbstractCustomerServices(com.salesmanager.core.business.services.customer.CustomerService,com.salesmanager.core.business.services.user.PermissionService,com.salesmanager.core.business.services.user.GroupService)",
+            "to_name": "groupService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "AbstractCustomerServices(com.salesmanager.core.business.services.customer.CustomerService,com.salesmanager.core.business.services.user.PermissionService,com.salesmanager.core.business.services.user.GroupService)",
+            "to_name": "permissionService",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "AbstractCustomerServices(com.salesmanager.core.business.services.customer.CustomerService,com.salesmanager.core.business.services.user.PermissionService,com.salesmanager.core.business.services.user.GroupService)",
+            "to_name": "customerService",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 5
+      }
+    ]
+  }
+}

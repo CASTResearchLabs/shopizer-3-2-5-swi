@@ -1,0 +1,469 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/Product.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/Product.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 50 items",
+            "nb_elements": 73,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getOwner",
+                "signature": "getOwner() return com.salesmanager.core.model.customer.Customer"
+              },
+              {
+                "name": "setRefSku",
+                "signature": "setRefSku(java.lang.String) return void"
+              },
+              {
+                "name": "setProductShipeable",
+                "signature": "setProductShipeable(boolean) return void"
+              },
+              {
+                "name": "setAvailable",
+                "signature": "setAvailable(boolean) return void"
+              },
+              {
+                "name": "getRefSku",
+                "signature": "getRefSku() return java.lang.String"
+              },
+              {
+                "name": "isPreOrder",
+                "signature": "isPreOrder() return boolean"
+              },
+              {
+                "name": "getProductImage",
+                "signature": "getProductImage() return com.salesmanager.core.model.catalog.product.image.ProductImage"
+              },
+              {
+                "name": "getSortOrder",
+                "signature": "getSortOrder() return java.lang.Integer"
+              },
+              {
+                "name": "setSortOrder",
+                "signature": "setSortOrder(java.lang.Integer) return void"
+              },
+              {
+                "name": "setDateAvailable",
+                "signature": "setDateAvailable(java.util.Date) return void"
+              },
+              {
+                "name": "getDateAvailable",
+                "signature": "getDateAvailable() return java.util.Date"
+              },
+              {
+                "name": "setMerchantStore",
+                "signature": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "setType",
+                "signature": "setType(com.salesmanager.core.model.catalog.product.type.ProductType) return void"
+              },
+              {
+                "name": "getType",
+                "signature": "getType() return com.salesmanager.core.model.catalog.product.type.ProductType"
+              },
+              {
+                "name": "setManufacturer",
+                "signature": "setManufacturer(com.salesmanager.core.model.catalog.product.manufacturer.Manufacturer) return void"
+              },
+              {
+                "name": "getProductVirtual",
+                "signature": "getProductVirtual() return boolean"
+              },
+              {
+                "name": "setSku",
+                "signature": "setSku(java.lang.String) return void"
+              },
+              {
+                "name": "getAuditSection",
+                "signature": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "setVariants",
+                "signature": "setVariants(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.variant.ProductVariant\u003e) return void"
+              },
+              {
+                "name": "getVariants",
+                "signature": "getVariants() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.variant.ProductVariant\u003e"
+              },
+              {
+                "name": "getProductDescription",
+                "signature": "getProductDescription() return com.salesmanager.core.model.catalog.product.description.ProductDescription"
+              },
+              {
+                "name": "isProductShipeable",
+                "signature": "isProductShipeable() return boolean"
+              },
+              {
+                "name": "getCategories",
+                "signature": "getCategories() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.category.Category\u003e"
+              },
+              {
+                "name": "getImages",
+                "signature": "getImages() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.image.ProductImage\u003e"
+              },
+              {
+                "name": "getAvailabilities",
+                "signature": "getAvailabilities() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.availability.ProductAvailability\u003e"
+              },
+              {
+                "name": "getManufacturer",
+                "signature": "getManufacturer() return com.salesmanager.core.model.catalog.product.manufacturer.Manufacturer"
+              },
+              {
+                "name": "getAttributes",
+                "signature": "getAttributes() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductAttribute\u003e"
+              },
+              {
+                "name": "setProductVirtual",
+                "signature": "setProductVirtual(boolean) return void"
+              },
+              {
+                "name": "setDescriptions",
+                "signature": "setDescriptions(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.description.ProductDescription\u003e) return void"
+              },
+              {
+                "name": "getDescriptions",
+                "signature": "getDescriptions() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.description.ProductDescription\u003e"
+              },
+              {
+                "name": "setProductReviewCount",
+                "signature": "setProductReviewCount(java.lang.Integer) return void"
+              },
+              {
+                "name": "getProductReviewCount",
+                "signature": "getProductReviewCount() return java.lang.Integer"
+              },
+              {
+                "name": "setProductReviewAvg",
+                "signature": "setProductReviewAvg(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getProductReviewAvg",
+                "signature": "getProductReviewAvg() return java.math.BigDecimal"
+              },
+              {
+                "name": "setProductWeight",
+                "signature": "setProductWeight(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getProductWeight",
+                "signature": "getProductWeight() return java.math.BigDecimal"
+              },
+              {
+                "name": "setProductHeight",
+                "signature": "setProductHeight(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getProductHeight",
+                "signature": "getProductHeight() return java.math.BigDecimal"
+              },
+              {
+                "name": "setProductWidth",
+                "signature": "setProductWidth(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getProductWidth",
+                "signature": "getProductWidth() return java.math.BigDecimal"
+              },
+              {
+                "name": "setProductLength",
+                "signature": "setProductLength(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getProductLength",
+                "signature": "getProductLength() return java.math.BigDecimal"
+              },
+              {
+                "name": "getSku",
+                "signature": "getSku() return java.lang.String"
+              },
+              {
+                "name": "getMerchantStore",
+                "signature": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "isAvailable",
+                "signature": "isAvailable() return boolean"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "setOwner",
+                "signature": "setOwner(com.salesmanager.core.model.customer.Customer) return void"
+              },
+              {
+                "name": "setRentalStatus",
+                "signature": "setRentalStatus(com.salesmanager.core.model.catalog.product.RentalStatus) return void"
+              },
+              {
+                "name": "getRentalStatus",
+                "signature": "getRentalStatus() return com.salesmanager.core.model.catalog.product.RentalStatus"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 35,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "condition",
+                "signature": ""
+              },
+              {
+                "name": "sortOrder",
+                "signature": ""
+              },
+              {
+                "name": "productOrdered",
+                "signature": ""
+              },
+              {
+                "name": "productReviewCount",
+                "signature": ""
+              },
+              {
+                "name": "productReviewAvg",
+                "signature": ""
+              },
+              {
+                "name": "productWeight",
+                "signature": ""
+              },
+              {
+                "name": "productHeight",
+                "signature": ""
+              },
+              {
+                "name": "productWidth",
+                "signature": ""
+              },
+              {
+                "name": "productLength",
+                "signature": ""
+              },
+              {
+                "name": "productIsFree",
+                "signature": ""
+              },
+              {
+                "name": "productShipeable",
+                "signature": ""
+              },
+              {
+                "name": "productVirtual",
+                "signature": ""
+              },
+              {
+                "name": "taxClass",
+                "signature": ""
+              },
+              {
+                "name": "type",
+                "signature": ""
+              },
+              {
+                "name": "manufacturer",
+                "signature": ""
+              },
+              {
+                "name": "preOrder",
+                "signature": ""
+              },
+              {
+                "name": "available",
+                "signature": ""
+              },
+              {
+                "name": "dateAvailable",
+                "signature": ""
+              },
+              {
+                "name": "variants",
+                "signature": ""
+              },
+              {
+                "name": "categories",
+                "signature": ""
+              },
+              {
+                "name": "merchantStore",
+                "signature": ""
+              },
+              {
+                "name": "relationships",
+                "signature": ""
+              },
+              {
+                "name": "images",
+                "signature": ""
+              },
+              {
+                "name": "attributes",
+                "signature": ""
+              },
+              {
+                "name": "availabilities",
+                "signature": ""
+              },
+              {
+                "name": "descriptions",
+                "signature": ""
+              },
+              {
+                "name": "auditSection",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              },
+              {
+                "name": "refSku",
+                "signature": ""
+              },
+              {
+                "name": "sku",
+                "signature": ""
+              },
+              {
+                "name": "owner",
+                "signature": ""
+              },
+              {
+                "name": "rentalPeriod",
+                "signature": ""
+              },
+              {
+                "name": "rentalDuration",
+                "signature": ""
+              },
+              {
+                "name": "rentalStatus",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "HashSet\u003cCategory\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cProductRelationship\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cProductImage\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cProductAttribute\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "HashSet\u003cCategory\u003e",
+                "signature": ""
+              },
+              {
+                "name": "HashSet\u003cProductRelationship\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "Set\u003cProductRelationship\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Product.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Product",
+                "signature": "Product()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Product",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "Product",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

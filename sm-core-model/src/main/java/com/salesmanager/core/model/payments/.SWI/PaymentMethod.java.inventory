@@ -1,0 +1,122 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/payments/PaymentMethod.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/payments/PaymentMethod.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getInformations",
+                "signature": "getInformations() return com.salesmanager.core.model.system.IntegrationConfiguration"
+              },
+              {
+                "name": "getModule",
+                "signature": "getModule() return com.salesmanager.core.model.system.IntegrationModule"
+              },
+              {
+                "name": "isDefaultSelected",
+                "signature": "isDefaultSelected() return boolean"
+              },
+              {
+                "name": "getPaymentMethodCode",
+                "signature": "getPaymentMethodCode() return java.lang.String"
+              },
+              {
+                "name": "getPaymentType",
+                "signature": "getPaymentType() return com.salesmanager.core.model.payments.PaymentType"
+              },
+              {
+                "name": "setInformations",
+                "signature": "setInformations(com.salesmanager.core.model.system.IntegrationConfiguration) return void"
+              },
+              {
+                "name": "setModule",
+                "signature": "setModule(com.salesmanager.core.model.system.IntegrationModule) return void"
+              },
+              {
+                "name": "setDefaultSelected",
+                "signature": "setDefaultSelected(boolean) return void"
+              },
+              {
+                "name": "setPaymentMethodCode",
+                "signature": "setPaymentMethodCode(java.lang.String) return void"
+              },
+              {
+                "name": "setPaymentType",
+                "signature": "setPaymentType(com.salesmanager.core.model.payments.PaymentType) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 6,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "informations",
+                "signature": ""
+              },
+              {
+                "name": "module",
+                "signature": ""
+              },
+              {
+                "name": "defaultSelected",
+                "signature": ""
+              },
+              {
+                "name": "paymentType",
+                "signature": ""
+              },
+              {
+                "name": "paymentMethodCode",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "PaymentMethod.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "PaymentMethod",
+                "signature": "PaymentMethod()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "PaymentMethod",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

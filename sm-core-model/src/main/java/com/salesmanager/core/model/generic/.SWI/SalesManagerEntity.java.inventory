@@ -1,0 +1,320 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/generic/SalesManagerEntity.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/generic/SalesManagerEntity.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 50 items",
+            "nb_elements": 60,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "SalesManagerEntity\u003cLong,ShoppingCartItem\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,CustomerAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,CustomerOptin\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ShippingOrigin\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,OrderProductDownload\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,CustomerOptionValue\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,CustomerOption\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,DigitalProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,OrderAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,User\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,Optin\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ShoppingCart\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ShoppingCartAttributeItem\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,OrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,CustomerReview\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,Content\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductVariantGroup\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,CatalogCategoryEntry\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cInteger,Permission\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cInteger,Group\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,TaxRate\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductVariation\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductVariantImage\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductType\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductRelationship\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductPrice\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,MerchantLog\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductOptionSet\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductOptionValue\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductOption\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,TaxClass\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,MerchantConfiguration\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,OrderTotal\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductAvailability\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cInteger,Country\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,Zone\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,IntegrationModule\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,Transaction\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductVariant\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductImage\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,ProductAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,GeoZone\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,SystemNotification\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,SystemConfiguration\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,Quote\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,OrderAccount\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,CustomerOptionSet\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cK,? extends\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,Catalog\u003e",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity\u003cLong,MarketPlace\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setId",
+                "signature": "setId(java.io.Serializable) return void"
+              },
+              {
+                "name": "compareTo",
+                "signature": "compareTo(com.salesmanager.core.model.generic.SalesManagerEntity) return int"
+              },
+              {
+                "name": "hashCode",
+                "signature": "hashCode() return int"
+              },
+              {
+                "name": "isNew",
+                "signature": "isNew() return boolean"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.io.Serializable"
+              },
+              {
+                "name": "toString",
+                "signature": "toString() return java.lang.String"
+              },
+              {
+                "name": "equals",
+                "signature": "equals(java.lang.Object) return boolean"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "",
+            "elements": [
+              {
+                "name": "SalesManagerEntity.E",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity.K",
+                "signature": ""
+              },
+              {
+                "name": "SalesManagerEntity.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "DEFAULT_STRING_COLLATOR",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Generic Java Class",
+            "elements": [
+              {
+                "name": "SalesManagerEntity\u003cK extends Serializable\u0026Comparable\u003cK\u003e,E extends SalesManagerEntity\u003cK,?\u003e\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Initializer",
+            "elements": [
+              {
+                "name": "{(22:2)}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "SalesManagerEntity",
+                "signature": "SalesManagerEntity()"
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

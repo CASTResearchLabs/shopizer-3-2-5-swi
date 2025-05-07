@@ -1,0 +1,134 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/PublishProductAspect.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/PublishProductAspect.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 18,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "logBeforeDeleteProductAttribute",
+                "signature": "logBeforeDeleteProductAttribute(org.aspectj.lang.JoinPoint) return void"
+              },
+              {
+                "name": "createProductAttributeEvent",
+                "signature": "createProductAttributeEvent(org.aspectj.lang.JoinPoint,java.lang.Object) return void"
+              },
+              {
+                "name": "entityProductAttributeCreationMethods",
+                "signature": "entityProductAttributeCreationMethods() return void"
+              },
+              {
+                "name": "saveProductAttributeMethod",
+                "signature": "saveProductAttributeMethod() return void"
+              },
+              {
+                "name": "logBeforeDeleteProductImage",
+                "signature": "logBeforeDeleteProductImage(org.aspectj.lang.JoinPoint) return void"
+              },
+              {
+                "name": "createProductImageEvent",
+                "signature": "createProductImageEvent(org.aspectj.lang.JoinPoint,java.lang.Object) return void"
+              },
+              {
+                "name": "entityProductImageCreationMethods",
+                "signature": "entityProductImageCreationMethods() return void"
+              },
+              {
+                "name": "saveProductImageMethod",
+                "signature": "saveProductImageMethod() return void"
+              },
+              {
+                "name": "logBeforeDeleteProductVariant",
+                "signature": "logBeforeDeleteProductVariant(org.aspectj.lang.JoinPoint) return void"
+              },
+              {
+                "name": "createProductVariantEvent",
+                "signature": "createProductVariantEvent(org.aspectj.lang.JoinPoint,java.lang.Object) return void"
+              },
+              {
+                "name": "entityProductVariantCreationMethods",
+                "signature": "entityProductVariantCreationMethods() return void"
+              },
+              {
+                "name": "saveProductVariantMethod",
+                "signature": "saveProductVariantMethod() return void"
+              },
+              {
+                "name": "logBeforeDeleteProduct",
+                "signature": "logBeforeDeleteProduct(org.aspectj.lang.JoinPoint) return void"
+              },
+              {
+                "name": "createProductEvent",
+                "signature": "createProductEvent(org.aspectj.lang.JoinPoint,java.lang.Object) return void"
+              },
+              {
+                "name": "entityCreationMethods",
+                "signature": "entityCreationMethods() return void"
+              },
+              {
+                "name": "saveProductMethod",
+                "signature": "saveProductMethod() return void"
+              },
+              {
+                "name": "serviceMethods",
+                "signature": "serviceMethods() return void"
+              },
+              {
+                "name": "setEventPublisher",
+                "signature": "setEventPublisher(org.springframework.context.ApplicationEventPublisher) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "eventPublisher",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "PublishProductAspect.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "PublishProductAspect",
+                "signature": "PublishProductAspect()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "PublishProductAspect",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

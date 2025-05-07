@@ -1,0 +1,231 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/Mapper.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/Mapper.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 42,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "Mapper\u003cTaxRate,ReadableTaxRate\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cTaxClass,ReadableTaxClass\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableTaxRate,TaxRate\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableTaxClass,TaxClass\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cOrderTotal,ReadableOrderTotal\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cOrderProduct,ReadableOrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cOptin,ReadableOptin\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableOptin,Optin\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductPrice,ProductPrice\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableInventory,ProductAvailability\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cCustomer,ReadableCustomer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductVariantGroup,ReadableProductVariantGroup\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductVariant,ReadableProductVariant\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProduct,ReadableProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductAvailability,ReadableInventory\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProduct,ReadableProductDefinition\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductVariantGroup,ProductVariantGroup\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductVariant,ProductVariant\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProduct,Product\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductDefinition,Product\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductInventory,ProductAvailability\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductType,ReadableProductType\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductOptionSet,ReadableProductOptionSet\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductImage,ReadableImage\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductOptionValue,ReadableProductOptionValue\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductOption,ReadableProductOptionEntity\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductAttribute,ReadableProductAttributeEntity\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cManufacturer,ReadableManufacturer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cCatalog,ReadableCatalog\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cCategory,ReadableCategory\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cCatalogCategoryEntry,ReadableCatalogCategoryEntry\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductVariation,ProductVariation\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductType,ProductType\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductOptionSet,ProductOptionSet\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductOptionEntity,ProductOption\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductOptionValue,ProductOptionValue\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableProductAttribute,ProductAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableCatalog,Catalog\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cPersistableCatalogCategoryEntry,CatalogCategoryEntry\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProductVariation,ReadableProductVariation\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cProduct,ReadableMinimalProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Mapper\u003cShoppingCart,ReadableShoppingCart\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "",
+            "elements": [
+              {
+                "name": "Mapper.T",
+                "signature": ""
+              },
+              {
+                "name": "Mapper.S",
+                "signature": ""
+              },
+              {
+                "name": "Mapper.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "merge",
+                "signature": "merge(java.lang.Object,java.lang.Object,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.lang.Object"
+              },
+              {
+                "name": "convert",
+                "signature": "convert(java.lang.Object,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.lang.Object"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Generic Java Interface",
+            "elements": [
+              {
+                "name": "Mapper\u003cS,T\u003e",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

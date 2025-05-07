@@ -1,0 +1,89 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/product/ReadableProductVariantGroupMapper.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/catalog/product/ReadableProductVariantGroupMapper.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "to_name": "ArrayList\u003cReadableImage\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "to_name": "HashMap\u003cLong,ReadableImage\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "to_name": "merge$lambda$1(com.salesmanager.core.model.catalog.product.variant.ProductVariantImage) return R",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "to_name": "merge$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return R",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "merge$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return R",
+            "to_name": "instance(com.salesmanager.core.model.catalog.product.variant.ProductVariant,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.product.variant.Read",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "to_name": "instance(com.salesmanager.core.model.catalog.product.variant.ProductVariant,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.product.variant.Read",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "merge$lambda$1(com.salesmanager.core.model.catalog.product.variant.ProductVariantImage) return R",
+            "to_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "merge$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return R",
+            "to_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "convert(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.product.variantG",
+            "to_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "merge$lambda$1(com.salesmanager.core.model.catalog.product.variant.ProductVariantImage) return R",
+            "to_name": "image(java.util.Map.Map\u003cjava.lang.Long,com.salesmanager.shop.model.catalog.product.ReadableImage\u003e,com.salesmanager.core.model.catalog.product.variant.ProductVariantImage,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refere",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "merge(com.salesmanager.core.model.catalog.product.variant.ProductVariantGroup,com.salesmanager.shop.model.catalog.product.product.variantGroup.ReadableProductVariantGroup,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refer",
+            "to_name": "image(java.util.Map.Map\u003cjava.lang.Long,com.salesmanager.shop.model.catalog.product.ReadableImage\u003e,com.salesmanager.core.model.catalog.product.variant.ProductVariantImage,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.refere",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 11
+      }
+    ]
+  }
+}

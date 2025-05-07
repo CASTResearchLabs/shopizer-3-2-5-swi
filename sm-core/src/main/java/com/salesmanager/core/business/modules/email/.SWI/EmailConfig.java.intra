@@ -1,0 +1,173 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/EmailConfig.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/EmailConfig.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getProtocol() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getPort() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "isStarttls() return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getPassword() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getUsername() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getHost() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "isSmtpAuth() return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getHost() return java.lang.String",
+            "to_name": "host",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setHost(java.lang.String) return void",
+            "to_name": "host",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getEmailTemplatesPath() return java.lang.String",
+            "to_name": "emailTemplatesPath",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setEmailTemplatesPath(java.lang.String) return void",
+            "to_name": "emailTemplatesPath",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isStarttls() return boolean",
+            "to_name": "starttls",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStarttls(boolean) return void",
+            "to_name": "starttls",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isSmtpAuth() return boolean",
+            "to_name": "smtpAuth",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSmtpAuth(boolean) return void",
+            "to_name": "smtpAuth",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPassword() return java.lang.String",
+            "to_name": "password",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPassword(java.lang.String) return void",
+            "to_name": "password",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getUsername() return java.lang.String",
+            "to_name": "username",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setUsername(java.lang.String) return void",
+            "to_name": "username",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProtocol() return java.lang.String",
+            "to_name": "protocol",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProtocol(java.lang.String) return void",
+            "to_name": "protocol",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPort() return java.lang.String",
+            "to_name": "port",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPort(java.lang.String) return void",
+            "to_name": "port",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 23
+      }
+    ]
+  }
+}

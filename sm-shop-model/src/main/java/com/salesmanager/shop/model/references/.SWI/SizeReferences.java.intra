@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/references/SizeReferences.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/references/SizeReferences.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMeasures() return java.util.List.List\u003ccom.salesmanager.shop.model.references.MeasureUnit\u003e",
+            "to_name": "measures",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMeasures(java.util.List.List\u003ccom.salesmanager.shop.model.references.MeasureUnit\u003e) return void",
+            "to_name": "measures",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getWeights() return java.util.List.List\u003ccom.salesmanager.shop.model.references.WeightUnit\u003e",
+            "to_name": "weights",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setWeights(java.util.List.List\u003ccom.salesmanager.shop.model.references.WeightUnit\u003e) return void",
+            "to_name": "weights",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 4
+      }
+    ]
+  }
+}

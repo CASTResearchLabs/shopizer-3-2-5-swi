@@ -1,0 +1,134 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/store/ReadableMerchantStore.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/store/ReadableMerchantStore.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getReadableAudit",
+                "signature": "getReadableAudit() return com.salesmanager.shop.model.entity.ReadableAudit"
+              },
+              {
+                "name": "setReadableAudit",
+                "signature": "setReadableAudit(com.salesmanager.shop.model.entity.ReadableAudit) return void"
+              },
+              {
+                "name": "getSupportedLanguages",
+                "signature": "getSupportedLanguages() return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableLanguage\u003e"
+              },
+              {
+                "name": "getLogo",
+                "signature": "getLogo() return com.salesmanager.shop.model.content.ReadableImage"
+              },
+              {
+                "name": "getAddress",
+                "signature": "getAddress() return com.salesmanager.shop.model.references.ReadableAddress"
+              },
+              {
+                "name": "setCurrentUserLanguage",
+                "signature": "setCurrentUserLanguage(java.lang.String) return void"
+              },
+              {
+                "name": "getCurrentUserLanguage",
+                "signature": "getCurrentUserLanguage() return java.lang.String"
+              },
+              {
+                "name": "setSupportedLanguages",
+                "signature": "setSupportedLanguages(java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableLanguage\u003e) return void"
+              },
+              {
+                "name": "setParent",
+                "signature": "setParent(com.salesmanager.shop.model.store.ReadableMerchantStore) return void"
+              },
+              {
+                "name": "getParent",
+                "signature": "getParent() return com.salesmanager.shop.model.store.ReadableMerchantStore"
+              },
+              {
+                "name": "setLogo",
+                "signature": "setLogo(com.salesmanager.shop.model.content.ReadableImage) return void"
+              },
+              {
+                "name": "setAddress",
+                "signature": "setAddress(com.salesmanager.shop.model.references.ReadableAddress) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "supportedLanguages",
+                "signature": ""
+              },
+              {
+                "name": "parent",
+                "signature": ""
+              },
+              {
+                "name": "audit",
+                "signature": ""
+              },
+              {
+                "name": "logo",
+                "signature": ""
+              },
+              {
+                "name": "address",
+                "signature": ""
+              },
+              {
+                "name": "currentUserLanguage",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ReadableMerchantStore.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ReadableMerchantStore",
+                "signature": "ReadableMerchantStore()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ReadableMerchantStore",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

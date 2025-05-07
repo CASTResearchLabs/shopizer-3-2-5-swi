@@ -1,0 +1,130 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/AbstractimageFilePath.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/AbstractimageFilePath.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 16,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setProperties",
+                "signature": "setProperties(java.util.Properties) return void"
+              },
+              {
+                "name": "getProperties",
+                "signature": "getProperties() return java.util.Properties"
+              },
+              {
+                "name": "setContentUrlPath",
+                "signature": "setContentUrlPath(java.lang.String) return void"
+              },
+              {
+                "name": "setBasePath",
+                "signature": "setBasePath(java.lang.String) return void"
+              },
+              {
+                "name": "buildStaticContentFilePath",
+                "signature": "buildStaticContentFilePath(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "buildCustomTypeImageUtils",
+                "signature": "buildCustomTypeImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.content.FileContentType) return java.lang.String"
+              },
+              {
+                "name": "buildProductPropertyImageUtils",
+                "signature": "buildProductPropertyImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "buildStoreLogoFilePath",
+                "signature": "buildStoreLogoFilePath(com.salesmanager.core.model.merchant.MerchantStore) return java.lang.String"
+              },
+              {
+                "name": "buildLargeProductImageUtils",
+                "signature": "buildLargeProductImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "buildProductImageUtils",
+                "signature": "buildProductImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "buildProductImageUtils",
+                "signature": "buildProductImageUtils(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.Product,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "buildManufacturerImageUtils",
+                "signature": "buildManufacturerImageUtils(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.manufacturer.Manufacturer,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "buildStaticImageUtils",
+                "signature": "buildStaticImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "buildStaticImageUtils",
+                "signature": "buildStaticImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "getBasePath",
+                "signature": "getBasePath(com.salesmanager.core.model.merchant.MerchantStore) return java.lang.String"
+              },
+              {
+                "name": "buildProductPropertyImageFilePath",
+                "signature": "buildProductPropertyImageFilePath(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "properties",
+                "signature": ""
+              },
+              {
+                "name": "CONTEXT_PATH",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "AbstractimageFilePath.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "AbstractimageFilePath",
+                "signature": "AbstractimageFilePath()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "AbstractimageFilePath",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

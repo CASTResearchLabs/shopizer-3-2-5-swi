@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartAttributeItem.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartAttributeItem.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShoppingCartItem() return com.salesmanager.core.model.shoppingcart.ShoppingCartItem",
+            "to_name": "shoppingCartItem",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShoppingCartItem(com.salesmanager.core.model.shoppingcart.ShoppingCartItem) return void",
+            "to_name": "shoppingCartItem",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.attribute.ProductAttribute)",
+            "to_name": "shoppingCartItem",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,java.lang.Long)",
+            "to_name": "shoppingCartItem",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttribute() return com.salesmanager.core.model.catalog.product.attribute.ProductAttribute",
+            "to_name": "productAttribute",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttribute(com.salesmanager.core.model.catalog.product.attribute.ProductAttribute) return void",
+            "to_name": "productAttribute",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.attribute.ProductAttribute)",
+            "to_name": "productAttribute",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeId() return java.lang.Long",
+            "to_name": "productAttributeId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeId(java.lang.Long) return void",
+            "to_name": "productAttributeId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.attribute.ProductAttribute)",
+            "to_name": "productAttributeId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartAttributeItem(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,java.lang.Long)",
+            "to_name": "productAttributeId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+            "to_name": "auditSection",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 15
+      }
+    ]
+  }
+}

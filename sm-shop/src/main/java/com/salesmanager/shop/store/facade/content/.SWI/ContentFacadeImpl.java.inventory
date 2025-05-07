@@ -1,0 +1,381 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/facade/content/ContentFacadeImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/facade/content/ContentFacadeImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 40,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "codeExist",
+                "signature": "codeExist(java.lang.String,java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return boolean"
+              },
+              {
+                "name": "updateContentBox",
+                "signature": "updateContentBox(java.lang.Long,com.salesmanager.shop.model.content.box.PersistableContentBox,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "deleteContent",
+                "signature": "deleteContent(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "updateContentPage",
+                "signature": "updateContentPage(java.lang.Long,com.salesmanager.shop.model.content.page.PersistableContentPage,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "download",
+                "signature": "download(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.content.FileContentType,java.lang.String) return com.salesmanager.core.model.content.OutputContentFile"
+              },
+              {
+                "name": "renameFile",
+                "signature": "renameFile(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.content.FileContentType,java.lang.String,java.lang.String) return void"
+              },
+              {
+                "name": "getContentPageByName",
+                "signature": "getContentPageByName(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.content.page.ReadableContentPage"
+              },
+              {
+                "name": "getContents",
+                "signature": "getContents(java.util.Optional.Optional\u003cjava.lang.String\u003e,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.model.content.ReadableContentEntity\u003e"
+              },
+              {
+                "name": "getContent",
+                "signature": "getContent(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.content.ReadableContentFull"
+              },
+              {
+                "name": "delete",
+                "signature": "delete(com.salesmanager.core.model.merchant.MerchantStore,java.lang.Long) return void"
+              },
+              {
+                "name": "addContentFiles",
+                "signature": "addContentFiles(java.util.List.List\u003ccom.salesmanager.shop.model.content.ContentFile\u003e,java.lang.String) return void"
+              },
+              {
+                "name": "saveContentBox",
+                "signature": "saveContentBox(com.salesmanager.shop.model.content.box.PersistableContentBox,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.lang.Long"
+              },
+              {
+                "name": "saveContentPage",
+                "signature": "saveContentPage(com.salesmanager.shop.model.content.page.PersistableContentPage,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.lang.Long"
+              },
+              {
+                "name": "fixContentDescription",
+                "signature": "fixContentDescription(java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "getContentBox",
+                "signature": "getContentBox(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.content.box.ReadableContentBox"
+              },
+              {
+                "name": "findAppropriateContentDescription",
+                "signature": "findAppropriateContentDescription(java.util.List.List\u003ccom.salesmanager.core.model.content.ContentDescription\u003e,com.salesmanager.core.model.reference.language.Language) return java.util.Optional.Optional\u003ccom.salesmanager.core.model.content.ContentDescriptio"
+              },
+              {
+                "name": "convertContentToReadableLegacyContentBox",
+                "signature": "convertContentToReadableLegacyContentBox(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.content.Content) return com.salesmanager.shop.model.content.box.ReadableContent"
+              },
+              {
+                "name": "contentDescription",
+                "signature": "contentDescription(com.salesmanager.core.model.content.ContentDescription) return com.salesmanager.shop.model.content.common.ContentDescription"
+              },
+              {
+                "name": "convertContentToReadableContentPage",
+                "signature": "convertContentToReadableContentPage(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.content.Content) return com.salesmanager.shop.model.content.page.ReadableContentPage"
+              },
+              {
+                "name": "setDescription",
+                "signature": "setDescription(com.salesmanager.core.model.content.Content,com.salesmanager.shop.model.content.box.ReadableContentBox,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "convertContentToReadableContentBox",
+                "signature": "convertContentToReadableContentBox(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.content.Content) return com.salesmanager.shop.model.content.box.ReadableContentBox"
+              },
+              {
+                "name": "getFileContentType",
+                "signature": "getFileContentType(java.lang.String) return com.salesmanager.core.model.content.FileContentType"
+              },
+              {
+                "name": "addContentFile",
+                "signature": "addContentFile(com.salesmanager.shop.model.content.ContentFile,java.lang.String) return void"
+              },
+              {
+                "name": "getContentBoxes",
+                "signature": "getContentBoxes(com.salesmanager.core.model.content.ContentType,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,int,int) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntity"
+              },
+              {
+                "name": "getContentBoxes",
+                "signature": "getContentBoxes(com.salesmanager.core.model.content.ContentType,java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,int,int) return com.salesmanager.shop.model.entity.ReadableEntityLi"
+              },
+              {
+                "name": "getContentPage",
+                "signature": "getContentPage(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.content.page.ReadableContentPage"
+              },
+              {
+                "name": "setContentDescriptionToContentModel",
+                "signature": "setContentDescriptionToContentModel(com.salesmanager.core.model.content.Content,com.salesmanager.core.model.content.ContentDescription,com.salesmanager.core.model.reference.language.Language) return void"
+              },
+              {
+                "name": "buildDescriptions",
+                "signature": "buildDescriptions(com.salesmanager.core.model.content.Content,java.util.List.List\u003ccom.salesmanager.shop.model.content.common.ContentDescription\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.content.ContentDescription\u003e"
+              },
+              {
+                "name": "create",
+                "signature": "create(com.salesmanager.core.model.content.ContentDescription) return com.salesmanager.shop.model.content.ContentDescriptionEntity"
+              },
+              {
+                "name": "createContentDescriptionEntitys",
+                "signature": "createContentDescriptionEntitys(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.content.Content,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.model.content.ContentD"
+              },
+              {
+                "name": "convertContentBoxToContent",
+                "signature": "convertContentBoxToContent(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.content.Content,com.salesmanager.shop.model.content.box.PersistableContentBox) return com.salesmanager.core.model.content.Content"
+              },
+              {
+                "name": "convertContentPageToContent",
+                "signature": "convertContentPageToContent(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.content.Content,com.salesmanager.shop.model.content.page.PersistableContentPage) return com.salesmanager.core.model.content.Content"
+              },
+              {
+                "name": "convertContentToReadableContentEntity",
+                "signature": "convertContentToReadableContentEntity(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.content.Content) return com.salesmanager.shop.model.content.ReadableContentEntity"
+              },
+              {
+                "name": "convertContentToReadableContentFull",
+                "signature": "convertContentToReadableContentFull(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.content.Content) return com.salesmanager.shop.model.content.ReadableContentFull"
+              },
+              {
+                "name": "contentDescriptionToReadableContent",
+                "signature": "contentDescriptionToReadableContent(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.content.Content,com.salesmanager.core.model.content.ContentDescription) return com.salesmanager.shop.model.content.page.ReadableContentPage"
+              },
+              {
+                "name": "getContentPages",
+                "signature": "getContentPages(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,int,int) return com.salesmanager.shop.model.entity.ReadableEntityList.ReadableEntityList\u003ccom.salesmanager.shop.model.content.page.Re"
+              },
+              {
+                "name": "delete",
+                "signature": "delete(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,java.lang.String) return void"
+              },
+              {
+                "name": "convertToContentImage",
+                "signature": "convertToContentImage(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.shop.model.content.ContentImage"
+              },
+              {
+                "name": "getContentFolder",
+                "signature": "getContentFolder(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.shop.model.content.ContentFolder"
+              },
+              {
+                "name": "absolutePath",
+                "signature": "absolutePath(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 14,
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "getContentPageByName$lambda$0",
+                "signature": "getContentPageByName$lambda$0() return java.lang.Object"
+              },
+              {
+                "name": "getContents$lambda$0",
+                "signature": "getContents$lambda$0(com.salesmanager.core.model.content.Content) return R"
+              },
+              {
+                "name": "getContentBox$lambda$2",
+                "signature": "getContentBox$lambda$2(com.salesmanager.core.model.content.ContentDescription) return R"
+              },
+              {
+                "name": "getContentBox$lambda$1",
+                "signature": "getContentBox$lambda$1() return java.lang.Object"
+              },
+              {
+                "name": "getContentBox$lambda$0",
+                "signature": "getContentBox$lambda$0() return java.lang.Object"
+              },
+              {
+                "name": "findAppropriateContentDescription$lambda$0",
+                "signature": "findAppropriateContentDescription$lambda$0(com.salesmanager.core.model.content.ContentDescription) return boolean"
+              },
+              {
+                "name": "convertContentToReadableContentPage$lambda$0",
+                "signature": "convertContentToReadableContentPage$lambda$0(com.salesmanager.core.model.content.ContentDescription) return R"
+              },
+              {
+                "name": "convertContentToReadableContentBox$lambda$0",
+                "signature": "convertContentToReadableContentBox$lambda$0(com.salesmanager.core.model.content.ContentDescription) return R"
+              },
+              {
+                "name": "getContentBoxes$lambda$0",
+                "signature": "getContentBoxes$lambda$0(com.salesmanager.core.model.content.Content) return R"
+              },
+              {
+                "name": "getContentPage$lambda$1",
+                "signature": "getContentPage$lambda$1() return java.lang.Object"
+              },
+              {
+                "name": "getContentPage$lambda$0",
+                "signature": "getContentPage$lambda$0() return java.lang.Object"
+              },
+              {
+                "name": "getContentPages$lambda$0",
+                "signature": "getContentPages$lambda$0(com.salesmanager.core.model.content.Content) return R"
+              },
+              {
+                "name": "getContentFolder$lambda$1",
+                "signature": "getContentFolder$lambda$1(java.lang.String) return R"
+              },
+              {
+                "name": "getContentFolder$lambda$0",
+                "signature": "getContentFolder$lambda$0() return java.lang.Object"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 6,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "fileUtils",
+                "signature": ""
+              },
+              {
+                "name": "imageUtils",
+                "signature": ""
+              },
+              {
+                "name": "languageService",
+                "signature": ""
+              },
+              {
+                "name": "contentService",
+                "signature": ""
+              },
+              {
+                "name": "FILE_CONTENT_DELIMETER",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Instantiated Method",
+            "elements": [
+              {
+                "name": "ofNullable\u003cList\u003cString\u003e\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ofNullable\u003cContent\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ofNullable\u003cnull\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ofNullable\u003cContentDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cContentDescription\u003e",
+                "signature": ""
+              },
+              {
+                "name": "List\u003cContentDescriptionEntity\u003e",
+                "signature": ""
+              },
+              {
+                "name": "List\u003cContentImage\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "ArrayList\u003cContentDescriptionEntity\u003e",
+                "signature": ""
+              },
+              {
+                "name": "Optional\u003cContentDescription\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cContentType\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "ArrayList\u003cContentDescriptionEntity\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cContentType\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ContentFacadeImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ContentFacadeImpl",
+                "signature": "ContentFacadeImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ContentFacadeImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

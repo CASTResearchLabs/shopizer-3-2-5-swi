@@ -1,0 +1,1356 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/audit/AuditListener.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/audit/AuditListener.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 32,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setDateModified(java.util.Date) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getDateCreated() return java.util.Date",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setDateCreated(java.util.Date) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setDateModified(java.util.Date) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getDateCreated() return java.util.Date",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setDateCreated(java.util.Date) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "AuditSection",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 7,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/audit/AuditSection.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "User",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "MerchantStore",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/merchant/MerchantStore.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Customer",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/Customer.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Description",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/description/Description.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "AuditListener",
+                "to_name": "Auditable",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/audit/Auditable.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ProductAvailability",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/availability/ProductAvailability.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Product",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/Product.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Category",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/category/Category.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Catalog",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/catalog/Catalog.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Language",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/reference/language/Language.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Transaction",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/payments/Transaction.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "CustomerReview",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/review/CustomerReview.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ProductVariation",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/variation/ProductVariation.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ProductVariant",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/variant/ProductVariant.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ProductType",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/type/ProductType.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ProductReview",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/review/ProductReview.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Manufacturer",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/manufacturer/Manufacturer.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Permission",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/Permission.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Group",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/Group.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "TaxRate",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/tax/taxrate/TaxRate.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "MarketPlace",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/marketplace/MarketPlace.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Catalog",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/marketplace/Catalog.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "CatalogCategoryEntry",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/catalog/CatalogCategoryEntry.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "IntegrationModule",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/IntegrationModule.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ShoppingCartItem",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartItem.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ShoppingCartAttributeItem",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartAttributeItem.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "ShoppingCart",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCart.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "SystemNotification",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/SystemNotification.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "SystemConfiguration",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/SystemConfiguration.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "MerchantConfiguration",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/system/MerchantConfiguration.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "onUpdate(java.lang.Object) return void",
+                "to_name": "Date()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "onSave(java.lang.Object) return void",
+                "to_name": "Date()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "AuditListener",
+                "to_name": "Date",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/util/Date_7e6146cf49a738d5.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

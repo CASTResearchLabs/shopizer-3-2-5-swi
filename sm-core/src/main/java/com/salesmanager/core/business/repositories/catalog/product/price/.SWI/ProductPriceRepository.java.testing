@@ -1,0 +1,228 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/price/ProductPriceRepository.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/price/ProductPriceRepository.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 8,
+        "impacting_elements": [
+          {
+            "name": "select distinct p from",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_PRICE",
+                "full_name": "DEFAULT.PRODUCT_PRICE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_VARIANT",
+                "full_name": "DEFAULT.PRODUCT_VARIANT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_AVAILABILITY",
+                "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select p from ProductPrice",
+            "comment": "",
+            "type": "Spring Data JPQL Query",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_PRICE",
+                "full_name": "DEFAULT.PRODUCT_PRICE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_AVAILABILITY",
+                "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByProductInventoty(java.lang.String,java.lang.Long,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.price.ProductPrice\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_PRICE",
+                "full_name": "DEFAULT.PRODUCT_PRICE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_VARIANT",
+                "full_name": "DEFAULT.PRODUCT_VARIANT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_AVAILABILITY",
+                "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByProduct(java.lang.String,java.lang.Long,java.lang.String) return com.salesmanager.core.model.catalog.product.price.ProductPrice",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_PRICE",
+                "full_name": "DEFAULT.PRODUCT_PRICE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_VARIANT",
+                "full_name": "DEFAULT.PRODUCT_VARIANT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_AVAILABILITY",
+                "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findByProduct(java.lang.String,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.price.ProductPrice\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_PRICE",
+                "full_name": "DEFAULT.PRODUCT_PRICE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_VARIANT",
+                "full_name": "DEFAULT.PRODUCT_VARIANT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_AVAILABILITY",
+                "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findOne(java.lang.Long) return com.salesmanager.core.model.catalog.product.price.ProductPrice",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_PRICE",
+                "full_name": "DEFAULT.PRODUCT_PRICE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_AVAILABILITY",
+                "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

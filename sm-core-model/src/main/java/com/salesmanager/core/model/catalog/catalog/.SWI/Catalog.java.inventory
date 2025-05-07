@@ -1,0 +1,225 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/catalog/Catalog.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/catalog/Catalog.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 16,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "isDefaultCatalog",
+                "signature": "isDefaultCatalog() return boolean"
+              },
+              {
+                "name": "setDefaultCatalog",
+                "signature": "setDefaultCatalog(boolean) return void"
+              },
+              {
+                "name": "getEntry",
+                "signature": "getEntry() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.catalog.CatalogCategoryEntry\u003e"
+              },
+              {
+                "name": "setMerchantStore",
+                "signature": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getMerchantStore",
+                "signature": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "setVisible",
+                "signature": "setVisible(boolean) return void"
+              },
+              {
+                "name": "isVisible",
+                "signature": "isVisible() return boolean"
+              },
+              {
+                "name": "getAuditSection",
+                "signature": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "setCode",
+                "signature": "setCode(java.lang.String) return void"
+              },
+              {
+                "name": "getCode",
+                "signature": "getCode() return java.lang.String"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "setEntry",
+                "signature": "setEntry(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.catalog.CatalogCategoryEntry\u003e) return void"
+              },
+              {
+                "name": "setSortOrder",
+                "signature": "setSortOrder(java.lang.Integer) return void"
+              },
+              {
+                "name": "getSortOrder",
+                "signature": "getSortOrder() return java.lang.Integer"
+              },
+              {
+                "name": "setAuditSection",
+                "signature": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 9,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "sortOrder",
+                "signature": ""
+              },
+              {
+                "name": "code",
+                "signature": ""
+              },
+              {
+                "name": "defaultCatalog",
+                "signature": ""
+              },
+              {
+                "name": "visible",
+                "signature": ""
+              },
+              {
+                "name": "merchantStore",
+                "signature": ""
+              },
+              {
+                "name": "entry",
+                "signature": ""
+              },
+              {
+                "name": "auditSection",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Remove",
+                "signature": ""
+              },
+              {
+                "name": "Update",
+                "signature": ""
+              },
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Catalog",
+                "signature": "Catalog()"
+              },
+              {
+                "name": "Catalog",
+                "signature": "Catalog(com.salesmanager.core.model.merchant.MerchantStore)"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "Set\u003cCatalogCategoryEntry\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "HashSet\u003cCatalogCategoryEntry\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "HashSet\u003cCatalogCategoryEntry\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Catalog.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Catalog",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "Catalog",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

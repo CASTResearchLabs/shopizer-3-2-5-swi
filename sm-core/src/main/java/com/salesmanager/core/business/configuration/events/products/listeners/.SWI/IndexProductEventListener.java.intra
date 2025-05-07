@@ -1,0 +1,152 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/listeners/IndexProductEventListener.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/listeners/IndexProductEventListener.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "deleteProductAttribute(com.salesmanager.core.business.configuration.events.products.DeleteProductAttributeEvent) return void",
+            "to_name": "deleteProductAttribute$lambda$0(com.salesmanager.core.model.catalog.product.attribute.ProductAttribute) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "saveProductAttribute(com.salesmanager.core.business.configuration.events.products.SaveProductAttributeEvent) return void",
+            "to_name": "saveProductAttribute$lambda$0(com.salesmanager.core.model.catalog.product.attribute.ProductAttribute) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "saveProductImage(com.salesmanager.core.business.configuration.events.products.SaveProductImageEvent) return void",
+            "to_name": "saveProductImage$lambda$0(com.salesmanager.core.model.catalog.product.image.ProductImage) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "deleteProductVariant(com.salesmanager.core.business.configuration.events.products.DeleteProductVariantEvent) return void",
+            "to_name": "deleteProductVariant$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "saveProductVariant(com.salesmanager.core.business.configuration.events.products.SaveProductVariantEvent) return void",
+            "to_name": "saveProductVariant$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "deleteProductAttribute(com.salesmanager.core.business.configuration.events.products.DeleteProductAttributeEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "saveProductAttribute(com.salesmanager.core.business.configuration.events.products.SaveProductAttributeEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "saveProductImage(com.salesmanager.core.business.configuration.events.products.SaveProductImageEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "deleteProductVariant(com.salesmanager.core.business.configuration.events.products.DeleteProductVariantEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "saveProductVariant(com.salesmanager.core.business.configuration.events.products.SaveProductVariantEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "deleteProduct(com.salesmanager.core.business.configuration.events.products.DeleteProductEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "saveProduct(com.salesmanager.core.business.configuration.events.products.SaveProductEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "deleteProductImage(com.salesmanager.core.business.configuration.events.products.DeleteProductImageEvent) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "deleteProductAttribute(com.salesmanager.core.business.configuration.events.products.DeleteProductAttributeEvent) return void",
+            "to_name": "productOfEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "saveProductAttribute(com.salesmanager.core.business.configuration.events.products.SaveProductAttributeEvent) return void",
+            "to_name": "productOfEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "saveProductImage(com.salesmanager.core.business.configuration.events.products.SaveProductImageEvent) return void",
+            "to_name": "productOfEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "deleteProductVariant(com.salesmanager.core.business.configuration.events.products.DeleteProductVariantEvent) return void",
+            "to_name": "productOfEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "saveProductVariant(com.salesmanager.core.business.configuration.events.products.SaveProductVariantEvent) return void",
+            "to_name": "productOfEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "saveProduct(com.salesmanager.core.business.configuration.events.products.SaveProductEvent) return void",
+            "to_name": "productOfEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return com.salesmanager.core.model.catalog.product.Product",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "onApplicationEvent(com.salesmanager.core.business.configuration.events.products.ProductEvent) return void",
+            "to_name": "noIndex",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 20
+      }
+    ]
+  }
+}

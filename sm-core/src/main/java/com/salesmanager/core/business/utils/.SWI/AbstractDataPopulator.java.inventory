@@ -1,0 +1,281 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/AbstractDataPopulator.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/AbstractDataPopulator.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 48,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "AbstractDataPopulator\u003cUser,ReadableUser\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableUser,User\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cOptin,ReadableOptin\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableMerchantStore,MerchantStore\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cShoppingCartData,ShoppingCart\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cShoppingCart,ShoppingCartData\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPermission,ReadablePermission\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cZone,ReadableZone\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cCountry,ReadableCountry\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cTransaction,ReadableTransaction\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableTransaction,Transaction\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistablePayment,Payment\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableOrderProduct,ShoppingCartItem\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cShopOrder,ReadableShopOrder\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cShippingSummary,ReadableShippingSummary\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cOrderTotal,ReadableOrderTotal\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cOrderTotalSummary,ReadableOrderTotalSummary\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cOrderProduct,ReadableOrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cOrderProductDownload,ReadableOrderProductDownload\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cOrder,ReadableOrder\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableOrderProduct,OrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableOrder,Order\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cShoppingCartItem,OrderProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cManufacturer,ReadableManufacturer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableManufacturer,Manufacturer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cCustomerReview,ReadableCustomerReview\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cDelivery,ReadableDelivery\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableCustomerReview,CustomerReview\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cCustomer,PersistableCustomer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableCustomerOptionValue,CustomerOptionValue\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableCustomerOption,CustomerOption\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cAddress,Customer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableCustomer,Customer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cCustomer,CustomerEntity\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cCustomer,Address\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cCustomer,ReadableCustomer\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cProductReview,ReadableProductReview\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cProduct,ReadableProduct\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cFinalPrice,ReadableProductPrice\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cCategory,ReadableCategory\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableProductReview,ProductReview\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableProductOptionValue,ProductOptionValue\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableProductOption,ProductOption\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableImage,ProductImage\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cPersistableCategory,Category\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cProductPrice,ReadableProductPrice\u003e",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator\u003cMerchantStore,ReadableMerchantStore\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "createTarget",
+                "signature": "createTarget() return java.lang.Object"
+              },
+              {
+                "name": "populate",
+                "signature": "populate(java.lang.Object,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.lang.Object"
+              },
+              {
+                "name": "setLocale",
+                "signature": "setLocale(java.util.Locale) return void"
+              },
+              {
+                "name": "getLocale",
+                "signature": "getLocale() return java.util.Locale"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "",
+            "elements": [
+              {
+                "name": "AbstractDataPopulator.Target",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator.Source",
+                "signature": ""
+              },
+              {
+                "name": "AbstractDataPopulator.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Generic Java Class",
+            "elements": [
+              {
+                "name": "AbstractDataPopulator\u003cSource,Target\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "locale",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "AbstractDataPopulator",
+                "signature": "AbstractDataPopulator()"
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

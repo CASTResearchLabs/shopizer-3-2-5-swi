@@ -1,0 +1,249 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/search/SearchServiceImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/search/SearchServiceImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 21,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "index",
+                "signature": "index(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.Product) return void"
+              },
+              {
+                "name": "inventory",
+                "signature": "inventory(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e"
+              },
+              {
+                "name": "inventory",
+                "signature": "inventory(com.salesmanager.core.model.catalog.product.Product) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e"
+              },
+              {
+                "name": "loadSearchConfig",
+                "signature": "loadSearchConfig(java.lang.String) return org.springframework.core.io.Resource"
+              },
+              {
+                "name": "resourceAsText",
+                "signature": "resourceAsText(org.springframework.core.io.Resource) return java.lang.String"
+              },
+              {
+                "name": "mappings",
+                "signature": "mappings(modules.commons.search.configuration.SearchConfiguration,java.lang.String) return void"
+              },
+              {
+                "name": "settings",
+                "signature": "settings(modules.commons.search.configuration.SearchConfiguration,java.lang.String) return void"
+              },
+              {
+                "name": "attribute",
+                "signature": "attribute(com.salesmanager.core.model.catalog.product.attribute.ProductAttribute,java.lang.String) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e"
+              },
+              {
+                "name": "attributes",
+                "signature": "attributes(com.salesmanager.core.model.catalog.product.Product,java.lang.String) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e"
+              },
+              {
+                "name": "category",
+                "signature": "category(com.salesmanager.core.model.catalog.category.Category,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "manufacturer",
+                "signature": "manufacturer(com.salesmanager.core.model.catalog.product.manufacturer.Manufacturer,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "languages",
+                "signature": "languages(com.salesmanager.core.model.catalog.product.Product) return java.util.List.List\u003cjava.lang.String\u003e"
+              },
+              {
+                "name": "getDocument",
+                "signature": "getDocument(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,java.lang.Long) return java.util.Optional.Optional\u003cmodules.commons.search.request.Document\u003e"
+              },
+              {
+                "name": "search",
+                "signature": "search(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,modules.commons.search.request.SearchRequest,int,int) return modules.commons.search.request.SearchResponse"
+              },
+              {
+                "name": "searchKeywords",
+                "signature": "searchKeywords(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,modules.commons.search.request.SearchRequest,int) return modules.commons.search.request.SearchResponse"
+              },
+              {
+                "name": "deleteDocument",
+                "signature": "deleteDocument(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.Product) return void"
+              },
+              {
+                "name": "variants",
+                "signature": "variants(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e"
+              },
+              {
+                "name": "config",
+                "signature": "config() return modules.commons.search.configuration.SearchConfiguration"
+              },
+              {
+                "name": "indexProduct",
+                "signature": "indexProduct(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.description.ProductDescription,com.salesmanager.core.model.catalog.product.Product,java.util.List.List\u003cMap\u003cjava.lang.String,java.lang.String\u003e\u003e) ret"
+              },
+              {
+                "name": "document",
+                "signature": "document(java.lang.Long,java.util.List.List\u003cjava.lang.String\u003e,modules.commons.search.request.RequestOptions) return java.util.List.List\u003cmodules.commons.search.request.Document\u003e"
+              },
+              {
+                "name": "init",
+                "signature": "init() return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 16,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "resourceLoader",
+                "signature": ""
+              },
+              {
+                "name": "searchModule",
+                "signature": ""
+              },
+              {
+                "name": "productInventoryService",
+                "signature": ""
+              },
+              {
+                "name": "applicationSearchConfiguration",
+                "signature": ""
+              },
+              {
+                "name": "configuration",
+                "signature": ""
+              },
+              {
+                "name": "KEYWORDS_MAPPING_DEFAULT",
+                "signature": ""
+              },
+              {
+                "name": "VSKU",
+                "signature": ""
+              },
+              {
+                "name": "SKU",
+                "signature": ""
+              },
+              {
+                "name": "DISCOUNT_PRICE",
+                "signature": ""
+              },
+              {
+                "name": "PRICE",
+                "signature": ""
+              },
+              {
+                "name": "QTY",
+                "signature": ""
+              },
+              {
+                "name": "PRODUCT_MAPPING_DEFAULT",
+                "signature": ""
+              },
+              {
+                "name": "SETTINGS",
+                "signature": ""
+              },
+              {
+                "name": "INDEX_PRODUCTS",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              },
+              {
+                "name": "noIndex",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 9,
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "attribute$lambda$1",
+                "signature": "attribute$lambda$1(com.salesmanager.core.model.catalog.product.attribute.ProductOptionValueDescription) return boolean"
+              },
+              {
+                "name": "attribute$lambda$0",
+                "signature": "attribute$lambda$0(com.salesmanager.core.model.catalog.product.attribute.ProductOptionDescription) return boolean"
+              },
+              {
+                "name": "category$lambda$0",
+                "signature": "category$lambda$0(com.salesmanager.core.model.catalog.category.CategoryDescription) return boolean"
+              },
+              {
+                "name": "manufacturer$lambda$0",
+                "signature": "manufacturer$lambda$0(com.salesmanager.core.model.catalog.product.manufacturer.ManufacturerDescription) return boolean"
+              },
+              {
+                "name": "languages$lambda$0",
+                "signature": "languages$lambda$0(com.salesmanager.core.model.catalog.product.description.ProductDescription) return R"
+              },
+              {
+                "name": "config$lambda$1",
+                "signature": "config$lambda$1(java.lang.String) return void"
+              },
+              {
+                "name": "indexProduct$lambda$0",
+                "signature": "indexProduct$lambda$0(com.salesmanager.core.model.catalog.product.image.ProductImage) return boolean"
+              },
+              {
+                "name": "index$lambda$0",
+                "signature": "index$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return R"
+              },
+              {
+                "name": "config$lambda$0",
+                "signature": "config$lambda$0(java.lang.String) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "SearchServiceImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "SearchServiceImpl",
+                "signature": "SearchServiceImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "SearchServiceImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/shoppingcart/ShoppingCartServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/shoppingcart/ShoppingCartServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 10,
+        "impacting_elements": [
+          {
+            "name": "getShoppingCartItems(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.shoppingcart.ShoppingCart) return java.util.Set.Set\u003ccom.salesmanager.core.model.shoppingcart.Shopping",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_OPTION",
+                "full_name": "DEFAULT.PRODUCT_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_OPTION_VALUE",
+                "full_name": "DEFAULT.PRODUCT_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_ATTRIBUTE",
+                "full_name": "DEFAULT.PRODUCT_ATTRIBUTE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "mergeShoppingCarts(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shoppingcart.ShoppingCart",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_OPTION",
+                "full_name": "DEFAULT.PRODUCT_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_OPTION_VALUE",
+                "full_name": "DEFAULT.PRODUCT_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "SHOPPING_CART",
+                "full_name": "DEFAULT.SHOPPING_CART",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_ATTRIBUTE",
+                "full_name": "DEFAULT.PRODUCT_ATTRIBUTE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "removeShoppingCart(com.salesmanager.core.model.shoppingcart.ShoppingCart) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART",
+                "full_name": "DEFAULT.SHOPPING_CART",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByCode(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shoppingcart.ShoppingCart",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART",
+                "full_name": "DEFAULT.SHOPPING_CART",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "SHOPPING_CART_ATTR_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getById(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shoppingcart.ShoppingCart",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART",
+                "full_name": "DEFAULT.SHOPPING_CART",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "SHOPPING_CART_ATTR_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getShoppingCart(com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shoppingcart.ShoppingCart",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART",
+                "full_name": "DEFAULT.SHOPPING_CART",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "SHOPPING_CART_ATTR_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "deleteShoppingCartItem(java.lang.Long) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART_ATTR_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "SHOPPING_CART_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "cleanupAttributes(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartAttributeItem\u003e,java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductAttribute\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART_ATTR_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getPopulatedItem(com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.merchant.MerchantStore) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART_ATTR_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getPopulatedShoppingCart(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shoppingcart.ShoppingCart",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "SHOPPING_CART_ATTR_ITEM",
+                "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

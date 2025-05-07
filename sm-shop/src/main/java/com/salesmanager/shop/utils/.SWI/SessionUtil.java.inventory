@@ -1,0 +1,85 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/SessionUtil.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/SessionUtil.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "SessionUtil.java",
+                "signature": ""
+              },
+              {
+                "name": "getSessionAttribute.T",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setSessionAttribute",
+                "signature": "setSessionAttribute(java.lang.String,java.lang.Object,javax.servlet.http.HttpServletRequest) return void"
+              },
+              {
+                "name": "removeSessionAttribute",
+                "signature": "removeSessionAttribute(java.lang.String,javax.servlet.http.HttpServletRequest) return void"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Generic Java Method",
+            "elements": [
+              {
+                "name": "getSessionAttribute\u003cT\u003e",
+                "signature": "getSessionAttribute\u003cT\u003e(java.lang.String,javax.servlet.http.HttpServletRequest) return java.lang.Object"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Instantiated Method",
+            "elements": [
+              {
+                "name": "getSessionAttribute\u003cT\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "SessionUtil",
+                "signature": "SessionUtil()"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "SessionUtil",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

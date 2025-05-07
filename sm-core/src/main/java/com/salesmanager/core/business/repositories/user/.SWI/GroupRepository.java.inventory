@@ -1,0 +1,83 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/GroupRepository.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/GroupRepository.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "findByGroupName",
+                "signature": "findByGroupName(java.lang.String) return com.salesmanager.core.model.user.Group"
+              },
+              {
+                "name": "findByType",
+                "signature": "findByType(com.salesmanager.core.model.user.GroupType) return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e"
+              },
+              {
+                "name": "findByNames",
+                "signature": "findByNames(java.util.List.List\u003cjava.lang.String\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e"
+              },
+              {
+                "name": "findByIds",
+                "signature": "findByIds(java.util.Set.Set\u003cjava.lang.Integer\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e"
+              },
+              {
+                "name": "findByPermissions",
+                "signature": "findByPermissions(java.util.Set.Set\u003cjava.lang.Integer\u003e) return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e"
+              },
+              {
+                "name": "findAll",
+                "signature": "findAll() return java.util.List.List\u003ccom.salesmanager.core.model.user.Group\u003e"
+              },
+              {
+                "name": "findById",
+                "signature": "findById(java.lang.Long) return com.salesmanager.core.model.user.Group"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 6,
+            "type": "Spring Data JPQL Query",
+            "elements": [
+              {
+                "name": "select distinct g from",
+                "signature": ""
+              },
+              {
+                "name": "select g from Group",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "GroupRepository.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "GroupRepository",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/variant/PersistableProductVariant.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/variant/PersistableProductVariant.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getInventory",
+                "signature": "getInventory() return com.salesmanager.shop.model.catalog.product.product.PersistableProductInventory"
+              },
+              {
+                "name": "getVariationValueCode",
+                "signature": "getVariationValueCode() return java.lang.String"
+              },
+              {
+                "name": "getVariationCode",
+                "signature": "getVariationCode() return java.lang.String"
+              },
+              {
+                "name": "getVariationValue",
+                "signature": "getVariationValue() return java.lang.Long"
+              },
+              {
+                "name": "getVariation",
+                "signature": "getVariation() return java.lang.Long"
+              },
+              {
+                "name": "setInventory",
+                "signature": "setInventory(com.salesmanager.shop.model.catalog.product.product.PersistableProductInventory) return void"
+              },
+              {
+                "name": "setVariationValueCode",
+                "signature": "setVariationValueCode(java.lang.String) return void"
+              },
+              {
+                "name": "setVariationCode",
+                "signature": "setVariationCode(java.lang.String) return void"
+              },
+              {
+                "name": "setVariationValue",
+                "signature": "setVariationValue(java.lang.Long) return void"
+              },
+              {
+                "name": "setVariation",
+                "signature": "setVariation(java.lang.Long) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 6,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "inventory",
+                "signature": ""
+              },
+              {
+                "name": "variationValueCode",
+                "signature": ""
+              },
+              {
+                "name": "variationCode",
+                "signature": ""
+              },
+              {
+                "name": "variationValue",
+                "signature": ""
+              },
+              {
+                "name": "variation",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "PersistableProductVariant.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "PersistableProductVariant",
+                "signature": "PersistableProductVariant()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "PersistableProductVariant",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

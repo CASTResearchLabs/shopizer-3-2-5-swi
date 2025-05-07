@@ -1,0 +1,103 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductTypeApi.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductTypeApi.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Spring MVC Delete Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/type/{}/",
+            "to_name": "delete(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/type/{}/",
+            "to_name": "update(com.salesmanager.shop.model.catalog.product.type.PersistableProductType,java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/type/",
+            "to_name": "create(com.salesmanager.shop.model.catalog.product.type.PersistableProductType,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.Entity",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/type/unique/",
+            "to_name": "exists(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return org.springframework.http.ResponseEntity.ResponseEntity\u003ccom.salesmanager.shop.model.entity.EntityExists\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/type/{}/",
+            "to_name": "get(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductType",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/types/",
+            "to_name": "list(int,int,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.product.type.ReadableProductTypeList",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "",
+            "to_type": "Java Class",
+            "from_name": "/api/v1",
+            "to_name": "ProductTypeApi",
+            "calling_type": "PROTOTYPE"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/type/",
+            "to_name": "ProductTypeApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/type/{}/",
+            "to_name": "ProductTypeApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/type/unique/",
+            "to_name": "ProductTypeApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/type/{}/",
+            "to_name": "ProductTypeApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/types/",
+            "to_name": "ProductTypeApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Delete Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/type/{}/",
+            "to_name": "ProductTypeApi",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 13
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOptionValue.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductOptionValue.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 19,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setCode",
+                "signature": "setCode(java.lang.String) return void"
+              },
+              {
+                "name": "setProductOptionDisplayOnly",
+                "signature": "setProductOptionDisplayOnly(boolean) return void"
+              },
+              {
+                "name": "getDescriptionsSettoList",
+                "signature": "getDescriptionsSettoList() return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductOptionValueDescription\u003e"
+              },
+              {
+                "name": "setMerchantStore",
+                "signature": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "setProductOptionValueImage",
+                "signature": "setProductOptionValueImage(java.lang.String) return void"
+              },
+              {
+                "name": "getProductOptionValueImage",
+                "signature": "getProductOptionValueImage() return java.lang.String"
+              },
+              {
+                "name": "setProductOptionValueSortOrder",
+                "signature": "setProductOptionValueSortOrder(java.lang.Integer) return void"
+              },
+              {
+                "name": "getProductOptionValueSortOrder",
+                "signature": "getProductOptionValueSortOrder() return java.lang.Integer"
+              },
+              {
+                "name": "getCode",
+                "signature": "getCode() return java.lang.String"
+              },
+              {
+                "name": "getMerchantStore",
+                "signature": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "setDescriptions",
+                "signature": "setDescriptions(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductOptionValueDescription\u003e) return void"
+              },
+              {
+                "name": "getDescriptions",
+                "signature": "getDescriptions() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductOptionValueDescription\u003e"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "isProductOptionDisplayOnly",
+                "signature": "isProductOptionDisplayOnly() return boolean"
+              },
+              {
+                "name": "getDescriptionsList",
+                "signature": "getDescriptionsList() return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductOptionValueDescription\u003e"
+              },
+              {
+                "name": "setDescriptionsList",
+                "signature": "setDescriptionsList(java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductOptionValueDescription\u003e) return void"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "setImage",
+                "signature": "setImage(org.springframework.web.multipart.MultipartFile) return void"
+              },
+              {
+                "name": "getImage",
+                "signature": "getImage() return org.springframework.web.multipart.MultipartFile"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "merchantStore",
+                "signature": ""
+              },
+              {
+                "name": "descriptionsList",
+                "signature": ""
+              },
+              {
+                "name": "image",
+                "signature": ""
+              },
+              {
+                "name": "descriptions",
+                "signature": ""
+              },
+              {
+                "name": "code",
+                "signature": ""
+              },
+              {
+                "name": "productOptionDisplayOnly",
+                "signature": ""
+              },
+              {
+                "name": "productOptionValueImage",
+                "signature": ""
+              },
+              {
+                "name": "productOptionValueSortOrder",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "HashSet\u003cProductOptionValueDescription\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cProductOptionValueDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "HashSet\u003cProductOptionValueDescription\u003e",
+                "signature": ""
+              },
+              {
+                "name": "ArrayList\u003cProductOptionValueDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cProductOptionValueDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductOptionValue.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductOptionValue",
+                "signature": "ProductOptionValue()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductOptionValue",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "ProductOptionValue",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

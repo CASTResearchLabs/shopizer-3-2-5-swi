@@ -1,0 +1,187 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/shoppingcart/ReadableShoppingCart.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/shoppingcart/ReadableShoppingCart.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "products",
+            "to_name": "ArrayList\u003cReadableShoppingCartItem\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomer() return java.lang.Long",
+            "to_name": "customer",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomer(java.lang.Long) return void",
+            "to_name": "customer",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTotals() return java.util.List.List\u003ccom.salesmanager.shop.model.order.total.ReadableOrderTotal\u003e",
+            "to_name": "totals",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTotals(java.util.List.List\u003ccom.salesmanager.shop.model.order.total.ReadableOrderTotal\u003e) return void",
+            "to_name": "totals",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProducts() return java.util.List.List\u003ccom.salesmanager.shop.model.shoppingcart.ReadableShoppingCartItem\u003e",
+            "to_name": "products",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProducts(java.util.List.List\u003ccom.salesmanager.shop.model.shoppingcart.ReadableShoppingCartItem\u003e) return void",
+            "to_name": "products",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getVariant() return com.salesmanager.shop.model.catalog.product.product.variant.ReadableProductVariant",
+            "to_name": "variant",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setVariant(com.salesmanager.shop.model.catalog.product.product.variant.ReadableProductVariant) return void",
+            "to_name": "variant",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPromoCode() return java.lang.String",
+            "to_name": "promoCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPromoCode(java.lang.String) return void",
+            "to_name": "promoCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrder() return java.lang.Long",
+            "to_name": "order",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrder(java.lang.Long) return void",
+            "to_name": "order",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getQuantity() return int",
+            "to_name": "quantity",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setQuantity(int) return void",
+            "to_name": "quantity",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDisplayTotal() return java.lang.String",
+            "to_name": "displayTotal",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplayTotal(java.lang.String) return void",
+            "to_name": "displayTotal",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTotal() return java.math.BigDecimal",
+            "to_name": "total",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTotal(java.math.BigDecimal) return void",
+            "to_name": "total",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDisplaySubTotal() return java.lang.String",
+            "to_name": "displaySubTotal",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplaySubTotal(java.lang.String) return void",
+            "to_name": "displaySubTotal",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSubtotal() return java.math.BigDecimal",
+            "to_name": "subtotal",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSubtotal(java.math.BigDecimal) return void",
+            "to_name": "subtotal",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCode() return java.lang.String",
+            "to_name": "code",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCode(java.lang.String) return void",
+            "to_name": "code",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 25
+      }
+    ]
+  }
+}

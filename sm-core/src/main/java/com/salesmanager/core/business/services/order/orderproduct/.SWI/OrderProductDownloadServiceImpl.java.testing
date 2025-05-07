@@ -1,0 +1,38 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/order/orderproduct/OrderProductDownloadServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/order/orderproduct/OrderProductDownloadServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 1,
+        "impacting_elements": [
+          {
+            "name": "getByOrderId(java.lang.Long) return java.util.List.List\u003ccom.salesmanager.core.model.order.orderproduct.OrderProductDownload\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "ORDER_PRODUCT",
+                "full_name": "DEFAULT.ORDER_PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDER_PRODUCT_DOWNLOAD",
+                "full_name": "DEFAULT.ORDER_PRODUCT_DOWNLOAD",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

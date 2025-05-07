@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/CloudFilePathUtils.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/CloudFilePathUtils.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "buildStaticImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,java.lang.String) return java.lang.String",
+            "to_name": "getBasePath(com.salesmanager.core.model.merchant.MerchantStore) return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "buildStaticImageUtils(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.lang.String",
+            "to_name": "getBasePath(com.salesmanager.core.model.merchant.MerchantStore) return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setContentUrlPath(java.lang.String) return void",
+            "to_name": "contentUrl",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getBasePath(com.salesmanager.core.model.merchant.MerchantStore) return java.lang.String",
+            "to_name": "basePath",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setBasePath(java.lang.String) return void",
+            "to_name": "basePath",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 5
+      }
+    ]
+  }
+}

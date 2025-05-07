@@ -1,0 +1,138 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/user/JWTUser.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/user/JWTUser.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLastPasswordResetDate() return java.util.Date",
+            "to_name": "lastPasswordResetDate",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "lastPasswordResetDate",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isEnabled() return boolean",
+            "to_name": "enabled",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "enabled",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuthorities() return java.util.Collection.Collection\u003c? extends\u003e",
+            "to_name": "authorities",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "authorities",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getEmail() return java.lang.String",
+            "to_name": "email",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "email",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPassword() return java.lang.String",
+            "to_name": "password",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "password",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLastname() return java.lang.String",
+            "to_name": "lastname",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "lastname",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFirstname() return java.lang.String",
+            "to_name": "firstname",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "firstname",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getUsername() return java.lang.String",
+            "to_name": "username",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "username",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "JWTUser(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Collection.Collection\u003c? extends\u003e,boolean,java.util.Date)",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 18
+      }
+    ]
+  }
+}

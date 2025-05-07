@@ -1,0 +1,61 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/tax/TaxConfiguration.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/tax/TaxConfiguration.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getTaxBasisCalculation() return com.salesmanager.core.model.tax.TaxBasisCalculation",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isCollectTaxIfDifferentCountryOfStoreCountry() return boolean",
+            "to_name": "collectTaxIfDifferentCountryOfStoreCountry",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCollectTaxIfDifferentCountryOfStoreCountry(boolean) return void",
+            "to_name": "collectTaxIfDifferentCountryOfStoreCountry",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isCollectTaxIfDifferentProvinceOfStoreCountry() return boolean",
+            "to_name": "collectTaxIfDifferentProvinceOfStoreCountry",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCollectTaxIfDifferentProvinceOfStoreCountry(boolean) return void",
+            "to_name": "collectTaxIfDifferentProvinceOfStoreCountry",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxBasisCalculation() return com.salesmanager.core.model.tax.TaxBasisCalculation",
+            "to_name": "taxBasisCalculation",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxBasisCalculation(com.salesmanager.core.model.tax.TaxBasisCalculation) return void",
+            "to_name": "taxBasisCalculation",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/system/Configs.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/system/Configs.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDisplayAddToCartOnFeaturedItems() return boolean",
+            "to_name": "displayAddToCartOnFeaturedItems",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplayAddToCartOnFeaturedItems(boolean) return void",
+            "to_name": "displayAddToCartOnFeaturedItems",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDisplayPagesMenu() return boolean",
+            "to_name": "displayPagesMenu",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplayPagesMenu(boolean) return void",
+            "to_name": "displayPagesMenu",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDisplayCustomerAgreement() return boolean",
+            "to_name": "displayCustomerAgreement",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplayCustomerAgreement(boolean) return void",
+            "to_name": "displayCustomerAgreement",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDisplayCustomerSection() return boolean",
+            "to_name": "displayCustomerSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplayCustomerSection(boolean) return void",
+            "to_name": "displayCustomerSection",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDisplayShipping() return boolean",
+            "to_name": "displayShipping",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplayShipping(boolean) return void",
+            "to_name": "displayShipping",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDisplayContactUs() return boolean",
+            "to_name": "displayContactUs",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplayContactUs(boolean) return void",
+            "to_name": "displayContactUs",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDisplaySearchBox() return boolean",
+            "to_name": "displaySearchBox",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDisplaySearchBox(boolean) return void",
+            "to_name": "displaySearchBox",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isAllowOnlinePurchase() return boolean",
+            "to_name": "allowOnlinePurchase",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAllowOnlinePurchase(boolean) return void",
+            "to_name": "allowOnlinePurchase",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getInstagram() return java.lang.String",
+            "to_name": "instagram",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setInstagram(java.lang.String) return void",
+            "to_name": "instagram",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGa() return java.lang.String",
+            "to_name": "ga",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGa(java.lang.String) return void",
+            "to_name": "ga",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPinterest() return java.lang.String",
+            "to_name": "pinterest",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPinterest(java.lang.String) return void",
+            "to_name": "pinterest",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFacebook() return java.lang.String",
+            "to_name": "facebook",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setFacebook(java.lang.String) return void",
+            "to_name": "facebook",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 24
+      }
+    ]
+  }
+}

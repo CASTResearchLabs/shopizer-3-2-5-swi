@@ -1,0 +1,264 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartItem.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartItem.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "attributes",
+            "to_name": "HashSet\u003cShoppingCartAttributeItem\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Method",
+            "from_name": "ShoppingCartItem(com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "setSku(java.lang.String) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isObsolete() return boolean",
+            "to_name": "obsolete",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setObsolete(boolean) return void",
+            "to_name": "obsolete",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProduct() return com.salesmanager.core.model.catalog.product.Product",
+            "to_name": "product",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProduct(com.salesmanager.core.model.catalog.product.Product) return void",
+            "to_name": "product",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartItem(com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "product",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFinalPrice() return com.salesmanager.core.model.catalog.product.price.FinalPrice",
+            "to_name": "finalPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setFinalPrice(com.salesmanager.core.model.catalog.product.price.FinalPrice) return void",
+            "to_name": "finalPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSubTotal() return java.math.BigDecimal",
+            "to_name": "subTotal",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSubTotal(java.math.BigDecimal) return void",
+            "to_name": "subTotal",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getItemPrice() return java.math.BigDecimal",
+            "to_name": "itemPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setItemPrice(java.math.BigDecimal) return void",
+            "to_name": "itemPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getVariant() return java.lang.Long",
+            "to_name": "variant",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setVariant(java.lang.Long) return void",
+            "to_name": "variant",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributes() return java.util.Set.Set\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartAttributeItem\u003e",
+            "to_name": "attributes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributes(java.util.Set.Set\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartAttributeItem\u003e) return void",
+            "to_name": "attributes",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isProductVirtual() return boolean",
+            "to_name": "productVirtual",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductVirtual(boolean) return void",
+            "to_name": "productVirtual",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartItem(com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "productVirtual",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSku() return java.lang.String",
+            "to_name": "sku",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSku(java.lang.String) return void",
+            "to_name": "sku",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductId() return java.lang.Long",
+            "to_name": "productId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductId(java.lang.Long) return void",
+            "to_name": "productId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartItem(com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "productId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection",
+            "to_name": "auditSection",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void",
+            "to_name": "auditSection",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getQuantity() return java.lang.Integer",
+            "to_name": "quantity",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setQuantity(java.lang.Integer) return void",
+            "to_name": "quantity",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartItem(com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "quantity",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShoppingCart() return com.salesmanager.core.model.shoppingcart.ShoppingCart",
+            "to_name": "shoppingCart",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShoppingCart(com.salesmanager.core.model.shoppingcart.ShoppingCart) return void",
+            "to_name": "shoppingCart",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "ShoppingCartItem(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "shoppingCart",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Constructor",
+            "from_name": "ShoppingCartItem(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "ShoppingCartItem(com.salesmanager.core.model.catalog.product.Product)",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 36
+      }
+    ]
+  }
+}

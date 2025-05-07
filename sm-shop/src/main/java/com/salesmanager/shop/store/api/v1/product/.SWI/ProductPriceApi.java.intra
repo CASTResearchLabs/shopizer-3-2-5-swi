@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductPriceApi.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductPriceApi.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Spring MVC Delete Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/{}/price/{}/",
+            "to_name": "delete(java.lang.String,java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/{}/prices/",
+            "to_name": "list(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ReadableProductPrice\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/{}/inventory/{}/price/",
+            "to_name": "list(java.lang.String,java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ReadableProductPrice\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/{}/price/{}/",
+            "to_name": "get(java.lang.String,java.lang.Long,com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.catalog.",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/{}/inventory/{}/price/{}/",
+            "to_name": "edit(java.lang.String,java.lang.Long,java.lang.Long,com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/{}/price/",
+            "to_name": "save(java.lang.String,com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.Entity",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/private/product/{}/inventory/{}/price/",
+            "to_name": "save(java.lang.String,java.lang.Long,com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.entity.",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "",
+            "to_type": "Java Class",
+            "from_name": "/api/v1",
+            "to_name": "ProductPriceApi",
+            "calling_type": "PROTOTYPE"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/{}/price/",
+            "to_name": "ProductPriceApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/{}/inventory/{}/price/",
+            "to_name": "ProductPriceApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/{}/inventory/{}/price/{}/",
+            "to_name": "ProductPriceApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/{}/prices/",
+            "to_name": "ProductPriceApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/{}/inventory/{}/price/",
+            "to_name": "ProductPriceApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/{}/price/{}/",
+            "to_name": "ProductPriceApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Delete Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/private/product/{}/price/{}/",
+            "to_name": "ProductPriceApi",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 15
+      }
+    ]
+  }
+}

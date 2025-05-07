@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/attribute/PersistableCustomerAttribute.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/attribute/PersistableCustomerAttribute.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerOptionValue() return com.salesmanager.shop.model.customer.attribute.CustomerOptionValue",
+            "to_name": "customerOptionValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerOptionValue(com.salesmanager.shop.model.customer.attribute.CustomerOptionValue) return void",
+            "to_name": "customerOptionValue",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCustomerOption() return com.salesmanager.shop.model.customer.attribute.CustomerOption",
+            "to_name": "customerOption",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerOption(com.salesmanager.shop.model.customer.attribute.CustomerOption) return void",
+            "to_name": "customerOption",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 4
+      }
+    ]
+  }
+}

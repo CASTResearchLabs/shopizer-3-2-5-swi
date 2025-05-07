@@ -1,0 +1,61 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerNewsletterApi.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerNewsletterApi.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Spring MVC Delete Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/newsletter/{}/",
+            "to_name": "delete(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return org.springframework.http.ResponseEntity.ResponseEntity\u003cjava.lang.Void\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/newsletter/{}/",
+            "to_name": "update(java.lang.String,com.salesmanager.shop.model.customer.PersistableCustomer,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Method",
+            "from_name": "api/v1/newsletter/",
+            "to_name": "create(com.salesmanager.shop.model.customer.optin.PersistableCustomerOptin,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/newsletter/{}/",
+            "to_name": "CustomerNewsletterApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/newsletter/",
+            "to_name": "CustomerNewsletterApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Delete Operation",
+            "to_type": "Java Class",
+            "from_name": "api/v1/newsletter/{}/",
+            "to_name": "CustomerNewsletterApi",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "",
+            "to_type": "Java Class",
+            "from_name": "/api/v1",
+            "to_name": "CustomerNewsletterApi",
+            "calling_type": "PROTOTYPE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 7
+      }
+    ]
+  }
+}

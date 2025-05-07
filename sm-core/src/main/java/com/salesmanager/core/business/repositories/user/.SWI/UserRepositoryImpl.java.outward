@@ -1,0 +1,488 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/UserRepositoryImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/user/UserRepositoryImpl.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 19,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct u from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select count(distinct u) from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "User",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "User",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "User",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/User.java",
+            "nb_calls_between_elements": 10
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select distinct u from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select count(distinct u) from",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "MerchantStore",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/merchant/MerchantStore.java",
+            "nb_calls_between_elements": 8
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "ServiceException",
+                "calling_type": "RAISE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "ServiceException",
+                "calling_type": "THROW"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "ServiceException(java.lang.Throwable)",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "ServiceException",
+                "calling_type": "RAISE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "ServiceException",
+                "calling_type": "THROW"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "ServiceException",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/business/exception/ServiceException.java",
+            "nb_calls_between_elements": 6
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "getStoreCode() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "getSearch() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "getCriteriaOrderByField() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "getOrderBy() return com.salesmanager.core.model.common.CriteriaOrderBy",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "Criteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/Criteria.java",
+            "nb_calls_between_elements": 5
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "setParameter(java.lang.String,java.lang.Object) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "getSingleResult() return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "getResultList() return java.util.List\u003cE\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "Query",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Query_32662.java",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "append(java.lang.String) return java.lang.StringBuilder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "StringBuilder()",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/StringBuilder_563a9673c4e624ff.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "setList(java.util.List.List\u003cE\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "GenericEntityList()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "GenericEntityList\u003cT\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/GenericEntityList.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "NoResultException",
+                "calling_type": "CATCH"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "NoResultException",
+                "calling_type": "CATCH"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/NoResultException_11600.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "isBlank(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "StringUtils",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/StringUtils_9930.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "error(java.lang.String) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "Logger",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Logger_8723.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "createQuery(java.lang.String) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "EntityManager",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/EntityManager_1769.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "setTotalCount(long) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "EntityList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/EntityList.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "UserRepositoryImpl",
+                "to_name": "RepositoryHelper",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/RepositoryHelper.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "Exception",
+                "calling_type": "CATCH"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Exception_c676f99c656d5636.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "toLowerCase() return java.lang.String",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/String_bce7fff4709de738.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "intValue() return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Number_1fecc723ff0302c0.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "name() return java.lang.String",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Enum_a162e065282dce60.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByCriteria(com.salesmanager.core.model.common.Criteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.user.User\u003e",
+                "to_name": "getMessage() return java.lang.String",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Throwable_59bd5118ab8c02bb.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Method",
+                "from_name": "LOGGER",
+                "to_name": "getLogger(java.lang.Class.Class\u003c? extends\u003e) return org.slf4j.Logger",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/LoggerFactory_27529.java",
+            "nb_calls_between_elements": 1
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

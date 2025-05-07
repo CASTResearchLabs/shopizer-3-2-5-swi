@@ -1,0 +1,173 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/ProductPriceUtils.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/ProductPriceUtils.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 21,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getAmount",
+                "signature": "getAmount(java.lang.String) return java.math.BigDecimal"
+              },
+              {
+                "name": "discountPrice",
+                "signature": "discountPrice(com.salesmanager.core.model.catalog.product.price.FinalPrice) return void"
+              },
+              {
+                "name": "finalPrice",
+                "signature": "finalPrice(com.salesmanager.core.model.catalog.product.price.ProductPrice) return com.salesmanager.core.model.catalog.product.price.FinalPrice"
+              },
+              {
+                "name": "calculateFinalPrice",
+                "signature": "calculateFinalPrice(com.salesmanager.core.model.catalog.product.availability.ProductAvailability) return com.salesmanager.core.model.catalog.product.price.FinalPrice"
+              },
+              {
+                "name": "calculateFinalPrice",
+                "signature": "calculateFinalPrice(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.price.FinalPrice"
+              },
+              {
+                "name": "applicableAvailabilities",
+                "signature": "applicableAvailabilities(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.availability.ProductAvailability\u003e) return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.availability.ProductAvailability\u003e"
+              },
+              {
+                "name": "matchPositiveInteger",
+                "signature": "matchPositiveInteger(java.lang.String) return boolean"
+              },
+              {
+                "name": "hasDiscount",
+                "signature": "hasDiscount(com.salesmanager.core.model.catalog.product.price.ProductPrice) return boolean"
+              },
+              {
+                "name": "getOrderProductTotalPrice",
+                "signature": "getOrderProductTotalPrice(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.orderproduct.OrderProduct) return java.math.BigDecimal"
+              },
+              {
+                "name": "getFormatedAmountWithCurrency",
+                "signature": "getFormatedAmountWithCurrency(com.salesmanager.core.model.merchant.MerchantStore,java.math.BigDecimal,java.util.Locale) return java.lang.String"
+              },
+              {
+                "name": "getFormatedAmountWithCurrency",
+                "signature": "getFormatedAmountWithCurrency(com.salesmanager.core.model.reference.currency.Currency,java.math.BigDecimal) return java.lang.String"
+              },
+              {
+                "name": "getAdminFormatedAmountWithCurrency",
+                "signature": "getAdminFormatedAmountWithCurrency(com.salesmanager.core.model.merchant.MerchantStore,java.math.BigDecimal) return java.lang.String"
+              },
+              {
+                "name": "getFormatedAmountWithCurrency",
+                "signature": "getFormatedAmountWithCurrency(java.util.Locale,com.salesmanager.core.model.reference.currency.Currency,java.math.BigDecimal) return java.lang.String"
+              },
+              {
+                "name": "getStoreFormatedAmountWithCurrency",
+                "signature": "getStoreFormatedAmountWithCurrency(com.salesmanager.core.model.merchant.MerchantStore,java.math.BigDecimal) return java.lang.String"
+              },
+              {
+                "name": "getStringAmount",
+                "signature": "getStringAmount(java.math.BigDecimal) return java.lang.String"
+              },
+              {
+                "name": "getAdminFormatedAmount",
+                "signature": "getAdminFormatedAmount(com.salesmanager.core.model.merchant.MerchantStore,java.math.BigDecimal) return java.lang.String"
+              },
+              {
+                "name": "getFinalPrice",
+                "signature": "getFinalPrice(com.salesmanager.core.model.catalog.product.availability.ProductAvailability) return com.salesmanager.core.model.catalog.product.price.FinalPrice"
+              },
+              {
+                "name": "getFinalPrice",
+                "signature": "getFinalPrice(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return com.salesmanager.core.model.catalog.product.price.FinalPrice"
+              },
+              {
+                "name": "getFinalPrice",
+                "signature": "getFinalPrice(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.price.FinalPrice"
+              },
+              {
+                "name": "getFinalPrice",
+                "signature": "getFinalPrice(com.salesmanager.core.model.catalog.product.Product,java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.attribute.ProductAttribute\u003e) return com.salesmanager.core.model.catalog.product.price.FinalPrice"
+              },
+              {
+                "name": "getPrice",
+                "signature": "getPrice(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.catalog.product.Product,java.util.Locale) return java.math.BigDecimal"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "LOGGER",
+                "signature": ""
+              },
+              {
+                "name": "THOUSANDPOINT",
+                "signature": ""
+              },
+              {
+                "name": "DECIMALPOINT",
+                "signature": ""
+              },
+              {
+                "name": "DECIMALCOUNT",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "applicableAvailabilities$lambda$0",
+                "signature": "applicableAvailabilities$lambda$0(com.salesmanager.core.model.catalog.product.availability.ProductAvailability) return boolean"
+              },
+              {
+                "name": "calculateFinalPrice$lambda$0",
+                "signature": "calculateFinalPrice$lambda$0(com.salesmanager.core.model.catalog.product.variant.ProductVariant) return boolean"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductPriceUtils.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductPriceUtils",
+                "signature": "ProductPriceUtils()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductPriceUtils",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

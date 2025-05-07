@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/DeleteProductImageEvent.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/DeleteProductImageEvent.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductImage() return com.salesmanager.core.model.catalog.product.image.ProductImage",
+            "to_name": "productImage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "DeleteProductImageEvent(java.lang.Object,com.salesmanager.core.model.catalog.product.image.ProductImage,com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "productImage",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

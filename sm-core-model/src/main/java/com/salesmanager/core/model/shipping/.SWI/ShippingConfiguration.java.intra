@@ -1,0 +1,362 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shipping/ShippingConfiguration.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shipping/ShippingConfiguration.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "packages",
+            "to_name": "ArrayList\u003cPackage\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getPackages() return java.util.List.List\u003ccom.salesmanager.core.model.shipping.Package\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setShipType(java.lang.String) return void",
+            "to_name": "setShippingType(com.salesmanager.core.model.shipping.ShippingType) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setShipBaseType(java.lang.String) return void",
+            "to_name": "setShippingBasisType(com.salesmanager.core.model.shipping.ShippingBasisType) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setShipOptionPriceType(java.lang.String) return void",
+            "to_name": "setShippingOptionPriceType(com.salesmanager.core.model.shipping.ShippingOptionPriceType) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getShippingPackageType() return com.salesmanager.core.model.shipping.ShippingPackageType",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getShippingType() return com.salesmanager.core.model.shipping.ShippingType",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getShippingBasisType() return com.salesmanager.core.model.shipping.ShippingBasisType",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getShippingOptionPriceType() return com.salesmanager.core.model.shipping.ShippingOptionPriceType",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setShipFreeType(java.lang.String) return void",
+            "to_name": "setFreeShippingType(com.salesmanager.core.model.shipping.ShippingType) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getShippingDescription() return com.salesmanager.core.model.shipping.ShippingDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setShipDescription(java.lang.String) return void",
+            "to_name": "setShippingDescription(com.salesmanager.core.model.shipping.ShippingDescription) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "transformPackage(com.salesmanager.core.model.shipping.Package) return org.json.simple.JSONObject",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setShipPackageType(java.lang.String) return void",
+            "to_name": "setShippingPackageType(com.salesmanager.core.model.shipping.ShippingPackageType) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getFreeShippingType() return com.salesmanager.core.model.shipping.ShippingType",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getMaxWeight() return double",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getBoxWeight() return double",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getBoxLength() return int",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getBoxHeight() return int",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getBoxWidth() return int",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getHandlingFeesText() return java.lang.String",
+            "to_name": "handlingFeesText",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setHandlingFeesText(java.lang.String) return void",
+            "to_name": "handlingFeesText",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderTotalFreeShippingText() return java.lang.String",
+            "to_name": "orderTotalFreeShippingText",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderTotalFreeShippingText(java.lang.String) return void",
+            "to_name": "orderTotalFreeShippingText",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShipFreeType() return java.lang.String",
+            "to_name": "shipFreeType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "shipFreeType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShipFreeType(java.lang.String) return void",
+            "to_name": "shipFreeType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShipDescription() return java.lang.String",
+            "to_name": "shipDescription",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShipDescription(java.lang.String) return void",
+            "to_name": "shipDescription",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShipPackageType() return java.lang.String",
+            "to_name": "shipPackageType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShipPackageType(java.lang.String) return void",
+            "to_name": "shipPackageType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingPackageType(com.salesmanager.core.model.shipping.ShippingPackageType) return void",
+            "to_name": "shipPackageType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShipOptionPriceType() return java.lang.String",
+            "to_name": "shipOptionPriceType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingOptionPriceType(com.salesmanager.core.model.shipping.ShippingOptionPriceType) return void",
+            "to_name": "shipOptionPriceType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShipOptionPriceType(java.lang.String) return void",
+            "to_name": "shipOptionPriceType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShipBaseType() return java.lang.String",
+            "to_name": "shipBaseType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingBasisType(com.salesmanager.core.model.shipping.ShippingBasisType) return void",
+            "to_name": "shipBaseType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShipBaseType(java.lang.String) return void",
+            "to_name": "shipBaseType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShipType() return java.lang.String",
+            "to_name": "shipType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingType(com.salesmanager.core.model.shipping.ShippingType) return void",
+            "to_name": "shipType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShipType(java.lang.String) return void",
+            "to_name": "shipType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isTaxOnShipping() return boolean",
+            "to_name": "taxOnShipping",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "taxOnShipping",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxOnShipping(boolean) return void",
+            "to_name": "taxOnShipping",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getHandlingFees() return java.math.BigDecimal",
+            "to_name": "handlingFees",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "handlingFees",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setHandlingFees(java.math.BigDecimal) return void",
+            "to_name": "handlingFees",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPackages() return java.util.List.List\u003ccom.salesmanager.core.model.shipping.Package\u003e",
+            "to_name": "packages",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPackages(java.util.List.List\u003ccom.salesmanager.core.model.shipping.Package\u003e) return void",
+            "to_name": "packages",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderTotalFreeShipping() return java.math.BigDecimal",
+            "to_name": "orderTotalFreeShipping",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 50 items",
+        "nb_calls_between_elements": 77
+      }
+    ]
+  }
+}

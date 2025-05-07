@@ -1,0 +1,131 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/ajax/AjaxResponse.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/ajax/AjaxResponse.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getData() return java.util.List.List\u003cMap\u003cjava.lang.String,java.lang.String\u003e\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getDataMap() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getJsonInfo() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setErrorMessage(java.lang.Throwable) return void",
+            "to_name": "setStatusMessage(java.lang.String) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "setErrorString(java.lang.String) return void",
+            "to_name": "setStatusMessage(java.lang.String) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getJsonInfo() return java.lang.String",
+            "to_name": "getStatusMessage() return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getJsonInfo() return java.lang.String",
+            "to_name": "getStatus() return int",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "toJSONString() return java.lang.String",
+            "to_name": "getValidationMessages() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStatus() return int",
+            "to_name": "status",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStatus(int) return void",
+            "to_name": "status",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getStatusMessage() return java.lang.String",
+            "to_name": "statusMessage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setStatusMessage(java.lang.String) return void",
+            "to_name": "statusMessage",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getValidationMessages() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "validationMessages",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setValidationMessages(java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e) return void",
+            "to_name": "validationMessages",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDataMap() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "dataMap",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDataMap(java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e) return void",
+            "to_name": "dataMap",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getData() return java.util.List.List\u003cMap\u003cjava.lang.String,java.lang.String\u003e\u003e",
+            "to_name": "data",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 17
+      }
+    ]
+  }
+}

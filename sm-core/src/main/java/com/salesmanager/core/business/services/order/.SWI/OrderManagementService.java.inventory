@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/order/OrderManagementService.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/order/OrderManagementService.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getCapturableOrders",
+                "signature": "getCapturableOrders(com.salesmanager.core.model.merchant.MerchantStore,java.util.Date,java.util.Date) return java.util.List.List\u003ccom.salesmanager.core.model.order.Order\u003e"
+              },
+              {
+                "name": "hasDownloadFiles",
+                "signature": "hasDownloadFiles(com.salesmanager.core.model.order.Order) return boolean"
+              },
+              {
+                "name": "saveOrUpdate",
+                "signature": "saveOrUpdate(com.salesmanager.core.model.order.Order) return void"
+              },
+              {
+                "name": "getOrders",
+                "signature": "getOrders(com.salesmanager.core.model.order.OrderCriteria,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.order.OrderList"
+              },
+              {
+                "name": "listByStore",
+                "signature": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList"
+              },
+              {
+                "name": "getOrder",
+                "signature": "getOrder(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.order.Order"
+              },
+              {
+                "name": "addOrderStatusHistory",
+                "signature": "addOrderStatusHistory(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.order.orderstatus.OrderStatusHistory) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "OrderManagementService.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "OrderManagementService",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

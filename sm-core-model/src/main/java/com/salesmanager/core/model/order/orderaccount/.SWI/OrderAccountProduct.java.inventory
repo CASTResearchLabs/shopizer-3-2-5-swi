@@ -1,0 +1,205 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderaccount/OrderAccountProduct.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderaccount/OrderAccountProduct.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 22,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setOrderAccountProductStatus",
+                "signature": "setOrderAccountProductStatus(java.lang.Integer) return void"
+              },
+              {
+                "name": "getOrderAccountProductStatus",
+                "signature": "getOrderAccountProductStatus() return java.lang.Integer"
+              },
+              {
+                "name": "setOrderAccountProductPaymentFrequencyType",
+                "signature": "setOrderAccountProductPaymentFrequencyType(java.lang.Integer) return void"
+              },
+              {
+                "name": "getOrderAccountProductPaymentFrequencyType",
+                "signature": "getOrderAccountProductPaymentFrequencyType() return java.lang.Integer"
+              },
+              {
+                "name": "setOrderAccountProductLastTransactionStatus",
+                "signature": "setOrderAccountProductLastTransactionStatus(java.lang.Integer) return void"
+              },
+              {
+                "name": "getOrderAccountProductLastTransactionStatus",
+                "signature": "getOrderAccountProductLastTransactionStatus() return java.lang.Integer"
+              },
+              {
+                "name": "setOrderAccountProductLastStatusDate",
+                "signature": "setOrderAccountProductLastStatusDate(java.util.Date) return void"
+              },
+              {
+                "name": "getOrderAccountProductLastStatusDate",
+                "signature": "getOrderAccountProductLastStatusDate() return java.util.Date"
+              },
+              {
+                "name": "setOrderAccountProductAccountedDate",
+                "signature": "setOrderAccountProductAccountedDate(java.util.Date) return void"
+              },
+              {
+                "name": "getOrderAccountProductAccountedDate",
+                "signature": "getOrderAccountProductAccountedDate() return java.util.Date"
+              },
+              {
+                "name": "setOrderAccountProductEot",
+                "signature": "setOrderAccountProductEot(java.util.Date) return void"
+              },
+              {
+                "name": "getOrderAccountProductEot",
+                "signature": "getOrderAccountProductEot() return java.util.Date"
+              },
+              {
+                "name": "setOrderAccountProductEndDate",
+                "signature": "setOrderAccountProductEndDate(java.util.Date) return void"
+              },
+              {
+                "name": "getOrderAccountProductEndDate",
+                "signature": "getOrderAccountProductEndDate() return java.util.Date"
+              },
+              {
+                "name": "setOrderAccountProductStartDate",
+                "signature": "setOrderAccountProductStartDate(java.util.Date) return void"
+              },
+              {
+                "name": "getOrderAccountProductStartDate",
+                "signature": "getOrderAccountProductStartDate() return java.util.Date"
+              },
+              {
+                "name": "setOrderProduct",
+                "signature": "setOrderProduct(com.salesmanager.core.model.order.orderproduct.OrderProduct) return void"
+              },
+              {
+                "name": "getOrderProduct",
+                "signature": "getOrderProduct() return com.salesmanager.core.model.order.orderproduct.OrderProduct"
+              },
+              {
+                "name": "setOrderAccount",
+                "signature": "setOrderAccount(com.salesmanager.core.model.order.orderaccount.OrderAccount) return void"
+              },
+              {
+                "name": "getOrderAccount",
+                "signature": "getOrderAccount() return com.salesmanager.core.model.order.orderaccount.OrderAccount"
+              },
+              {
+                "name": "setOrderAccountProductId",
+                "signature": "setOrderAccountProductId(java.lang.Long) return void"
+              },
+              {
+                "name": "getOrderAccountProductId",
+                "signature": "getOrderAccountProductId() return java.lang.Long"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "orderAccountProductStatus",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductPaymentFrequencyType",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductLastTransactionStatus",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductLastStatusDate",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductAccountedDate",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductEot",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductEndDate",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductStartDate",
+                "signature": ""
+              },
+              {
+                "name": "orderProduct",
+                "signature": ""
+              },
+              {
+                "name": "orderAccount",
+                "signature": ""
+              },
+              {
+                "name": "orderAccountProductId",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "OrderAccountProduct",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "OrderAccountProduct.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "OrderAccountProduct",
+                "signature": "OrderAccountProduct()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "OrderAccountProduct",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

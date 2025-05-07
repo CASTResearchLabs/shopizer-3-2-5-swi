@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/store/ReadableMerchantStore.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/store/ReadableMerchantStore.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSupportedLanguages() return java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableLanguage\u003e",
+            "to_name": "supportedLanguages",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSupportedLanguages(java.util.List.List\u003ccom.salesmanager.shop.model.references.ReadableLanguage\u003e) return void",
+            "to_name": "supportedLanguages",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getParent() return com.salesmanager.shop.model.store.ReadableMerchantStore",
+            "to_name": "parent",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setParent(com.salesmanager.shop.model.store.ReadableMerchantStore) return void",
+            "to_name": "parent",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getReadableAudit() return com.salesmanager.shop.model.entity.ReadableAudit",
+            "to_name": "audit",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setReadableAudit(com.salesmanager.shop.model.entity.ReadableAudit) return void",
+            "to_name": "audit",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getLogo() return com.salesmanager.shop.model.content.ReadableImage",
+            "to_name": "logo",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setLogo(com.salesmanager.shop.model.content.ReadableImage) return void",
+            "to_name": "logo",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAddress() return com.salesmanager.shop.model.references.ReadableAddress",
+            "to_name": "address",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAddress(com.salesmanager.shop.model.references.ReadableAddress) return void",
+            "to_name": "address",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCurrentUserLanguage() return java.lang.String",
+            "to_name": "currentUserLanguage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCurrentUserLanguage(java.lang.String) return void",
+            "to_name": "currentUserLanguage",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 12
+      }
+    ]
+  }
+}

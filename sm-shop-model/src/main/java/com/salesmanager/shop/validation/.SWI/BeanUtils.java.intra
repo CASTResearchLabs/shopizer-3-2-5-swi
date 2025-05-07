@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/validation/BeanUtils.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/validation/BeanUtils.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getPropertyValue(java.lang.Object,java.lang.String) return java.lang.Object",
+            "to_name": "getPropertyDescriptor(java.lang.Class.Class\u003c? extends\u003e,java.lang.String) return java.beans.PropertyDescriptor",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Constructor",
+            "from_name": "newInstance() return com.salesmanager.shop.validation.BeanUtils",
+            "to_name": "BeanUtils()",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/PersistableProductAttribute.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/PersistableProductAttribute.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionValue() return com.salesmanager.shop.model.catalog.product.attribute.PersistableProductOptionValue",
+            "to_name": "optionValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionValue(com.salesmanager.shop.model.catalog.product.attribute.PersistableProductOptionValue) return void",
+            "to_name": "optionValue",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOption() return com.salesmanager.shop.model.catalog.product.attribute.ProductPropertyOption",
+            "to_name": "option",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOption(com.salesmanager.shop.model.catalog.product.attribute.ProductPropertyOption) return void",
+            "to_name": "option",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductId() return java.lang.Long",
+            "to_name": "productId",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductId(java.lang.Long) return void",
+            "to_name": "productId",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributePrice() return java.math.BigDecimal",
+            "to_name": "productAttributePrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributePrice(java.math.BigDecimal) return void",
+            "to_name": "productAttributePrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeWeight() return java.math.BigDecimal",
+            "to_name": "productAttributeWeight",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeWeight(java.math.BigDecimal) return void",
+            "to_name": "productAttributeWeight",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

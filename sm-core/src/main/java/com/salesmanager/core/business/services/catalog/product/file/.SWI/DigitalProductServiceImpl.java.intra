@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/file/DigitalProductServiceImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/product/file/DigitalProductServiceImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "addProductFile(com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.catalog.product.file.DigitalProduct,com.salesmanager.core.model.content.InputContentFile) return void",
+            "to_name": "saveOrUpdate(com.salesmanager.core.model.catalog.product.file.DigitalProduct) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "DigitalProductServiceImpl(com.salesmanager.core.business.repositories.catalog.product.file.DigitalProductRepository)",
+            "to_name": "digitalProductRepository",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/connection/AbstractUserConnection.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/connection/AbstractUserConnection.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 23,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Object"
+              },
+              {
+                "name": "setUserId",
+                "signature": "setUserId(java.lang.String) return void"
+              },
+              {
+                "name": "getUserId",
+                "signature": "getUserId() return java.lang.String"
+              },
+              {
+                "name": "setSecret",
+                "signature": "setSecret(java.lang.String) return void"
+              },
+              {
+                "name": "getSecret",
+                "signature": "getSecret() return java.lang.String"
+              },
+              {
+                "name": "setRefreshToken",
+                "signature": "setRefreshToken(java.lang.String) return void"
+              },
+              {
+                "name": "getRefreshToken",
+                "signature": "getRefreshToken() return java.lang.String"
+              },
+              {
+                "name": "setRank",
+                "signature": "setRank(int) return void"
+              },
+              {
+                "name": "getRank",
+                "signature": "getRank() return int"
+              },
+              {
+                "name": "setProviderUserId",
+                "signature": "setProviderUserId(java.lang.String) return void"
+              },
+              {
+                "name": "getProviderUserId",
+                "signature": "getProviderUserId() return java.lang.String"
+              },
+              {
+                "name": "setProviderId",
+                "signature": "setProviderId(java.lang.String) return void"
+              },
+              {
+                "name": "getProviderId",
+                "signature": "getProviderId() return java.lang.String"
+              },
+              {
+                "name": "setProfileUrl",
+                "signature": "setProfileUrl(java.lang.String) return void"
+              },
+              {
+                "name": "getProfileUrl",
+                "signature": "getProfileUrl() return java.lang.String"
+              },
+              {
+                "name": "setImageUrl",
+                "signature": "setImageUrl(java.lang.String) return void"
+              },
+              {
+                "name": "getImageUrl",
+                "signature": "getImageUrl() return java.lang.String"
+              },
+              {
+                "name": "setExpireTime",
+                "signature": "setExpireTime(java.lang.Long) return void"
+              },
+              {
+                "name": "getExpireTime",
+                "signature": "getExpireTime() return java.lang.Long"
+              },
+              {
+                "name": "setDisplayName",
+                "signature": "setDisplayName(java.lang.String) return void"
+              },
+              {
+                "name": "getDisplayName",
+                "signature": "getDisplayName() return java.lang.String"
+              },
+              {
+                "name": "setAccessToken",
+                "signature": "setAccessToken(java.lang.String) return void"
+              },
+              {
+                "name": "getAccessToken",
+                "signature": "getAccessToken() return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 9,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "secret",
+                "signature": ""
+              },
+              {
+                "name": "refreshToken",
+                "signature": ""
+              },
+              {
+                "name": "userRank",
+                "signature": ""
+              },
+              {
+                "name": "profileUrl",
+                "signature": ""
+              },
+              {
+                "name": "imageUrl",
+                "signature": ""
+              },
+              {
+                "name": "expireTime",
+                "signature": ""
+              },
+              {
+                "name": "displayName",
+                "signature": ""
+              },
+              {
+                "name": "accessToken",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "",
+            "elements": [
+              {
+                "name": "AbstractUserConnection.P",
+                "signature": ""
+              },
+              {
+                "name": "AbstractUserConnection.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Generic Java Class",
+            "elements": [
+              {
+                "name": "AbstractUserConnection\u003cP\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "AbstractUserConnection\u003cUserConnectionPK\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "AbstractUserConnection",
+                "signature": "AbstractUserConnection()"
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

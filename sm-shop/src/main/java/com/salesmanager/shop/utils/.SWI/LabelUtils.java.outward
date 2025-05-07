@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/LabelUtils.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/LabelUtils.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 3,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getMessage(java.lang.String,java.util.Locale,java.lang.String) return java.lang.String",
+                "to_name": "getMessage(java.lang.String,java.lang.Object[],java.util.Locale) return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getMessage(java.lang.String,java.util.Locale) return java.lang.String",
+                "to_name": "getMessage(java.lang.String,java.lang.Object[],java.util.Locale) return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getMessage(java.lang.String,java.lang.String[],java.util.Locale) return java.lang.String",
+                "to_name": "getMessage(java.lang.String,java.lang.Object[],java.util.Locale) return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LabelUtils",
+                "to_name": "MessageSource",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/MessageSource_9464.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "setApplicationContext(org.springframework.context.ApplicationContext) return void",
+                "to_name": "BeansException",
+                "calling_type": "THROW"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LabelUtils",
+                "to_name": "BeansException",
+                "calling_type": "THROW"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/BeansException_9220.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getMessage(java.lang.String,java.util.Locale,java.lang.String) return java.lang.String",
+                "to_name": "Exception",
+                "calling_type": "CATCH"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Exception_c676f99c656d5636.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

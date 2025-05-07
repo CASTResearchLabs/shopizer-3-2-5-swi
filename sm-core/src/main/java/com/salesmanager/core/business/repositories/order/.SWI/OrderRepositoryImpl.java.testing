@@ -1,0 +1,86 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/order/OrderRepositoryImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/order/OrderRepositoryImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "impacting_elements list is truncated to first 50 items",
+        "nb_impacting_elements": 122,
+        "impacting_elements": [
+          {
+            "name": "select o from Order",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "ORDER_TOTAL",
+                "full_name": "DEFAULT.ORDER_TOTAL",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "ORDER_TOTAL",
+                "full_name": "DEFAULT.ORDER_TOTAL",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "ORDER_TOTAL",
+                "full_name": "DEFAULT.ORDER_TOTAL",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select count(o) from Order",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

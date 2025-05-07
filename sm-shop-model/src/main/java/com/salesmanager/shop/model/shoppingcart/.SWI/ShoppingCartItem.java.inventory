@@ -1,0 +1,182 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/shoppingcart/ShoppingCartItem.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/shoppingcart/ShoppingCartItem.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 20,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setProductVirtual",
+                "signature": "setProductVirtual(boolean) return void"
+              },
+              {
+                "name": "setSubTotal",
+                "signature": "setSubTotal(java.lang.String) return void"
+              },
+              {
+                "name": "setImage",
+                "signature": "setImage(java.lang.String) return void"
+              },
+              {
+                "name": "getProductPrice",
+                "signature": "getProductPrice() return java.math.BigDecimal"
+              },
+              {
+                "name": "setProductPrice",
+                "signature": "setProductPrice(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "setShoppingCartAttributes",
+                "signature": "setShoppingCartAttributes(java.util.List.List\u003ccom.salesmanager.shop.model.shoppingcart.ShoppingCartAttribute\u003e) return void"
+              },
+              {
+                "name": "getShoppingCartAttributes",
+                "signature": "getShoppingCartAttributes() return java.util.List.List\u003ccom.salesmanager.shop.model.shoppingcart.ShoppingCartAttribute\u003e"
+              },
+              {
+                "name": "setCode",
+                "signature": "setCode(java.lang.String) return void"
+              },
+              {
+                "name": "getCode",
+                "signature": "getCode() return java.lang.String"
+              },
+              {
+                "name": "setQuantity",
+                "signature": "setQuantity(int) return void"
+              },
+              {
+                "name": "getQuantity",
+                "signature": "getQuantity() return int"
+              },
+              {
+                "name": "setPrice",
+                "signature": "setPrice(java.lang.String) return void"
+              },
+              {
+                "name": "setName",
+                "signature": "setName(java.lang.String) return void"
+              },
+              {
+                "name": "setSku",
+                "signature": "setSku(java.lang.String) return void"
+              },
+              {
+                "name": "getSku",
+                "signature": "getSku() return java.lang.String"
+              },
+              {
+                "name": "isProductVirtual",
+                "signature": "isProductVirtual() return boolean"
+              },
+              {
+                "name": "getSubTotal",
+                "signature": "getSubTotal() return java.lang.String"
+              },
+              {
+                "name": "getImage",
+                "signature": "getImage() return java.lang.String"
+              },
+              {
+                "name": "getPrice",
+                "signature": "getPrice() return java.lang.String"
+              },
+              {
+                "name": "getName",
+                "signature": "getName() return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 11,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "shoppingCartAttributes",
+                "signature": ""
+              },
+              {
+                "name": "subTotal",
+                "signature": ""
+              },
+              {
+                "name": "productVirtual",
+                "signature": ""
+              },
+              {
+                "name": "code",
+                "signature": ""
+              },
+              {
+                "name": "sku",
+                "signature": ""
+              },
+              {
+                "name": "quantity",
+                "signature": ""
+              },
+              {
+                "name": "productPrice",
+                "signature": ""
+              },
+              {
+                "name": "image",
+                "signature": ""
+              },
+              {
+                "name": "price",
+                "signature": ""
+              },
+              {
+                "name": "name",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ShoppingCartItem.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ShoppingCartItem",
+                "signature": "ShoppingCartItem()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ShoppingCartItem",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

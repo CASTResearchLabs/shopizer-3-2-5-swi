@@ -1,0 +1,368 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/relationship/ProductRelationshipRepositoryImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/catalog/product/relationship/ProductRelationshipRepositoryImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 18,
+        "impacting_elements": [
+          {
+            "name": "select distinct pr from",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 7,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_OPTION",
+                "full_name": "DEFAULT.PRODUCT_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_OPTION_VALUE",
+                "full_name": "DEFAULT.PRODUCT_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MANUFACTURER",
+                "full_name": "DEFAULT.MANUFACTURER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByType(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 7,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_OPTION",
+                "full_name": "DEFAULT.PRODUCT_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_OPTION_VALUE",
+                "full_name": "DEFAULT.PRODUCT_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MANUFACTURER",
+                "full_name": "DEFAULT.MANUFACTURER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select distinct pr from",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select distinct pr from",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "select distinct pr from",
+            "comment": "",
+            "type": "JPQL Query",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MANUFACTURER",
+                "full_name": "DEFAULT.MANUFACTURER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByTypeAndRelatedProduct(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.catalog.product.Product) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByType(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.catalog.product.Product) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MANUFACTURER",
+                "full_name": "DEFAULT.MANUFACTURER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByProducts(com.salesmanager.core.model.catalog.product.Product) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByType(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getGroups(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByGroup(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CURRENCY",
+                "full_name": "DEFAULT.CURRENCY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MANUFACTURER",
+                "full_name": "DEFAULT.MANUFACTURER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getGroupByType(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.relationship.ProductRelationship\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByType(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.produ",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "PRODUCT_RELATIONSHIP",
+                "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "PRODUCT",
+                "full_name": "DEFAULT.PRODUCT",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

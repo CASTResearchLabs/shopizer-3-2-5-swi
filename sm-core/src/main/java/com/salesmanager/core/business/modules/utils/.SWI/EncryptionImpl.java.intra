@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/utils/EncryptionImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/utils/EncryptionImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "encrypt(java.lang.String) return java.lang.String",
+            "to_name": "bytesToHex(byte[]) return java.lang.String",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "decrypt(java.lang.String) return java.lang.String",
+            "to_name": "hexToBytes(java.lang.String) return byte[]",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSecretKey() return java.lang.String",
+            "to_name": "secretKey",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSecretKey(java.lang.String) return void",
+            "to_name": "secretKey",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "decrypt(java.lang.String) return java.lang.String",
+            "to_name": "CYPHER_SPEC",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "encrypt(java.lang.String) return java.lang.String",
+            "to_name": "CYPHER_SPEC",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "decrypt(java.lang.String) return java.lang.String",
+            "to_name": "KEY_SPEC",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "encrypt(java.lang.String) return java.lang.String",
+            "to_name": "KEY_SPEC",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 8
+      }
+    ]
+  }
+}

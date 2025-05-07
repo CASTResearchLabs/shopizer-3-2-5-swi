@@ -1,0 +1,92 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/merchant/MerchantStoreService.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/merchant/MerchantStoreService.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 13,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "listChildren",
+                "signature": "listChildren(java.lang.String,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              },
+              {
+                "name": "listAllRetailers",
+                "signature": "listAllRetailers(java.util.Optional.Optional\u003cjava.lang.String\u003e,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              },
+              {
+                "name": "listByGroup",
+                "signature": "listByGroup(java.util.Optional.Optional\u003cjava.lang.String\u003e,java.lang.String,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              },
+              {
+                "name": "listAll",
+                "signature": "listAll(java.util.Optional.Optional\u003cjava.lang.String\u003e,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              },
+              {
+                "name": "findAllStoreNames",
+                "signature": "findAllStoreNames(java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              },
+              {
+                "name": "findAllStoreNames",
+                "signature": "findAllStoreNames() return java.util.List.List\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              },
+              {
+                "name": "getParent",
+                "signature": "getParent(java.lang.String) return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "getByCode",
+                "signature": "getByCode(java.lang.String) return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "getByCriteria",
+                "signature": "getByCriteria(com.salesmanager.core.model.merchant.MerchantStoreCriteria) return com.salesmanager.core.model.common.GenericEntityList.GenericEntityList\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              },
+              {
+                "name": "saveOrUpdate",
+                "signature": "saveOrUpdate(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "isStoreInGroup",
+                "signature": "isStoreInGroup(java.lang.String) return boolean"
+              },
+              {
+                "name": "existByCode",
+                "signature": "existByCode(java.lang.String) return boolean"
+              },
+              {
+                "name": "findAllStoreCodeNameEmail",
+                "signature": "findAllStoreCodeNameEmail() return java.util.List.List\u003ccom.salesmanager.core.model.merchant.MerchantStore\u003e"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "MerchantStoreService.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "MerchantStoreService",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

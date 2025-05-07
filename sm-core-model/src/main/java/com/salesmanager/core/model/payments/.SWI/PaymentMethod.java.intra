@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/payments/PaymentMethod.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/payments/PaymentMethod.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getInformations() return com.salesmanager.core.model.system.IntegrationConfiguration",
+            "to_name": "informations",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setInformations(com.salesmanager.core.model.system.IntegrationConfiguration) return void",
+            "to_name": "informations",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getModule() return com.salesmanager.core.model.system.IntegrationModule",
+            "to_name": "module",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setModule(com.salesmanager.core.model.system.IntegrationModule) return void",
+            "to_name": "module",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDefaultSelected() return boolean",
+            "to_name": "defaultSelected",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultSelected(boolean) return void",
+            "to_name": "defaultSelected",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPaymentType() return com.salesmanager.core.model.payments.PaymentType",
+            "to_name": "paymentType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPaymentType(com.salesmanager.core.model.payments.PaymentType) return void",
+            "to_name": "paymentType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPaymentMethodCode() return java.lang.String",
+            "to_name": "paymentMethodCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPaymentMethodCode(java.lang.String) return void",
+            "to_name": "paymentMethodCode",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

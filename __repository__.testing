@@ -1,0 +1,3344 @@
+{
+  "main facts about application [sec325]": {
+    "00. application [sec325] basic stats": {
+      "application_analysis_name": "Onboarding-202505071130",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 12042,
+      "technology_list": [
+        "aws s3",
+        "azure sdk for java",
+        "gcp storage",
+        "hibernate",
+        "java",
+        "java server pages",
+        "jpa",
+        "spring web services"
+      ],
+      "application_analysis_date": "2025-05-07T11:30:00",
+      "nb_links": 57828,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. application [sec325] graphs representing semantic aggregations": [
+      {
+        "nb_graphs": 33,
+        "samples_list_comment": "",
+        "graph_nature": "Package",
+        "samples": [
+          {
+            "name": "com.google.cloud:google-cloud-storage",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.infinispan:infinispan-core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.stripe:stripe-java",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.passay:passay",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.amazonaws:aws-java-sdk-s3",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.amazonaws:aws-java-sdk-ses",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.drools:drools-decisiontables",
+            "starting_element_type": ""
+          },
+          {
+            "name": "net.sf.ehcache:ehcache",
+            "starting_element_type": ""
+          },
+          {
+            "name": "commons-io:commons-io",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.infinispan:infinispan-tree",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.json:json",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.owasp.antisamy:antisamy",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.fasterxml.jackson.core:jackson-core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.fasterxml.jackson.core:jackson-databind",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.apache.httpcomponents:httpclient",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.springframework:spring-webmvc",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.springframework:spring-core",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.freemarker:freemarker",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.springframework:spring-context-support",
+            "starting_element_type": ""
+          },
+          {
+            "name": "commons-collections:commons-collections",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.googlecode.json-simple:json-simple",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.apache.commons:commons-lang3",
+            "starting_element_type": ""
+          },
+          {
+            "name": "javax.validation:validation-api",
+            "starting_element_type": ""
+          },
+          {
+            "name": "javax.mail:mail",
+            "starting_element_type": ""
+          },
+          {
+            "name": "javax.mail:javax.mail-api",
+            "starting_element_type": ""
+          },
+          {
+            "name": "commons-validator:commons-validator",
+            "starting_element_type": ""
+          },
+          {
+            "name": "org.apache.commons:commons-collections4",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.google.guava:guava",
+            "starting_element_type": ""
+          },
+          {
+            "name": "io.jsonwebtoken:jjwt",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.paypal.sdk:merchantsdk",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.braintreepayments.gateway:braintree-java",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.maxmind.geoip2:geoip2",
+            "starting_element_type": ""
+          },
+          {
+            "name": "com.google.maps:google-maps-services",
+            "starting_element_type": ""
+          }
+        ]
+      },
+      {
+        "nb_graphs": 324,
+        "samples_list_comment": "Transaction list is truncated to first 50 items",
+        "graph_nature": "Transaction",
+        "samples": [
+          {
+            "name": "api/v1/cart/{}/checkout/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/POST/api/v1/cart/{}/checkout/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 1274
+          },
+          {
+            "name": "api/v1/auth/cart/{}/checkout/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/POST/api/v1/auth/cart/{}/checkout/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 1261
+          },
+          {
+            "name": "api/v1/auth/orders/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/auth/orders/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 804
+          },
+          {
+            "name": "api/v1/private/orders/customers/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/private/orders/customers/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 801
+          },
+          {
+            "name": "api/v1/auth/orders/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/auth/orders/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 798
+          },
+          {
+            "name": "api/v1/private/orders/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/private/orders/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 797
+          },
+          {
+            "name": "api/v1/cart/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/PUT/api/v1/cart/{}/",
+            "starting_element_type": "Spring MVC Put Operation",
+            "size": 400
+          },
+          {
+            "name": "api/v1/cart/{}/multi/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/{}/multi/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 389
+          },
+          {
+            "name": "api/v1/cart/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 388
+          },
+          {
+            "name": "api/v1/auth/customer/cart/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/auth/customer/cart/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 376
+          },
+          {
+            "name": "api/v1/private/customer/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/POST/api/v1/private/customer/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 373
+          },
+          {
+            "name": "api/v1/auth/customer/{}/cart/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/auth/customer/{}/cart/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 370
+          },
+          {
+            "name": "api/v1/cart/{}/product/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/DELETE/api/v1/cart/{}/product/{}/",
+            "starting_element_type": "Spring MVC Delete Operation",
+            "size": 360
+          },
+          {
+            "name": "api/v1/cart/{}/promo/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/POST/api/v1/cart/{}/promo/{}/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 349
+          },
+          {
+            "name": "api/v1/cart/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/shoppingCart/ShoppingCartApi.java/api/v1/PORT/GET/api/v1/cart/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 344
+          },
+          {
+            "name": "api/v1/private/orders/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/GET/api/v1/private/orders/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 323
+          },
+          {
+            "name": "api/v1/private/orders/payment/capturable/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/GET/api/v1/private/orders/payment/capturable/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 303
+          },
+          {
+            "name": "api/v1/auth/customer/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/auth/customer/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 296
+          },
+          {
+            "name": "api/v1/auth/customer/address/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/auth/customer/address/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 257
+          },
+          {
+            "name": "api/v1/private/stores/names/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/names/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 224
+          },
+          {
+            "name": "api/v1/private/stores/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/stores/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 223
+          },
+          {
+            "name": "api/v1/private/merchant/{}/children/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/children/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 206
+          },
+          {
+            "name": "api/v1/private/merchant/{}/stores/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/merchant/{}/stores/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 203
+          },
+          {
+            "name": "api/v1/private/customers/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/private/customers/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 199
+          },
+          {
+            "name": "api/v1/private/marketplace/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/marketplace/MarketPlaceApi.java/api/v1/PORT/GET/api/v1/private/marketplace/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 191
+          },
+          {
+            "name": "api/v1/auth/customer/profile/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/auth/customer/profile/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 188
+          },
+          {
+            "name": "api/v1/private/customer/profile/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/private/customer/profile/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 188
+          },
+          {
+            "name": "api/v1/private/store/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 186
+          },
+          {
+            "name": "api/v1/store/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/store/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 185
+          },
+          {
+            "name": "api/v1/private/customer/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/GET/api/v1/private/customer/{}/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 182
+          },
+          {
+            "name": "api/v1/auth/cart/{}/shipping/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java/api/v1/PORT/GET/api/v1/auth/cart/{}/shipping/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 167
+          },
+          {
+            "name": "api/v1/cart/{}/shipping/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderShippingApi.java/api/v1/PORT/POST/api/v1/cart/{}/shipping/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 166
+          },
+          {
+            "name": "api/v1/private/customer/{}/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/PUT/api/v1/private/customer/{}/",
+            "starting_element_type": "Spring MVC Put Operation",
+            "size": 157
+          },
+          {
+            "name": "api/v1/customer/register/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/AuthenticateCustomerApi.java/api/v1/PORT/POST/api/v1/customer/register/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 125
+          },
+          {
+            "name": "api/v1/auth/cart/{}/total/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/auth/cart/{}/total/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 116
+          },
+          {
+            "name": "api/v1/auth/cart/{}/payment/init/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/POST/api/v1/auth/cart/{}/payment/init/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 109
+          },
+          {
+            "name": "api/v1/cart/{}/total/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderTotalApi.java/api/v1/PORT/GET/api/v1/cart/{}/total/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 106
+          },
+          {
+            "name": "api/v1/private/store/{}/marketing/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/GET/api/v1/private/store/{}/marketing/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 102
+          },
+          {
+            "name": "services/public/{}/contact/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v0/store/StoreContactRESTController.java/services/PORT/POST/services/public/{}/contact/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 100
+          },
+          {
+            "name": "api/v1/private/customer/{}/address/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerApi.java/api/v1/PORT/ANY/api/v1/private/customer/{}/address/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 96
+          },
+          {
+            "name": "api/v1/private/orders/{}/customer/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderApi.java/api/v1/PORT/ANY/api/v1/private/orders/{}/customer/",
+            "starting_element_type": "Spring MVC Any Operation",
+            "size": 95
+          },
+          {
+            "name": "api/v1/cart/{}/payment/init/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/POST/api/v1/cart/{}/payment/init/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 93
+          },
+          {
+            "name": "api/v1/private/orders/{}/payment/transactions/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/order/OrderPaymentApi.java/api/v1/PORT/GET/api/v1/private/orders/{}/payment/transactions/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 93
+          },
+          {
+            "name": "api/v1/private/customers/{}/reviews/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/POST/api/v1/private/customers/{}/reviews/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 91
+          },
+          {
+            "name": "api/v1/customers/{}/reviews/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/customer/CustomerReviewApi.java/api/v1/PORT/GET/api/v1/customers/{}/reviews/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 88
+          },
+          {
+            "name": "api/v1/country/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/references/ReferencesApi.java/api/v1/PORT/GET/api/v1/country/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 84
+          },
+          {
+            "name": "api/v1/contact/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/system/ContactApi.java/api/v1/PORT/POST/api/v1/contact/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 83
+          },
+          {
+            "name": "api/v1/product/{}/images/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/product/ProductImageApi.java/api/v1/PORT/GET/api/v1/product/{}/images/",
+            "starting_element_type": "Spring MVC Get Operation",
+            "size": 80
+          },
+          {
+            "name": "api/v1/private/store/{}/marketing/logo/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/logo/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 75
+          },
+          {
+            "name": "api/v1/private/store/{}/marketing/",
+            "full_name": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/store/MerchantStoreApi.java/api/v1/PORT/POST/api/v1/private/store/{}/marketing/",
+            "starting_element_type": "Spring MVC Post Operation",
+            "size": 72
+          }
+        ]
+      },
+      {
+        "nb_graphs": 60,
+        "samples_list_comment": "DataGraph list is truncated to first 50 items",
+        "graph_nature": "DataGraph",
+        "samples": [
+          {
+            "name": "MERCHANT_STORE",
+            "full_name": "DEFAULT.MERCHANT_STORE",
+            "starting_element_type": "Missing Table",
+            "size": 430
+          },
+          {
+            "name": "PRODUCT",
+            "full_name": "DEFAULT.PRODUCT",
+            "starting_element_type": "Missing Table",
+            "size": 121
+          },
+          {
+            "name": "PRODUCT_OPTION",
+            "full_name": "DEFAULT.PRODUCT_OPTION",
+            "starting_element_type": "Missing Table",
+            "size": 71
+          },
+          {
+            "name": "PRODUCT_OPTION_VALUE",
+            "full_name": "DEFAULT.PRODUCT_OPTION_VALUE",
+            "starting_element_type": "Missing Table",
+            "size": 71
+          },
+          {
+            "name": "CATEGORY",
+            "full_name": "DEFAULT.CATEGORY",
+            "starting_element_type": "Missing Table",
+            "size": 63
+          },
+          {
+            "name": "COUNTRY",
+            "full_name": "DEFAULT.COUNTRY",
+            "starting_element_type": "Missing Table",
+            "size": 62
+          },
+          {
+            "name": "LANGUAGE",
+            "full_name": "DEFAULT.LANGUAGE",
+            "starting_element_type": "Missing Table",
+            "size": 56
+          },
+          {
+            "name": "ZONE",
+            "full_name": "DEFAULT.ZONE",
+            "starting_element_type": "Missing Table",
+            "size": 55
+          },
+          {
+            "name": "MERCHANT_CONFIGURATION",
+            "full_name": "DEFAULT.MERCHANT_CONFIGURATION",
+            "starting_element_type": "Missing Table",
+            "size": 55
+          },
+          {
+            "name": "Unknown",
+            "full_name": "_sm-core_6bda2aea_.Unknown",
+            "starting_element_type": "Java AWS Unknown S3 Bucket",
+            "size": 53
+          },
+          {
+            "name": "CUSTOMER_OPTION",
+            "full_name": "DEFAULT.CUSTOMER_OPTION",
+            "starting_element_type": "Missing Table",
+            "size": 51
+          },
+          {
+            "name": "CUSTOMER_OPTION_VALUE",
+            "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+            "starting_element_type": "Missing Table",
+            "size": 51
+          },
+          {
+            "name": "CUSTOMER",
+            "full_name": "DEFAULT.CUSTOMER",
+            "starting_element_type": "Missing Table",
+            "size": 48
+          },
+          {
+            "name": "MANUFACTURER",
+            "full_name": "DEFAULT.MANUFACTURER",
+            "starting_element_type": "Missing Table",
+            "size": 41
+          },
+          {
+            "name": "TAX_CLASS",
+            "full_name": "DEFAULT.TAX_CLASS",
+            "starting_element_type": "Missing Table",
+            "size": 38
+          },
+          {
+            "name": "PRODUCT_VARIANT",
+            "full_name": "DEFAULT.PRODUCT_VARIANT",
+            "starting_element_type": "Missing Table",
+            "size": 36
+          },
+          {
+            "name": "shopizer",
+            "full_name": "_sm-core_6bda2aea_.shopizer",
+            "starting_element_type": "Java GCP Cloud Storage Bucket",
+            "size": 34
+          },
+          {
+            "name": "shopizer",
+            "full_name": "_sm-core_6bda2aea_.shopizer",
+            "starting_element_type": "Java AWS S3 Bucket",
+            "size": 30
+          },
+          {
+            "name": "CONTENT",
+            "full_name": "DEFAULT.CONTENT",
+            "starting_element_type": "Missing Table",
+            "size": 30
+          },
+          {
+            "name": "CURRENCY",
+            "full_name": "DEFAULT.CURRENCY",
+            "starting_element_type": "Missing Table",
+            "size": 26
+          },
+          {
+            "name": "TAX_RATE",
+            "full_name": "DEFAULT.TAX_RATE",
+            "starting_element_type": "Missing Table",
+            "size": 24
+          },
+          {
+            "name": "USERS",
+            "full_name": "DEFAULT.USERS",
+            "starting_element_type": "Missing Table",
+            "size": 24
+          },
+          {
+            "name": "PRODUCT_ATTRIBUTE",
+            "full_name": "DEFAULT.PRODUCT_ATTRIBUTE",
+            "starting_element_type": "Missing Table",
+            "size": 24
+          },
+          {
+            "name": "PRODUCT_AVAILABILITY",
+            "full_name": "DEFAULT.PRODUCT_AVAILABILITY",
+            "starting_element_type": "Missing Table",
+            "size": 23
+          },
+          {
+            "name": "MODULE_CONFIGURATION",
+            "full_name": "DEFAULT.MODULE_CONFIGURATION",
+            "starting_element_type": "Missing Table",
+            "size": 21
+          },
+          {
+            "name": "ORDERS",
+            "full_name": "DEFAULT.ORDERS",
+            "starting_element_type": "Missing Table",
+            "size": 21
+          },
+          {
+            "name": "shopizer-content",
+            "full_name": "_sm-core_6bda2aea_.shopizer-content",
+            "starting_element_type": "Java AWS S3 Bucket",
+            "size": 20
+          },
+          {
+            "name": "PRODUCT_IMAGE",
+            "full_name": "DEFAULT.PRODUCT_IMAGE",
+            "starting_element_type": "Missing Table",
+            "size": 18
+          },
+          {
+            "name": "PRODUCT_VARIANT_GROUP",
+            "full_name": "DEFAULT.PRODUCT_VARIANT_GROUP",
+            "starting_element_type": "Missing Table",
+            "size": 18
+          },
+          {
+            "name": "Unknown",
+            "full_name": "_sm-core_6bda2aea_.Unknown",
+            "starting_element_type": "Java GCP Unknown Cloud Storage Bucket",
+            "size": 17
+          },
+          {
+            "name": "PRODUCT_TYPE",
+            "full_name": "DEFAULT.PRODUCT_TYPE",
+            "starting_element_type": "Missing Table",
+            "size": 16
+          },
+          {
+            "name": "CATALOG",
+            "full_name": "DEFAULT.CATALOG",
+            "starting_element_type": "Missing Table",
+            "size": 16
+          },
+          {
+            "name": "CUSTOMER_ATTRIBUTE",
+            "full_name": "DEFAULT.CUSTOMER_ATTRIBUTE",
+            "starting_element_type": "Missing Table",
+            "size": 16
+          },
+          {
+            "name": "PRODUCT_REVIEW",
+            "full_name": "DEFAULT.PRODUCT_REVIEW",
+            "starting_element_type": "Missing Table",
+            "size": 14
+          },
+          {
+            "name": "SHOPPING_CART",
+            "full_name": "DEFAULT.SHOPPING_CART",
+            "starting_element_type": "Missing Table",
+            "size": 13
+          },
+          {
+            "name": "SM_GROUP",
+            "full_name": "DEFAULT.SM_GROUP",
+            "starting_element_type": "Missing Table",
+            "size": 13
+          },
+          {
+            "name": "PRODUCT_VARIATION",
+            "full_name": "DEFAULT.PRODUCT_VARIATION",
+            "starting_element_type": "Missing Table",
+            "size": 12
+          },
+          {
+            "name": "SM_TRANSACTION",
+            "full_name": "DEFAULT.SM_TRANSACTION",
+            "starting_element_type": "Missing Table",
+            "size": 12
+          },
+          {
+            "name": "CUSTOMER_OPTION_SET",
+            "full_name": "DEFAULT.CUSTOMER_OPTION_SET",
+            "starting_element_type": "Missing Table",
+            "size": 12
+          },
+          {
+            "name": "PRODUCT_PRICE",
+            "full_name": "DEFAULT.PRODUCT_PRICE",
+            "starting_element_type": "Missing Table",
+            "size": 11
+          },
+          {
+            "name": "PRODUCT_RELATIONSHIP",
+            "full_name": "DEFAULT.PRODUCT_RELATIONSHIP",
+            "starting_element_type": "Missing Table",
+            "size": 11
+          },
+          {
+            "name": "PERMISSION",
+            "full_name": "DEFAULT.PERMISSION",
+            "starting_element_type": "Missing Table",
+            "size": 11
+          },
+          {
+            "name": "PRODUCT_OPTION_SET",
+            "full_name": "DEFAULT.PRODUCT_OPTION_SET",
+            "starting_element_type": "Missing Table",
+            "size": 10
+          },
+          {
+            "name": "OPTIN",
+            "full_name": "DEFAULT.OPTIN",
+            "starting_element_type": "Missing Table",
+            "size": 10
+          },
+          {
+            "name": "PRODUCT_VAR_IMAGE",
+            "full_name": "DEFAULT.PRODUCT_VAR_IMAGE",
+            "starting_element_type": "Missing Table",
+            "size": 9
+          },
+          {
+            "name": "SHOPPING_CART_ATTR_ITEM",
+            "full_name": "DEFAULT.SHOPPING_CART_ATTR_ITEM",
+            "starting_element_type": "Missing Table",
+            "size": 9
+          },
+          {
+            "name": "CUSTOMER_OPTIN",
+            "full_name": "DEFAULT.CUSTOMER_OPTIN",
+            "starting_element_type": "Missing Table",
+            "size": 9
+          },
+          {
+            "name": "CUSTOMER_REVIEW",
+            "full_name": "DEFAULT.CUSTOMER_REVIEW",
+            "starting_element_type": "Missing Table",
+            "size": 9
+          },
+          {
+            "name": "CATALOG_ENTRY",
+            "full_name": "DEFAULT.CATALOG_ENTRY",
+            "starting_element_type": "Missing Table",
+            "size": 8
+          },
+          {
+            "name": "ORDER_TOTAL",
+            "full_name": "DEFAULT.ORDER_TOTAL",
+            "starting_element_type": "Missing Table",
+            "size": 7
+          }
+        ]
+      }
+    ],
+    "02. findings about application [sec325] main elements": [
+      {
+        "element_findings": [
+          {
+            "nb_findings": 11,
+            "category_findings": [
+              {
+                "finding": "Avoid Too Many Copy Pasted Artifacts"
+              },
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with too many parameters"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid String concatenation in loops"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 11,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getShippingQuotes",
+                "full_name": "com.salesmanager.core.business.modules.integration.shipping.impl.UPSShippingQuote.getShippingQuotes"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 9,
+            "category_findings": [
+              {
+                "finding": "Avoid Too Many Copy Pasted Artifacts"
+              },
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with too many parameters"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid using incompatible mutation"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 9,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getShippingQuotes",
+                "full_name": "com.salesmanager.core.business.modules.integration.shipping.impl.USPSShippingQuote.getShippingQuotes"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 7,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid the use of Instanceof inside loops"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 7,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getShippingQuote",
+                "full_name": "com.salesmanager.core.business.services.shipping.ShippingServiceImpl.getShippingQuote"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 7,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid String concatenation in loops"
+              },
+              {
+                "finding": "Avoid method invocation in a loop termination expression"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 7,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "sendTransaction",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.BeanStreamPayment.sendTransaction"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 6,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid using \u0027\u003d\u003d\u0027 and \u0027!\u003d\u0027 to compare objects"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 6,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "merge",
+                "full_name": "com.salesmanager.shop.mapper.inventory.PersistableInventoryMapper.merge"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 6,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 6,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "populate",
+                "full_name": "com.salesmanager.shop.populator.order.PersistableOrderPopulator.populate"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 6,
+            "category_findings": [
+              {
+                "finding": "CVE-2019-10158"
+              },
+              {
+                "finding": "CVE-2020-25711"
+              },
+              {
+                "finding": "CVE-2023-3628"
+              },
+              {
+                "finding": "CVE-2023-3629"
+              },
+              {
+                "finding": "CVE-2023-5236"
+              },
+              {
+                "finding": "CVE-2023-5384"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 6,
+        "elements": [
+          {
+            "nb_elements": 24,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "segmented",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder.segmented"
+              },
+              {
+                "name": "shared",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder.shared"
+              },
+              {
+                "name": "async",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder.async"
+              },
+              {
+                "name": "location",
+                "full_name": "org.infinispan.configuration.cache.SingleFileStoreConfigurationBuilder.location"
+              },
+              {
+                "name": "build",
+                "full_name": "org.infinispan.configuration.cache.AbstractConfigurationChildBuilder.build"
+              },
+              {
+                "name": "invocationBatching",
+                "full_name": "org.infinispan.configuration.cache.AbstractConfigurationChildBuilder.invocationBatching"
+              },
+              {
+                "name": "passivation",
+                "full_name": "org.infinispan.configuration.cache.PersistenceConfigurationBuilder.passivation"
+              },
+              {
+                "name": "persistence",
+                "full_name": "org.infinispan.configuration.cache.ConfigurationBuilder.persistence"
+              },
+              {
+                "name": "getRoot",
+                "full_name": "org.infinispan.tree.TreeCache.getRoot"
+              },
+              {
+                "name": "stop",
+                "full_name": "org.infinispan.commons.api.Lifecycle.stop"
+              },
+              {
+                "name": "start",
+                "full_name": "org.infinispan.commons.api.Lifecycle.start"
+              },
+              {
+                "name": "defineConfiguration",
+                "full_name": "org.infinispan.manager.EmbeddedCacheManager.defineConfiguration"
+              },
+              {
+                "name": "remove",
+                "full_name": "org.infinispan.tree.Node.remove"
+              },
+              {
+                "name": "getChild",
+                "full_name": "org.infinispan.tree.Node.getChild"
+              },
+              {
+                "name": "addChild",
+                "full_name": "org.infinispan.tree.Node.addChild"
+              },
+              {
+                "name": "getKeys",
+                "full_name": "org.infinispan.tree.Node.getKeys"
+              },
+              {
+                "name": "getChildren",
+                "full_name": "org.infinispan.tree.Node.getChildren"
+              },
+              {
+                "name": "fromString",
+                "full_name": "org.infinispan.tree.Fqn.fromString"
+              },
+              {
+                "name": "addSingleFileStore",
+                "full_name": "org.infinispan.configuration.cache.PersistenceConfigurationBuilder.addSingleFileStore"
+              },
+              {
+                "name": "get",
+                "full_name": "org.infinispan.tree.Node.get"
+              },
+              {
+                "name": "put",
+                "full_name": "org.infinispan.tree.Node.put"
+              },
+              {
+                "name": "enable",
+                "full_name": "org.infinispan.configuration.cache.InvocationBatchingConfigurationBuilder.enable"
+              },
+              {
+                "name": "preload",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationChildBuilder.preload"
+              },
+              {
+                "name": "enable",
+                "full_name": "org.infinispan.configuration.cache.AsyncStoreConfigurationBuilder.enable"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Generic Java Method",
+            "elements_with_findings": [
+              {
+                "name": "createTreeCache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.tree.TreeCacheFactory.createTreeCache"
+              },
+              {
+                "name": "getCache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.manager.EmbeddedCacheManager.getCache"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Generic Java Class",
+            "elements_with_findings": [
+              {
+                "name": "AbstractStoreConfigurationChildBuilder\u003cS extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationChildBuilder"
+              },
+              {
+                "name": "AsyncStoreConfigurationBuilder\u003cS extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.configuration.cache.AsyncStoreConfigurationBuilder"
+              },
+              {
+                "name": "AbstractStoreConfigurationBuilder\u003cT extends org.infinispan.configuration.cache.StoreConfiguration,S extends org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder\u003cT,S \u003e\u003e",
+                "full_name": "org.infinispan.configuration.cache.AbstractStoreConfigurationBuilder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "DefaultCacheManager",
+                "full_name": "org.infinispan.manager.DefaultCacheManager.DefaultCacheManager"
+              },
+              {
+                "name": "TreeCacheFactory",
+                "full_name": "org.infinispan.tree.TreeCacheFactory.TreeCacheFactory"
+              },
+              {
+                "name": "ConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.ConfigurationBuilder.ConfigurationBuilder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Generic Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "Cache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.Cache"
+              },
+              {
+                "name": "TreeCache\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.tree.TreeCache"
+              },
+              {
+                "name": "Node\u003cK extends java.lang.Object,V extends java.lang.Object\u003e",
+                "full_name": "org.infinispan.tree.Node"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 9,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "Fqn",
+                "full_name": "org.infinispan.tree.Fqn"
+              },
+              {
+                "name": "DefaultCacheManager",
+                "full_name": "org.infinispan.manager.DefaultCacheManager"
+              },
+              {
+                "name": "InvocationBatchingConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.InvocationBatchingConfigurationBuilder"
+              },
+              {
+                "name": "SingleFileStoreConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.SingleFileStoreConfigurationBuilder"
+              },
+              {
+                "name": "AbstractConfigurationChildBuilder",
+                "full_name": "org.infinispan.configuration.cache.AbstractConfigurationChildBuilder"
+              },
+              {
+                "name": "PersistenceConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.PersistenceConfigurationBuilder"
+              },
+              {
+                "name": "TreeCacheFactory",
+                "full_name": "org.infinispan.tree.TreeCacheFactory"
+              },
+              {
+                "name": "ConfigurationBuilder",
+                "full_name": "org.infinispan.configuration.cache.ConfigurationBuilder"
+              },
+              {
+                "name": "Configuration",
+                "full_name": "org.infinispan.configuration.cache.Configuration"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "Lifecycle",
+                "full_name": "org.infinispan.commons.api.Lifecycle"
+              },
+              {
+                "name": "EmbeddedCacheManager",
+                "full_name": "org.infinispan.manager.EmbeddedCacheManager"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 6,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "shipping",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderShippingApi.shipping"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "update",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductReviewApi.update"
+              },
+              {
+                "name": "init",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderPaymentApi.init"
+              },
+              {
+                "name": "payment",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderTotalApi.payment"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "shipping",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderShippingApi.shipping"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "listCapturableOrders",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderPaymentApi.listCapturableOrders"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getOrder",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderApi.getOrder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Too Many Copy Pasted Artifacts"
+              },
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "populate",
+                "full_name": "com.salesmanager.shop.populator.customer.ReadableCustomerPopulator.populate"
+              },
+              {
+                "name": "merge",
+                "full_name": "com.salesmanager.shop.mapper.customer.ReadableCustomerMapper.merge"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid unreferenced Methods"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "updateCartItems",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.updateCartItems"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid method invocation in a loop termination expression"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getAmount",
+                "full_name": "com.salesmanager.core.business.utils.ProductPriceUtils.getAmount"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-In"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "populate",
+                "full_name": "com.salesmanager.shop.populator.customer.CustomerPopulator.populate"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid using \u0027\u003d\u003d\u0027 and \u0027!\u003d\u0027 to compare objects"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "merge",
+                "full_name": "com.salesmanager.shop.mapper.catalog.product.PersistableProductVariantMapper.merge"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "merge",
+                "full_name": "com.salesmanager.shop.mapper.catalog.product.PersistableProductMapper.merge"
+              },
+              {
+                "name": "merge",
+                "full_name": "com.salesmanager.shop.mapper.cart.ReadableShoppingCartMapper.merge"
+              },
+              {
+                "name": "getBoxPackagesDetails",
+                "full_name": "com.salesmanager.core.business.modules.integration.shipping.impl.DefaultPackagingImpl.getBoxPackagesDetails"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "merge",
+                "full_name": "com.salesmanager.shop.mapper.catalog.product.PersistableProductDefinitionMapper.merge"
+              },
+              {
+                "name": "processOrder",
+                "full_name": "com.salesmanager.shop.store.controller.order.facade.OrderFacadeImpl.processOrder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-In"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "populate",
+                "full_name": "com.salesmanager.shop.populator.catalog.ReadableProductPopulator.populate"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getReadableOrder",
+                "full_name": "com.salesmanager.shop.store.controller.order.facade.OrderFacadeImpl.getReadableOrder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 5,
+            "category_findings": [
+              {
+                "finding": "CVE-2022-45688"
+              },
+              {
+                "finding": "CVE-2022-45689"
+              },
+              {
+                "finding": "CVE-2022-45690"
+              },
+              {
+                "finding": "CVE-2023-5072"
+              },
+              {
+                "finding": "GHSA-rm7j-f5g5-27vv"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 5,
+        "elements": [
+          {
+            "nb_elements": 4,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "parse",
+                "full_name": "org.json.simple.JSONValue.parse"
+              },
+              {
+                "name": "toJSONString",
+                "full_name": "org.json.simple.JSONObject.toJSONString"
+              },
+              {
+                "name": "toJSONString",
+                "full_name": "org.json.simple.JSONAware.toJSONString"
+              },
+              {
+                "name": "escape",
+                "full_name": "org.json.simple.JSONObject.escape"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "JSONValue",
+                "full_name": "org.json.simple.JSONValue"
+              },
+              {
+                "name": "JSONArray",
+                "full_name": "org.json.simple.JSONArray"
+              },
+              {
+                "name": "JSONObject",
+                "full_name": "org.json.simple.JSONObject"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 2,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "JSONObject",
+                "full_name": "org.json.simple.JSONObject.JSONObject"
+              },
+              {
+                "name": "JSONArray",
+                "full_name": "org.json.simple.JSONArray.JSONArray"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Interface",
+            "elements_with_findings": [
+              {
+                "name": "JSONAware",
+                "full_name": "org.json.simple.JSONAware"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "CVE-2018-1000643"
+              },
+              {
+                "finding": "CVE-2023-43643"
+              },
+              {
+                "finding": "CVE-2023-49093"
+              },
+              {
+                "finding": "CVE-2024-23635"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Vulnerability"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getInstance",
+                "full_name": "org.owasp.validator.html.Policy.getInstance"
+              },
+              {
+                "name": "getCleanHTML",
+                "full_name": "org.owasp.validator.html.CleanResults.getCleanHTML"
+              },
+              {
+                "name": "scan",
+                "full_name": "org.owasp.validator.html.AntiSamy.scan"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 1,
+            "element_type": "Java Constructor",
+            "elements_with_findings": [
+              {
+                "name": "AntiSamy",
+                "full_name": "org.owasp.validator.html.AntiSamy.AntiSamy"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          },
+          {
+            "nb_elements": 3,
+            "element_type": "Java Class",
+            "elements_with_findings": [
+              {
+                "name": "CleanResults",
+                "full_name": "org.owasp.validator.html.CleanResults"
+              },
+              {
+                "name": "AntiSamy",
+                "full_name": "org.owasp.validator.html.AntiSamy"
+              },
+              {
+                "name": "Policy",
+                "full_name": "org.owasp.validator.html.Policy"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Too Many Copy Pasted Artifacts"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "buildException",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.Stripe3Payment.buildException"
+              },
+              {
+                "name": "buildException",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.StripePayment.buildException"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Too Many Copy Pasted Artifacts"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid String concatenation in loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "authorizeAndCapture",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.BraintreePayment.authorizeAndCapture"
+              },
+              {
+                "name": "authorize",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.BraintreePayment.authorize"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "populate",
+                "full_name": "com.salesmanager.shop.populator.shoppingCart.ShoppingCartModelPopulator.populate"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 5,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "toJSONString",
+                "full_name": "com.salesmanager.core.model.system.IntegrationConfiguration.toJSONString"
+              },
+              {
+                "name": "populate",
+                "full_name": "com.salesmanager.shop.populator.shoppingCart.ShoppingCartDataPopulator.populate"
+              },
+              {
+                "name": "merge",
+                "full_name": "com.salesmanager.shop.mapper.catalog.product.ReadableProductMapper.merge"
+              },
+              {
+                "name": "calculateTax",
+                "full_name": "com.salesmanager.core.business.services.tax.TaxServiceImpl.calculateTax"
+              },
+              {
+                "name": "caculateOrder",
+                "full_name": "com.salesmanager.core.business.services.order.OrderServiceImpl.caculateOrder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "processOrderModel",
+                "full_name": "com.salesmanager.shop.store.controller.order.facade.OrderFacadeImpl.processOrderModel"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "populate",
+                "full_name": "com.salesmanager.shop.populator.order.ReadableOrderPopulator.populate"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid empty catch blocks for methods with high fan-in"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-In"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid empty catch blocks for methods with high fan-in"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getMessage",
+                "full_name": "com.salesmanager.shop.utils.LabelUtils.getMessage"
+              },
+              {
+                "name": "getCartModel",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.getCartModel"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 5,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "delete",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductReviewApi.delete"
+              },
+              {
+                "name": "create",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductReviewApi.create"
+              },
+              {
+                "name": "contact",
+                "full_name": "com.salesmanager.shop.store.api.v0.store.StoreContactRESTController.contact"
+              },
+              {
+                "name": "store",
+                "full_name": "com.salesmanager.shop.store.api.v0.store.StoreContactRESTController.store"
+              },
+              {
+                "name": "calculateTotal",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderTotalApi.calculateTotal"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Too Many Copy Pasted Artifacts"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "create",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductManufacturerApi.create"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          },
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              },
+              {
+                "finding": "Avoid cross-site scripting through API requests"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "list",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderApi.list"
+              },
+              {
+                "name": "list",
+                "full_name": "com.salesmanager.shop.store.api.v1.order.OrderApi.list"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "listByStore",
+                "full_name": "com.salesmanager.core.business.repositories.catalog.product.ProductRepositoryImpl.listByStore"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with too many parameters"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid using incompatible mutation"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "prePostProcessShippingQuotes",
+                "full_name": "com.salesmanager.core.business.modules.integration.shipping.impl.ShippingDecisionPreProcessorImpl.prePostProcessShippingQuotes"
+              },
+              {
+                "name": "getShippingQuotes",
+                "full_name": "com.salesmanager.core.business.modules.integration.shipping.impl.CustomShippingQuoteRules.getShippingQuotes"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with too many parameters"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid indirect String concatenation inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getShippingQuotes",
+                "full_name": "com.salesmanager.core.business.modules.integration.shipping.impl.CustomWeightBasedShippingQuote.getShippingQuotes"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid unreferenced Methods"
+              },
+              {
+                "finding": "Avoid using incompatible mutation"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "updateCartItem",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.updateCartItem"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid using \u0027\u003d\u003d\u0027 and \u0027!\u003d\u0027 to compare objects"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "createCartItems",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.createCartItems"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "listTransactions",
+                "full_name": "com.salesmanager.shop.store.controller.order.facade.OrderFacadeImpl.listTransactions"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              },
+              {
+                "finding": "Avoid unreferenced Methods"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "initPaypalTransaction",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.PayPalExpressCheckoutPayment.initPaypalTransaction"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid method invocation in a loop termination expression"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "addProductImage",
+                "full_name": "com.salesmanager.core.business.modules.cms.product.ProductFileManagerImpl.addProductImage"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 4,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid using \u0027\u003d\u003d\u0027 and \u0027!\u003d\u0027 to compare objects"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 4,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "imageDetails",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductImageApi.imageDetails"
+              },
+              {
+                "name": "changeProductOrder",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductApi.changeProductOrder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid using \u0027\u003d\u003d\u0027 and \u0027!\u003d\u0027 to compare objects"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "images",
+                "full_name": "com.salesmanager.shop.store.api.v1.product.ProductImageApi.images"
+              },
+              {
+                "name": "getProductByCode",
+                "full_name": "com.salesmanager.shop.store.facade.product.ProductFacadeV2Impl.getProductByCode"
+              },
+              {
+                "name": "getProduct",
+                "full_name": "com.salesmanager.shop.store.facade.product.ProductCommonFacadeImpl.getProduct"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "delete",
+                "full_name": "com.salesmanager.shop.store.facade.product.ProductVariantGroupFacadeImpl.delete"
+              },
+              {
+                "name": "getByCustomer",
+                "full_name": "com.salesmanager.shop.store.api.v1.shoppingCart.ShoppingCartApi.getByCustomer"
+              },
+              {
+                "name": "listPermissions",
+                "full_name": "com.salesmanager.shop.store.api.v1.security.SecurityApi.listPermissions"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              },
+              {
+                "finding": "Avoid throwing an exception in a catch block without chaining it"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "uploadMultipleFiles",
+                "full_name": "com.salesmanager.shop.store.api.v1.content.ContentApi.uploadMultipleFiles"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid unreferenced Methods"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 1,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "removeCartItem",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.removeCartItem"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid empty catch blocks"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 3,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "getShoppingCartData",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.getShoppingCartData"
+              },
+              {
+                "name": "processTransaction",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.BeanStreamPayment.processTransaction"
+              },
+              {
+                "name": "refund",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.BeanStreamPayment.refund"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large number of String concatenation (JEE)"
+              },
+              {
+                "finding": "Avoid instantiations inside loops"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "createCartItem",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.createCartItem"
+              },
+              {
+                "name": "createCartItem",
+                "full_name": "com.salesmanager.shop.store.controller.shoppingCart.facade.ShoppingCartFacadeImpl.createCartItem"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Too Many Copy Pasted Artifacts"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid using deprecated method, constructor, field, type or package"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 5,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "refund",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.StripePayment.refund"
+              },
+              {
+                "name": "authorizeAndCapture",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.StripePayment.authorizeAndCapture"
+              },
+              {
+                "name": "authorize",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.StripePayment.authorize"
+              },
+              {
+                "name": "refund",
+                "full_name": "com.salesmanager.core.business.modules.integration.payment.impl.Stripe3Payment.refund"
+              },
+              {
+                "name": "getShippingQuote",
+                "full_name": "com.salesmanager.shop.store.controller.order.facade.OrderFacadeImpl.getShippingQuote"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      },
+      {
+        "element_findings": [
+          {
+            "nb_findings": 3,
+            "category_findings": [
+              {
+                "finding": "Avoid Artifacts with High Cyclomatic Complexity"
+              },
+              {
+                "finding": "Avoid Artifacts with High Fan-Out"
+              },
+              {
+                "finding": "Avoid large Artifacts - too many Lines of Code"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Detection Pattern"
+          }
+        ],
+        "nb_findings": 3,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "Java Method",
+            "elements_with_findings": [
+              {
+                "name": "sendOrderEmail",
+                "full_name": "com.salesmanager.shop.utils.EmailTemplatesUtils.sendOrderEmail"
+              },
+              {
+                "name": "validateOrder",
+                "full_name": "com.salesmanager.shop.store.controller.order.facade.OrderFacadeImpl.validateOrder"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      }
+    ]
+  }
+}

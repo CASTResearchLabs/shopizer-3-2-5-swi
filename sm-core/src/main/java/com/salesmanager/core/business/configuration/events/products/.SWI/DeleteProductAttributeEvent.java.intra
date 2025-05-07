@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/DeleteProductAttributeEvent.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/events/products/DeleteProductAttributeEvent.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttribute() return com.salesmanager.core.model.catalog.product.attribute.ProductAttribute",
+            "to_name": "productAttribute",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Constructor",
+            "to_type": "Java Field",
+            "from_name": "DeleteProductAttributeEvent(java.lang.Object,com.salesmanager.core.model.catalog.product.attribute.ProductAttribute,com.salesmanager.core.model.catalog.product.Product)",
+            "to_name": "productAttribute",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

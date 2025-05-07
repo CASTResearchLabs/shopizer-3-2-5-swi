@@ -1,0 +1,222 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/shipping/ReadableShippingSummary.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/shipping/ReadableShippingSummary.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 27,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setShippingQuote",
+                "signature": "setShippingQuote(boolean) return void"
+              },
+              {
+                "name": "setDelivery",
+                "signature": "setDelivery(com.salesmanager.shop.model.customer.ReadableDelivery) return void"
+              },
+              {
+                "name": "setShippingOptions",
+                "signature": "setShippingOptions(java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingOption\u003e) return void"
+              },
+              {
+                "name": "setHandlingText",
+                "signature": "setHandlingText(java.lang.String) return void"
+              },
+              {
+                "name": "setShippingText",
+                "signature": "setShippingText(java.lang.String) return void"
+              },
+              {
+                "name": "setTaxOnShipping",
+                "signature": "setTaxOnShipping(boolean) return void"
+              },
+              {
+                "name": "setFreeShipping",
+                "signature": "setFreeShipping(boolean) return void"
+              },
+              {
+                "name": "setShippingOption",
+                "signature": "setShippingOption(java.lang.String) return void"
+              },
+              {
+                "name": "setShippingModule",
+                "signature": "setShippingModule(java.lang.String) return void"
+              },
+              {
+                "name": "setHandling",
+                "signature": "setHandling(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "setShipping",
+                "signature": "setShipping(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "isShippingQuote",
+                "signature": "isShippingQuote() return boolean"
+              },
+              {
+                "name": "getDelivery",
+                "signature": "getDelivery() return com.salesmanager.shop.model.customer.address.Address"
+              },
+              {
+                "name": "setQuoteInformations",
+                "signature": "setQuoteInformations(java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e) return void"
+              },
+              {
+                "name": "getQuoteInformations",
+                "signature": "getQuoteInformations() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e"
+              },
+              {
+                "name": "setSelectedShippingOption",
+                "signature": "setSelectedShippingOption(com.salesmanager.core.model.shipping.ShippingOption) return void"
+              },
+              {
+                "name": "getSelectedShippingOption",
+                "signature": "getSelectedShippingOption() return com.salesmanager.core.model.shipping.ShippingOption"
+              },
+              {
+                "name": "getShippingOptions",
+                "signature": "getShippingOptions() return java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingOption\u003e"
+              },
+              {
+                "name": "getSerialversionuid",
+                "signature": "getSerialversionuid() return long"
+              },
+              {
+                "name": "getHandlingText",
+                "signature": "getHandlingText() return java.lang.String"
+              },
+              {
+                "name": "getShippingText",
+                "signature": "getShippingText() return java.lang.String"
+              },
+              {
+                "name": "isTaxOnShipping",
+                "signature": "isTaxOnShipping() return boolean"
+              },
+              {
+                "name": "isFreeShipping",
+                "signature": "isFreeShipping() return boolean"
+              },
+              {
+                "name": "getShippingOption",
+                "signature": "getShippingOption() return java.lang.String"
+              },
+              {
+                "name": "getShippingModule",
+                "signature": "getShippingModule() return java.lang.String"
+              },
+              {
+                "name": "getHandling",
+                "signature": "getHandling() return java.math.BigDecimal"
+              },
+              {
+                "name": "getShipping",
+                "signature": "getShipping() return java.math.BigDecimal"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 14,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "quoteInformations",
+                "signature": ""
+              },
+              {
+                "name": "shippingOptions",
+                "signature": ""
+              },
+              {
+                "name": "selectedShippingOption",
+                "signature": ""
+              },
+              {
+                "name": "delivery",
+                "signature": ""
+              },
+              {
+                "name": "handlingText",
+                "signature": ""
+              },
+              {
+                "name": "shippingText",
+                "signature": ""
+              },
+              {
+                "name": "shippingQuote",
+                "signature": ""
+              },
+              {
+                "name": "taxOnShipping",
+                "signature": ""
+              },
+              {
+                "name": "freeShipping",
+                "signature": ""
+              },
+              {
+                "name": "shippingOption",
+                "signature": ""
+              },
+              {
+                "name": "shippingModule",
+                "signature": ""
+              },
+              {
+                "name": "handling",
+                "signature": ""
+              },
+              {
+                "name": "shipping",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ReadableShippingSummary.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ReadableShippingSummary",
+                "signature": "ReadableShippingSummary()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ReadableShippingSummary",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

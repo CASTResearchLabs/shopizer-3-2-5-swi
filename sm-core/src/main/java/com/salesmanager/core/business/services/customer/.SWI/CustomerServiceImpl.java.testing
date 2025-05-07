@@ -1,0 +1,310 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/customer/CustomerServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/customer/CustomerServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 8,
+        "impacting_elements": [
+          {
+            "name": "getByPasswordResetToken(java.lang.String,java.lang.String) return com.salesmanager.core.model.customer.Customer",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByNick(java.lang.String,java.lang.String) return com.salesmanager.core.model.customer.Customer",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByNick(java.lang.String,int) return com.salesmanager.core.model.customer.Customer",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 6,
+            "impacted_elements_to_test": [
+              {
+                "name": "ZONE",
+                "full_name": "DEFAULT.ZONE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "COUNTRY",
+                "full_name": "DEFAULT.COUNTRY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "delete(com.salesmanager.core.model.customer.Customer) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 5,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_ATTRIBUTE",
+                "full_name": "DEFAULT.CUSTOMER_ATTRIBUTE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByNick(java.lang.String) return com.salesmanager.core.model.customer.Customer",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getListByStore(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.customer.Customer\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getById(java.lang.Long) return com.salesmanager.core.model.customer.Customer",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByName(java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.customer.Customer\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CUSTOMER",
+                "full_name": "DEFAULT.CUSTOMER",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION",
+                "full_name": "DEFAULT.CUSTOMER_OPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CUSTOMER_OPTION_VALUE",
+                "full_name": "DEFAULT.CUSTOMER_OPTION_VALUE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

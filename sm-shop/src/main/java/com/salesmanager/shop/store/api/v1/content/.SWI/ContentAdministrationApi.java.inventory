@@ -1,0 +1,313 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentAdministrationApi.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/v1/content/ContentAdministrationApi.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 27,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.String) return void"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.String"
+              },
+              {
+                "name": "setPath",
+                "signature": "setPath(java.lang.String) return void"
+              },
+              {
+                "name": "getPath",
+                "signature": "getPath() return java.lang.String"
+              },
+              {
+                "name": "setDir",
+                "signature": "setDir(boolean) return void"
+              },
+              {
+                "name": "isDir",
+                "signature": "isDir() return boolean"
+              },
+              {
+                "name": "setSize",
+                "signature": "setSize(java.lang.String) return void"
+              },
+              {
+                "name": "getSize",
+                "signature": "getSize() return java.lang.String"
+              },
+              {
+                "name": "setName",
+                "signature": "setName(java.lang.String) return void"
+              },
+              {
+                "name": "getName",
+                "signature": "getName() return java.lang.String"
+              },
+              {
+                "name": "setUrl",
+                "signature": "setUrl(java.lang.String) return void"
+              },
+              {
+                "name": "getUrl",
+                "signature": "getUrl() return java.lang.String"
+              },
+              {
+                "name": "setPreventRetry",
+                "signature": "setPreventRetry(boolean) return void"
+              },
+              {
+                "name": "isPreventRetry",
+                "signature": "isPreventRetry() return boolean"
+              },
+              {
+                "name": "setError",
+                "signature": "setError(java.lang.String) return void"
+              },
+              {
+                "name": "getError",
+                "signature": "getError() return java.lang.String"
+              },
+              {
+                "name": "setSuccess",
+                "signature": "setSuccess(boolean) return void"
+              },
+              {
+                "name": "isSuccess",
+                "signature": "isSuccess() return boolean"
+              },
+              {
+                "name": "decodeContentPath",
+                "signature": "decodeContentPath(java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "convertToFolder",
+                "signature": "convertToFolder(java.lang.String) return com.salesmanager.shop.store.api.v1.content.ContentAdministrationApi.ImageFile"
+              },
+              {
+                "name": "remove",
+                "signature": "remove(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.store.api.v1.content.ContentAdministrationApi.FileStatus"
+              },
+              {
+                "name": "rename",
+                "signature": "rename(java.lang.String,java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.store.api.v1.content.ContentAdministrationApi.FileStatus"
+              },
+              {
+                "name": "download",
+                "signature": "download(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.lang.String"
+              },
+              {
+                "name": "upload",
+                "signature": "upload(org.springframework.web.multipart.MultipartFile,java.lang.String,java.lang.String,java.lang.Long,java.lang.String,java.lang.Integer,java.lang.Integer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language."
+              },
+              {
+                "name": "folder",
+                "signature": "folder(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.content.ContentFolder"
+              },
+              {
+                "name": "list",
+                "signature": "list(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.shop.store.api.v1.content.ContentAdministrationApi.ImageFile\u003e"
+              },
+              {
+                "name": "convertToImageFile",
+                "signature": "convertToImageFile(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.model.content.Content) return com.salesmanager.shop.store.api.v1.content.ContentAdministrationApi.ImageFile"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 16,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "path",
+                "signature": ""
+              },
+              {
+                "name": "dir",
+                "signature": ""
+              },
+              {
+                "name": "size",
+                "signature": ""
+              },
+              {
+                "name": "name",
+                "signature": ""
+              },
+              {
+                "name": "url",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              },
+              {
+                "name": "preventRetry",
+                "signature": ""
+              },
+              {
+                "name": "error",
+                "signature": ""
+              },
+              {
+                "name": "success",
+                "signature": ""
+              },
+              {
+                "name": "imageUtils",
+                "signature": ""
+              },
+              {
+                "name": "fileNameUtils",
+                "signature": ""
+              },
+              {
+                "name": "contentFacade",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              },
+              {
+                "name": "DEFAULT_PATH",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "",
+            "elements": [
+              {
+                "name": "/api/v1",
+                "signature": ""
+              },
+              {
+                "name": "ContentAdministrationApi.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Spring MVC Get Operation",
+            "elements": [
+              {
+                "name": "api/v1/content/images/download/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/content/folder/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/content/list/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ContentAdministrationApi",
+                "signature": "ContentAdministrationApi()"
+              },
+              {
+                "name": "ImageFile",
+                "signature": "ImageFile()"
+              },
+              {
+                "name": "FileStatus",
+                "signature": "FileStatus()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "FileStatus",
+                "signature": ""
+              },
+              {
+                "name": "ImageFile",
+                "signature": ""
+              },
+              {
+                "name": "ContentAdministrationApi",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Spring MVC Post Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/content/images/rename/",
+                "signature": ""
+              },
+              {
+                "name": "api/v1/private/content/images/add/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cImageFile\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "list$lambda$0",
+                "signature": "list$lambda$0(com.salesmanager.shop.model.content.Content) return R"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Spring MVC Delete Operation",
+            "elements": [
+              {
+                "name": "api/v1/private/content/images/remove/",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

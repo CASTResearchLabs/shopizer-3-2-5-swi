@@ -1,0 +1,40 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/variation/ReadableProductVariation.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/variation/ReadableProductVariation.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionValue() return com.salesmanager.shop.model.catalog.product.attribute.ReadableProductOptionValue",
+            "to_name": "optionValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionValue(com.salesmanager.shop.model.catalog.product.attribute.ReadableProductOptionValue) return void",
+            "to_name": "optionValue",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOption() return com.salesmanager.shop.model.catalog.product.attribute.ReadableProductOption",
+            "to_name": "option",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOption(com.salesmanager.shop.model.catalog.product.attribute.ReadableProductOption) return void",
+            "to_name": "option",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 4
+      }
+    ]
+  }
+}

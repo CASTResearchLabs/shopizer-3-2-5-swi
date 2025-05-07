@@ -1,0 +1,642 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/category/CategoryServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/category/CategoryServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 24,
+        "impacting_elements": [
+          {
+            "name": "delete(com.salesmanager.core.model.catalog.category.Category) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CATEGORY_DESCRIPTION",
+                "full_name": "DEFAULT.CATEGORY_DESCRIPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getById(java.lang.Long,int,int) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "count(com.salesmanager.core.model.merchant.MerchantStore) return int",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 1,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getListByDepth(com.salesmanager.core.model.merchant.MerchantStore,int,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getListByDepth(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language,java.lang.String,int,int,int) return org.springframework.data.domain.Page.Page\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "findById(java.lang.Long) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getById(com.salesmanager.core.model.merchant.MerchantStore,java.lang.Long) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByName(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getListByDepthFilterByFeatured(com.salesmanager.core.model.merchant.MerchantStore,int,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getListByDepth(com.salesmanager.core.model.merchant.MerchantStore,int) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "addChild(com.salesmanager.core.model.catalog.category.Category,com.salesmanager.core.model.catalog.category.Category) return void",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CATEGORY_DESCRIPTION",
+                "full_name": "DEFAULT.CATEGORY_DESCRIPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByParent(com.salesmanager.core.model.catalog.category.Category,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getById(java.lang.Long,int) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 4,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "CATEGORY_DESCRIPTION",
+                "full_name": "DEFAULT.CATEGORY_DESCRIPTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByCode(java.lang.String,java.lang.String) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getByCode(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getBySeUrl(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listBySeUrl(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getListByLineage(java.lang.String,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getListByLineage(com.salesmanager.core.model.merchant.MerchantStore,java.lang.String) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getOneByLanguage(long,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.catalog.category.Category",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByIds(com.salesmanager.core.model.merchant.MerchantStore,java.util.List.List\u003cjava.lang.Long\u003e,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listByCodes(com.salesmanager.core.model.merchant.MerchantStore,java.util.List.List\u003cjava.lang.String\u003e,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "CATEGORY",
+                "full_name": "DEFAULT.CATEGORY",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "LANGUAGE",
+                "full_name": "DEFAULT.LANGUAGE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "MERCHANT_STORE",
+                "full_name": "DEFAULT.MERCHANT_STORE",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

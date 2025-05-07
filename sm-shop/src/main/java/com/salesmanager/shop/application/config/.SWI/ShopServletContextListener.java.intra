@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/ShopServletContextListener.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/ShopServletContextListener.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "contextInitialized(javax.servlet.ServletContextEvent) return void",
+            "to_name": "contextInitialized$lambda$1(java.lang.Object,java.lang.Object) return void",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "contextInitialized(javax.servlet.ServletContextEvent) return void",
+            "to_name": "contextInitialized$lambda$0(java.lang.String,java.lang.String) return void",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}

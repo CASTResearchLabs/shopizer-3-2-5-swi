@@ -1,0 +1,222 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductAttribute.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/attribute/ProductAttribute.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProduct() return com.salesmanager.core.model.catalog.product.Product",
+            "to_name": "product",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProduct(com.salesmanager.core.model.catalog.product.Product) return void",
+            "to_name": "product",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributeAdditionalWeight() return java.lang.String",
+            "to_name": "attributeAdditionalWeight",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributeAdditionalWeight(java.lang.String) return void",
+            "to_name": "attributeAdditionalWeight",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributeSortOrder() return java.lang.String",
+            "to_name": "attributeSortOrder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributeSortOrder(java.lang.String) return void",
+            "to_name": "attributeSortOrder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributePrice() return java.lang.String",
+            "to_name": "attributePrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributePrice(java.lang.String) return void",
+            "to_name": "attributePrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductOptionValue() return com.salesmanager.core.model.catalog.product.attribute.ProductOptionValue",
+            "to_name": "productOptionValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductOptionValue(com.salesmanager.core.model.catalog.product.attribute.ProductOptionValue) return void",
+            "to_name": "productOptionValue",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductOption() return com.salesmanager.core.model.catalog.product.attribute.ProductOption",
+            "to_name": "productOption",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductOption(com.salesmanager.core.model.catalog.product.attribute.ProductOption) return void",
+            "to_name": "productOption",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributeDiscounted() return boolean",
+            "to_name": "attributeDiscounted",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributeDiscounted(boolean) return void",
+            "to_name": "attributeDiscounted",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributeDisplayOnly() return boolean",
+            "to_name": "attributeDisplayOnly",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributeDisplayOnly(boolean) return void",
+            "to_name": "attributeDisplayOnly",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributeRequired() return boolean",
+            "to_name": "attributeRequired",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributeRequired(boolean) return void",
+            "to_name": "attributeRequired",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributeDefault() return boolean",
+            "to_name": "attributeDefault",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributeDefault(boolean) return void",
+            "to_name": "attributeDefault",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeWeight() return java.math.BigDecimal",
+            "to_name": "productAttributeWeight",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeWeight(java.math.BigDecimal) return void",
+            "to_name": "productAttributeWeight",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeIsFree() return boolean",
+            "to_name": "productAttributeIsFree",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeIsFree(boolean) return void",
+            "to_name": "productAttributeIsFree",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductOptionSortOrder() return java.lang.Integer",
+            "to_name": "productOptionSortOrder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductOptionSortOrder(java.lang.Integer) return void",
+            "to_name": "productOptionSortOrder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributePrice() return java.math.BigDecimal",
+            "to_name": "productAttributePrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributePrice(java.math.BigDecimal) return void",
+            "to_name": "productAttributePrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getId() return java.lang.Long",
+            "to_name": "id",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setId(java.lang.Long) return void",
+            "to_name": "id",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 30
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/inventory/PersistableProductPriceMapper.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/mapper/inventory/PersistableProductPriceMapper.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Method",
+            "from_name": "getLanguage(com.salesmanager.shop.model.catalog.product.ProductPriceDescription) return com.salesmanager.core.model.reference.language.Language",
+            "to_name": "ofNullable\u003cLanguage\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Method",
+            "from_name": "getProductPriceDescriptions(com.salesmanager.core.model.catalog.product.price.ProductPrice,java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ProductPriceDescription\u003e,com.salesmanager.core.model.merchant.MerchantStore) return java.util.Set.Se",
+            "to_name": "emptySet\u003cT\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "getLanguage(com.salesmanager.shop.model.catalog.product.ProductPriceDescription) return com.salesmanager.core.model.reference.language.Language",
+            "to_name": "getLanguage$lambda$0() return T",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "merge(com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.catalog.product.price.ProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com",
+            "to_name": "merge$lambda$1(com.salesmanager.core.model.catalog.product.price.ProductPrice) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "merge(com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.catalog.product.price.ProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com",
+            "to_name": "merge$lambda$0(com.salesmanager.core.model.catalog.product.availability.ProductAvailability) return boolean",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getDescription(com.salesmanager.shop.model.catalog.product.ProductPriceDescription) return com.salesmanager.core.model.catalog.product.price.ProductPriceDescription",
+            "to_name": "getLanguage(com.salesmanager.shop.model.catalog.product.ProductPriceDescription) return com.salesmanager.core.model.reference.language.Language",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getProductPriceDescriptions(com.salesmanager.core.model.catalog.product.price.ProductPrice,java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ProductPriceDescription\u003e,com.salesmanager.core.model.merchant.MerchantStore) return java.util.Set.Se",
+            "to_name": "getDescription(com.salesmanager.shop.model.catalog.product.ProductPriceDescription) return com.salesmanager.core.model.catalog.product.price.ProductPriceDescription",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "merge(com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.catalog.product.price.ProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com",
+            "to_name": "getProductPriceDescriptions(com.salesmanager.core.model.catalog.product.price.ProductPrice,java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ProductPriceDescription\u003e,com.salesmanager.core.model.merchant.MerchantStore) return java.util.Set.Se",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "convert(com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.catalog.product.price.ProductPrice",
+            "to_name": "merge(com.salesmanager.shop.model.catalog.product.PersistableProductPrice,com.salesmanager.core.model.catalog.product.price.ProductPrice,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 9
+      }
+    ]
+  }
+}

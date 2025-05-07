@@ -1,0 +1,166 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/reference/init/InitializationDatabaseImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/reference/init/InitializationDatabaseImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 16,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "name",
+                "signature": ""
+              },
+              {
+                "name": "permissionService",
+                "signature": ""
+              },
+              {
+                "name": "groupService",
+                "signature": ""
+              },
+              {
+                "name": "optinService",
+                "signature": ""
+              },
+              {
+                "name": "moduleConfigurationService",
+                "signature": ""
+              },
+              {
+                "name": "manufacturerService",
+                "signature": ""
+              },
+              {
+                "name": "modulesLoader",
+                "signature": ""
+              },
+              {
+                "name": "zonesLoader",
+                "signature": ""
+              },
+              {
+                "name": "taxClassService",
+                "signature": ""
+              },
+              {
+                "name": "productTypeService",
+                "signature": ""
+              },
+              {
+                "name": "merchantService",
+                "signature": ""
+              },
+              {
+                "name": "currencyService",
+                "signature": ""
+              },
+              {
+                "name": "countryService",
+                "signature": ""
+              },
+              {
+                "name": "languageService",
+                "signature": ""
+              },
+              {
+                "name": "zoneService",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 11,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "populate",
+                "signature": "populate(java.lang.String) return void"
+              },
+              {
+                "name": "isEmpty",
+                "signature": "isEmpty() return boolean"
+              },
+              {
+                "name": "createMerchant",
+                "signature": "createMerchant() return void"
+              },
+              {
+                "name": "addZonesToDb",
+                "signature": "addZonesToDb(java.util.Map.Map\u003cjava.lang.String,com.salesmanager.core.model.reference.zone.Zone\u003e) return void"
+              },
+              {
+                "name": "createCountries",
+                "signature": "createCountries() return void"
+              },
+              {
+                "name": "createSubReferences",
+                "signature": "createSubReferences() return void"
+              },
+              {
+                "name": "createModules",
+                "signature": "createModules() return void"
+              },
+              {
+                "name": "createLanguages",
+                "signature": "createLanguages() return void"
+              },
+              {
+                "name": "createZones",
+                "signature": "createZones() return void"
+              },
+              {
+                "name": "createCurrencies",
+                "signature": "createCurrencies() return void"
+              },
+              {
+                "name": "createSecurityGroups",
+                "signature": "createSecurityGroups() return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "InitializationDatabaseImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "InitializationDatabaseImpl",
+                "signature": "InitializationDatabaseImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "InitializationDatabaseImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

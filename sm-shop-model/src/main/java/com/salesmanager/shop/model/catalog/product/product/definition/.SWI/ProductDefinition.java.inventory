@@ -1,0 +1,170 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/definition/ProductDefinition.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/definition/ProductDefinition.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 18,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setSku",
+                "signature": "setSku(java.lang.String) return void"
+              },
+              {
+                "name": "getSku",
+                "signature": "getSku() return java.lang.String"
+              },
+              {
+                "name": "setCanBePurchased",
+                "signature": "setCanBePurchased(boolean) return void"
+              },
+              {
+                "name": "isCanBePurchased",
+                "signature": "isCanBePurchased() return boolean"
+              },
+              {
+                "name": "isVirtual",
+                "signature": "isVirtual() return boolean"
+              },
+              {
+                "name": "isShipeable",
+                "signature": "isShipeable() return boolean"
+              },
+              {
+                "name": "setSortOrder",
+                "signature": "setSortOrder(int) return void"
+              },
+              {
+                "name": "getSortOrder",
+                "signature": "getSortOrder() return int"
+              },
+              {
+                "name": "setProductSpecifications",
+                "signature": "setProductSpecifications(com.salesmanager.shop.model.catalog.product.product.ProductSpecification) return void"
+              },
+              {
+                "name": "getProductSpecifications",
+                "signature": "getProductSpecifications() return com.salesmanager.shop.model.catalog.product.product.ProductSpecification"
+              },
+              {
+                "name": "setIdentifier",
+                "signature": "setIdentifier(java.lang.String) return void"
+              },
+              {
+                "name": "setDateAvailable",
+                "signature": "setDateAvailable(java.lang.String) return void"
+              },
+              {
+                "name": "getDateAvailable",
+                "signature": "getDateAvailable() return java.lang.String"
+              },
+              {
+                "name": "setVisible",
+                "signature": "setVisible(boolean) return void"
+              },
+              {
+                "name": "isVisible",
+                "signature": "isVisible() return boolean"
+              },
+              {
+                "name": "getIdentifier",
+                "signature": "getIdentifier() return java.lang.String"
+              },
+              {
+                "name": "setVirtual",
+                "signature": "setVirtual(boolean) return void"
+              },
+              {
+                "name": "setShipeable",
+                "signature": "setShipeable(boolean) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "sortOrder",
+                "signature": ""
+              },
+              {
+                "name": "productSpecifications",
+                "signature": ""
+              },
+              {
+                "name": "sku",
+                "signature": ""
+              },
+              {
+                "name": "identifier",
+                "signature": ""
+              },
+              {
+                "name": "dateAvailable",
+                "signature": ""
+              },
+              {
+                "name": "canBePurchased",
+                "signature": ""
+              },
+              {
+                "name": "virtual",
+                "signature": ""
+              },
+              {
+                "name": "shipeable",
+                "signature": ""
+              },
+              {
+                "name": "visible",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductDefinition.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductDefinition",
+                "signature": "ProductDefinition()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductDefinition",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

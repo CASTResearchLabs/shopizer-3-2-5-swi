@@ -1,0 +1,118 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/payments/TransactionServiceImpl.java]": {
+    "00. elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/payments/TransactionServiceImpl.java] impacting data elements and user transactions / API endpoints": [
+      {
+        "impacting_elements_list_comment": "",
+        "nb_impacting_elements": 5,
+        "impacting_elements": [
+          {
+            "name": "lastTransaction(com.salesmanager.core.model.order.Order,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.payments.Transaction",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listTransactions(java.util.Date,java.util.Date) return java.util.List.List\u003ccom.salesmanager.core.model.payments.Transaction\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 3,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDER_TOTAL",
+                "full_name": "DEFAULT.ORDER_TOTAL",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getRefundableTransaction(com.salesmanager.core.model.order.Order) return com.salesmanager.core.model.payments.Transaction",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "getCapturableTransaction(com.salesmanager.core.model.order.Order) return com.salesmanager.core.model.payments.Transaction",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          },
+          {
+            "name": "listTransactions(com.salesmanager.core.model.order.Order) return java.util.List.List\u003ccom.salesmanager.core.model.payments.Transaction\u003e",
+            "comment": "",
+            "type": "Java Method",
+            "nb_impacted_elements": 2,
+            "impacted_elements_to_test": [
+              {
+                "name": "SM_TRANSACTION",
+                "full_name": "DEFAULT.SM_TRANSACTION",
+                "type": "Missing Table",
+                "nature": "data entity"
+              },
+              {
+                "name": "ORDERS",
+                "full_name": "DEFAULT.ORDERS",
+                "type": "Missing Table",
+                "nature": "data entity"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

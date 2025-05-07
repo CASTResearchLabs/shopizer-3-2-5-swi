@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/api/ReadableProductOptionValueList.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/api/ReadableProductOptionValueList.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "optionValues",
+            "to_name": "ArrayList\u003cReadableProductOptionValue\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionValues() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionValue\u003e",
+            "to_name": "optionValues",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionValues(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionValue\u003e) return void",
+            "to_name": "optionValues",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/ReadableCustomer.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/customer/ReadableCustomer.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "attributes",
+            "to_name": "ArrayList\u003cReadableCustomerAttribute\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGroups() return java.util.List.List\u003ccom.salesmanager.shop.model.security.ReadableGroup\u003e",
+            "to_name": "groups",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGroups(java.util.List.List\u003ccom.salesmanager.shop.model.security.ReadableGroup\u003e) return void",
+            "to_name": "groups",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributes() return java.util.List.List\u003ccom.salesmanager.shop.model.customer.attribute.ReadableCustomerAttribute\u003e",
+            "to_name": "attributes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributes(java.util.List.List\u003ccom.salesmanager.shop.model.customer.attribute.ReadableCustomerAttribute\u003e) return void",
+            "to_name": "attributes",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 5
+      }
+    ]
+  }
+}

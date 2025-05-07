@@ -1,0 +1,132 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerOptionSet.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/customer/attribute/CustomerOptionSet.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 8,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "getCustomerOption",
+                "signature": "getCustomerOption() return com.salesmanager.core.model.customer.attribute.CustomerOption"
+              },
+              {
+                "name": "setCustomerOption",
+                "signature": "setCustomerOption(com.salesmanager.core.model.customer.attribute.CustomerOption) return void"
+              },
+              {
+                "name": "getCustomerOptionValue",
+                "signature": "getCustomerOptionValue() return com.salesmanager.core.model.customer.attribute.CustomerOptionValue"
+              },
+              {
+                "name": "setCustomerOptionValue",
+                "signature": "setCustomerOptionValue(com.salesmanager.core.model.customer.attribute.CustomerOptionValue) return void"
+              },
+              {
+                "name": "setSortOrder",
+                "signature": "setSortOrder(int) return void"
+              },
+              {
+                "name": "getSortOrder",
+                "signature": "getSortOrder() return int"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "sortOrder",
+                "signature": ""
+              },
+              {
+                "name": "customerOptionValue",
+                "signature": ""
+              },
+              {
+                "name": "customerOption",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "CustomerOptionSet",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "CustomerOptionSet.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "CustomerOptionSet",
+                "signature": "CustomerOptionSet()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "CustomerOptionSet",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

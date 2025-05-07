@@ -1,0 +1,172 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/definition/PersistableProductDefinition.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/product/definition/PersistableProductDefinition.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 14,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getQuantity",
+                "signature": "getQuantity() return int"
+              },
+              {
+                "name": "getPrice",
+                "signature": "getPrice() return java.math.BigDecimal"
+              },
+              {
+                "name": "getManufacturer",
+                "signature": "getManufacturer() return java.lang.String"
+              },
+              {
+                "name": "getType",
+                "signature": "getType() return java.lang.String"
+              },
+              {
+                "name": "getCategories",
+                "signature": "getCategories() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.category.Category\u003e"
+              },
+              {
+                "name": "getProperties",
+                "signature": "getProperties() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.attribute.PersistableProductAttribute\u003e"
+              },
+              {
+                "name": "getDescriptions",
+                "signature": "getDescriptions() return java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ProductDescription\u003e"
+              },
+              {
+                "name": "setQuantity",
+                "signature": "setQuantity(int) return void"
+              },
+              {
+                "name": "setPrice",
+                "signature": "setPrice(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "setManufacturer",
+                "signature": "setManufacturer(java.lang.String) return void"
+              },
+              {
+                "name": "setType",
+                "signature": "setType(java.lang.String) return void"
+              },
+              {
+                "name": "setCategories",
+                "signature": "setCategories(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.category.Category\u003e) return void"
+              },
+              {
+                "name": "setProperties",
+                "signature": "setProperties(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.attribute.PersistableProductAttribute\u003e) return void"
+              },
+              {
+                "name": "setDescriptions",
+                "signature": "setDescriptions(java.util.List.List\u003ccom.salesmanager.shop.model.catalog.product.ProductDescription\u003e) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 8,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "quantity",
+                "signature": ""
+              },
+              {
+                "name": "price",
+                "signature": ""
+              },
+              {
+                "name": "manufacturer",
+                "signature": ""
+              },
+              {
+                "name": "type",
+                "signature": ""
+              },
+              {
+                "name": "categories",
+                "signature": ""
+              },
+              {
+                "name": "properties",
+                "signature": ""
+              },
+              {
+                "name": "descriptions",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cPersistableProductAttribute\u003e",
+                "signature": ""
+              },
+              {
+                "name": "List\u003cProductDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "ArrayList\u003cCategory\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "PersistableProductDefinition.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "PersistableProductDefinition",
+                "signature": "PersistableProductDefinition()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "PersistableProductDefinition",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

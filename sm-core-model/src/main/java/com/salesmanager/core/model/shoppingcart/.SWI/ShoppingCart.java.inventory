@@ -1,0 +1,220 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCart.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCart.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 22,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setOrderId",
+                "signature": "setOrderId(java.lang.Long) return void"
+              },
+              {
+                "name": "setPromoAdded",
+                "signature": "setPromoAdded(java.util.Date) return void"
+              },
+              {
+                "name": "setMerchantStore",
+                "signature": "setMerchantStore(com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "setCustomerId",
+                "signature": "setCustomerId(java.lang.Long) return void"
+              },
+              {
+                "name": "setShoppingCartCode",
+                "signature": "setShoppingCartCode(java.lang.String) return void"
+              },
+              {
+                "name": "getShoppingCartCode",
+                "signature": "getShoppingCartCode() return java.lang.String"
+              },
+              {
+                "name": "getOrderId",
+                "signature": "getOrderId() return java.lang.Long"
+              },
+              {
+                "name": "getPromoAdded",
+                "signature": "getPromoAdded() return java.util.Date"
+              },
+              {
+                "name": "setPromoCode",
+                "signature": "setPromoCode(java.lang.String) return void"
+              },
+              {
+                "name": "getPromoCode",
+                "signature": "getPromoCode() return java.lang.String"
+              },
+              {
+                "name": "getCustomerId",
+                "signature": "getCustomerId() return java.lang.Long"
+              },
+              {
+                "name": "setLineItems",
+                "signature": "setLineItems(java.util.Set.Set\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e) return void"
+              },
+              {
+                "name": "getLineItems",
+                "signature": "getLineItems() return java.util.Set.Set\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "getIpAddress",
+                "signature": "getIpAddress() return java.lang.String"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "setAuditSection",
+                "signature": "setAuditSection(com.salesmanager.core.model.common.audit.AuditSection) return void"
+              },
+              {
+                "name": "getAuditSection",
+                "signature": "getAuditSection() return com.salesmanager.core.model.common.audit.AuditSection"
+              },
+              {
+                "name": "setIpAddress",
+                "signature": "setIpAddress(java.lang.String) return void"
+              },
+              {
+                "name": "getMerchantStore",
+                "signature": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore"
+              },
+              {
+                "name": "setObsolete",
+                "signature": "setObsolete(boolean) return void"
+              },
+              {
+                "name": "isObsolete",
+                "signature": "isObsolete() return boolean"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "promoCode",
+                "signature": ""
+              },
+              {
+                "name": "obsolete",
+                "signature": ""
+              },
+              {
+                "name": "promoAdded",
+                "signature": ""
+              },
+              {
+                "name": "ipAddress",
+                "signature": ""
+              },
+              {
+                "name": "orderId",
+                "signature": ""
+              },
+              {
+                "name": "customerId",
+                "signature": ""
+              },
+              {
+                "name": "merchantStore",
+                "signature": ""
+              },
+              {
+                "name": "lineItems",
+                "signature": ""
+              },
+              {
+                "name": "shoppingCartCode",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "auditSection",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Remove",
+                "signature": ""
+              },
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ShoppingCart.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ShoppingCart",
+                "signature": "ShoppingCart()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ShoppingCart",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "ShoppingCart",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

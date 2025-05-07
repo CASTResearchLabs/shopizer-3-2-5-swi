@@ -1,0 +1,691 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/LanguageUtils.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/LanguageUtils.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 26,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getServiceLanguage(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "defaultLanguage() return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getServiceLanguage(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getByCode(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "toLanguage(java.util.Locale) return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "toLocale(com.salesmanager.core.model.reference.language.Language,com.salesmanager.core.model.merchant.MerchantStore) return java.util.Locale",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getByCode(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "defaultLanguage() return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getByCode(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "LanguageService",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/reference/language/LanguageService.java",
+            "nb_calls_between_elements": 8
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getServiceLanguage(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "isBlank(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "StringUtils",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "isBlank(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "isNotBlank(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "StringUtils",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "StringUtils",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/StringUtils_9930.java",
+            "nb_calls_between_elements": 6
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Generic Java Class",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "Optional\u003cT\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "filter(java.util.function.Predicate.Predicate\u003cT\u003e) return java.util.Optional.Optional\u003cT\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "orElse(java.lang.Object) return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Instantiated Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "ofNullable\u003cString\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "Optional\u003cT\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/util/Optional_189b8b933a5f4945.java",
+            "nb_calls_between_elements": 5
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "LANGUAGE",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "MERCHANT_STORE",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "DEFAULT_LANGUAGE",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "LANG",
+                "calling_type": "READ"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/constants/Constants.java",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "ServiceRuntimeException",
+                "calling_type": "RAISE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "ServiceRuntimeException(java.lang.Throwable)",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "ServiceRuntimeException",
+                "calling_type": "RAISE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "ServiceRuntimeException",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/api/exception/ServiceRuntimeException.java",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getServiceLanguage(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "error(java.lang.Object,java.lang.Throwable) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "warn(java.lang.Object) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "Log",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Log_6021.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getServiceLanguage(java.lang.String) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "ServiceException",
+                "calling_type": "CATCH"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "ServiceException",
+                "calling_type": "CATCH"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "ServiceException",
+                "calling_type": "CATCH"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/business/exception/ServiceException.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "setLocale(java.util.Locale) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getLocale() return java.util.Locale",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "LocaleContextHolder",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/LocaleContextHolder_4324.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "setAttribute(java.lang.String,java.lang.Object) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getAttribute(java.lang.String) return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "HttpSession",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/HttpSession_28650.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getDefaultLanguage() return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getDefaultLanguage() return com.salesmanager.core.model.reference.language.Language",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "MerchantStore",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/merchant/MerchantStore.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "Exception",
+                "calling_type": "CATCH"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "Exception",
+                "calling_type": "CATCH"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Exception_c676f99c656d5636.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getLocaleResolver(javax.servlet.http.HttpServletRequest) return org.springframework.web.servlet.LocaleResolver",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "RequestContextUtils",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/RequestContextUtils_6486.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "setLocale(java.util.Locale) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "ServletResponse",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/ServletResponse_10116.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getSession() return javax.servlet.http.HttpSession",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "HttpServletRequest",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/HttpServletRequest_9676.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "equals(java.lang.Object) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "equals(java.lang.Object) return boolean",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/String_bce7fff4709de738.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "setLocale(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.util.Locale) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "LocaleResolver",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/LocaleResolver_475.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getLanguage() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "Locale",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/util/Locale_eca3cf2c5fb1b76b.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRequestLanguage(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getCode() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "Language",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/reference/language/Language.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getParameter(java.lang.String) return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "WebRequest",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/WebRequest_6995.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "getParameter(java.lang.String) return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "ServletRequest",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/ServletRequest_30080.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "Validate",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "Validate",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Validate_24423.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "get(java.lang.String) return com.salesmanager.core.model.merchant.MerchantStore",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "LanguageUtils",
+                "to_name": "StoreFacadeImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/store/facade/StoreFacadeImpl.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "get(java.lang.String) return com.salesmanager.core.model.merchant.MerchantStore",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "LanguageUtils",
+                "to_name": "StoreFacade",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/controller/store/facade/StoreFacade.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "getRESTLanguage(javax.servlet.http.HttpServletRequest,org.springframework.web.context.request.NativeWebRequest) return com.salesmanager.core.model.reference.language.Language",
+                "to_name": "DEFAULT_STORE",
+                "calling_type": "READ"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/constants/Constants.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Method",
+                "from_name": "logger",
+                "to_name": "getClass() return java.lang.Class.Class\u003c? extends\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Object_d734ceb4c3e9d1da.java",
+            "nb_calls_between_elements": 1
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Method",
+                "from_name": "logger",
+                "to_name": "getLog(java.lang.Class.Class\u003c? extends\u003e) return org.apache.commons.logging.Log",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/LogFactory_19897.java",
+            "nb_calls_between_elements": 1
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

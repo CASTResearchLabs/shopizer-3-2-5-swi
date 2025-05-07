@@ -1,0 +1,138 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/ShopOrder.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/ShopOrder.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPaymentMethodType() return java.lang.String",
+            "to_name": "paymentMethodType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPaymentMethodType(java.lang.String) return void",
+            "to_name": "paymentMethodType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDefaultPaymentMethodCode() return java.lang.String",
+            "to_name": "defaultPaymentMethodCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultPaymentMethodCode(java.lang.String) return void",
+            "to_name": "defaultPaymentMethodCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSelectedShippingOption() return com.salesmanager.core.model.shipping.ShippingOption",
+            "to_name": "selectedShippingOption",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSelectedShippingOption(com.salesmanager.core.model.shipping.ShippingOption) return void",
+            "to_name": "selectedShippingOption",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShippingSummary() return com.salesmanager.core.model.shipping.ShippingSummary",
+            "to_name": "shippingSummary",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingSummary(com.salesmanager.core.model.shipping.ShippingSummary) return void",
+            "to_name": "shippingSummary",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderTotalSummary() return com.salesmanager.core.model.order.OrderTotalSummary",
+            "to_name": "orderTotalSummary",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderTotalSummary(com.salesmanager.core.model.order.OrderTotalSummary) return void",
+            "to_name": "orderTotalSummary",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCartCode() return java.lang.String",
+            "to_name": "cartCode",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCartCode(java.lang.String) return void",
+            "to_name": "cartCode",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShoppingCartItems() return java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e",
+            "to_name": "shoppingCartItems",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShoppingCartItems(java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e) return void",
+            "to_name": "shoppingCartItems",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPayment() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "payment",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPayment(java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e) return void",
+            "to_name": "payment",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getErrorMessage() return java.lang.String",
+            "to_name": "errorMessage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setErrorMessage(java.lang.String) return void",
+            "to_name": "errorMessage",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 18
+      }
+    ]
+  }
+}

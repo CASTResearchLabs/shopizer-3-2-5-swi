@@ -1,0 +1,167 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/tax/PersistableTaxRate.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/tax/PersistableTaxRate.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setTaxClass",
+                "signature": "setTaxClass(java.lang.String) return void"
+              },
+              {
+                "name": "setDescriptions",
+                "signature": "setDescriptions(java.util.List.List\u003ccom.salesmanager.shop.model.tax.TaxRateDescription\u003e) return void"
+              },
+              {
+                "name": "setCountry",
+                "signature": "setCountry(java.lang.String) return void"
+              },
+              {
+                "name": "setZone",
+                "signature": "setZone(java.lang.String) return void"
+              },
+              {
+                "name": "setStore",
+                "signature": "setStore(java.lang.String) return void"
+              },
+              {
+                "name": "getStore",
+                "signature": "getStore() return java.lang.String"
+              },
+              {
+                "name": "setRate",
+                "signature": "setRate(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getTaxClass",
+                "signature": "getTaxClass() return java.lang.String"
+              },
+              {
+                "name": "getDescriptions",
+                "signature": "getDescriptions() return java.util.List.List\u003ccom.salesmanager.shop.model.tax.TaxRateDescription\u003e"
+              },
+              {
+                "name": "getCountry",
+                "signature": "getCountry() return java.lang.String"
+              },
+              {
+                "name": "getZone",
+                "signature": "getZone() return java.lang.String"
+              },
+              {
+                "name": "getRate",
+                "signature": "getRate() return java.math.BigDecimal"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "descriptions",
+                "signature": ""
+              },
+              {
+                "name": "taxClass",
+                "signature": ""
+              },
+              {
+                "name": "country",
+                "signature": ""
+              },
+              {
+                "name": "zone",
+                "signature": ""
+              },
+              {
+                "name": "store",
+                "signature": ""
+              },
+              {
+                "name": "rate",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cTaxRateDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "ArrayList\u003cTaxRateDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "ArrayList\u003cTaxRateDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "PersistableTaxRate.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "PersistableTaxRate",
+                "signature": "PersistableTaxRate()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "PersistableTaxRate",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

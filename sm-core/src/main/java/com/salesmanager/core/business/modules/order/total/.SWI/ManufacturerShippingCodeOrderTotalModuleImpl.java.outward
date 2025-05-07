@@ -1,0 +1,432 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/order/total/ManufacturerShippingCodeOrderTotalModuleImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/order/total/ManufacturerShippingCodeOrderTotalModuleImpl.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 18,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "setOrderTotalCode(java.lang.String) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "setValue(java.math.BigDecimal) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "setTitle(java.lang.String) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "setOrderTotalType(com.salesmanager.core.model.order.OrderTotalType) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "OrderTotal()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "OrderTotal",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 6,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderTotal.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "setShippingMethod(java.lang.String) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "setItemManufacturerCode(java.lang.String) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "getDiscount() return java.lang.Double",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "OrderTotalInputParameters()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "OrderTotalInputParameters",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/order/total/OrderTotalInputParameters.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "multiply(java.math.BigDecimal) return java.math.BigDecimal",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "BigDecimal(int)",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "BigDecimal(double)",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "BigDecimal",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/math/BigDecimal_eae82a787ee29fd6.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "OT_SUBTOTAL_MODULE_CODE",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Field",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "OT_DISCOUNT_TITLE",
+                "calling_type": "READ"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/constants/Constants.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Enum Item",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "SUBTOTAL",
+                "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Enum",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "OrderTotalType",
+                "calling_type": "READ"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderTotalType.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Generic Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "notNull\u003cT extends java.lang.Object\u003e(java.lang.Object,java.lang.String,java.lang.Object[]) return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "Validate",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Validate_24423.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "debug(java.lang.String) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "Logger",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Logger_8723.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "getCode() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "Manufacturer",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/manufacturer/Manufacturer.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "getFinalPrice() return java.math.BigDecimal",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "FinalPrice",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/price/FinalPrice.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "getManufacturer() return com.salesmanager.core.model.catalog.product.manufacturer.Manufacturer",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "Product",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/Product.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "getQuantity() return java.lang.Integer",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "ShoppingCartItem",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shoppingcart/ShoppingCartItem.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "calculateProductPrice(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.price.FinalPrice",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "PricingService",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/pricing/PricingService.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "getShippingSummary() return com.salesmanager.core.model.shipping.ShippingSummary",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "OrderSummary",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderSummary.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "getShippingOptionCode() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "ShippingSummary",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shipping/ShippingSummary.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "calculateProductPrice(com.salesmanager.core.model.catalog.product.Product) return com.salesmanager.core.model.catalog.product.price.FinalPrice",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ManufacturerShippingCodeOrderTotalModuleImpl",
+                "to_name": "PricingServiceImpl",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/catalog/pricing/PricingServiceImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "Exception",
+                "calling_type": "THROW"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Exception_c676f99c656d5636.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "caculateProductPiceVariation(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.shoppingcart.ShoppingCartItem,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.m",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Object_d734ceb4c3e9d1da.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Method",
+                "from_name": "LOGGER",
+                "to_name": "getLogger(java.lang.Class.Class\u003c? extends\u003e) return org.slf4j.Logger",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/LoggerFactory_27529.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

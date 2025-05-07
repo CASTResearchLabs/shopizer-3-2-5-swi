@@ -1,0 +1,219 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/image/ProductImage.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/image/ProductImage.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 20,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setProductImageUrl",
+                "signature": "setProductImageUrl(java.lang.String) return void"
+              },
+              {
+                "name": "getProductImageUrl",
+                "signature": "getProductImageUrl() return java.lang.String"
+              },
+              {
+                "name": "setImage",
+                "signature": "setImage(java.io.InputStream) return void"
+              },
+              {
+                "name": "setImageType",
+                "signature": "setImageType(int) return void"
+              },
+              {
+                "name": "setSortOrder",
+                "signature": "setSortOrder(java.lang.Integer) return void"
+              },
+              {
+                "name": "getSortOrder",
+                "signature": "getSortOrder() return java.lang.Integer"
+              },
+              {
+                "name": "setDefaultImage",
+                "signature": "setDefaultImage(boolean) return void"
+              },
+              {
+                "name": "setProduct",
+                "signature": "setProduct(com.salesmanager.core.model.catalog.product.Product) return void"
+              },
+              {
+                "name": "getProduct",
+                "signature": "getProduct() return com.salesmanager.core.model.catalog.product.Product"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "getImageType",
+                "signature": "getImageType() return int"
+              },
+              {
+                "name": "isDefaultImage",
+                "signature": "isDefaultImage() return boolean"
+              },
+              {
+                "name": "setProductImage",
+                "signature": "setProductImage(java.lang.String) return void"
+              },
+              {
+                "name": "getProductImage",
+                "signature": "getProductImage() return java.lang.String"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "setImageCrop",
+                "signature": "setImageCrop(boolean) return void"
+              },
+              {
+                "name": "isImageCrop",
+                "signature": "isImageCrop() return boolean"
+              },
+              {
+                "name": "getImage",
+                "signature": "getImage() return java.io.InputStream"
+              },
+              {
+                "name": "getDescriptions",
+                "signature": "getDescriptions() return java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.image.ProductImageDescription\u003e"
+              },
+              {
+                "name": "setDescriptions",
+                "signature": "setDescriptions(java.util.List.List\u003ccom.salesmanager.core.model.catalog.product.image.ProductImageDescription\u003e) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 11,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "image",
+                "signature": ""
+              },
+              {
+                "name": "sortOrder",
+                "signature": ""
+              },
+              {
+                "name": "product",
+                "signature": ""
+              },
+              {
+                "name": "productImageUrl",
+                "signature": ""
+              },
+              {
+                "name": "imageType",
+                "signature": ""
+              },
+              {
+                "name": "defaultImage",
+                "signature": ""
+              },
+              {
+                "name": "productImage",
+                "signature": ""
+              },
+              {
+                "name": "descriptions",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              },
+              {
+                "name": "imageCrop",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Update",
+                "signature": ""
+              },
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cProductImageDescription\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ProductImage.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ProductImage",
+                "signature": "ProductImage()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ProductImage",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "ProductImage",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

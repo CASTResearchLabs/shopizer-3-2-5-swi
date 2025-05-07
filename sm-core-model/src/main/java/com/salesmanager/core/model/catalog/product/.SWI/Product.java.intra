@@ -1,0 +1,362 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/Product.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/catalog/product/Product.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "categories",
+            "to_name": "HashSet\u003cCategory\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "relationships",
+            "to_name": "HashSet\u003cProductRelationship\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "images",
+            "to_name": "HashSet\u003cProductImage\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Field",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "attributes",
+            "to_name": "HashSet\u003cProductAttribute\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getProductImage() return com.salesmanager.core.model.catalog.product.image.ProductImage",
+            "to_name": "getImages() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.image.ProductImage\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getProductDescription() return com.salesmanager.core.model.catalog.product.description.ProductDescription",
+            "to_name": "getDescriptions() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.description.ProductDescription\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCondition() return com.salesmanager.core.model.catalog.product.ProductCondition",
+            "to_name": "condition",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCondition(com.salesmanager.core.model.catalog.product.ProductCondition) return void",
+            "to_name": "condition",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSortOrder() return java.lang.Integer",
+            "to_name": "sortOrder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSortOrder(java.lang.Integer) return void",
+            "to_name": "sortOrder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductOrdered() return java.lang.Integer",
+            "to_name": "productOrdered",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductOrdered(java.lang.Integer) return void",
+            "to_name": "productOrdered",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductReviewCount() return java.lang.Integer",
+            "to_name": "productReviewCount",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductReviewCount(java.lang.Integer) return void",
+            "to_name": "productReviewCount",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductReviewAvg() return java.math.BigDecimal",
+            "to_name": "productReviewAvg",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductReviewAvg(java.math.BigDecimal) return void",
+            "to_name": "productReviewAvg",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductWeight() return java.math.BigDecimal",
+            "to_name": "productWeight",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductWeight(java.math.BigDecimal) return void",
+            "to_name": "productWeight",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductHeight() return java.math.BigDecimal",
+            "to_name": "productHeight",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductHeight(java.math.BigDecimal) return void",
+            "to_name": "productHeight",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductWidth() return java.math.BigDecimal",
+            "to_name": "productWidth",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductWidth(java.math.BigDecimal) return void",
+            "to_name": "productWidth",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductLength() return java.math.BigDecimal",
+            "to_name": "productLength",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductLength(java.math.BigDecimal) return void",
+            "to_name": "productLength",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductIsFree() return boolean",
+            "to_name": "productIsFree",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductIsFree(boolean) return void",
+            "to_name": "productIsFree",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isProductShipeable() return boolean",
+            "to_name": "productShipeable",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductShipeable(boolean) return void",
+            "to_name": "productShipeable",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductShipeable(java.lang.Boolean) return void",
+            "to_name": "productShipeable",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductVirtual() return boolean",
+            "to_name": "productVirtual",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isProductVirtual() return boolean",
+            "to_name": "productVirtual",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductVirtual(boolean) return void",
+            "to_name": "productVirtual",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTaxClass() return com.salesmanager.core.model.tax.taxclass.TaxClass",
+            "to_name": "taxClass",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTaxClass(com.salesmanager.core.model.tax.taxclass.TaxClass) return void",
+            "to_name": "taxClass",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getType() return com.salesmanager.core.model.catalog.product.type.ProductType",
+            "to_name": "type",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setType(com.salesmanager.core.model.catalog.product.type.ProductType) return void",
+            "to_name": "type",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getManufacturer() return com.salesmanager.core.model.catalog.product.manufacturer.Manufacturer",
+            "to_name": "manufacturer",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setManufacturer(com.salesmanager.core.model.catalog.product.manufacturer.Manufacturer) return void",
+            "to_name": "manufacturer",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isPreOrder() return boolean",
+            "to_name": "preOrder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPreOrder(boolean) return void",
+            "to_name": "preOrder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isAvailable() return boolean",
+            "to_name": "available",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAvailable(boolean) return void",
+            "to_name": "available",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAvailable(java.lang.Boolean) return void",
+            "to_name": "available",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDateAvailable() return java.util.Date",
+            "to_name": "dateAvailable",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDateAvailable(java.util.Date) return void",
+            "to_name": "dateAvailable",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getVariants() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.variant.ProductVariant\u003e",
+            "to_name": "variants",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setVariants(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.product.variant.ProductVariant\u003e) return void",
+            "to_name": "variants",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCategories() return java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.category.Category\u003e",
+            "to_name": "categories",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCategories(java.util.Set.Set\u003ccom.salesmanager.core.model.catalog.category.Category\u003e) return void",
+            "to_name": "categories",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMerchantStore() return com.salesmanager.core.model.merchant.MerchantStore",
+            "to_name": "merchantStore",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 50 items",
+        "nb_calls_between_elements": 77
+      }
+    ]
+  }
+}

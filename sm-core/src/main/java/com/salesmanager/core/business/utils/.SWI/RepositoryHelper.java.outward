@@ -1,0 +1,166 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/RepositoryHelper.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/RepositoryHelper.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 6,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "getStartPage() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "getMaxCount() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "isLegacyPagination() return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "getPageSize() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "getStartIndex() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "RepositoryHelper",
+                "to_name": "Criteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 6,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/Criteria.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "setFirstResult(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "setMaxResults(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "RepositoryHelper",
+                "to_name": "Query",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Query_32662.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "setTotalCount(long) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "setTotalPages(int) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "RepositoryHelper",
+                "to_name": "EntityList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/EntityList.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "GenericEntityList()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Class",
+                "from_name": "RepositoryHelper",
+                "to_name": "GenericEntityList\u003cT\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/GenericEntityList.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "min(int,int) return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Math_2f53a0a798fc26ef.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "to_name": "intValue() return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Number_1fecc723ff0302c0.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/SanitizeUtils.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/SanitizeUtils.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 3,
+            "comment": "",
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "policy",
+                "signature": ""
+              },
+              {
+                "name": "POLICY_FILE",
+                "signature": ""
+              },
+              {
+                "name": "blackList",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 2,
+            "comment": "",
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getSafeRequestParamString",
+                "signature": "getSafeRequestParamString(java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "getSafeString",
+                "signature": "getSafeString(java.lang.String) return java.lang.String"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "List\u003cCharacter\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Instantiated Method",
+            "elements": [
+              {
+                "name": "asList\u003cchar\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "SanitizeUtils.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Initializer",
+            "elements": [
+              {
+                "name": "{(28:5)}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "SanitizeUtils",
+                "signature": "SanitizeUtils()"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "SanitizeUtils",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

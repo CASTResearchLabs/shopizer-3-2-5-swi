@@ -1,0 +1,19 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/system/EmailServiceImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/system/EmailServiceImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "sendHtmlEmail(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.business.modules.email.Email) return void",
+            "to_name": "getEmailConfiguration(com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.business.modules.email.EmailConfig",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 1
+      }
+    ]
+  }
+}

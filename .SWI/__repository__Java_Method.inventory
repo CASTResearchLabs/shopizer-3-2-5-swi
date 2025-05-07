@@ -1,0 +1,280 @@
+{
+  "main facts about type [Java Method]": {
+    "00. samples of [Java Method] element type in application [sec325]": {
+      "elements": [
+        {
+          "full_name": "com.salesmanager.shop.populator.catalog.ReadableProductPopulator.populate",
+          "signature": "populate(com.salesmanager.core.model.catalog.product.Product,com.salesmanager.shop.model.catalog.product.ReadableProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.sh",
+          "name": "populate",
+          "nb_callers": 16,
+          "used_in_graphs": 4,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "278"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "66"
+            }
+          ],
+          "nb_callees": 251
+        },
+        {
+          "full_name": "com.salesmanager.shop.populator.store.ReadableMerchantStorePopulator.populate",
+          "signature": "populate(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.model.store.ReadableMerchantStore,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.mo",
+          "name": "populate",
+          "nb_callers": 5,
+          "used_in_graphs": 15,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "100"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "23"
+            }
+          ],
+          "nb_callees": 92
+        },
+        {
+          "full_name": "com.salesmanager.shop.populator.customer.CustomerPopulator.populate",
+          "signature": "populate(com.salesmanager.shop.model.customer.PersistableCustomer,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.",
+          "name": "populate",
+          "nb_callers": 6,
+          "used_in_graphs": 5,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "165"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "46"
+            }
+          ],
+          "nb_callees": 101
+        },
+        {
+          "full_name": "com.salesmanager.shop.populator.customer.ReadableCustomerPopulator.populate",
+          "signature": "populate(com.salesmanager.core.model.customer.Customer,com.salesmanager.shop.model.customer.ReadableCustomer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.cus",
+          "name": "populate",
+          "nb_callers": 4,
+          "used_in_graphs": 11,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "111"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "24"
+            }
+          ],
+          "nb_callees": 106
+        },
+        {
+          "full_name": "com.salesmanager.shop.mapper.cart.ReadableShoppingCartMapper.merge",
+          "signature": "merge(com.salesmanager.core.model.shoppingcart.ShoppingCart,com.salesmanager.shop.model.shoppingcart.ReadableShoppingCart,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.s",
+          "name": "merge",
+          "nb_callers": 3,
+          "used_in_graphs": 8,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "148"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "30"
+            }
+          ],
+          "nb_callees": 125
+        },
+        {
+          "full_name": "com.salesmanager.shop.mapper.catalog.product.ReadableProductMapper.merge",
+          "signature": "merge(com.salesmanager.core.model.catalog.product.Product,com.salesmanager.shop.model.catalog.product.ReadableProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.",
+          "name": "merge",
+          "nb_callers": 4,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "256"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "64"
+            }
+          ],
+          "nb_callees": 195
+        },
+        {
+          "full_name": "com.salesmanager.shop.populator.order.ReadableOrderPopulator.populate",
+          "signature": "populate(com.salesmanager.core.model.order.Order,com.salesmanager.shop.model.order.v0.ReadableOrder,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model.order.v0.Rea",
+          "name": "populate",
+          "nb_callers": 5,
+          "used_in_graphs": 6,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "124"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "24"
+            }
+          ],
+          "nb_callees": 86
+        },
+        {
+          "full_name": "com.salesmanager.core.business.services.order.OrderServiceImpl.caculateOrder",
+          "signature": "caculateOrder(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.core.model.order",
+          "name": "caculateOrder",
+          "nb_callers": 3,
+          "used_in_graphs": 6,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "131"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "22"
+            }
+          ],
+          "nb_callees": 83
+        },
+        {
+          "full_name": "com.salesmanager.core.business.services.shipping.ShippingServiceImpl.getShippingQuote",
+          "signature": "getShippingQuote(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.common.Delivery,java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingProduct\u003e,com.salesmanager.core.model.reference.language.Languag",
+          "name": "getShippingQuote",
+          "nb_callers": 0,
+          "used_in_graphs": 5,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "263"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "69"
+            }
+          ],
+          "nb_callees": 124
+        },
+        {
+          "full_name": "com.salesmanager.shop.mapper.catalog.ReadableMinimalProductMapper.merge",
+          "signature": "merge(com.salesmanager.core.model.catalog.product.Product,com.salesmanager.shop.model.catalog.product.ReadableMinimalProduct,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanage",
+          "name": "merge",
+          "nb_callers": 2,
+          "used_in_graphs": 8,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "76"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "18"
+            }
+          ],
+          "nb_callees": 81
+        },
+        {
+          "full_name": "com.salesmanager.core.model.merchant.MerchantStore.getCode",
+          "signature": "getCode() return java.lang.String",
+          "name": "getCode",
+          "nb_callers": 194,
+          "used_in_graphs": 63,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 1
+        },
+        {
+          "full_name": "com.salesmanager.core.business.services.tax.TaxServiceImpl.calculateTax",
+          "signature": "calculateTax(com.salesmanager.core.model.order.OrderSummary,com.salesmanager.core.model.customer.Customer,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanag",
+          "name": "calculateTax",
+          "nb_callers": 1,
+          "used_in_graphs": 6,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "148"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "42"
+            }
+          ],
+          "nb_callees": 83
+        },
+        {
+          "full_name": "com.salesmanager.shop.mapper.catalog.product.PersistableProductMapper.merge",
+          "signature": "merge(com.salesmanager.shop.model.catalog.product.product.PersistableProduct,com.salesmanager.core.model.catalog.product.Product,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesma",
+          "name": "merge",
+          "nb_callers": 4,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "142"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "33"
+            }
+          ],
+          "nb_callees": 120
+        },
+        {
+          "full_name": "com.salesmanager.core.model.merchant.MerchantStore.getId",
+          "signature": "getId() return java.lang.Integer",
+          "name": "getId",
+          "nb_callers": 193,
+          "used_in_graphs": 38,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 1
+        },
+        {
+          "full_name": "com.salesmanager.shop.model.entity.Entity.setId",
+          "signature": "setId(java.lang.Long) return void",
+          "name": "setId",
+          "nb_callers": 136,
+          "used_in_graphs": 61,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 1
+        }
+      ],
+      "total_nb": 8355,
+      "elements_list_comment": "Java Method element list is truncated to first 15 items"
+    }
+  }
+}

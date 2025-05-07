@@ -1,0 +1,106 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/PermissionCriteria.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/user/PermissionCriteria.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 8,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setGroupIds",
+                "signature": "setGroupIds(java.util.Set.Set\u003cjava.lang.Integer\u003e) return void"
+              },
+              {
+                "name": "setPermissionName",
+                "signature": "setPermissionName(java.lang.String) return void"
+              },
+              {
+                "name": "getPermissionName",
+                "signature": "getPermissionName() return java.lang.String"
+              },
+              {
+                "name": "setAvailable",
+                "signature": "setAvailable(java.lang.Boolean) return void"
+              },
+              {
+                "name": "getAvailable",
+                "signature": "getAvailable() return java.lang.Boolean"
+              },
+              {
+                "name": "setAvailabilities",
+                "signature": "setAvailabilities(java.util.List.List\u003cjava.lang.String\u003e) return void"
+              },
+              {
+                "name": "getAvailabilities",
+                "signature": "getAvailabilities() return java.util.List.List\u003cjava.lang.String\u003e"
+              },
+              {
+                "name": "getGroupIds",
+                "signature": "getGroupIds() return java.util.Set.Set\u003cjava.lang.Integer\u003e"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "availabilities",
+                "signature": ""
+              },
+              {
+                "name": "groupIds",
+                "signature": ""
+              },
+              {
+                "name": "available",
+                "signature": ""
+              },
+              {
+                "name": "permissionName",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "PermissionCriteria.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "PermissionCriteria",
+                "signature": "PermissionCriteria()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "PermissionCriteria",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shipping/Package.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shipping/Package.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 18,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setCode",
+                "signature": "setCode(java.lang.String) return void"
+              },
+              {
+                "name": "setShipPackageType",
+                "signature": "setShipPackageType(com.salesmanager.core.model.shipping.ShippingPackageType) return void"
+              },
+              {
+                "name": "getShipPackageType",
+                "signature": "getShipPackageType() return com.salesmanager.core.model.shipping.ShippingPackageType"
+              },
+              {
+                "name": "setMaxWeight",
+                "signature": "setMaxWeight(double) return void"
+              },
+              {
+                "name": "getMaxWeight",
+                "signature": "getMaxWeight() return double"
+              },
+              {
+                "name": "setBoxWeight",
+                "signature": "setBoxWeight(double) return void"
+              },
+              {
+                "name": "getBoxWeight",
+                "signature": "getBoxWeight() return double"
+              },
+              {
+                "name": "setBoxLength",
+                "signature": "setBoxLength(double) return void"
+              },
+              {
+                "name": "getBoxLength",
+                "signature": "getBoxLength() return double"
+              },
+              {
+                "name": "setBoxHeight",
+                "signature": "setBoxHeight(double) return void"
+              },
+              {
+                "name": "getBoxHeight",
+                "signature": "getBoxHeight() return double"
+              },
+              {
+                "name": "setBoxWidth",
+                "signature": "setBoxWidth(double) return void"
+              },
+              {
+                "name": "getBoxWidth",
+                "signature": "getBoxWidth() return double"
+              },
+              {
+                "name": "setTreshold",
+                "signature": "setTreshold(int) return void"
+              },
+              {
+                "name": "getTreshold",
+                "signature": "getTreshold() return int"
+              },
+              {
+                "name": "getCode",
+                "signature": "getCode() return java.lang.String"
+              },
+              {
+                "name": "setDefaultPackaging",
+                "signature": "setDefaultPackaging(boolean) return void"
+              },
+              {
+                "name": "isDefaultPackaging",
+                "signature": "isDefaultPackaging() return boolean"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 10,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "defaultPackaging",
+                "signature": ""
+              },
+              {
+                "name": "shipPackageType",
+                "signature": ""
+              },
+              {
+                "name": "treshold",
+                "signature": ""
+              },
+              {
+                "name": "maxWeight",
+                "signature": ""
+              },
+              {
+                "name": "boxWeight",
+                "signature": ""
+              },
+              {
+                "name": "boxLength",
+                "signature": ""
+              },
+              {
+                "name": "boxHeight",
+                "signature": ""
+              },
+              {
+                "name": "boxWidth",
+                "signature": ""
+              },
+              {
+                "name": "code",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Package.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Package",
+                "signature": "Package()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Package",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

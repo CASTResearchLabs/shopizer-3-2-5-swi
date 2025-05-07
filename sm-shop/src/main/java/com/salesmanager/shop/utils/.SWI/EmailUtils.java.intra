@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/EmailUtils.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/utils/EmailUtils.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "createEmailObjectsMap(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.utils.LabelUtils,java.util.Locale) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "LOGOPATH",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "createEmailObjectsMap(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.utils.LabelUtils,java.util.Locale) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "EMAIL_ADMIN_LABEL",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "createEmailObjectsMap(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.utils.LabelUtils,java.util.Locale) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "EMAIL_SPAM_DISCLAIMER",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "createEmailObjectsMap(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.utils.LabelUtils,java.util.Locale) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "EMAIL_DISCLAIMER",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "createEmailObjectsMap(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.utils.LabelUtils,java.util.Locale) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "EMAIL_FOOTER_COPYRIGHT",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "createEmailObjectsMap(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.shop.utils.LabelUtils,java.util.Locale) return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "EMAIL_STORE_NAME",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 6
+      }
+    ]
+  }
+}

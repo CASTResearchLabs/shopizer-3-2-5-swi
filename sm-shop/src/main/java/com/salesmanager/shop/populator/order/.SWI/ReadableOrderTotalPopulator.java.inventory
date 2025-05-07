@@ -1,0 +1,90 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/order/ReadableOrderTotalPopulator.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/populator/order/ReadableOrderTotalPopulator.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 6,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setMessages",
+                "signature": "setMessages(com.salesmanager.shop.utils.LabelUtils) return void"
+              },
+              {
+                "name": "getMessages",
+                "signature": "getMessages() return com.salesmanager.shop.utils.LabelUtils"
+              },
+              {
+                "name": "setPricingService",
+                "signature": "setPricingService(com.salesmanager.core.business.services.catalog.pricing.PricingService) return void"
+              },
+              {
+                "name": "getPricingService",
+                "signature": "getPricingService() return com.salesmanager.core.business.services.catalog.pricing.PricingService"
+              },
+              {
+                "name": "createTarget",
+                "signature": "createTarget() return com.salesmanager.shop.model.order.total.ReadableOrderTotal"
+              },
+              {
+                "name": "populate",
+                "signature": "populate(com.salesmanager.core.model.order.OrderTotal,com.salesmanager.shop.model.order.total.ReadableOrderTotal,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return com.salesmanager.shop.model"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "messages",
+                "signature": ""
+              },
+              {
+                "name": "pricingService",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ReadableOrderTotalPopulator.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ReadableOrderTotalPopulator",
+                "signature": "ReadableOrderTotalPopulator()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ReadableOrderTotalPopulator",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/DefaultEmailSenderImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/DefaultEmailSenderImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+            "to_name": "TEMPLATE_PATH",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getEmailConfig() return com.salesmanager.core.business.modules.email.EmailConfig",
+            "to_name": "emailConfig",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+            "to_name": "emailConfig",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setEmailConfig(com.salesmanager.core.business.modules.email.EmailConfig) return void",
+            "to_name": "emailConfig",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+            "to_name": "CHARSET",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getMailSender() return org.springframework.mail.javamail.JavaMailSender",
+            "to_name": "mailSender",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+            "to_name": "mailSender",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setMailSender(org.springframework.mail.javamail.JavaMailSender) return void",
+            "to_name": "mailSender",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getFreemarkerMailConfiguration() return freemarker.template.Configuration",
+            "to_name": "freemarkerMailConfiguration",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setFreemarkerMailConfiguration(freemarker.template.Configuration) return void",
+            "to_name": "freemarkerMailConfiguration",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

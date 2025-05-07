@@ -1,0 +1,202 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingServiceImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/services/shipping/ShippingServiceImpl.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 20,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setSupportedCountries",
+                "signature": "setSupportedCountries(com.salesmanager.core.model.merchant.MerchantStore,java.util.List.List\u003cjava.lang.String\u003e) return void"
+              },
+              {
+                "name": "getShipToCountryList",
+                "signature": "getShipToCountryList(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.reference.language.Language) return java.util.List.List\u003ccom.salesmanager.core.model.reference.country.Country\u003e"
+              },
+              {
+                "name": "getSupportedCountries",
+                "signature": "getSupportedCountries(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003cjava.lang.String\u003e"
+              },
+              {
+                "name": "getShippingQuote",
+                "signature": "getShippingQuote(java.lang.Long,com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.common.Delivery,java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingProduct\u003e,com.salesmanager.core.model.reference.language.Languag"
+              },
+              {
+                "name": "getShippingModulesConfigured",
+                "signature": "getShippingModulesConfigured(com.salesmanager.core.model.merchant.MerchantStore) return java.util.Map.Map\u003cjava.lang.String,com.salesmanager.core.model.system.IntegrationConfiguration\u003e"
+              },
+              {
+                "name": "removeCustomShippingQuoteModuleConfiguration",
+                "signature": "removeCustomShippingQuoteModuleConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "removeShippingQuoteModuleConfiguration",
+                "signature": "removeShippingQuoteModuleConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "saveShippingQuoteModuleConfiguration",
+                "signature": "saveShippingQuoteModuleConfiguration(com.salesmanager.core.model.system.IntegrationConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getShippingMethods",
+                "signature": "getShippingMethods(com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.system.IntegrationModule\u003e"
+              },
+              {
+                "name": "saveCustomShippingConfiguration",
+                "signature": "saveCustomShippingConfiguration(java.lang.String,com.salesmanager.core.model.system.CustomIntegrationConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "saveShippingConfiguration",
+                "signature": "saveShippingConfiguration(com.salesmanager.core.model.shipping.ShippingConfiguration,com.salesmanager.core.model.merchant.MerchantStore) return void"
+              },
+              {
+                "name": "getShippingConfiguration",
+                "signature": "getShippingConfiguration(com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shipping.ShippingConfiguration"
+              },
+              {
+                "name": "hasTaxOnShipping",
+                "signature": "hasTaxOnShipping(com.salesmanager.core.model.merchant.MerchantStore) return boolean"
+              },
+              {
+                "name": "getShippingMetaData",
+                "signature": "getShippingMetaData(com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.shipping.ShippingMetaData"
+              },
+              {
+                "name": "requiresShipping",
+                "signature": "requiresShipping(java.util.List.List\u003ccom.salesmanager.core.model.shoppingcart.ShoppingCartItem\u003e,com.salesmanager.core.model.merchant.MerchantStore) return boolean"
+              },
+              {
+                "name": "getPackagesDetails",
+                "signature": "getPackagesDetails(java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingProduct\u003e,com.salesmanager.core.model.merchant.MerchantStore) return java.util.List.List\u003ccom.salesmanager.core.model.shipping.PackageDetails\u003e"
+              },
+              {
+                "name": "calculateOrderTotal",
+                "signature": "calculateOrderTotal(java.util.List.List\u003ccom.salesmanager.core.model.shipping.ShippingProduct\u003e,com.salesmanager.core.model.merchant.MerchantStore) return java.math.BigDecimal"
+              },
+              {
+                "name": "getShippingSummary",
+                "signature": "getShippingSummary(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.shipping.ShippingQuote,com.salesmanager.core.model.shipping.ShippingOption) return com.salesmanager.core.model.shipping.ShippingSummary"
+              },
+              {
+                "name": "getCustomShippingConfiguration",
+                "signature": "getCustomShippingConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.system.CustomIntegrationConfiguration"
+              },
+              {
+                "name": "getShippingConfiguration",
+                "signature": "getShippingConfiguration(java.lang.String,com.salesmanager.core.model.merchant.MerchantStore) return com.salesmanager.core.model.system.IntegrationConfiguration"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 16,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "shippingModulePostProcessors",
+                "signature": ""
+              },
+              {
+                "name": "shippingModulePreProcessors",
+                "signature": ""
+              },
+              {
+                "name": "shippingModules",
+                "signature": ""
+              },
+              {
+                "name": "shippingQuoteService",
+                "signature": ""
+              },
+              {
+                "name": "shippingOriginService",
+                "signature": ""
+              },
+              {
+                "name": "encryption",
+                "signature": ""
+              },
+              {
+                "name": "languageService",
+                "signature": ""
+              },
+              {
+                "name": "countryService",
+                "signature": ""
+              },
+              {
+                "name": "packaging",
+                "signature": ""
+              },
+              {
+                "name": "moduleConfigurationService",
+                "signature": ""
+              },
+              {
+                "name": "pricingService",
+                "signature": ""
+              },
+              {
+                "name": "merchantConfigurationService",
+                "signature": ""
+              },
+              {
+                "name": "SHIPPING_DISTANCE",
+                "signature": ""
+              },
+              {
+                "name": "SHIPPING_MODULES",
+                "signature": ""
+              },
+              {
+                "name": "SUPPORTED_COUNTRIES",
+                "signature": ""
+              },
+              {
+                "name": "LOGGER",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ShippingServiceImpl.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ShippingServiceImpl",
+                "signature": "ShippingServiceImpl()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ShippingServiceImpl",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

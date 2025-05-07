@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/content/StaticContentFileManagerImpl.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/cms/content/StaticContentFileManagerImpl.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getListFolder() return com.salesmanager.core.business.modules.cms.content.FolderList",
+            "to_name": "listFolder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setListFolder(com.salesmanager.core.business.modules.cms.content.FolderList) return void",
+            "to_name": "listFolder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAddFolder() return com.salesmanager.core.business.modules.cms.content.FolderPut",
+            "to_name": "addFolder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAddFolder(com.salesmanager.core.business.modules.cms.content.FolderPut) return void",
+            "to_name": "addFolder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getRemoveFolder() return com.salesmanager.core.business.modules.cms.content.FolderRemove",
+            "to_name": "removeFolder",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setRemoveFolder(com.salesmanager.core.business.modules.cms.content.FolderRemove) return void",
+            "to_name": "removeFolder",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getRemoveFile() return com.salesmanager.core.business.modules.cms.content.FileRemove",
+            "to_name": "removeFile",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setRemoveFile(com.salesmanager.core.business.modules.cms.content.FileRemove) return void",
+            "to_name": "removeFile",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGetFile() return com.salesmanager.core.business.modules.cms.content.FileGet",
+            "to_name": "getFile",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGetFile(com.salesmanager.core.business.modules.cms.content.FileGet) return void",
+            "to_name": "getFile",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getUploadFile() return com.salesmanager.core.business.modules.cms.content.FilePut",
+            "to_name": "uploadFile",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setUploadFile(com.salesmanager.core.business.modules.cms.content.FilePut) return void",
+            "to_name": "uploadFile",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 12
+      }
+    ]
+  }
+}

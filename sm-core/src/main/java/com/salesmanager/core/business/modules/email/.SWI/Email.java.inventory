@@ -1,0 +1,134 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/Email.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/Email.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "setTemplateName",
+                "signature": "setTemplateName(java.lang.String) return void"
+              },
+              {
+                "name": "setFromEmail",
+                "signature": "setFromEmail(java.lang.String) return void"
+              },
+              {
+                "name": "setTemplateTokens",
+                "signature": "setTemplateTokens(java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e) return void"
+              },
+              {
+                "name": "setSubject",
+                "signature": "setSubject(java.lang.String) return void"
+              },
+              {
+                "name": "setTo",
+                "signature": "setTo(java.lang.String) return void"
+              },
+              {
+                "name": "setFrom",
+                "signature": "setFrom(java.lang.String) return void"
+              },
+              {
+                "name": "getTo",
+                "signature": "getTo() return java.lang.String"
+              },
+              {
+                "name": "getFrom",
+                "signature": "getFrom() return java.lang.String"
+              },
+              {
+                "name": "getTemplateName",
+                "signature": "getTemplateName() return java.lang.String"
+              },
+              {
+                "name": "getSubject",
+                "signature": "getSubject() return java.lang.String"
+              },
+              {
+                "name": "getFromEmail",
+                "signature": "getFromEmail() return java.lang.String"
+              },
+              {
+                "name": "getTemplateTokens",
+                "signature": "getTemplateTokens() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 7,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "to",
+                "signature": ""
+              },
+              {
+                "name": "templateTokens",
+                "signature": ""
+              },
+              {
+                "name": "templateName",
+                "signature": ""
+              },
+              {
+                "name": "subject",
+                "signature": ""
+              },
+              {
+                "name": "fromEmail",
+                "signature": ""
+              },
+              {
+                "name": "from",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Email.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Email",
+                "signature": "Email()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Email",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

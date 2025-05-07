@@ -1,0 +1,194 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/OrderEntity.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/OrderEntity.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getComments() return java.lang.String",
+            "to_name": "comments",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setComments(java.lang.String) return void",
+            "to_name": "comments",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isConfirmedAddress() return boolean",
+            "to_name": "confirmedAddress",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setConfirmedAddress(boolean) return void",
+            "to_name": "confirmedAddress",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isCustomerAgreed() return boolean",
+            "to_name": "customerAgreed",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCustomerAgreed(boolean) return void",
+            "to_name": "customerAgreed",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCurrency() return java.lang.String",
+            "to_name": "currency",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCurrency(java.lang.String) return void",
+            "to_name": "currency",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getDatePurchased() return java.util.Date",
+            "to_name": "datePurchased",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDatePurchased(java.util.Date) return void",
+            "to_name": "datePurchased",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getCreditCard() return com.salesmanager.core.model.order.payment.CreditCard",
+            "to_name": "creditCard",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setCreditCard(com.salesmanager.core.model.order.payment.CreditCard) return void",
+            "to_name": "creditCard",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOrderStatus() return com.salesmanager.core.model.order.orderstatus.OrderStatus",
+            "to_name": "orderStatus",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOrderStatus(com.salesmanager.core.model.order.orderstatus.OrderStatus) return void",
+            "to_name": "orderStatus",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPreviousOrderStatus() return java.util.List.List\u003ccom.salesmanager.core.model.order.orderstatus.OrderStatus\u003e",
+            "to_name": "previousOrderStatus",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPreviousOrderStatus(java.util.List.List\u003ccom.salesmanager.core.model.order.orderstatus.OrderStatus\u003e) return void",
+            "to_name": "previousOrderStatus",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShippingModule() return java.lang.String",
+            "to_name": "shippingModule",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingModule(java.lang.String) return void",
+            "to_name": "shippingModule",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPaymentModule() return java.lang.String",
+            "to_name": "paymentModule",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPaymentModule(java.lang.String) return void",
+            "to_name": "paymentModule",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPaymentType() return com.salesmanager.core.model.payments.PaymentType",
+            "to_name": "paymentType",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setPaymentType(com.salesmanager.core.model.payments.PaymentType) return void",
+            "to_name": "paymentType",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getAttributes() return java.util.List.List\u003ccom.salesmanager.shop.model.order.OrderAttribute\u003e",
+            "to_name": "attributes",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setAttributes(java.util.List.List\u003ccom.salesmanager.shop.model.order.OrderAttribute\u003e) return void",
+            "to_name": "attributes",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getTotals() return java.util.List.List\u003ccom.salesmanager.shop.model.order.total.OrderTotal\u003e",
+            "to_name": "totals",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setTotals(java.util.List.List\u003ccom.salesmanager.shop.model.order.total.OrderTotal\u003e) return void",
+            "to_name": "totals",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 26
+      }
+    ]
+  }
+}

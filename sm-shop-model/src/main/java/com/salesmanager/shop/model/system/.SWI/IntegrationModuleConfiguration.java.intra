@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/system/IntegrationModuleConfiguration.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/system/IntegrationModuleConfiguration.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getConfigurable() return java.lang.String",
+            "to_name": "configurable",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setConfigurable(java.lang.String) return void",
+            "to_name": "configurable",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getRequiredKeys() return java.util.List.List\u003cjava.lang.String\u003e",
+            "to_name": "requiredKeys",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setRequiredKeys(java.util.List.List\u003cjava.lang.String\u003e) return void",
+            "to_name": "requiredKeys",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getIntegrationOptions() return java.util.Map.Map\u003cjava.lang.String,List\u003cjava.lang.String\u003e\u003e",
+            "to_name": "integrationOptions",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setIntegrationOptions(java.util.Map.Map\u003cjava.lang.String,List\u003cjava.lang.String\u003e\u003e) return void",
+            "to_name": "integrationOptions",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getIntegrationKeys() return java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e",
+            "to_name": "integrationKeys",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setIntegrationKeys(java.util.Map.Map\u003cjava.lang.String,java.lang.String\u003e) return void",
+            "to_name": "integrationKeys",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "isDefaultSelected() return boolean",
+            "to_name": "defaultSelected",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setDefaultSelected(boolean) return void",
+            "to_name": "defaultSelected",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

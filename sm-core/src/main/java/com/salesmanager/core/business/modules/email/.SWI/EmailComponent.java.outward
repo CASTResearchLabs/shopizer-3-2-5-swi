@@ -1,0 +1,152 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/EmailComponent.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/EmailComponent.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 4,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "setEmailConfig(com.salesmanager.core.business.modules.email.EmailConfig) return void",
+                "to_name": "setEmailConfig(com.salesmanager.core.business.modules.email.EmailConfig) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "to_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "EmailComponent()",
+                "to_name": "DefaultEmailSenderImpl()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "EmailComponent",
+                "to_name": "DefaultEmailSenderImpl",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "EmailComponent",
+                "to_name": "DefaultEmailSenderImpl",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/DefaultEmailSenderImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "setEmailConfig(com.salesmanager.core.business.modules.email.EmailConfig) return void",
+                "to_name": "setEmailConfig(com.salesmanager.core.business.modules.email.EmailConfig) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "to_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Constructor",
+                "to_type": "Java Constructor",
+                "from_name": "EmailComponent()",
+                "to_name": "SESEmailSenderImpl()",
+                "calling_type": "FIRE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "EmailComponent",
+                "to_name": "SESEmailSenderImpl",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "EmailComponent",
+                "to_name": "SESEmailSenderImpl",
+                "calling_type": "FIRE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 5,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/SESEmailSenderImpl.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "setEmailConfig(com.salesmanager.core.business.modules.email.EmailConfig) return void",
+                "to_name": "setEmailConfig(com.salesmanager.core.business.modules.email.EmailConfig) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "to_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "EmailComponent",
+                "to_name": "EmailModule",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/modules/email/EmailModule.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "to_name": "Exception(java.lang.String)",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "to_name": "Exception",
+                "calling_type": "RAISE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "send(com.salesmanager.core.business.modules.email.Email) return void",
+                "to_name": "Exception",
+                "calling_type": "THROW"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 3,
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Exception_c676f99c656d5636.java"
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

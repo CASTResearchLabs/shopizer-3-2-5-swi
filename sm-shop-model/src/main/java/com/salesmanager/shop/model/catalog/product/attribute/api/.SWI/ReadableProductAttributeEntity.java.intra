@@ -1,0 +1,82 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/api/ReadableProductAttributeEntity.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/catalog/product/attribute/api/ReadableProductAttributeEntity.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOptionValue() return com.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionValue",
+            "to_name": "optionValue",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOptionValue(com.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionValue) return void",
+            "to_name": "optionValue",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getOption() return com.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionEntity",
+            "to_name": "option",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setOption(com.salesmanager.shop.model.catalog.product.attribute.api.ReadableProductOptionEntity) return void",
+            "to_name": "option",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeUnformattedPrice() return java.lang.String",
+            "to_name": "productAttributeUnformattedPrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeUnformattedPrice(java.lang.String) return void",
+            "to_name": "productAttributeUnformattedPrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributePrice() return java.lang.String",
+            "to_name": "productAttributePrice",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributePrice(java.lang.String) return void",
+            "to_name": "productAttributePrice",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getProductAttributeWeight() return java.lang.String",
+            "to_name": "productAttributeWeight",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setProductAttributeWeight(java.lang.String) return void",
+            "to_name": "productAttributeWeight",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 10
+      }
+    ]
+  }
+}

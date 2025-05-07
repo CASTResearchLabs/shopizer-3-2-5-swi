@@ -1,0 +1,276 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shipping/Quote.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/shipping/Quote.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 32,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getOptionShippingDate",
+                "signature": "getOptionShippingDate() return java.util.Date"
+              },
+              {
+                "name": "setCustomerId",
+                "signature": "setCustomerId(java.lang.Long) return void"
+              },
+              {
+                "name": "getIpAddress",
+                "signature": "getIpAddress() return java.lang.String"
+              },
+              {
+                "name": "getCartId",
+                "signature": "getCartId() return java.lang.Long"
+              },
+              {
+                "name": "setId",
+                "signature": "setId(java.lang.Long) return void"
+              },
+              {
+                "name": "isFreeShipping",
+                "signature": "isFreeShipping() return boolean"
+              },
+              {
+                "name": "getEstimatedNumberOfDays",
+                "signature": "getEstimatedNumberOfDays() return java.lang.Integer"
+              },
+              {
+                "name": "setOptionDeliveryDate",
+                "signature": "setOptionDeliveryDate(java.util.Date) return void"
+              },
+              {
+                "name": "getOptionDeliveryDate",
+                "signature": "getOptionDeliveryDate() return java.util.Date"
+              },
+              {
+                "name": "getCustomerId",
+                "signature": "getCustomerId() return java.lang.Long"
+              },
+              {
+                "name": "setOrderId",
+                "signature": "setOrderId(java.lang.Long) return void"
+              },
+              {
+                "name": "getOrderId",
+                "signature": "getOrderId() return java.lang.Long"
+              },
+              {
+                "name": "getDelivery",
+                "signature": "getDelivery() return com.salesmanager.core.model.common.Delivery"
+              },
+              {
+                "name": "setIpAddress",
+                "signature": "setIpAddress(java.lang.String) return void"
+              },
+              {
+                "name": "setPrice",
+                "signature": "setPrice(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getPrice",
+                "signature": "getPrice() return java.math.BigDecimal"
+              },
+              {
+                "name": "setCartId",
+                "signature": "setCartId(java.lang.Long) return void"
+              },
+              {
+                "name": "setHandling",
+                "signature": "setHandling(java.math.BigDecimal) return void"
+              },
+              {
+                "name": "getHandling",
+                "signature": "getHandling() return java.math.BigDecimal"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Long"
+              },
+              {
+                "name": "setFreeShipping",
+                "signature": "setFreeShipping(boolean) return void"
+              },
+              {
+                "name": "setDelivery",
+                "signature": "setDelivery(com.salesmanager.core.model.common.Delivery) return void"
+              },
+              {
+                "name": "setEstimatedNumberOfDays",
+                "signature": "setEstimatedNumberOfDays(java.lang.Integer) return void"
+              },
+              {
+                "name": "setQuoteDate",
+                "signature": "setQuoteDate(java.util.Date) return void"
+              },
+              {
+                "name": "setOptionShippingDate",
+                "signature": "setOptionShippingDate(java.util.Date) return void"
+              },
+              {
+                "name": "setOptionCode",
+                "signature": "setOptionCode(java.lang.String) return void"
+              },
+              {
+                "name": "getOptionCode",
+                "signature": "getOptionCode() return java.lang.String"
+              },
+              {
+                "name": "setOptionName",
+                "signature": "setOptionName(java.lang.String) return void"
+              },
+              {
+                "name": "getOptionName",
+                "signature": "getOptionName() return java.lang.String"
+              },
+              {
+                "name": "setModule",
+                "signature": "setModule(java.lang.String) return void"
+              },
+              {
+                "name": "getModule",
+                "signature": "getModule() return java.lang.String"
+              },
+              {
+                "name": "getQuoteDate",
+                "signature": "getQuoteDate() return java.util.Date"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 17,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "module",
+                "signature": ""
+              },
+              {
+                "name": "delivery",
+                "signature": ""
+              },
+              {
+                "name": "ipAddress",
+                "signature": ""
+              },
+              {
+                "name": "freeShipping",
+                "signature": ""
+              },
+              {
+                "name": "handling",
+                "signature": ""
+              },
+              {
+                "name": "price",
+                "signature": ""
+              },
+              {
+                "name": "estimatedNumberOfDays",
+                "signature": ""
+              },
+              {
+                "name": "quoteDate",
+                "signature": ""
+              },
+              {
+                "name": "optionShippingDate",
+                "signature": ""
+              },
+              {
+                "name": "optionDeliveryDate",
+                "signature": ""
+              },
+              {
+                "name": "optionCode",
+                "signature": ""
+              },
+              {
+                "name": "optionName",
+                "signature": ""
+              },
+              {
+                "name": "cartId",
+                "signature": ""
+              },
+              {
+                "name": "customerId",
+                "signature": ""
+              },
+              {
+                "name": "orderId",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Quote.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Quote",
+                "signature": "Quote()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Quote",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity Operation",
+            "elements": [
+              {
+                "name": "Select",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "Quote",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

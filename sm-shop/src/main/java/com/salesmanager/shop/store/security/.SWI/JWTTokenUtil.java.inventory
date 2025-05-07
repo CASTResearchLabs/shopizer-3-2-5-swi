@@ -1,0 +1,219 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/JWTTokenUtil.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/store/security/JWTTokenUtil.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 19,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "calculateExpirationDate",
+                "signature": "calculateExpirationDate(java.util.Date) return java.util.Date"
+              },
+              {
+                "name": "validateToken",
+                "signature": "validateToken(java.lang.String,org.springframework.security.core.userdetails.UserDetails) return java.lang.Boolean"
+              },
+              {
+                "name": "refreshToken",
+                "signature": "refreshToken(java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "canTokenBeRefreshed",
+                "signature": "canTokenBeRefreshed(java.lang.String,java.util.Date) return java.lang.Boolean"
+              },
+              {
+                "name": "canTokenBeRefreshedWithGrace",
+                "signature": "canTokenBeRefreshedWithGrace(java.lang.String,java.util.Date) return java.lang.Boolean"
+              },
+              {
+                "name": "doGenerateToken",
+                "signature": "doGenerateToken(java.util.Map.Map\u003cjava.lang.String,java.lang.Object\u003e,java.lang.String,java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "generateToken",
+                "signature": "generateToken(org.springframework.security.core.userdetails.UserDetails) return java.lang.String"
+              },
+              {
+                "name": "ignoreTokenExpiration",
+                "signature": "ignoreTokenExpiration(java.lang.String) return java.lang.Boolean"
+              },
+              {
+                "name": "generateAudience",
+                "signature": "generateAudience() return java.lang.String"
+              },
+              {
+                "name": "addSeconds",
+                "signature": "addSeconds(java.util.Date,java.lang.Integer) return java.util.Date"
+              },
+              {
+                "name": "isCreatedBeforeLastPasswordResetWithGrace",
+                "signature": "isCreatedBeforeLastPasswordResetWithGrace(java.util.Date,java.util.Date) return java.lang.Boolean"
+              },
+              {
+                "name": "isCreatedBeforeLastPasswordReset",
+                "signature": "isCreatedBeforeLastPasswordReset(java.util.Date,java.util.Date) return java.lang.Boolean"
+              },
+              {
+                "name": "isTokenExpiredWithGrace",
+                "signature": "isTokenExpiredWithGrace(java.lang.String) return java.lang.Boolean"
+              },
+              {
+                "name": "isTokenExpired",
+                "signature": "isTokenExpired(java.lang.String) return java.lang.Boolean"
+              },
+              {
+                "name": "getAllClaimsFromToken",
+                "signature": "getAllClaimsFromToken(java.lang.String) return io.jsonwebtoken.Claims\u003cT\u003e"
+              },
+              {
+                "name": "getAudienceFromToken",
+                "signature": "getAudienceFromToken(java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "getExpirationDateFromToken",
+                "signature": "getExpirationDateFromToken(java.lang.String) return java.util.Date"
+              },
+              {
+                "name": "getIssuedAtDateFromToken",
+                "signature": "getIssuedAtDateFromToken(java.lang.String) return java.util.Date"
+              },
+              {
+                "name": "getUsernameFromToken",
+                "signature": "getUsernameFromToken(java.lang.String) return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 12,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "expiration",
+                "signature": ""
+              },
+              {
+                "name": "secret",
+                "signature": ""
+              },
+              {
+                "name": "AUDIENCE_TABLET",
+                "signature": ""
+              },
+              {
+                "name": "AUDIENCE_MOBILE",
+                "signature": ""
+              },
+              {
+                "name": "AUDIENCE_WEB",
+                "signature": ""
+              },
+              {
+                "name": "AUDIENCE_API",
+                "signature": ""
+              },
+              {
+                "name": "AUDIENCE_UNKNOWN",
+                "signature": ""
+              },
+              {
+                "name": "CLAIM_KEY_CREATED",
+                "signature": ""
+              },
+              {
+                "name": "CLAIM_KEY_AUDIENCE",
+                "signature": ""
+              },
+              {
+                "name": "CLAIM_KEY_USERNAME",
+                "signature": ""
+              },
+              {
+                "name": "GRACE_PERIOD",
+                "signature": ""
+              },
+              {
+                "name": "serialVersionUID",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "",
+            "elements": [
+              {
+                "name": "getClaimFromToken.T",
+                "signature": ""
+              },
+              {
+                "name": "JWTTokenUtil.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Interface",
+            "elements": [
+              {
+                "name": "Function\u003cClaims\u003cT extends java.lang.Object\u003e,R\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Generic Java Method",
+            "elements": [
+              {
+                "name": "getClaimFromToken\u003cT\u003e",
+                "signature": "getClaimFromToken\u003cT\u003e(java.lang.String,java.util.function.Function.Function\u003cClaims\u003cT\u003e,R\u003e) return java.lang.Object"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Method",
+            "elements": [
+              {
+                "name": "getClaimFromToken\u003cT\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "JWTTokenUtil",
+                "signature": "JWTTokenUtil()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "JWTTokenUtil",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

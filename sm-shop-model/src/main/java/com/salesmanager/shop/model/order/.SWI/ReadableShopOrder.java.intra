@@ -1,0 +1,68 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/ReadableShopOrder.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop-model/src/main/java/com/salesmanager/shop/model/order/ReadableShopOrder.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getGrandTotal() return java.lang.String",
+            "to_name": "grandTotal",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setGrandTotal(java.lang.String) return void",
+            "to_name": "grandTotal",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getSubTotals() return java.util.List.List\u003ccom.salesmanager.shop.model.order.total.ReadableOrderTotal\u003e",
+            "to_name": "subTotals",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setSubTotals(java.util.List.List\u003ccom.salesmanager.shop.model.order.total.ReadableOrderTotal\u003e) return void",
+            "to_name": "subTotals",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getErrorMessage() return java.lang.String",
+            "to_name": "errorMessage",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setErrorMessage(java.lang.String) return void",
+            "to_name": "errorMessage",
+            "calling_type": "WRITE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getShippingSummary() return com.salesmanager.shop.model.order.shipping.ReadableShippingSummary",
+            "to_name": "shippingSummary",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "setShippingSummary(com.salesmanager.shop.model.order.shipping.ReadableShippingSummary) return void",
+            "to_name": "shippingSummary",
+            "calling_type": "WRITE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 8
+      }
+    ]
+  }
+}

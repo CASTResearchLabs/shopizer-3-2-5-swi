@@ -1,0 +1,98 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/DroolsBeanFactory.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/configuration/DroolsBeanFactory.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 6,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getDrlFromExcel",
+                "signature": "getDrlFromExcel(java.lang.String) return java.lang.String"
+              },
+              {
+                "name": "getKieSession",
+                "signature": "getKieSession(Resource) return KieSession"
+              },
+              {
+                "name": "getKieSession",
+                "signature": "getKieSession() return KieSession"
+              },
+              {
+                "name": "getKieRepository",
+                "signature": "getKieRepository() return void"
+              },
+              {
+                "name": "getKieContainer",
+                "signature": "getKieContainer() return KieContainer"
+              },
+              {
+                "name": "getKieFileSystem",
+                "signature": "getKieFileSystem() return KieFileSystem"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "kieServices",
+                "signature": ""
+              },
+              {
+                "name": "RULES_PATH",
+                "signature": ""
+              },
+              {
+                "name": "shippingDecision",
+                "signature": ""
+              },
+              {
+                "name": "priceByDistance",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "DroolsBeanFactory.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "DroolsBeanFactory",
+                "signature": "DroolsBeanFactory()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "DroolsBeanFactory",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

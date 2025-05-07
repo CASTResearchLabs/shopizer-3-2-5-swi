@@ -1,0 +1,677 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/order/OrderRepositoryImpl.java]": {
+    "00. file [/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/repositories/order/OrderRepositoryImpl.java] defines elements relying on elements defined following source files": [
+      {
+        "nb_files_with_called_elements": 19,
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select o from Order",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select count(o) from Order",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "Order",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 50 items",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/Order.java",
+            "nb_calls_between_elements": 123
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "JPQL Query",
+                "to_type": "JPA Entity Operation",
+                "from_name": "select o from Order",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "JPA Entity Operation",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "Select",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "JPA Entity",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "OrderTotal",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 50 items",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderTotal.java",
+            "nb_calls_between_elements": 83
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setParameter(java.lang.String,java.lang.Object) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getSingleResult() return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getResultList() return java.util.List\u003cE\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setParameter(java.lang.String,java.lang.Object) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setFirstResult(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setMaxResults(int) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getSingleResult() return java.lang.Object",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getResultList() return java.util.List\u003cE\u003e",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "Query",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Query_32662.java",
+            "nb_calls_between_elements": 9
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getEmail() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getId() return java.lang.Long",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getStatus() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getCustomerPhone() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getCustomerName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getCustomerId() return java.lang.Long",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getCustomerName() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getPaymentMethod() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "OrderCriteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderCriteria.java",
+            "nb_calls_between_elements": 9
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "append(java.lang.String) return java.lang.StringBuilder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "StringBuilder()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "toString() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "append(java.lang.String) return java.lang.StringBuilder",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "StringBuilder()",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/StringBuilder_563a9673c4e624ff.java",
+            "nb_calls_between_elements": 6
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getTotalCount() return long",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getTotalPages() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setTotalCount(long) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setTotalPages(int) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setTotalCount(long) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "EntityList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/EntityList.java",
+            "nb_calls_between_elements": 6
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setOrders(java.util.List.List\u003ccom.salesmanager.core.model.order.Order\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "OrderList()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "setOrders(java.util.List.List\u003ccom.salesmanager.core.model.order.Order\u003e) return void",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "OrderList()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "OrderList",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/OrderList.java",
+            "nb_calls_between_elements": 5
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getOrderBy() return com.salesmanager.core.model.common.CriteriaOrderBy",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getMaxCount() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getOrderBy() return com.salesmanager.core.model.common.CriteriaOrderBy",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getStartIndex() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "Criteria",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/Criteria.java",
+            "nb_calls_between_elements": 5
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "toUpperCase() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "equals(java.lang.Object) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "valueOf(java.lang.Object) return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "equals(java.lang.Object) return boolean",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/String_bce7fff4709de738.java",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "isEmpty(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "isBlank(java.lang.CharSequence) return boolean",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "StringUtils",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/StringUtils_9930.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "createQuery(java.lang.String) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "createQuery(java.lang.String) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "EntityManager",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/EntityManager_1769.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Enum",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "CriteriaOrderBy",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Enum",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "CriteriaOrderBy",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Enum",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "CriteriaOrderBy",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/CriteriaOrderBy.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getCode() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "getId() return java.lang.Integer",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "MerchantStore",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/merchant/MerchantStore.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "intValue() return int",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "intValue() return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Number_1fecc723ff0302c0.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "name() return java.lang.String",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "name() return java.lang.String",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Enum_a162e065282dce60.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "valueOf(java.lang.String) return com.salesmanager.core.model.order.orderstatus.OrderStatus",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Enum",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "OrderStatus",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/order/orderstatus/OrderStatus.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "paginateQuery(javax.persistence.Query,java.lang.Number,com.salesmanager.core.model.common.GenericEntityList\u003cT\u003e,com.salesmanager.core.model.common.Criteria) return javax.persistence.Query",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "RepositoryHelper",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core/src/main/java/com/salesmanager/core/business/utils/RepositoryHelper.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "listOrders(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "GenericEntityList()",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Generic Java Class",
+                "from_name": "OrderRepositoryImpl",
+                "to_name": "GenericEntityList\u003cT\u003e",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "/shopizer-3-2-5-swi-main/sm-core-model/src/main/java/com/salesmanager/core/model/common/GenericEntityList.java",
+            "nb_calls_between_elements": 2
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "listByStore(com.salesmanager.core.model.merchant.MerchantStore,com.salesmanager.core.model.order.OrderCriteria) return com.salesmanager.core.model.order.OrderList",
+                "to_name": "min(int,int) return int",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "§\u003cLISA\u003e§Scrdb4bd55efcba40faa271f863cedb2965/JavaExtractedFiles/Classes/java/lang/Math_2f53a0a798fc26ef.java",
+            "nb_calls_between_elements": 1
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

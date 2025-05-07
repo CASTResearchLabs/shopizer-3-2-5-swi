@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/WebConfig.java]": {
+    "00. dependencies between elements defined in file [/shopizer-3-2-5-swi-main/sm-shop/src/main/java/com/salesmanager/shop/application/config/WebConfig.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "addArgumentResolvers(java.util.List.List\u003corg.springframework.web.method.support.HandlerMethodArgumentResolver\u003e) return void",
+            "to_name": "languageArgumentResolver",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "addArgumentResolvers(java.util.List.List\u003corg.springframework.web.method.support.HandlerMethodArgumentResolver\u003e) return void",
+            "to_name": "merchantStoreArgumentResolver",
+            "calling_type": "READ"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 2
+      }
+    ]
+  }
+}
