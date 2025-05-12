@@ -1,0 +1,24 @@
+
+# Shipping ASAP Feature Documentation
+
+## Overview
+This document outlines the changes made to implement the "ship products as soon as available" feature, allowing products to be shipped in multiple shipments as they become available.
+
+## Changes Made
+
+### ShippingSummary Class
+- Added a new boolean field `ship_ASAP` to the `ShippingSummary` class.
+- Provided getter and setter methods for the `ship_ASAP` field.
+
+### OrderServiceImpl Class
+- Updated the `OrderServiceImpl` class to check the `ship_ASAP` field in the shipping logic.
+- Added a log statement to indicate when the "Shipping ASAP" option is enabled.
+
+## Impact on Dependent Code
+- Ensure that any code interacting with `ShippingSummary` considers the `ship_ASAP` field.
+- Verify that dependent repositories are compatible with this update.
+
+## Next Steps
+- Review and test the changes in a development environment.
+- Update any dependent repositories or services as needed.
+- Communicate the changes to the development team and stakeholders.
